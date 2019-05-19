@@ -58,7 +58,7 @@ Console.WriteLine("Size = " + size);
 Console.WriteLine("Area = " + size * size);
 ```
 
-[image src="https://github.com/tany1610/programming-basics-interactive-csharp/blob/master/assets/intro-to-programming-1.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-1.png"/]
 [/slide]
 
 [slide]

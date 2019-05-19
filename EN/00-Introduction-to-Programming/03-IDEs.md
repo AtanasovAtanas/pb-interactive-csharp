@@ -47,6 +47,6 @@ Alternative IDE (online)
 # Online Coding Environments (IDEs)
 The .NET Fiddle Online IDE: https://dotnetfiddle.net
 
-[image src="https://github.com/tany1610/programming-basics-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
 
 [/slide]

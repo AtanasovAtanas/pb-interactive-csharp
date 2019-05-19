@@ -42,6 +42,6 @@ C# uses a handful of tools, provided by the **.NET Core**
 
 * Compilers, runtime environment, virtual machine
 
-[image src="https://github.com/tany1610/programming-basics-interactive-csharp/blob/master/assets/intro-to-programming-2.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-2.png"/]
 
 [/slide]
