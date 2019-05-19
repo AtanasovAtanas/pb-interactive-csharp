@@ -1,8 +1,4 @@
 [slide]
-# Homework
-[/slide]
-
-[slide]
 # Problem: Print "Hello C#"
 [code-task title="Print Hello C#" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
@@ -52,7 +48,7 @@ Prints "Hello C#" on the console
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -77,7 +73,7 @@ Write a C# program, which:
 
 [slide]
 # Solution: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
