@@ -238,11 +238,17 @@ Write a program, which:
 Prints a square of 7 * 7 stars like this:
 
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
 
 [/task-description]
@@ -261,11 +267,17 @@ public class Program
   public static void Main()
     {
       Console.WriteLine("* * * * * * *");
+      Console.WriteLine();
       Console.WriteLine("* * * * * * *");
+      Console.WriteLine();
       Console.WriteLine("* * * * * * *");
+      Console.WriteLine();
       Console.WriteLine("* * * * * * *");
+      Console.WriteLine();
       Console.WriteLine("* * * * * * *");
+      Console.WriteLine();
       Console.WriteLine("* * * * * * *");
+      Console.WriteLine();
       Console.WriteLine("* * * * * * *");
     }
 }
@@ -275,13 +287,21 @@ public class Program
 Write a program, which:
 
 Prints a square of 7 * 7 stars like this:
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 \* \* \* \* \* \* \*
+
 [/task-description]
 [code-io /]
 [/code-task]
