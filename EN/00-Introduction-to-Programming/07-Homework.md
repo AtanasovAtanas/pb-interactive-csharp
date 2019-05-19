@@ -98,7 +98,7 @@ Write a C# program, which:
 
 [slide]
 # Problem: Name and Expression
-[code-task title="Name and Expression" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Name and Expression" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -119,7 +119,7 @@ Write a program to print your name at the first line and calculate and print the
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-||Maria|
+||Catlyn|
 ||8|
 ||Peter|
 ||8|
@@ -127,7 +127,7 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Solution: Name and Expression
-[code-task title="Name and Expression" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Name and Expression" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -135,7 +135,7 @@ class Program
 {
   static void Main()
   {
-    Console.WriteLine("Maria");
+    Console.WriteLine("Catlyn");
     Console.WriteLine(5 + 3);
   }
 }
@@ -157,7 +157,7 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Calculations" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -183,7 +183,7 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Calculations" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -212,7 +212,7 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -243,7 +243,7 @@ Prints a square of 7 * 7 stars like this:
 
 [slide]
 # Solution: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
