@@ -119,9 +119,9 @@ Write a program to print your name at the first line and calculate and print the
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-||Catlyn|
+|Catlyn|Catlyn|
 ||8|
-||Peter|
+|Peter|Peter|
 ||8|
 [/slide]
 
@@ -149,9 +149,9 @@ Write a program to print your name at the first line and calculate and print the
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-||Maria|
+|Catlyn|Catlyn|
 ||8|
-||Peter|
+|Peter|Peter|
 ||8|
 [/slide]
 
