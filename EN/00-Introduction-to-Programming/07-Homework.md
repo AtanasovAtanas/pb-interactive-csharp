@@ -1,4 +1,8 @@
 [slide]
+# Homework
+[/slide]
+
+[slide]
 # Problem: Print "Hello C#"
 [code-task title="Print Hello C#" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
