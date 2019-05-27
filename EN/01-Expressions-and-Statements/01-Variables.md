@@ -1,12 +1,8 @@
 [slide]
-# Variables
-# Video
+# How Computing Works?
 
 [youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="1021" endTimeInSeconds="‭1720‬" /]
-[/slide]
 
-[slide]
-# How Computing Works?
 Computers are machines that process data
 
   Programs and data are sorted in the computer memory
@@ -14,7 +10,9 @@ Computers are machines that process data
   Data is stored using variables
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-expressions-and-statements/assets/expressions-and-statements-3.png"/]
+[/slide]
 
+[slide]
 # Variables
 A **variable** is a container for data
   * The data can be read and changed at any time
