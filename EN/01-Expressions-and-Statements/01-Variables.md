@@ -2,7 +2,7 @@
 # Variables
 # Video
 
-[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="901" endTimeInSeconds="‭1720‬" /]
+[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="1021" endTimeInSeconds="‭1720‬" /]
 [/slide]
 
 [slide]
@@ -15,9 +15,6 @@ Computers are machines that process data
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-expressions-and-statements/assets/expressions-and-statements-3.png"/]
 
-[/slide]
-
-[slide]
 # Variables
 A **variable** is a container for data
   * The data can be read and changed at any time
