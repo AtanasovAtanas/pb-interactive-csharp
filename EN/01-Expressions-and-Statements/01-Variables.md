@@ -1,8 +1,5 @@
 [slide]
 # How Computing Works?
-
-[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="1021" endTimeInSeconds="‭1720‬" /]
-
 Computers are machines that process data
 
   Programs and data are sorted in the computer memory
@@ -36,4 +33,11 @@ Variable == named area of the computer memory
 Can be stored in the program's:
   * Operational memory - in the execution stack
   * Dynamic memory - in the heap
+[/slide]
+
+[slide]
+# Video
+
+[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="1021" endTimeInSeconds="‭1720‬" /]
+
 [/slide]

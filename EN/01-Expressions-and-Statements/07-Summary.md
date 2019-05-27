@@ -22,3 +22,10 @@ Simple operations
 Expressions
 
 [/slide]
+
+[slide]
+# Video
+
+[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="‭10931‬" endTimeInSeconds="‭11136‬" /]
+
+[/slide]

@@ -6,6 +6,13 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 [/slide]
 
 [slide]
+# Video
+
+[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="8640‬" endTimeInSeconds="‭10930‬" /]
+
+[/slide]
+
+[slide]
 # Problem: Calculate Speed
 [code-task title="Calculate Speed" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
