@@ -18,8 +18,3 @@ Data types are characterized by:
   * Default value - Example: 0
 [/slide]
 
-[slide]
-# Video
-[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="1720" endTimeInSeconds="3056" /]
-
-[/slide]

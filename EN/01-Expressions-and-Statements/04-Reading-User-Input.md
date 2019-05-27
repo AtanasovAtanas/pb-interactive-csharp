@@ -189,10 +189,3 @@ string str = "a + b = " + a + b;
 Console.WriteLine(str); // a + b = 511
 ```
 [/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="3816‬" endTimeInSeconds="5967‬" /]
-
-[/slide]

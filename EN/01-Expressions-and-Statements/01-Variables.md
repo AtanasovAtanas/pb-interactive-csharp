@@ -1,4 +1,5 @@
 [slide]
+
 # How Computing Works?
 Computers are machines that process data
 
@@ -7,6 +8,7 @@ Computers are machines that process data
   Data is stored using variables
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-expressions-and-statements/assets/expressions-and-statements-3.png"/]
+
 [/slide]
 
 [slide]
@@ -33,11 +35,4 @@ Variable == named area of the computer memory
 Can be stored in the program's:
   * Operational memory - in the execution stack
   * Dynamic memory - in the heap
-[/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="1021" endTimeInSeconds="‭1720‬" /]
-
 [/slide]

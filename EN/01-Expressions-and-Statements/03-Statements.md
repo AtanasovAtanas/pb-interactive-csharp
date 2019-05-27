@@ -33,10 +33,3 @@ Common actions include:
   sum = a + b;
   ```
 [/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="3677" endTimeInSeconds="3815" /]
-
-[/slide]

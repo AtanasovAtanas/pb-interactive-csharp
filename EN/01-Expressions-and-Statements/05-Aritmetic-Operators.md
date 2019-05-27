@@ -67,10 +67,3 @@ Console.WriteLine(4 % 2);   // 0
 Console.WriteLine(3.5 % 1); // 0.5
 ```
 [/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="5968‬" endTimeInSeconds="6610‬" /]
-
-[/slide]
