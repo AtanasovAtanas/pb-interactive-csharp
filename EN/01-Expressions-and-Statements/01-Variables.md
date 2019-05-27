@@ -1,5 +1,11 @@
 [slide]
+# Variables
+# Video
 
+[youtube-video videoId="LFfsSGSHPjI" startTimeInSeconds="901" endTimeInSeconds="‭1720‬" /]
+[/slide]
+
+[slide]
 # How Computing Works?
 Computers are machines that process data
 
