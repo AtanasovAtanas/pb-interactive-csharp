@@ -1,30 +1,25 @@
 [slide]
-# Series of Conditions
-The ***if-else*** statement can be in series
+# Sequence of If-Else Conditions
+Sometimes we need to do a sequence of conditions before we decide what actions our program will execute. In such cases, we can apply the construction if-else if ... -else in series. For this purpose, we use the following format:
 
 ```csharp
-if (…) 
-  // code
-else if (…) 
-  // code
-else if (…) 
-  // code
-// If one condition is true, the program will NOT check the rest of the conditions
-```
-
-Example
-
-The program checks the first condition, finds that it is *true* and ends
-
-```csharp
-int a = 7;
-if (a > 4) 
-  Console.WriteLine("Bigger than 4"); 
-else if (a > 5)
-  Console.WriteLine("Bigger than 5"); 
-else 
-  Console.WriteLine("Smaller or equal to 4"); 
-// The output is only "Bigger than 4"
+if (condition)
+{
+    // condition body;
+}
+else if (second condition)
+{
+    // condition body;
+}
+else if (third condition)
+{
+    // condition body;
+}
+…
+else
+{
+    // else construction body;
+}
 ```
 [/slide]
 
