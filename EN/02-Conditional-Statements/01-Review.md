@@ -19,9 +19,6 @@ age = age + 1;
 ```csharp
 Console.WriteLine(age);
 ```
-[/slide]
-
-[slide]
 # Data Types in C#
 Integer number – **int** (e.g. 5, 0, 120, -250)
 
@@ -35,9 +32,6 @@ Unicode strings (text) – **string** (e.g. "Hello C#")
 
 Date and time – **DateTime** (e.g. 6-Jun-2020 9:18:34)
 
-[/slide]
-
-[slide]
 # Expressions and Statements
 **Expressions** == **variables** and **values**, combined with **operators**
 
