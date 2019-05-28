@@ -2,12 +2,12 @@
 # Comparison Operators
 |Operators|Designation|
 |---------|-----------|
-| Equal to | == |
-| Not Equal to | != |
-| Greater than | > |
-| Greater than or equal to | >= |
-| Less than | < |
-| Less than or equal to |  <= |
+| Equal to |   == |
+| Not Equal to |   != |
+| Greater than |   > |
+| Greater than or equal to |   >= |
+| Less than |   < |
+| Less than or equal to |   <= |
 [/slide]
 
 [slide]
