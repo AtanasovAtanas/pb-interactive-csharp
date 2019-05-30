@@ -47,10 +47,12 @@ public class Program
   public static void Main()
     {
       string password = Console.ReadLine();
-      if (password == "s3cr3t!") {
+      if (password == "s3cr3t!")
+      {
         Console.WriteLine("Welcome");
       }
-      else {
+      else
+      {
         Console.WriteLine("Wrong password!");
       }
     }
@@ -116,9 +118,13 @@ public class Program
     {
       double temperature = double.Parse(Console.ReadLine());
       if (temperature > 100)
+      {
         Console.WriteLine("The water is boiling"); 
+      }
       else
+      {
         Console.WriteLine("The water is not hot enough");
+      }
     }
 }
 ```
@@ -345,11 +351,17 @@ public class Program
     {
       string ticketType = Console.ReadLine();
       if (ticketType == "student")
+      {
         Console.WriteLine("$1.00");
+      }
       else if (ticketType == "regular")
+      {
         Console.WriteLine("$1.60");
+      }
       else
+      {
         Console.WriteLine("Invalid ticket type!");
+      }
     }
 }
 ```
@@ -417,11 +429,17 @@ public class Program
       string extra = Console.ReadLine();
       double price = 0;
       if (drink == "coffee")
+      {
         price = 1.00;
+      }
       else if (drink == "tea")
+      {
         price = 0.60;
+      }
       if (extra == "sugar")
+      {
         price += 0.40;
+      }
       Console.WriteLine($"Final price: ${price}");
     }
 }
@@ -491,15 +509,26 @@ public class Program
       int c = int.Parse(Console.ReadLine());
       bool isValidTriangle = true;
       if (a + b <= c)
+      {
         isValidTriangle = false;
+      }
       else if (a + c <= b)
+      {
         isValidTriangle = false;
+      }
       else if (b + c <= a)
+      {
         isValidTriangle = false;
+      }
+
       if (isValidTriangle)
+      {
         Console.WriteLine("Valid Triangle");
+      }
       else
+      {
         Console.WriteLine("Invalid Triangle");
+      }
     }
 }
 ```
