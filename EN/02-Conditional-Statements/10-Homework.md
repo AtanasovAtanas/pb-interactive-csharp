@@ -186,8 +186,7 @@ public class Program
 {
   public static void Main()
     {
-      double speed = double.Parse(
-      Console.ReadLine());
+      double speed = double.Parse(Console.ReadLine());
       if (speed <= 30)
       {
         Console.WriteLine("Slow");
@@ -413,6 +412,13 @@ Prices:
 [/task-description]
 [code-io /]
 [/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|coffee|$1.40|
+|sugar||
+|tea|$0.60|
+|no||
 [/slide]
 
 [slide]
@@ -459,6 +465,13 @@ Prices:
 [/task-description]
 [code-io /]
 [/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|coffee|$1.40|
+|sugar||
+|tea|$0.60|
+|no||
 [/slide]
 
 [slide]
