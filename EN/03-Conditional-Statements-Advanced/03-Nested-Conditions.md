@@ -146,11 +146,12 @@ Write a program which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
-      // Write code here
+        // Write code here
     }
 }
 ```
@@ -184,25 +185,37 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
-      int first = int.Parse(Console.ReadLine());
-      int second = int.Parse(Console.ReadLine());
-      int third = int.Parse(Console.ReadLine());
-      if (first > second) {
-        if (first > third)
-            Console.WriteLine(first);
+        int first = int.Parse(Console.ReadLine());
+        int second = int.Parse(Console.ReadLine());
+        int third = int.Parse(Console.ReadLine());
+
+        if (first > second)
+        {
+            if (first > third)
+            {
+                Console.WriteLine(first);
+            }
+            else
+            {
+                Console.WriteLine(third);
+            }
+        }
         else
-            Console.WriteLine(third);
-      }
-      else {
-        if (second > third)
-            Console.WriteLine(second);
-        else
-            Console.WriteLine(third);
-      }
+        {
+            if (second > third)
+            {
+                Console.WriteLine(second);
+            }
+            else
+            {
+                Console.WriteLine(third);
+            }
+        }
     }
 }
 ```
