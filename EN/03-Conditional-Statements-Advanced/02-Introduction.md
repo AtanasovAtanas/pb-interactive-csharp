@@ -10,9 +10,9 @@ A market offers different prices for certain products based on the day of the we
 
 We want to calculate the price for certain product and day
 
-Pseudocode: Marketplace
+# Pseudocode
 
-```csharp
+```
 Read the input 
 If product is banana
   If it is a weekday the price is 2.50
