@@ -1,4 +1,6 @@
 [slide]
+# Revision
+
 # Comparison Operators
 Comparison operators work for **numbers**, **dates** and other **comparable data types**
 
