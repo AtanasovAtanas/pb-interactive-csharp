@@ -10,10 +10,21 @@ Comparison operators work for **numbers**, **dates** and other **comparable data
   * Greater than or equal to (**>=**)
   * Less than (**<**)
   * Less than or equal to (**<=**)
-[/slide]
 
-[slide]
 # Conditional Statements
+An if statement identifies which statement to run based on a boolean expression
+
+```csharp
+if (…) 
+{
+  // Some code
+}
+else
+{
+    // Some code
+}
+```
+
 The ***if-else*** statement can be in a series
 
 ```csharp
