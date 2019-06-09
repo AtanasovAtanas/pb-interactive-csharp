@@ -14,9 +14,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -43,12 +43,14 @@ Write a program to check for fruit or vegetable:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
         string product = Console.ReadLine();
-        switch (product) {
+        switch (product)
+        {
             case "cucumber":
             case "pepper":
             case "carrot":
@@ -96,9 +98,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -125,21 +127,38 @@ Write a program to print the day of week as words:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
         int day = int.Parse(Console.ReadLine());
         switch (day)
         {
-        case 1: Console.WriteLine("Monday"); break;
-        case 2: Console.WriteLine("Tuesday"); break;
-        case 3: Console.WriteLine("Wednesday"); break;
-        case 4: Console.WriteLine("Thursday"); break;
-        case 5: Console.WriteLine("Friday"); break;
-        case 6: Console.WriteLine("Saturday"); break;
-        case 7: Console.WriteLine("Sunday"); break;
-        default: Console.WriteLine("Error"); break; 
+            case 1:
+                Console.WriteLine("Monday");
+                break;
+            case 2:
+                Console.WriteLine("Tuesday");
+                break;
+            case 3:
+                Console.WriteLine("Wednesday");
+                break;
+            case 4:
+                Console.WriteLine("Thursday");
+                break;
+            case 5:
+                Console.WriteLine("Friday");
+                break;
+            case 6:
+                Console.WriteLine("Saturday");
+                break;
+            case 7:
+                Console.WriteLine("Sunday");
+                break;
+            default:
+                Console.WriteLine("Error");
+                break;
         }
     }
 }
@@ -171,9 +190,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -199,19 +218,25 @@ Write a program to check a letter for vowel or consonant:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
         char letter = char.Parse(Console.ReadLine());
-        if (letter == 'A' || letter == 'a' || 
-            letter == 'E' || letter == 'e' || 
-            letter == 'I' || letter == 'i' || 
-            letter == 'O' || letter == 'o' || 
+
+        if (letter == 'A' || letter == 'a' ||
+            letter == 'E' || letter == 'e' ||
+            letter == 'I' || letter == 'i' ||
+            letter == 'O' || letter == 'o' ||
             letter == 'U' || letter == 'u')
+        {
             Console.WriteLine("Vowel");
+        }
         else
-        Console.WriteLine("Consonant");
+        {
+            Console.WriteLine("Consonant");
+        }
     }
 }
 ```
@@ -241,9 +266,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -275,25 +300,45 @@ Try to do this without multiplying the 3 numbers
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
         double n1 = double.Parse(Console.ReadLine());
         double n2 = double.Parse(Console.ReadLine());
         double n3 = double.Parse(Console.ReadLine());
+
         if (n1 == 0 || n2 == 0 || n3 == 0)
-        Console.WriteLine("zero");
+        {
+            Console.WriteLine("zero");
+        }
         else
         {
-        int negativeNumbersCount = 0;
-        if (n1 < 0) negativeNumbersCount++;
-        if (n2 < 0) negativeNumbersCount++;
-        if (n3 < 0) negativeNumbersCount++;
-        if (negativeNumbersCount % 2 == 0)
-            Console.WriteLine("positive");
-        else
-            Console.WriteLine("negative");
+            int negativeNumbersCount = 0;
+            if (n1 < 0)
+            {
+                negativeNumbersCount++;
+            }
+
+            if (n2 < 0)
+            {
+                negativeNumbersCount++;
+            }
+
+            if (n3 < 0)
+            {
+                negativeNumbersCount++;
+            }
+
+            if (negativeNumbersCount % 2 == 0)
+            {
+                Console.WriteLine("positive");
+            }
+            else
+            {
+                Console.WriteLine("negative");
+            }
         }
     }
 }
@@ -330,9 +375,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -364,19 +409,27 @@ Write a program, which checks for sorted 3 numbers:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
         double n1 = double.Parse(Console.ReadLine());
         double n2 = double.Parse(Console.ReadLine());
         double n3 = double.Parse(Console.ReadLine());
+
         if (n1 < n2 && n2 < n3)
+        {
             Console.WriteLine("Ascending");
+        }
         else if (n1 > n2 && n2 > n3)
+        {
             Console.WriteLine("Descending");
+        }
         else
+        {
             Console.WriteLine("Not sorted");
+        }
     }
 }
 ```
@@ -412,9 +465,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -447,6 +500,7 @@ Write a program, which calculates vacation expenses:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
     public static void Main()
@@ -455,34 +509,52 @@ public class Program
         string accommodation = Console.ReadLine();
         int days = int.Parse(Console.ReadLine());
         double totalPrice = 0.0;
+
         if (season == "Spring")
         {
             if (accommodation == "Hotel")
+            {
                 totalPrice = days * 30 * 0.80;
+            }
             else if (accommodation == "Camping")
+            {
                 totalPrice = days * 10 * 0.80;
+            }
         }
         else if (season == "Summer")
         {
             if (accommodation == "Hotel")
+            {
                 totalPrice = days * 50;
+            }
             else if (accommodation == "Camping")
+            {
                 totalPrice = days * 30;
+            }
         }
         else if (season == "Autumn")
         {
             if (accommodation == "Hotel")
+            {
                 totalPrice = days * 20 * 0.7;
+            }
             else if (accommodation == "Camping")
+            {
                 totalPrice = days * 15 * 0.7;
+            }
         }
         else if (season == "Winter")
         {
             if (accommodation == "Hotel")
+            {
                 totalPrice = days * 40 * 0.9;
+            }
             else if (accommodation == "Camping")
+            {
                 totalPrice = days * 10 * 0.9;
+            }
         }
+
         Console.WriteLine($"{totalPrice:F2}");
     }
 }
@@ -520,9 +592,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -554,15 +626,18 @@ Calculate the price for all the tickets for a cinema movie:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
         string type = Console.ReadLine();
         int rows = int.Parse(Console.ReadLine());
         int cols = int.Parse(Console.ReadLine());
         int seats = rows * cols;
-        switch (type) {
+
+        switch (type)
+        {
             case "Premiere":
                 Console.WriteLine("{0:f2}", seats * 12.0);
                 break;
@@ -608,9 +683,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -638,20 +713,37 @@ Write a program to apply an operator for given two numbers:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
-      double num1 = double.Parse(Console.ReadLine());
+        double num1 = double.Parse(Console.ReadLine());
         double num2 = double.Parse(Console.ReadLine());
         string operation = Console.ReadLine();
+
         double result = 0;
-        if (operation == "+") result = num1 + num2; 
-        else if (operation == "-") result = num1 - num2;
-        else if (operation == "*") result = num1 * num2;
-        else if (operation == "/") result = num1 / num2;
-        else if (operation == "%") result = num1 % num2;
-        
+        if (operation == "+")
+        {
+            result = num1 + num2;
+        }
+        else if (operation == "-")
+        {
+            result = num1 - num2;
+        }
+        else if (operation == "*")
+        {
+            result = num1 * num2;
+        }
+        else if (operation == "/")
+        {
+            result = num1 / num2;
+        }
+        else if (operation == "%")
+        {
+            result = num1 % num2;
+        }
+
         Console.WriteLine("{0} {1} {2} = {3}", num1, operation, num2, result);
     }
 }
@@ -684,9 +776,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -718,19 +810,27 @@ Write a program to simulate an ATM withdrawal:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
         int balance = int.Parse(Console.ReadLine());
         int withdraw = int.Parse(Console.ReadLine());
         int limit = int.Parse(Console.ReadLine());
+
         if (balance >= withdraw && withdraw <= limit)
+        {
             Console.WriteLine("The withdraw was successful.");
-        if (withdraw > limit)
+        }
+        else if (withdraw > limit)
+        {
             Console.WriteLine("The daily limit was exceeded.");
-        if (withdraw > balance)
+        }
+        else if (withdraw > balance)
+        {
             Console.WriteLine("Insufficient availability.");
+        }
     }
 }
 ```
@@ -766,9 +866,9 @@ using System;
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -802,23 +902,34 @@ Write a program to find the biggest among 5 numbers
 using System;
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
         int num1 = int.Parse(Console.ReadLine());
         int num2 = int.Parse(Console.ReadLine());
         int num3 = int.Parse(Console.ReadLine());
         int num4 = int.Parse(Console.ReadLine());
         int num5 = int.Parse(Console.ReadLine());
+
         if (num1 >= num2 && num1 >= num3 && num1 >= num4 && num1 >= num5)
+        {
             Console.WriteLine(num1);
+        }
         else if (num2 >= num1 && num2 >= num3 && num2 >= num4 && num2 >= num5)
+        {
             Console.WriteLine(num2);
+        }
         else if (num3 >= num1 && num3 >= num2 && num3 >= num4 && num3 >= num5)
+        {
             Console.WriteLine(num3);
+        }
         else if (num4 >= num1 && num4 >= num2 && num5 >= num3 && num4 >= num5)
+        {
             Console.WriteLine(num4);
-        else if (num5 >= num1 && num5>= num2 && num5 >= num3 && num5 >= num4)
+        }
+        else if (num5 >= num1 && num5 >= num2 && num5 >= num3 && num5 >= num4)
+        {
             Console.WriteLine(num5);
+        }
     }
 }
 ```
