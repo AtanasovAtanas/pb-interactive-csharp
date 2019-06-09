@@ -28,7 +28,7 @@ If a default case is not present and the match expression doesn't match any othe
 
 The default case can appear in any order in the switch statement, but regardless of its order in the source code, it's always evaluated last, after all case labels have been evaluated
 
-Example:
+# Example
 ```csharp
 string choice = Console.ReadLine();
 switch (choice)
@@ -63,7 +63,7 @@ switch (selector)
 }
 ```
 
-Example:
+# Example
 ```csharp
 string animal = Console.ReadLine();
 switch (animal)
