@@ -6,7 +6,7 @@ The Logical Operators will **always work with Boolean expressions** (**true** or
 
 The logical operators are:
   * AND (**&&**) - **returns true if both operands are true**
-  * OR (**&#124&#124**) - **returns true if any one operand is true**
+  * OR (**\| \|**) - **returns true if any one operand is true**
   * Logical negation (**!**) - **returns the reverse of logical state**
     * Brackets **()** change the order
 
