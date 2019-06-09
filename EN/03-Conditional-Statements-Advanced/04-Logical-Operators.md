@@ -1,13 +1,13 @@
 [slide]
 # Logical Operators
-Logical Operators are used to perform the logical operation between two operands like AND, OR and NOT based on our requirements
+Logical Operators are used to perform the logical operation between two operands like **AND**, **OR** and **NOT** based on our requirements
 
-The Logical Operators will always work with Boolean expressions (true or false) and return Boolean values
+The Logical Operators will **always work with Boolean expressions** (**true** or **false**) and return **Boolean values**
 
 The logical operators are:
-  * AND (**&&**) - returns true if both operands are true
-  * OR (**||**) - returns true if any one operand is true
-  * Logical negation (**!**) - returns the reverse of logical state 
+  * AND (**&&**) - **returns true if both operands are true**
+  * OR (**\|\|**) - **returns true if any one operand is true**
+  * Logical negation (**!**) - **returns the reverse of logical state**
     * Brackets **()** change the order
 
 | Operand1 | Operand2 | And | Or |
@@ -17,7 +17,7 @@ The logical operators are:
 | false | true | false | true |
 | false | false | false | false |
 
-If you observe above table, if any one operand value become false, then the logical AND operator will return false, same way the logical OR operator will return true, if any one operand value become true
+If you observe above table, **if any one operand value become false, then the logical AND operator will return false**, same way **the logical OR operator will return true, if any one operand value become true**
 
 | Operand | Not |
 |---|---|
@@ -44,7 +44,6 @@ public class Program
 [/code-editor]
 [task-description]
 Write a program that applies bonus to given points
-
   * If points are between 0 and 3, adds 5
   * If points are between 4 and 6, adds 15
   * If points are between 7 and 9, adds 20
