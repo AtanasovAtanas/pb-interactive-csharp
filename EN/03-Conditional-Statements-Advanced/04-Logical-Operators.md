@@ -24,7 +24,7 @@ If you observe above table, **if any one operand value become false, then the lo
 | true | false |
 | false | true |
 
-If you observe above table, the NOT operator will always return the reverse value of operand like if operand value true, then the Logical NOT operator will return false and vice versa.
+If you observe above table, **the NOT operator will always return the reverse value of operand** like **if operand value true, then the Logical NOT operator will return false and vice versa**
 [/slide]
 
 [slide]
