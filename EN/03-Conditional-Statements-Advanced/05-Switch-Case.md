@@ -18,6 +18,7 @@ switch (selector)
     break;
 }
 ```
+[/slide]
 
 [slide]
 # The default case
