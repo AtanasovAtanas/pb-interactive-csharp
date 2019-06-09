@@ -27,7 +27,6 @@ The default case specifies the switch section to execute if the match expression
 If a default case is not present and the match expression doesn't match any other case label, program flow falls through the switch statement
 
 The default case can appear in any order in the switch statement, but regardless of its order in the source code, it's always evaluated last, after all case labels have been evaluated
-[/slide]
 
 Example:
 ```csharp
