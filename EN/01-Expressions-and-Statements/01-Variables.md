@@ -7,7 +7,7 @@ Computers are machines that process data
 
   Data is stored using variables
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-expressions-and-statements/assets/expressions-and-statements-3.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/expressions-and-statements-3.png"/]
 
 [/slide]
 
