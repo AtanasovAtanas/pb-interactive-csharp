@@ -90,3 +90,27 @@ Write a program to convert from days to minutes:
 |2|2880|
 |5|7200|
 [/slide]
+
+[slide]
+# Solution: Print "Hello C#"
+[code-task title="Print Hello C#" executionStrategy="csharp-dot-net-core-code"]
+[code-editor language=csharp]
+```
+using System;
+class Program
+{
+  static void Main()
+  {
+    Console.WriteLine("Hello C#");
+  }
+}
+```
+[/code-editor]
+[task-description]
+Write a C# program, which:
+
+Prints "Hello C#" on the console
+[/task-description]
+[code-io /]
+[/code-task]
+[/slide]
