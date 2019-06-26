@@ -3,32 +3,24 @@
 [code-task title="Days to Minutes" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
+using System;
+using System.Linq;
+
 public class StartUp
 {
-  public static void Main(string[] args)
-  {
-    //1 2 3 4 5
-    int[] input = Console.ReadLine()
-        .Split()
-        .Select(int.Parse)
-        .ToArray();
+    public static void Main(string[] args)
+    {
+        //1 2 3 4 5
+        int[] input = Console.ReadLine()
+            .Split()
+            .Select(int.Parse)
+            .ToArray();
 
-    if (input.Length == 5)
-    {
-        Console.WriteLine(input[8]);
-    }
-    else if (input.Length == 4)
-    {
-        Console.WriteLine(input[2]);
-    }
-    else if (input.Length == 3)
-    {
-        while (true)
+        foreach (var item in input)
         {
-            Console.WriteLine(input[2]);
+            Console.WriteLine(item);
         }
     }
-  }
 }
 ```
 [/code-editor]
