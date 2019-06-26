@@ -1,19 +1,35 @@
 [slide]
-# Solution: Days to Minutes
+# Solution: C# - Test Problem
 [code-task title="Days to Minutes" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
-using System;
-public class Program
-{
-  public static void Main()
+  public class StartUp
     {
-      int days = int.Parse(Console.ReadLine());
-      int hours = days * 24;
-      int minutes = hours * 60;
-      Console.WriteLine(minutes);
-    }
-}
+        public static void Main(string[] args)
+        {
+            //1 2 3 4 5
+            int[] input = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
+
+            if (input.Length == 5)
+            {
+                Console.WriteLine(input[8]);
+            }
+            else if (input.Length == 4)
+            {
+                Console.WriteLine(input[2]);
+            }
+            else if (input.Length == 3)
+            {
+                while (true)
+                {
+                    Console.WriteLine(input[2]);
+                }
+            }
+        }
+    # }
 ```
 [/code-editor]
 [task-description]
@@ -27,18 +43,40 @@ Write a program to convert from days to minutes:
 [tests]
 [test]
 [input]
-2
+1 2 3 4 5
 [/input]
 [output]
-2880
+1
+2
+3
+4
+5
 [/output]
 [/test]
 [test]
 [input]
-5
+1 2 3 4 5 6
 [/input]
 [output]
-7200
+1
+2
+3
+4
+5
+6
+[/output]
+[/test]
+[input]
+1 2 3 4 5 6 7
+[/input]
+[output]
+1
+2
+3
+4
+5
+6
+7
 [/output]
 [/test]
 [/tests]
