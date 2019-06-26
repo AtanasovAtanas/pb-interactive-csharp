@@ -1,5 +1,5 @@
 [slide]
-# Solution: C# - Test Problem
+# Solution: CSharp Test Problem
 [code-task title="Days to Minutes" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
