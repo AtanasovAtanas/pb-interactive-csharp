@@ -31,22 +31,6 @@ Write a program to convert from days to minutes:
 1
 [/output]
 [/test]
-[test]
-[input]
-2
-[/input]
-[output]
-2
-[/output]
-[/test]
-[test]
-[input]
-3
-[/input]
-[output]
-3
-[/output]
-[/test]
 [/tests]
 [/code-task]
 ## Sample Input and Output
