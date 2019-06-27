@@ -166,3 +166,54 @@ Write a program to convert from days to minutes:
 |2|2880|
 |5|7200|
 [/slide]
+
+[slide]
+# Solution: Python Test Problem
+[code-task title="Days to Minutes" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+
+```
+[/code-editor]
+[task-description]
+Write a program to convert from days to minutes:
+
+  * Read a single **integer** (the **days** to be converted)
+  * Convert the days to minutes (use calculations)
+  * Print the **minutes**
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+1
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+2
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[/tests]
+[/code-task]
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|2|2880|
+|5|7200|
+[/slide]
