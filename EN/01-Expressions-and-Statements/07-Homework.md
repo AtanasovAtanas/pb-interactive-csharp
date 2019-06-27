@@ -10,16 +10,6 @@ public class StartUp
 {
     public static void Main(string[] args)
     {
-        //1 2 3 4 5
-        int[] input = Console.ReadLine()
-            .Split()
-            .Select(int.Parse)
-            .ToArray();
-
-        foreach (var item in input)
-        {
-            Console.WriteLine(item);
-        }
     }
 }
 ```
@@ -35,41 +25,26 @@ Write a program to convert from days to minutes:
 [tests]
 [test]
 [input]
-1 2 3 4 5
+1
 [/input]
 [output]
 1
-2
-3
-4
-5
 [/output]
 [/test]
 [test]
 [input]
-1 2 3 4 5 6
+2
 [/input]
 [output]
-1
 2
-3
-4
-5
-6
 [/output]
 [/test]
 [test]
 [input]
-1 2 3 4 5 6 7
+3
 [/input]
 [output]
-1
-2
 3
-4
-5
-6
-7
 [/output]
 [/test]
 [/tests]
