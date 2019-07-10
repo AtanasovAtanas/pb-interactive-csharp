@@ -20,7 +20,7 @@ Print the word with the "greatest" power:
 - "The most powerful word is \{word with the "greatest" power\} - \{word's power\}" 
 
 
-[code-task title="Problem-06" taskId="pb-june-pr-06" xecutionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Problem-06" taskId="pb-june-pr-06" excutionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -162,7 +162,7 @@ The most powerful word is oaieyu - 3912
 [/test]
 [test]
 [input]
-      yes
+yes
 hello
 oreo
 End of words
@@ -173,7 +173,7 @@ The most powerful word is oreo - 1748
 [/test]
 [test]
 [input]
-  oiuya
+oiuya
 oreo
 boss
 End of words
@@ -184,7 +184,7 @@ The most powerful word is oreo - 1748
 [/test]
 [test]
 [input]
-   opalaalaaa
+opalaalaaa
 oKayyyy
 byeee
 End of words
