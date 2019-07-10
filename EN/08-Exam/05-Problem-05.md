@@ -121,9 +121,9 @@ W
 [output]
 Otbor deto igrae malko machove has won 3 points during this season.
 Total stats:
-## W: 1
-## D: 0
-## L: 0
+\#\# W: 1
+\#\# D: 0
+\#\# L: 0
 Win rate: 100.00%
 [/output]
 [/test]
@@ -136,9 +136,9 @@ L
 [output]
 drug slab otbor deto igrae malko machove has won 0 points during this season.
 Total stats:
-## W: 0
-## D: 0
-## L: 1
+\#\# W: 0
+\#\# D: 0
+\#\# L: 1
 Win rate: 0.00%
 [/output]
 [/test]
@@ -168,9 +168,9 @@ W
 [output]
 MainstreamFootballTeam has won 38 points during this season.
 Total stats:
-## W: 12
-## D: 2
-## L: 4
+\#\# W: 12
+\#\# D: 2
+\#\# L: 4
 Win rate: 66.67%
 [/output]
 [/test]
@@ -202,9 +202,9 @@ W
 [output]
 MnogoSilenOtbor has won 60 points during this season.
 Total stats:
-## W: 20
-## D: 0
-## L: 0
+\#\# W: 20
+\#\# D: 0
+\#\# L: 0
 Win rate: 100.00%
 [/output]
 [/test]
@@ -231,9 +231,9 @@ D
 [output]
 EdinMnogoSlabOtbor has won 7 points during this season.
 Total stats:
-## W: 0
-## D: 7
-## L: 8
+\#\# W: 0
+\#\# D: 7
+\#\# L: 8
 Win rate: 0.00%
 [/output]
 [/test]
@@ -315,9 +315,9 @@ L
 [output]
 OtborDetoIgraeMnogoMachove has won 91 points during this season.
 Total stats:
-## W: 23
-## D: 22
-## L: 25
+\#\# W: 23
+\#\# D: 22
+\#\# L: 25
 Win rate: 32.86%
 [/output]
 [/test]
@@ -428,9 +428,9 @@ W
 [output]
 EdinOtborSMnogoNusykWinRate has won 46 points during this season.
 Total stats:
-## W: 1
-## D: 43
-## L: 55
+\#\# W: 1
+\#\# D: 43
+\#\# L: 55
 Win rate: 1.01%
 [/output]
 [/test]
@@ -542,9 +542,9 @@ D
 [output]
 OtborDetoIgraeMachoveNaMax has won 158 points during this season.
 Total stats:
-## W: 41
-## D: 35
-## L: 24
+\#\# W: 41
+\#\# D: 35
+\#\# L: 24
 Win rate: 41.00%
 [/output]
 [/test]
@@ -559,9 +559,9 @@ D
 [output]
 NacionalniqDetoNeMuSeIgraeMnogoMnogo has won 2 points during this season.
 Total stats:
-## W: 0
-## D: 2
-## L: 1
+\#\# W: 0
+\#\# D: 2
+\#\# L: 1
 Win rate: 0.00%
 [/output]
 [/test]
