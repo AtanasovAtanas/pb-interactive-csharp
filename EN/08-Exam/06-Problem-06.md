@@ -171,28 +171,6 @@ End of words
 The most powerful word is oreo - 1748
 [/output]
 [/test]
-[test]
-[input]
-oiuya
-oreo
-boss
-End of words
-[/input]
-[output]
-The most powerful word is oreo - 1748
-[/output]
-[/test]
-[test]
-[input]
-opalaalaaa
-oKayyyy
-byeee
-End of words
-[/input]
-[output]
-The most powerful word is oKayyyy - 5369
-[/output]
-[/test]
 [/tests]
 [/code-task]
 [/slide]
