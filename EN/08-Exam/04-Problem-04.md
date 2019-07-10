@@ -82,344 +82,138 @@ The club has 42 + 42 = 84$ and the target is 500. 500 – 84 = 416$ are needed.
 [tests]
 [test]
 [input]
-15354
-Backpack
-25.20
-Shoes
-54
-Sunglasses
-30
-Backpack
-25.20
-Shoes
-54
-Sunglasses
-30
-Sunglasses
-30
-Backpack
-25.20
-Sunglasses
-30
-Backpack
-25.20
-Stop
-[/input]
-[output]
-You bought 10 products for 283.80$.
-[/output]
-[/test]
-[test]
-[input]
-154
-Backpack
-25.20
-Shoes
-54
-Sunglasses
-30
-Backpack
-25.20
-Shoes
-54
-[/input]
-[output]
-You don't have enough money!
-You need 19.40$!
-[/output]
-[/test]
-[test]
-[input]
-2950
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Stop
-[/input]
-[output]
-You bought 19 products for 320.00$.
-[/output]
-[/test]
-[test]
-[input]
-150
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
 50
+Rom
+3
+Rakia
+5
+Vesper
+9
 [/input]
 [output]
-You don't have enough money!
-You need 15.00$!
-[/output]
-[/test]
-[test]
-[input]
-2999
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-40
-Stop
-[/input]
-[output]
-You bought 22 products for 390.00$.
-[/output]
-[/test]
-[test]
-[input]
-200
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-50
-Backpack
-20
-Shoes
-20
-[/input]
-[output]
-You don't have enough money!
-You need 5.00$!
-[/output]
-[/test]
-[test]
-[input]
-2999
-Backpack
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-40
-Stop
-[/input]
-[output]
-You bought 10 products for 190.00$.
+Target acquired.
+Club income - 79.50 dollars.
 [/output]
 [/test]
 [test]
 [input]
 100
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
+Rakia
+5
+Whiskey
+9
+Irish Coffee
+5
 [/input]
 [output]
-You don't have enough money!
-You need 20.00$!
+Target acquired.
+Club income - 126.00 dollars.
 [/output]
 [/test]
 [test]
 [input]
-2999
-Backpack
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-40
-Backpack
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-40
-Stop
+1000
+Irish Coffe
+50
+Party!
 [/input]
 [output]
-You bought 20 products for 380.00$.
+We need 450.00 dollars more.
+Club income - 550.00 dollars.
+[/output]
+[/test]
+[test]
+[input]
+789
+Painkiller
+20
+Party!
+[/input]
+[output]
+We need 589.00 dollars more.
+Club income - 200.00 dollars.
+[/output]
+[/test]
+[test]
+[input]
+100
+Bees Knees
+23
+[/input]
+[output]
+Target acquired.
+Club income - 230.00 dollars.
 [/output]
 [/test]
 [test]
 [input]
 200
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
-Backpack
-20
-Shoes
-20
-Sunglasses
-20
+French 75
+9
+French 75
+9
+Gimlet
+3
+Mai Tai
+6
+Gin Fizz
+6
 [/input]
 [output]
-You don't have enough money!
-You need 20.00$!
+Target acquired.
+Club income - 229.50 dollars.
+[/output]
+[/test]
+[test]
+[input]
+50
+Rakia
+3
+Vodka
+16
+[/input]
+[output]
+Target acquired.
+Club income - 91.25 dollars.
+[/output]
+[/test]
+[test]
+[input]
+999
+Rum old fashioned
+10
+Bloody Mary
+9
+Party!
+[/input]
+[output]
+We need 754.75 dollars more.
+Club income - 244.25 dollars.
+[/output]
+[/test]
+[test]
+[input]
+100
+White Lady
+9
+R
+9
+Party!
+[/input]
+[output]
+We need 3.25 dollars more.
+Club income - 96.75 dollars.
+[/output]
+[/test]
+[test]
+[input]
+100
+Caipirinha
+10
+[/input]
+[output]
+Target acquired.
+Club income - 100.00 dollars.
 [/output]
 [/test]
 [/tests]
