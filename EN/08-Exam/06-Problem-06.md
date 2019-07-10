@@ -20,7 +20,7 @@ Print the word with the "greatest" power:
 - "The most powerful word is \{word with the "greatest" power\} - \{word's power\}" 
 
 
-[code-task title="Problem-06" taskId="pb-june-pr-06" excutionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Problem-05" taskId="pb-june-pr-05" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
