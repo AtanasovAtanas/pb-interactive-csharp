@@ -3,9 +3,9 @@
 ## Description
 The weather is warming up and the clubs are launching promising offers. 
 
-Write a program that calculates the profit of a club for the evening and whether the desired win is reached, keeping in mind the following: 
+Write a program that calculates the profit of a club for the evening and whether the desired profit is reached, keeping in mind the following: 
 
-The price of a cocktail is its length name. 
+The price of a cocktail is its name's length. 
 
 If the price of an order is an odd number, there is a 25% discount on the order price.
 
@@ -20,13 +20,13 @@ A series of two rows until the command "Party!" or until the desired profit is r
 ## Output
 First, print one line on the console:
 
-- Until the command "Party!":
+- If you receive the command "Party!":
 	- "We need \{money needed\} dollars more."
-- When the desired profit is reached:
+- If the desired profit is reached:
 	- "Target acquired."
 
 Then print:
-- "Club income - {club's profit} dollars."
+- "Club income - \{club's profit\} dollars."
 
 The money must be formatted to the second digit after the decimal point.
 

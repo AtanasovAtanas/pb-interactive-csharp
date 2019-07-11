@@ -1,4 +1,4 @@
-[slide]
+﻿[slide]
 # Problem 02
 ## Description
 The Smiths are planning their family trip. 
@@ -9,10 +9,10 @@ Keep in mind that if the number of nights is greater than 7, the price per night
 
 ## Input
 You will receive 4 lines from the console:
-- The budget they have – a real number in the range [1.00 … 10000.00]
+- The budget they have – real number in the range [1.00 … 10000.00]
 - Count of nights – whole number in the range [0 … 1000]
 - Price per night – real number in the range [1.00 … 500.00]
-- Additional cost percentage – integer in the range [0 … 100]
+- Additional cost percentage – whole number in the range [0 … 100]
 
 ## Output
 The printing on the console depends on the result:

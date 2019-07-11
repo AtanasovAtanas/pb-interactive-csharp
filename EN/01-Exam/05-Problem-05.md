@@ -3,7 +3,7 @@
 ## Description
 Your task is to write a program that takes the name of a team and does statistics about it. 
 
-During one season each team plays a certain number of football matches, and for each team meeting points are awarded depending on the outcome of the match. 
+During one season each team plays a certain number of football matches and for each team meeting points are awarded depending on the outcome of the match. 
 
 There are three possible outcomes from one meeting: 
 - W - The team is a winner and gets 3 points
@@ -12,17 +12,17 @@ There are three possible outcomes from one meeting:
 
 Write a program that takes the name of a football team and displays its statistics, based on played matches this season. 
 
-Its statistics should include the total number of points earned in the current season, detailed statistics on the outcome of played games and a beat rate in the season. 
+Its statistics should include the total number of points earned in the current season, detailed statistics on the outcome of the games played and a beat rate in the season. 
 
-If the team has for some reason not played matches in the current season a special message is displayed.
+If for some reason the team has not played any matches in the current season, a special message is displayed.
 
 ## Input
 You will receive two lines from the console:
-- The name of the football team we're doing statistics for - string
+- The name of the football team we're doing statistics about - string
 - Number of games played in the current season - whole number in the range [0… 100]
 
 For each game played, a separate line is read:
-- The result of the played game in one of the formats above - a character: 'W', 'D' or 'L'
+- The result of the game played in one of the formats above - a character: 'W', 'D' or 'L'
 
 
 ## Output
@@ -30,7 +30,7 @@ Depending on whether the team has played games in the current season two types o
 - If the team has not played a single match in the current season, one line is displayed in the following format:
 	- "\{team name\} hasn't played any games during this season."
 - If the team has played one match or more, six lines are displayed in the following format:
-	- "\{team name\} has won \{count points\} points during this season"
+	- "\{team name\} has won \{count points\} points during this season."
 	- "Total stats:"
 	- "## W: \{count games won\}"
 	- "## D: \{number of games with even score\}" 

@@ -1,4 +1,4 @@
-[slide]
+﻿[slide]
 # Problem 06
 ## Description
 For Laura, the words possess great power. 
@@ -9,7 +9,7 @@ Until the command "End of words" you will be receiving words from the console.
 
 To determine the strength of each word, you need to find the sum of the ASCII values of the symbols that make up the word. 
 
-If it starts with a vowel letter- 'a', 'e', ' i', 'o', 'u', 'y'(or their equivalent capital letters), the result must be multiplied by the length of the word, otherwise, divided by the length and round down to the nearest whole number.
+If it starts with a vowel letter - 'a', 'e', ' i', 'o', 'u', 'y'(or their equivalent capital letters), the result must be multiplied by the length of the word, otherwise, divided by the length and rounded down to the nearest whole number.
 
 ## Input
 Until the command "End of words" you will receive lines from the console:
@@ -20,7 +20,7 @@ Print the word with the "greatest" power:
 - "The most powerful word is \{word with the "greatest" power\} - \{word's power\}" 
 
 
-[code-task title="Problem-05" taskId="pb-june-pr-05" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Problem-06" taskId="pb-june-pr-06" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;

@@ -11,10 +11,10 @@ You should keep in mind that an umbrella is enough for two people. It is known t
 
 ## Input
 4 numbers are read from the console:
-- First line - number of people. Whole number in the interval [1... 100]
-- Second line - entrance fee. Real number in the interval [0.00... 50.00]
-- Third line - price for a sunbed. Real number in the interval [0.00... 50.00]
-- Fourth line - price for one umbrella. Real number in the interval [0.00... 50.00]
+- First line - number of people - whole number in the range [1... 100]
+- Second line - entrance fee - real number in the range [0.00... 50.00]
+- Third line - price for a sunbed - real number in the range [0.00... 50.00]
+- Fourth line - price for one umbrella - real number in the range [0.00... 50.00]
 
 ## Output
 "\{total price\} dollars." 
