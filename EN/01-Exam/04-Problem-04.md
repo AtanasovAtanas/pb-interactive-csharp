@@ -1,4 +1,4 @@
-[slide]
+﻿[slide]
 # Problem 04
 ## Description
 The weather is warming up and the clubs are launching promising offers. 
@@ -21,7 +21,7 @@ A series of two rows until the command "Party!" or until the desired profit is r
 First, print one line on the console:
 
 - Until the command "Party!":
-	- "We need {money needed} dollars more."
+	- "We need \{money needed\} dollars more."
 - When the desired profit is reached:
 	- "Target acquired."
 
