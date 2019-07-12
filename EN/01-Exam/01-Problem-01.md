@@ -10,7 +10,7 @@ Entrance fee must be paid for every single person.
 You should keep in mind that an umbrella is enough for two people. It is known that only 75% of the team wants sunbeds. In the calculation of the number of umbrellas and sunbeds, their number should be rounded up to the nearest whole number.
 
 ## Input
-4 numbers are read from the console:
+4 lines are read from the console:
 - First line - number of people - whole number in the range [1... 100]
 - Second line - entrance fee - real number in the range [0.00... 50.00]
 - Third line - price for a sunbed - real number in the range [0.00... 50.00]
