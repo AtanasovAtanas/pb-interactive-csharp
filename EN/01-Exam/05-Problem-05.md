@@ -111,7 +111,6 @@ Total points after the season: 19 points
 After formatting to the second digit -> 50.00%
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]

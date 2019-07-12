@@ -64,7 +64,6 @@ Selected are 10 cups of espresso without sugar 0.90 each -> 9$
 5.85 – 1.4625 -> 4.3875
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]

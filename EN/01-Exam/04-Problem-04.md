@@ -78,7 +78,6 @@ We receive the command Party! The program stops.
 The club has 42 + 42 = 84$ and the target is 500. 500 – 84 = 416$ are needed.
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]

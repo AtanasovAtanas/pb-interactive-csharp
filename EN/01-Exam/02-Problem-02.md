@@ -62,7 +62,6 @@ The Smiths will be left with 24.49 dollars after vacation.
 760 + 16.01 = 776.01 < = 800.50, therefore the money is enough and after the trip they return with 800.50 – 776.01 = 24.49$
  
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
