@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Print "Hello C#"
-[code-task title="Print Hello C#" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Print Hello C#" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -26,12 +26,21 @@ Write a C# program, which:
 Prints "Hello C#" on the console
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Hello C#
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Solution: Print "Hello C#"
-[code-task title="Print Hello C#" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Print Hello C#" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -50,12 +59,21 @@ Write a C# program, which:
 Prints "Hello C#" on the console
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Hello C#
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculate and Print 5 * 5" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -75,12 +93,21 @@ Write a C# program, which:
 * Prints the result
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+25
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Solution: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculate and Print 5 * 5" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -100,12 +127,21 @@ Write a C# program, which:
 * Prints the result
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+25
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Problem: Name and Expression
-[code-task title="Name and Expression" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Name and Expression" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -119,22 +155,25 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program to print your name at the first line and calculate and print the expression 5 + 3 at the second line
+Write a program to print 'Catlyn' at the first line and calculate and print the expression 5 + 3 at the second line
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Catlyn
+8
+[/output]
+[/test]
+[/tests]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Catlyn|Catlyn|
-||8|
-|Peter|Peter|
-||8|
 [/slide]
 
 [slide]
 # Solution: Name and Expression
-[code-task title="Name and Expression" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Name and Expression" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -149,22 +188,25 @@ class Program
 ```
 [/code-editor]
 [task-description]
-Write a program to print your name at the first line and calculate and print the expression 5 + 3 at the second line
+Write a program to print 'Catlyn' at the first line and calculate and print the expression 5 + 3 at the second line
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Catlyn
+8
+[/output]
+[/test]
+[/tests]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Catlyn|Catlyn|
-||8|
-|Peter|Peter|
-||8|
 [/slide]
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculations" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -185,12 +227,23 @@ Write a program, which calculates and prints the value of the following express
 * (2 + 5)  \*  (8 - 2) \/ 7
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+11
+20
+6.0
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculations" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -214,12 +267,23 @@ Write a program, which calculates and prints the value of the following express
 * (2 + 5)  \*  (8 - 2) \/ 7
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+11
+20
+6.0
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Square of 7 * 7 Stars" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -253,12 +317,27 @@ Prints a square of 7 * 7 stars like this:
 
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Solution: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Square of 7 * 7 Stars" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 ```
 using System;
@@ -304,5 +383,20 @@ Prints a square of 7 * 7 stars like this:
 
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
