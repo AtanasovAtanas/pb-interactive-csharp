@@ -1,6 +1,8 @@
 [slide]
-# Training Session
+# Live Session
 
-[vimeo-video videoId="341512905" /]
+[live-stream videoId="345477738" playerType="vimeo" /]
+
+[slido id="63hly7vy" /]
 
 [/slide]
