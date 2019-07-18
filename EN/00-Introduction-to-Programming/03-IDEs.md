@@ -1,4 +1,11 @@
 [slide]
+# Integrated Development Environments (IDE) - Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="3573" endTimeInSeconds="4040" /]
+
+[/slide]
+
+[slide]
 # Integrated Development Environments (IDE)
 Integrated Development Environments (**IDE**) simplify software development
 

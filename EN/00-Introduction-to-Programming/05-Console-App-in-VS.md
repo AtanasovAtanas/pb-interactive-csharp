@@ -1,4 +1,11 @@
 [slide]
+# Creating a Console Application in Visual Studio - Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="4401" endTimeInSeconds="6546" /]
+
+[/slide]
+
+[slide]
 # Creating a Console Application in Visual Studio
 Start Visual Studio (VS)
 

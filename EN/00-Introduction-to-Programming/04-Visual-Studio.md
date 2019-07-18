@@ -1,4 +1,11 @@
 [slide]
+# What is Visual Studio? - Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="4041" endTimeInSeconds="4405" /]
+
+[/slide]
+
+[slide]
 # What is Visual Studio?
 Visual Studio (VS) is powerful IDE for C# developers
 
