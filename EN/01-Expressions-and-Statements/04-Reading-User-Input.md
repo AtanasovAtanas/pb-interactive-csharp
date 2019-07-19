@@ -119,7 +119,7 @@ Console.WriteLine(centimeters);
 
 [slide]
 # Problem: Greeting
-[code-task title="Greeting" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Greeting" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -139,12 +139,46 @@ Write a **program**, which:
   * Prints "Hello, \{name\}", where {**name**} is the **user input**
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+John
+[/input]
+[output]
+Hello, John
+[/output]
+[/test]
+[test]
+[input]
+Marie
+[/input]
+[output]
+Hello, Marie
+[/output]
+[/test]
+[test]
+[input]
+asd
+[/input]
+[output]
+Hello, asd
+[/output]
+[/test]
+[test]
+[input]
+George
+[/input]
+[output]
+Hello, George
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Solution: Greeting
-[code-task title="Greeting" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Greeting" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -166,6 +200,40 @@ Write a **program**, which:
   * Prints "Hello, \{name\}", where {**name**} is the **user input**
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+John
+[/input]
+[output]
+Hello, John
+[/output]
+[/test]
+[test]
+[input]
+Marie
+[/input]
+[output]
+Hello, Marie
+[/output]
+[/test]
+[test]
+[input]
+asd
+[/input]
+[output]
+Hello, asd
+[/output]
+[/test]
+[test]
+[input]
+George
+[/input]
+[output]
+Hello, George
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
