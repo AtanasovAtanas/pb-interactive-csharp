@@ -138,7 +138,6 @@ Write a **program**, which:
   * Reads a user input: **name**, from the console
   * Prints "Hello, \{name\}", where {**name**} is the **user input**
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -199,7 +198,6 @@ Write a **program**, which:
   * Reads a user input: **name**, from the console
   * Prints "Hello, \{name\}", where {**name**} is the **user input**
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
