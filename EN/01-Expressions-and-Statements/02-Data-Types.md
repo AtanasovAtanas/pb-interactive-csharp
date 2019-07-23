@@ -1,20 +1,25 @@
 [slide]
 # Data Types
-Variables store value of a certain type 
-  * Number, letter, text (string), date, color, picture, list, …
-
-Simple data types in C#:
+In C# we can use data types to define variables as follows:
   * **int** – an integer number: 1, 2, 3…
   * **double** – a floating-point: -0.5, 3.14, …
   * **bool** – a Boolean value: true, false
   * **char** – a symbol: 'a', 'b', '#', …
   * **string** – text: "Hello", "World", …
 
-Sets (ranges) of values with similar characteristics
+Once a variable is defined, it can change its value many times, but 
+it cannot change its data type later. Variables may hold only data 
+of their type. Here is how we can declare variables of different types:
+```csharp
+int a = 5;
+string text = "Some text";
+char letter = 'A';
+float f = 4.2;
+```
 
-Data types are characterized by:
+Data types set ranges of values with similar characteristics.
+The are characterized by:
   * Name - E.g. bool, int, string, DateTime
   * Size (memory usage)- Example: 4 bytes
   * Default value - Example: 0
 [/slide]
-
