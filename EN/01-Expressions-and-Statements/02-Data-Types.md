@@ -21,5 +21,5 @@ Data types are characterized by:
 [slide]
 # Video
 
-[vimeo-video videoId="342590118" startTimeInSeconds="1720" endTimeInSeconds="3056" /]
+[vimeo-video videoId="341512905" startTimeInSeconds="1720" endTimeInSeconds="3056" /]
 [/slide]

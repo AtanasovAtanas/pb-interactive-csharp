@@ -37,6 +37,6 @@ Common actions include:
 [slide]
 # Video
 
-[vimeo-video videoId="342590118" startTimeInSeconds="3677" endTimeInSeconds="3815" /]
+[vimeo-video videoId="341512905" startTimeInSeconds="3677" endTimeInSeconds="3815" /]
 
 [/slide]

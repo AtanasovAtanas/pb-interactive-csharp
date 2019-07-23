@@ -39,6 +39,6 @@ Can be stored in the program's:
 [slide]
 # Video
 
-[vimeo-video videoId="342590118" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
+[vimeo-video videoId="341512905" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
 
 [/slide]
