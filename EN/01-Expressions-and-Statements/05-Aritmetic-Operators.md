@@ -67,3 +67,10 @@ Console.WriteLine(4 % 2);   // 0
 Console.WriteLine(3.5 % 1); // 0.5
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="5968" endTimeInSeconds="6610" /]
+
+[/slide]

@@ -1,5 +1,4 @@
 [slide]
-
 # How Computing Works?
 Computers are machines that process data
 
@@ -35,4 +34,11 @@ Variable == named area of the computer memory
 Can be stored in the program's:
   * Operational memory - in the execution stack
   * Dynamic memory - in the heap
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
+
 [/slide]

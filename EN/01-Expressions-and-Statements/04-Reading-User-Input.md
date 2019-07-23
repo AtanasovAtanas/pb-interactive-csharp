@@ -1,5 +1,5 @@
 [slide]
-# What is Console(Terminal)?
+# Console(Terminal)
 The system **console** / **terminal** / **standard input and output**
 
   * A special window, used to communicate with the user
@@ -254,4 +254,11 @@ int b = 11;
 string str = "a + b = " + a + b;
 Console.WriteLine(str); // a + b = 511
 ```
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="3678" endTimeInSeconds="5966" /]
+
 [/slide]

@@ -14,3 +14,10 @@ string name = "John Doe";
 int r = (150-20) / 2 + 5;
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="6613" endTimeInSeconds="6784" /]
+
+[/slide]

@@ -33,3 +33,10 @@ Common actions include:
   sum = a + b;
   ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="3677" endTimeInSeconds="3815" /]
+
+[/slide]

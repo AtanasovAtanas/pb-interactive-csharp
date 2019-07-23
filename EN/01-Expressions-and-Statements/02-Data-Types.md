@@ -18,3 +18,8 @@ Data types are characterized by:
   * Default value - Example: 0
 [/slide]
 
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="1720" endTimeInSeconds="3056" /]
+[/slide]
