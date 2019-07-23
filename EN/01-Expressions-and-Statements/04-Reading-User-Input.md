@@ -14,9 +14,8 @@ The system **console** / **terminal** / **standard input and output**
 [slide]
 
 # Reading User Input
-Everything we read from the console comes as a **string**
-
-Reading user input from the console:
+Everything we read from the console comes as a **string**. 
+Here is a way to read user input from the console:
 
 ```csharp
 string name = Console.ReadLine();
