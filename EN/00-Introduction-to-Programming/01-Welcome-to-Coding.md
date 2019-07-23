@@ -97,3 +97,10 @@ class SquareArea
 }
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="1770" endTimeInSeconds="2920" /]
+
+[/slide]

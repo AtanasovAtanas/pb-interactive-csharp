@@ -45,3 +45,10 @@ C# uses a handful of tools, provided by the **.NET Core**
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-2.png"/]
 
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="2925" endTimeInSeconds="3570" /]
+
+[/slide]

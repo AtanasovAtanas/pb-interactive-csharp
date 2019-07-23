@@ -22,3 +22,10 @@ If there are no errors, the program will be launched
 
 The result will appear in the console (terminal window)
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="4407" endTimeInSeconds="6546" /]
+
+[/slide]
