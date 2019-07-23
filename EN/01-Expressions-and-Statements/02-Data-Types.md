@@ -23,3 +23,9 @@ The are characterized by:
   * Size (memory usage)- Example: 4 bytes
   * Default value - Example: 0
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="1720" endTimeInSeconds="3056" /]
+[/slide]
