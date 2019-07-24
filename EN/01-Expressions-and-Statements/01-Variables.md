@@ -41,8 +41,8 @@ int age = 25;
 ```
 
 Variables can be stored in the program's:
-  * Operational memory - in the execution stack
-  * Dynamic memory - in the heap
+  * Operational memory - in the execution **stack**
+  * Dynamic memory - in the **heap**
 [/slide]
 
 [slide]
