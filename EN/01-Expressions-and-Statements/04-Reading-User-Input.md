@@ -14,8 +14,13 @@ The system **console** / **terminal** / **standard input and output**
 [slide]
 
 # Reading User Input
-Everything we read from the console comes as a **string**. 
-Here is a way to read user input from the console:
+Everything we read from the console comes as a **string**. In order to read an integer
+(not a float) number from the console, we have to declare a variable, declare the number
+type and use the standard command for reading a text line from the system console 
+Console.ReadLine() and after that convert the text line into an integer number using 
+int.Parse(text).
+
+Here are ways to read user input from the console:
 
 ```csharp
 string name = Console.ReadLine();
@@ -29,6 +34,9 @@ Console.WriteLine(123);
 ```
 ```csharp
 Console.WriteLine("Hello" + 123);
+```
+```csharp
+var num = int.Parse(Console.ReadLine());
 ```
 
 [/slide]
