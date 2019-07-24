@@ -1,21 +1,15 @@
 [slide]
 # Integrated Development Environments (IDE)
 Integrated Development Environments (**IDE**) simplify software development
+ * IDEs save time and eases the process of coding
+ * Writing, running, testing, and debugging the code
+ * For programming in C#, we use **Visual Studio**
 
-IDEs save time and eases the process of coding
+They are actually editors for programs, in which we write the program code 
+and we can compile it and run it to see the errors, fix them and start the 
+program again.
 
-Writing, running, testing, and debugging the code
-
-For programming in C#, we use **Visual Studio**
-
-Free C# IDE from Microsoft
-[/slide]
-
-[slide]
-# Integrated Development Environments (IDE)
-To write programs, we need an IDE
-
-For C#:
+To write programs, we need an IDE and the recommended ones for C# are:
 
 * Visual Studio (for Windows)
 * Visual Studio / Raider (for macOS)
@@ -41,11 +35,6 @@ Alternative IDE (online)
 * Java: https://compilejava.net 
 * Python: https://repl.it
 * JavaScript: directly use the browser console (press \[F12\] key)
-[/slide]
-
-[slide]
-# Online Coding Environments (IDEs)
-The .NET Fiddle Online IDE: https://dotnetfiddle.net
 
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
 
