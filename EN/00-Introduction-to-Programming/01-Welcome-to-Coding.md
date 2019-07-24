@@ -88,9 +88,13 @@ Size = 5
 Area = 25
 ```
 
-We shall explain in detail how to write programs in C#, why we need to define a class and why we need to define a method Main() a bit later. Now, assume that the C# language requires all the above code in order to execute a sequence of command.
+We shall explain in detail how to write programs in C# and why we need to define a class 
+and why we need to define a method Main() a bit later.
 
-In order to write commands, we should know the syntax and the semantics of the language which we are working with, in our case – C#. Therefore, we are going to get familiar with the syntax and the semantics of the language C#, and with programming generally, in the current book, by learning step by step code writing from the simpler to the more complex programming constructions.
+In order to write commands, we should know the syntax and the semantics of the language which
+we are working with, in our case – C#. Therefore, we are going to get familiar with the syntax 
+and the semantics of the language C#, and with programming generally by learning step by step 
+code writing from the simpler to the more complex programming constructions.
 
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-1.png"/]
 [/slide]
