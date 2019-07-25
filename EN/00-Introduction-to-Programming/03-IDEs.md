@@ -15,11 +15,12 @@ To write programs, we need an IDE and the recommended ones for C# are:
 * Visual Studio / Raider (for macOS)
 * Visual Studio Code / Raider (for Linux)
 
-For Java -> IntelliJ IDEA / Eclipse / NetBeans
+For **Java** -> IntelliJ IDEA / Eclipse / NetBeans
 
-For Python -> PyCharm / Eclipse / VS Code
+For **Python** -> PyCharm / Eclipse / VS Code
 
-For JavaScript -> WebStorm / VS Code
+For **C#** -> Visual Studio / Raider / VS Code
+
 [/slide]
 
 [slide]
