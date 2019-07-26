@@ -10,7 +10,7 @@
 
   * I will have to water them
 
-```
+```csharp
 if humidity is greater than 90%
   Don't water the plants
 else
