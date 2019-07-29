@@ -316,7 +316,7 @@ rectangle
 [/test]
 [test]
 [input]
-cirlce
+circle
 2.5
 [/input]
 [output]
