@@ -5,9 +5,7 @@ Integrated Development Environments (**IDE**) simplify software development
  * Writing, running, testing, and debugging the code
  * For programming in C#, we use **Visual Studio**
 
-They are actually editors for programs, in which we write the program code 
-and we can compile it and run it to see the errors, fix them and start the 
-program again.
+They are actually editors for programs, in which we write the program code and we can compile it and run it to see the errors, fix them and start the program again.
 
 To write programs, we need an IDE and the recommended ones for C# are:
 
@@ -20,7 +18,6 @@ For **Java** -> IntelliJ IDEA / Eclipse / NetBeans
 For **Python** -> PyCharm / Eclipse / VS Code
 
 For **C#** -> Visual Studio / Raider / VS Code
-
 [/slide]
 
 [slide]
@@ -38,7 +35,6 @@ Alternative IDE (online)
 * JavaScript: directly use the browser console (press \[F12\] key)
 
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
-
 [/slide]
 
 [slide]

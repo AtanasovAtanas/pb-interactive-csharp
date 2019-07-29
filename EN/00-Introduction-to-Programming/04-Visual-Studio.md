@@ -1,7 +1,6 @@
 [slide]
 # What is Visual Studio?
 Visual Studio (VS) is powerful IDE for C# developers
-
 For Windows and macOS
 
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-4.png"/]
