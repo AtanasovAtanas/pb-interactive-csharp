@@ -51,7 +51,7 @@ var Hello_world;
 ```
 [/slide]
 
-[/slide]
+[slide]
 # Video
 
 [vimeo-video videoId="341512905" startTimeInSeconds="1720" endTimeInSeconds="3056" /]
