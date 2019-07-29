@@ -7,16 +7,17 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Guess the Password
-[code-task title="Guess the Password" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Guess the Password" taskId="p-01" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -27,7 +28,24 @@ Write a program to check a password:
   * Print "Welcome" if the password guess is "s3cr3t!"
   * Print "Wrong password!" in all other cases 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+s3cr3t!
+[/input]
+[output]
+Welcome
+[/output]
+[/test]
+[test]
+[input]
+qwerty
+[/input]
+[output]
+Wrong password!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -77,16 +95,17 @@ Write a program to check a password:
 
 [slide]
 # Problem: Boiling Water
-[code-task title="Boiling Water" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Boiling Water" taskId="p-02" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -97,7 +116,24 @@ Write a program, which checks for hot water:
   * Print "The water is boiling" if the number > 100
   * Prints "The water is not hot enough" in all other cases 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+104.8
+[/input]
+[output]
+The water is boiling
+[/output]
+[/test]
+[test]
+[input]
+29
+[/input]
+[output]
+The water is not hot enough
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -108,7 +144,7 @@ Write a program, which checks for hot water:
 
 [slide]
 # Solution: Boiling Water
-[code-task title="Boiling Water" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Boiling Water" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -147,16 +183,17 @@ Write a program, which checks for hot water:
 
 [slide]
 # Problem: Speed Info
-[code-task title="Speed Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Speed Info" taskId="p-03" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -167,7 +204,24 @@ Write a program to check for fast / slow speed:
   * Print "Slow" if the speed <= 30
   * Print "Fast" if the speed > 30
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+30
+[/input]
+[output]
+Slow
+[/output]
+[/test]
+[test]
+[input]
+60
+[/input]
+[output]
+Fast
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -217,16 +271,17 @@ Write a program to check for fast / slow speed:
 
 [slide]
 # Problem: Area of Figures
-[code-task title="Area of Figures" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Area of Figures" taskId="p-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -239,7 +294,44 @@ Write a program to calculate the area of different figures:
   * Print the calculated area formatted to the second decimal
   * For unknown figure print "Unknown figure"
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+square
+5
+[/input]
+[output]
+25.00
+[/output]
+[/test]
+[test]
+[input]
+rectangle
+5
+10
+[/input]
+[output]
+50.00
+[/output]
+[/test]
+[test]
+[input]
+cirlce
+2.5
+[/input]
+[output]
+19.63
+[/output]
+[/test]
+[test]
+[input]
+figure
+[/input]
+[output]
+Unknown figure
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -307,16 +399,17 @@ Write a program to calculate the area of different figures:
 
 [slide]
 # Problem: Tickets
-[code-task title="Tickets" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Tickets" taskId="p-05" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -325,11 +418,37 @@ Write a program to calculate a ticket price:
 
   * Read a ticket type: either student or regular
   * Print the price in the following format "$\{price\}":
+    * The price should be formatted to 2nd digit after the decimal point
   * Student ticket price: 1.00
   * Regular ticket price: 1.60
   * For invalid type print "Invalid ticket type!"
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+student
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+regular
+[/input]
+[output]
+$1.60
+[/output]
+[/test]
+[test]
+[input]
+ticket
+[/input]
+[output]
+Invalid ticket type!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -385,16 +504,17 @@ Write a program to calculate a ticket price:
 
 [slide]
 # Problem: Coffee Shop
-[code-task title="Coffee Shop" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Coffee Shop" taskId="p-06" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -404,13 +524,51 @@ Write a program to calculate the drink price in a coffee shop:
   * Read a drink: either "coffee" or "tea"
   * Read an extra: either "sugar" or "no"
   * Print the price in format "Final price: $\{price\}"
+    * The price should be formatted to 2nd digit after the decimal point
   
 Prices:
   * Coffee price: 1.00
   * Tea price: 0.60
   * Sugar price: 0.40
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+coffee
+sugar
+[/input]
+[output]
+$1.40
+[/output]
+[/test]
+[test]
+[input]
+coffee
+no
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+sugar
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+no
+[/input]
+[output]
+$0.60
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -476,16 +634,17 @@ Prices:
 
 [slide]
 # Problem: Valid Triangle
-[code-task title="Valid Triangle" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Valid Triangle" taskId="p-07" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -494,10 +653,31 @@ Write a program to check if a triangle is valid by its sizes:
 
   * Read 3 integers: the sides of a triangle
   * Checks if each side is lesser than the sum of the other 2
-  * Prints "Valid Triangle" if the above condition is met
-  * Prints "Invalid Triangle" otherwise 
+    * Prints "Valid Triangle" if the above condition is met
+    * Prints "Invalid Triangle" otherwise 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+4
+5
+[/input]
+[output]
+Valid Triangle
+[/output]
+[/test]
+[test]
+[input]
+5
+8
+3
+[/input]
+[output]
+Invalid Triangle
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
