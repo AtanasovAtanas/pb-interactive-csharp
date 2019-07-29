@@ -12,37 +12,18 @@ The system **console** / **terminal** / **standard input and output**
 [/slide]
 
 [slide]
-
 # Reading User Input
-Everything we read from the console comes as a **string**. In order to read an integer
-(not a float) number from the console, we have to declare a variable, declare the number
-type and use the standard command for reading a text line from the system console 
-Console.ReadLine() and after that convert the text line into an integer number using 
-int.Parse(text).
+Everything we read from the console comes as a **string**. 
+
+In order to read an integer (not a float) number from the console, we have to declare a variable, declare the number type and use the standard command for reading a text line from the system console Console.ReadLine() and after that convert the text line into an integer number using  int.Parse(text).
 
 Here are ways to read user input from the console:
-
 ```csharp
 string name = Console.ReadLine();
 ```
-* Everything we print on the console is converted to **string**
-```csharp
-Console.WriteLine("Hello world!");
-```
-```csharp
-Console.WriteLine(123);
-```
-```csharp
-Console.WriteLine("Hello" + 123);
-```
-```csharp
-var num = int.Parse(Console.ReadLine());
-```
-
 [/slide]
 
 [slide]
-
 # Formatting Output
 Formatting text with **placeholders**
 
@@ -52,13 +33,14 @@ string lastName = "Doe";
 Console.WriteLine("{0} {1}", firstName, lastName);
 // John Doe
 ```
-Formatting numbers with **placeholders**
 
+Formatting numbers with **placeholders**
 ```csharp
 double a = 5.123;
 double b = 6.456;
 Console.WriteLine("{0:F2}", a + b); // 11.58
 ```
+
 Formatting output using **string interpolation**
   * **String interpolation** provides a **more readable** and **convenient** syntax to create **formatted strings**
   * To identify a string as an interpolated string, prepend it with the **`$`** symbol
