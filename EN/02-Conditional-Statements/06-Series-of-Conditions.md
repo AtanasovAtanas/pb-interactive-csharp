@@ -27,7 +27,7 @@ else
 
 [slide]
 # Problem: Number 1...9
-[code-task title="Number 1...9" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Number 1...9" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
