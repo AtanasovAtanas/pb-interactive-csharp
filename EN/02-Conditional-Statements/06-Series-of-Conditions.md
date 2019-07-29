@@ -2,7 +2,7 @@
 # Sequence of If-Else Conditions
 Sometimes we need to do a sequence of conditions before
 we decide what actions our program will execute. In such 
-ases, we can apply the construction  if-else if ... -else in series.
+cases, we can apply the construction  if-else if ... -else in series.
 For this purpose, we use the following format:
 
 ```csharp
