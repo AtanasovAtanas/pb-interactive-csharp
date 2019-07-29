@@ -62,7 +62,7 @@ seven
 10
 [/input]
 [output]
-Number too big!
+Number too big
 [/output]
 [/test]
 [test]
