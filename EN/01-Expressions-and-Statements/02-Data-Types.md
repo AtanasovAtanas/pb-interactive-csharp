@@ -27,7 +27,6 @@ The are characterized by:
 [/slide]
 
 [slide]
-
 # Naming Conventions
 In computer programming, a naming convention is a set of rules for choosing the name to be used for variables
 
@@ -50,8 +49,7 @@ within the compound and the first letter either upper- or lowercase as it follow
 var foo_bar;
 var Hello_world;
 ```
-
-[slide]
+[/slide]
 
 [/slide]
 # Video
