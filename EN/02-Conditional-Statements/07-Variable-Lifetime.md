@@ -15,3 +15,10 @@ is defined in the if statement, we will get an error because we don't have acces
 The above code will not compile, because we are trying to access a variable out of its scope
 
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="5119" endTimeInSeconds="5370" /]
+
+[/slide]

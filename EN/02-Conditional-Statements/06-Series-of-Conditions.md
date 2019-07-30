@@ -83,3 +83,10 @@ two
 |10|Number too big|
 |2|two|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="4534" endTimeInSeconds="5115" /]
+
+[/slide]
