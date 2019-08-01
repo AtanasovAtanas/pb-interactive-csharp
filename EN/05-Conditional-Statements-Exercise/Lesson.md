@@ -1,1 +1,1 @@
-# Conditionals - Exercise
+# Conditions - Exercise
