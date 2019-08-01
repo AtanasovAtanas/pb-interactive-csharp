@@ -1,1 +1,1 @@
-# Conditional Statements - Exercise
+# Conditionals - Exercise
