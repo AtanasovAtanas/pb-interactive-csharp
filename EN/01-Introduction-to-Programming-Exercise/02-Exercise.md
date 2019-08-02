@@ -28,7 +28,7 @@ Write a program to print on the console the following greeting:
 [input]
 [/input]
 [output]
-Hello C#!
+Hello, C#!
 [/output]
 [/test]
 [/tests]
