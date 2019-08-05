@@ -25,10 +25,3 @@ Projects hold C# code: .cs files
 
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-6.png"/]
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="4041" endTimeInSeconds="4405" /]
-
-[/slide]
