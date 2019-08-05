@@ -18,6 +18,7 @@ The logical operators are:
 | false | false | false | false |
 
 If you observe above table, **if any one operand value become false, then the logical AND operator will return false**, same way **the logical OR operator will return true, if any one operand value become true**
+[/slide]
 
 [slide]
 # Logical AND Operator
