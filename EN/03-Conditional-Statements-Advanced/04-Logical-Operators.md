@@ -63,7 +63,7 @@ The logical ***OR*** (operator **||**) means that at least one among a few condi
 Similar to the operator **&&**, the logical ***OR*** accepts a few arguments of bool (conditional) type and returns true or false. 
 
 We can easily guess that we obtain a value true every time when at least one of the arguments has a true value. 
-[/slide]
+
 | Operand | Not |
 |---|---|
 | true | false |
