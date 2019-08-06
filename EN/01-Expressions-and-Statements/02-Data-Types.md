@@ -18,9 +18,10 @@ float f = 4.2;
 ```
 
 Data types set ranges of values with similar characteristics.
+
 The are characterized by:
   * Name - E.g. bool, int, string, DateTime
-  * Size (memory usage)- Example: 4 bytes
+  * Size (memory usage) - Example: 4 bytes
   * Default value - Example: 0
 [/slide]
 

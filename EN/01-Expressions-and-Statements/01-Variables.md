@@ -1,13 +1,4 @@
 [slide]
-
-# How does Computing Work?
-Computers are machines that process data. The process of receiving information is called **input**. The input needs to be stored inthe computer memory and it can be done by using variables. 
-
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/expressions-and-statements-3.png"/]
-
-[/slide]
-
-[slide]
 # Variables
 In programming, each **variable** stores a certain value of a particular type. 
 
