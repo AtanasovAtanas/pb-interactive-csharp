@@ -11,6 +11,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -44,12 +45,13 @@ Hello C#
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
