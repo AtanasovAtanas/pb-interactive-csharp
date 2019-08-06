@@ -1,8 +1,8 @@
 [slide]
 # Logical Operators
-Logical Operators are used to perform the logical operation between two operands like **AND**, **OR** and **NOT** based on our requirements
+Logical Operators are used to perform the logical operation between two operands like **AND**, **OR** and **NOT** based on our requirements.
 
-The Logical Operators will **always work with Boolean expressions** (**true** or **false**) and return **Boolean values**
+The Logical Operators will **always work with Boolean expressions** (**true** or **false**) and return **Boolean values**.
 
 The logical operators are:
   * AND (**&&**) - **returns true if both operands are true**
@@ -111,12 +111,13 @@ The operator **!** accepts as an argument a bool variable and returns its value.
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -165,12 +166,13 @@ Write a program that applies bonus to given points
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -214,4 +216,11 @@ unknown
 |curry|food|
 |water|drink|
 |flower|unknown|
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="2840" endTimeInSeconds="4620" /]
+
 [/slide]
