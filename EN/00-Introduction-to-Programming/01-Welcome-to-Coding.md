@@ -95,7 +95,7 @@ Therefore, we are going to get familiar with the syntax and the semantics of the
 [slide]
 [html]
 <style>
-  . this-is-custom-element {
+  .this-is-custom-element {
       background-color: yellow;
    }
 </style>
