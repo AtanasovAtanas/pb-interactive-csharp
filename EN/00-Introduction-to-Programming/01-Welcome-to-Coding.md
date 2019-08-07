@@ -96,21 +96,6 @@ Therefore, we are going to get familiar with the syntax and the semantics of the
 # Console-Based C# Program – Example
 Let's look at a simple program that reads from the user some amount of money in U.S. Dollars (USD) - an integer, converts it into Euro (EUR) by dividing it by the Euro's rate and prints the obtained result. 
 
-[html]
-<style>
-  .this-is-custom-element {
-      background-color: yellow;
-   }
-</style>
-<div class="this-is-custom-element">
-  <div>This is left</div>
-</div>
-<script>
-  document.querySelector('.this-is-custom-element')
-       .addEventListener('click', () => { alert('It works') });
-</script>
-[/html]
-
 This is a program of 3 consecutive commands:
 
 ```csharp
