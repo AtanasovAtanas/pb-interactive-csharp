@@ -93,6 +93,24 @@ Therefore, we are going to get familiar with the syntax and the semantics of the
 [/slide]
 
 [slide]
+[html]
+<style>
+  . this-is-custom-element {
+      background-color: yellow;
+   }
+   .pull-left {
+       float: left;
+   }
+</style>
+<div class="this-is-custom-element">
+  <div class="pull-left">This is left</div>
+</div>
+<script>
+  document.querySelector('.this-is-custom-element')
+       .addEventListener('click', () => { alert('It works') });
+</script>
+[/html]
+
 # Console-Based C# Program – Example
 Let's look at a simple program that reads from the user some amount of money in U.S. Dollars (USD) - an integer, converts it into Euro (EUR) by dividing it by the Euro's rate and prints the obtained result. 
 
@@ -119,21 +137,3 @@ class DollarsToEuroConverter
 [vimeo-video videoId="342590118" startTimeInSeconds="1770" endTimeInSeconds="2920" /]
 
 [/slide]
-
-[html]
-<style>
-  . this-is-custom-element {
-      background-color: yellow;
-   }
-   .pull-left {
-       float: left;
-   }
-</style>
-<div class="this-is-custom-element">
-  <div class="pull-left">This is left</div>
-</div>
-<script>
-  document.querySelector('.this-is-custom-element')
-       .addEventListener('click', () => { alert('It works') });
-</script>
-[/html]
