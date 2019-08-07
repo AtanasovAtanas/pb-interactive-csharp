@@ -93,6 +93,9 @@ Therefore, we are going to get familiar with the syntax and the semantics of the
 [/slide]
 
 [slide]
+# Console-Based C# Program – Example
+Let's look at a simple program that reads from the user some amount of money in U.S. Dollars (USD) - an integer, converts it into Euro (EUR) by dividing it by the Euro's rate and prints the obtained result. 
+
 [html]
 <style>
   .this-is-custom-element {
@@ -107,9 +110,6 @@ Therefore, we are going to get familiar with the syntax and the semantics of the
        .addEventListener('click', () => { alert('It works') });
 </script>
 [/html]
-
-# Console-Based C# Program – Example
-Let's look at a simple program that reads from the user some amount of money in U.S. Dollars (USD) - an integer, converts it into Euro (EUR) by dividing it by the Euro's rate and prints the obtained result. 
 
 This is a program of 3 consecutive commands:
 
