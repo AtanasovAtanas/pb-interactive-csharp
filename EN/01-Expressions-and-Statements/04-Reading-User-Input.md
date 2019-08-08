@@ -15,7 +15,7 @@ The system **console** / **terminal** / **standard input and output**
 # Reading User Input
 Everything we read from the console comes as a **string**. 
 
-In order to read an integer (not a float) number from the console, we have to declare a variable, declare the number type and use the standard command for reading a text line from the system console Console.ReadLine() and after that convert the text line into an integer number using  int.Parse(text).
+In order to read an integer (not a float) number from the console, we have to declare a variable, declare the number type and use the standard command for reading a text line from the system console `Console.ReadLine()` and after that convert the text line into an integer number using `int.Parse(text)`.
 
 Here are ways to read user input from the console:
 ```csharp
@@ -112,12 +112,13 @@ Console.WriteLine(centimeters);
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      // Write code here
-    }
+  {
+    // Write code here
+  }
 }
 ```
 [/code-editor]
@@ -170,14 +171,15 @@ Hello, George
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
-    {
-      string name = Console.ReadLine();
-      Console.Write("Hello, ");
-      Console.WriteLine(name);
-    }
+  {
+    string name = Console.ReadLine();
+    Console.Write("Hello, ");
+    Console.WriteLine(name);
+  }
 }
 ```
 [/code-editor]
@@ -226,7 +228,7 @@ Hello, George
 
 [slide]
 # Concatenating Text and Numbers
-We can use the **+** to append strings
+We can use the **+** to append strings:
 
 ```csharp
 string firstName = "John";
@@ -235,19 +237,12 @@ int age = 34;
 string str = firstName + " " + lastName + " | " + age;
 Console.WriteLine(str); // John Doe | 34
 ```
-When using the **+** sign with numbers, an addition operation is performed
 
+When using the **+** sign with numbers, an addition operation is performed:
 ```csharp
 int a = 5;
 int b = 11;
 string str = "a + b = " + a + b;
 Console.WriteLine(str); // a + b = 511
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="3678" endTimeInSeconds="5966" /]
-
 [/slide]

@@ -27,7 +27,7 @@ The are characterized by:
 
 [slide]
 # Naming Conventions
-In computer programming, a naming convention is a set of rules for choosing the name to be used for variables
+In computer programming, a naming convention is a set of rules for choosing the name to be used for variables.
 
 In C# the convention for naming variables are used ***"camel-case"***. There are other naming conventions which are used in different languages such as pascal case, snake case. 
 
@@ -42,15 +42,9 @@ int userLoginCount;
 int UserLoginCount;
 ```
 
-**Snake-case** is another naming convention, which separates words with one underscore character (_) and no spaces, with each element's initial letter usually lowercased within the compound and the first letter either upper- or lowercase as it follows:
+**Snake-case** is another naming convention, which separates words with one underscore character (_) and no spaces, with each element's initial letter usually lowercased within the compound and the first letter either upper or lowercase as it follows:
 ```csharp
 int users_count;
 string first_name;
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="1720" endTimeInSeconds="3056" /]
 [/slide]

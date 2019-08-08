@@ -33,10 +33,3 @@ Variables can be stored in the program's:
   * Operational memory - in the execution **stack**
   * Dynamic memory - in the **heap**
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
-
-[/slide]
