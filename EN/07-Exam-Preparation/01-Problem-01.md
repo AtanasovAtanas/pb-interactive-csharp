@@ -1,4 +1,5 @@
 [slide]
+
 [html]
 <style>
   . this-is-custom-element {
@@ -15,6 +16,7 @@
   document.querySelector('.this-is-custom-element')
        .addEventListener('click', () => { alert('It works') });
 </script>
+
 [/html]
 
 # Problem 01
