@@ -9,7 +9,7 @@
       background-color: yellow;
    }
    .pull-left {
-       float: left;
+       float: right;
    }
 </style>
 <div class="this-is-custom-element">
