@@ -19,7 +19,7 @@ for (int i = 0; i < 10; i += 2)
 
 [slide]
 # Problem: Numbers Ending with 7
-[code-task title="Numbers Ending with 7" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Numbers Ending with 7" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -39,7 +39,19 @@ Write a program, which:
 * Reads a number n
 * Prints all numbers from 7 to n, ending with 7
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+40
+[/input]
+[output]
+7
+17
+27
+37
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -51,7 +63,7 @@ Write a program, which:
 
 [slide]
 # Solution: Numbers Ending with 7
-[code-task title="Numbers Ending with 7" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Numbers Ending with 7" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -75,13 +87,26 @@ Write a program, which:
 * Reads a number n
 * Prints all numbers from 7 to n, ending with 7
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+40
+[/input]
+[output]
+7
+17
+27
+37
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|27|7<br>17<br>27|
-|40|7<br>17<br>27<br>37|
+|30|7|
+||17|
+||27|
 [/slide]
 
 [slide]
@@ -104,15 +129,31 @@ public class Program
 Write a program, which:
 
 * Reads an integer - count of days before an exam
-* For each day prints: "{currentDay} days before the exam"
+* For each day prints: "\{currentDay\} days before the exam"
 * At the end prints: "The exam has come"
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+4 days before the exam
+3 days before the exam
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|3|3 days before the exam<br>2 days before the exam<br>1 days before the exam<br>The exam has come|
+|3|3 days before the exam|
+||2 days before the exam|
+||1 days before the exam|
+||The exam has come|
 [/slide]
 
 [slide]
@@ -145,7 +186,20 @@ Write a program, which:
 * For each day prints: "{currentDay} days before the exam"
 * At the end prints: "The exam has come"
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+4 days before the exam
+3 days before the exam
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
