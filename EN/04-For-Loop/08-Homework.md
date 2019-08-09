@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Number Sequence
-[code-task title="Number Sequence" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Number Sequence" taskId="p-01" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -87,7 +87,7 @@ Write a program, which:
 
 [slide]
 # Problem: Power Of Numbers
-[code-task title="Power Of Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Power Of Numbers" taskId="p-02" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -160,10 +160,11 @@ Write a program, which:
 
 [slide]
 # Problem: Equal Pairs
-[code-task title="Equal Pairs" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Equal Pairs" taskId="p-03" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -177,8 +178,8 @@ public class Program
 Write a program, which:
 
 * Reads number n and n pairs of numbers
-* Prints "Yes, value={sum}", if the sum of all pairs is the same
-* Otherwise, prints "No, maxdiff={diff}"
+* Prints "Yes, value=\{sum\}", if the sum of all pairs is the same
+* Otherwise, prints "No, maxdiff=\{diff\}"
 * diff is the max difference in the sum between two pairs
 [/task-description]
 [code-io /]
@@ -263,10 +264,11 @@ Write a program, which:
 
 [slide]
 # Problem: Bigger Number
-[code-task title="Bigger Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Bigger Number" taskId="p-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -348,10 +350,11 @@ Write a program, which:
 
 [slide]
 # Problem: Zig Zag Sum
-[code-task title="Zig Zag Sum" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Zig Zag Sum" taskId="p-05" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -424,10 +427,11 @@ Write a program, which:
 
 [slide]
 # Problem: Divide Without Remainder
-[code-task title="Divide Without Remainder" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Divide Without Remainder" taskId="p-06" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -507,10 +511,11 @@ Write a program, which:
 
 [slide]
 # Problem: Vowel Sum
-[code-task title="Vowel Sum" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Vowel Sum" taskId="p-07" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -607,10 +612,11 @@ Write a program, which:
 
 [slide]
 # Problem: Rollercoaster
-[code-task title="Rollercoaster" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Rollercoaster" taskId="p-08" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -690,10 +696,11 @@ Write a program, which:
 
 [slide]
 # Problem: Multiply
-[code-task title="Multiply" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Multiply" taskId="p-09" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -707,7 +714,7 @@ public class Program
 Write a program, which: 
 
 * Reads n 
-* Prints n's multiples in the format "{n} x {i} = {result}"
+* Prints n's multiples in the format "\{n\} x \{i\} = \{result\}"
 * Where i are the numbers from 1 to 10 (inclusive)
 [/task-description]
 [code-io /]
@@ -728,7 +735,7 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Problem: Multiply
+# Solution: Multiply
 [code-task title="Multiply" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```

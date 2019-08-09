@@ -1,7 +1,8 @@
 [slide]
 # Iterating over Characters
+It is good to know that the for loops don't only work with numbers. 
 
-In C#, we can iterate over characters
+We can solve the task by running a for loop that passes sequentially through all letters in the English alphabet:
 ```csharp
 for (char ch = 'a'; ch <= 'd'; ch++)
 {

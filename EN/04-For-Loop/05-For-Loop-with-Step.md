@@ -1,16 +1,19 @@
 [slide]
 # For Loop with Step
+In this section we will pay attention to a particular and very important part of the `for` loop, namely the **step**.
 
-The step part in a for loop can either increase or decrease the value of a variable
+**The step** is that **part** of the `for` loop construction that tells **how** much to **increase** or **decrease** the value of its **leading** variable. 
 
+It is declared the last in the skeleton of the for loop.
+
+Most often, we have **a size of** `1`, and in this case, instead of writing `i += 1` or `i -= 1`, we can use the `i++` or `i--` operators. 
+
+If we want our step to be **different than 1**, when increasing, we use the `i +=` + step size operator, and when decreasing, the `i -=` + `step size`. With step of 10, the loop would look like this:
 ```csharp
 for (int i = 0; i < 10; i += 2)
-  Console.WriteLine(i);
-```
-```csharp
-// Always pay attention on the condition
-for (int i = 10; i >= 0; i -= 2)
-  Console.WriteLine(i);
+{
+    Console.WriteLine(i);
+}
 ```
 [/slide]
 
@@ -20,6 +23,7 @@ for (int i = 10; i >= 0; i -= 2)
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -51,6 +55,7 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -85,6 +90,7 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -115,6 +121,7 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
