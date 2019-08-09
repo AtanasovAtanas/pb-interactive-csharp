@@ -340,53 +340,6 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Solution: Bigger Number
-[code-task title="Bigger Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-      int n = int.Parse(Console.ReadLine());
-      int maxNumber = int.MinValue;
-      for (int i = 1; i <= n; i++)
-      {
-        int number = int.Parse(Console.ReadLine());
-        if (number > maxNumber)
-        {
-            maxNumber = number;
-        }
-      }
-      
-      Console.WriteLine(maxNumber);
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads n - number representing amount of input numbers
-* Reads n numbers
-* Finds and prints the biggest number
-[/task-description]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|90|
-|40||
-|90||
-|50||
-|3|-40|
-|-40||
-|-90||
-|-50||
-[/slide]
-
-[slide]
 # Problem: Zig Zag Sum
 [code-task title="Zig Zag Sum" taskId="p-05" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
