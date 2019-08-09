@@ -52,6 +52,6 @@ string first_name;
 [slide]
 # Video
 
-[vimeo-video videoId="341512905" startTimeInSeconds="1720" endTimeInSeconds="3056" /]
+[vimeo-video videoId="341512905" startTimeInSeconds="1721" endTimeInSeconds="3056" /]
 
 [/slide]

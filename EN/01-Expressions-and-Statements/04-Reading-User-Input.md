@@ -250,6 +250,6 @@ Console.WriteLine(str); // a + b = 511
 [slide]
 # Video
 
-[vimeo-video videoId="341512905" startTimeInSeconds="3678" endTimeInSeconds="5966" /]
+[vimeo-video videoId="341512905" startTimeInSeconds="3817" endTimeInSeconds="5967" /]
 
 [/slide]
