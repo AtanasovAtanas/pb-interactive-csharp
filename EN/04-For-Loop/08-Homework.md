@@ -27,7 +27,43 @@ Write a program, which:
 * Finds the max and the min numbers
 * Prints them on the console
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+100
+200
+0
+300
+[/input]
+[output]
+Max number: 300
+Min number: 0
+[/output]
+[/test]
+[test]
+[input]
+1
+100
+[/input]
+[output]
+Max number: 100
+Min number: 100
+[/output]
+[/test]
+[test]
+[input]
+3
+-1
+-2
+0
+[/input]
+[output]
+Max number: 0
+Min number: -2
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -107,7 +143,17 @@ Write a program, which:
 * Prints the result of n powered by p
 * Don't use Math.Pow()
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+2
+[/input]
+[output]
+32
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -182,7 +228,130 @@ Write a program, which:
 * Otherwise, prints "No, maxdiff=\{diff\}"
 * diff is the max difference in the sum between two pairs
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+1
+2
+0
+3
+4
+-1
+[/input]
+[output]
+Yes, value=3
+[/output]
+[/test]
+[test]
+[input]
+2
+1
+2
+2
+2
+[/input]
+[output]
+No, maxdiff=1
+[/output]
+[/test]
+[test]
+[input]
+4
+1
+1
+3
+1
+2
+2
+0
+0
+[/input]
+[output]
+No, maxdiff=4
+[/output]
+[/test]
+[test]
+[input]
+1
+5
+5
+[/input]
+[output]
+Yes, value=10
+[/output]
+[/test]
+[test]
+[input]
+2
+-1
+0
+0
+-1
+[/input]
+[output]
+Yes, value=-1
+[/output]
+[/test]
+[test]
+[input]
+2
+-1
+2
+0
+-1
+[/input]
+[output]
+No, maxdiff=2
+[/output]
+[/test]
+[test]
+[input]
+7
+34
+-33
+52
+12
+-32
+32
+23
+41
+7
+25
+34
+23
+124
+21
+[/input]
+[output]
+No, maxdiff=88
+[/output]
+[/test]
+[test]
+[input]
+8
+5
+5
+70
+-60
+3
+7
+2
+8
+20
+-10
+15
+-5
+0
+10
+10
+0
+[/input]
+[output]
+Yes, value=10
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -333,7 +502,30 @@ Write a program, which:
 * Reads n numbers
 * Finds and prints the biggest number
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+30
+80
+40
+[/input]
+[output]
+80
+[/output]
+[/test]
+[test]
+[input]
+3
+-30
+-80
+-40
+[/input]
+[output]
+-30
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -373,7 +565,56 @@ Write a program, which:
 * For every odd line subtracts the number from the result
 * Prints the result
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+20
+20
+20
+20
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+5
+24
+65
+21
+25
+74
+[/input]
+[output]
+29
+[/output]
+[/test]
+[test]
+[input]
+1
+35
+[/input]
+[output]
+35
+[/output]
+[/test]
+[test]
+[input]
+6
+15
+45
+65
+89
+285
+15
+[/input]
+[output]
+216
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -448,7 +689,21 @@ Write a program, which:
 * Finds in percentage how many of them can divide without remainder at 2, 3 and 4
 * Prints percentages p1, p2 and p3, formatted to the second digit
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+12
+27
+6
+[/input]
+[output]
+66.66%
+100.00%
+33.33%
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -537,7 +792,56 @@ Write a program, which:
 
 * Prints the result
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+2
+i
+u
+[/input]
+[output]
+8
+[/output]
+[/test]
+[test]
+[input]
+5
+a
+u
+n
+m
+s
+[/input]
+[output]
+6
+[/output]
+[/test]
+[test]
+[input]
+1
+a
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+8
+a
+e
+i
+o
+u
+a
+a
+s
+[/input]
+[output]
+17
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -633,7 +937,71 @@ Write a program, which:
 * If all places are taken, prints - "The rollercoaster departures"
 * In other case, prints "Waiting..."
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+2
+10
+2
+15
+24
+[/input]
+[output]
+The rollercoaster departures
+[/output]
+[/test]
+[test]
+[input]
+2
+25
+5
+10
+15
+18
+5
+30
+[/input]
+[output]
+Waiting...
+[/output]
+[/test]
+[test]
+[input]
+4
+18
+10
+15
+57
+14
+35
+68
+45
+23
+14
+24
+26
+
+[/input]
+[output]
+The rollercoaster departures
+[/output]
+[/test]
+[test]
+[input]
+3
+21
+5
+25
+45
+34
+12
+24
+[/input]
+[output]
+The rollercoaster departures
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -717,7 +1085,25 @@ Write a program, which:
 * Prints n's multiples in the format "\{n\} x \{i\} = \{result\}"
 * Where i are the numbers from 1 to 10 (inclusive)
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
