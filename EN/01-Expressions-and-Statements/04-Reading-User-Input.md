@@ -246,3 +246,10 @@ string str = "a + b = " + a + b;
 Console.WriteLine(str); // a + b = 511
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="3678" endTimeInSeconds="5966" /]
+
+[/slide]

@@ -22,3 +22,10 @@ Every value has an associated type. For example, if x and y are both variables o
 
 If the value is assigned to a variable of a different type, or if x and y are different types, they need to be converted to a certaint type.
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="6613" endTimeInSeconds="6784" /]
+
+[/slide]
