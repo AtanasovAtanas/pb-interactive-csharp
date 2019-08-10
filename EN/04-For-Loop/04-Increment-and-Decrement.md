@@ -26,7 +26,7 @@ Console.WriteLine(a);   // output: 2.5
 [slide]
 # Decrement Operator
 
-The unary decrement operator `--` decrements its operand by 1. The operand must be a variable.
+The unary decrement operator `--` decrements its operand by 1.
 
 The decrement operator is supported in two forms: the postfix decrement operator, `x--`, and the prefix decrement operator, `--x`.
 
