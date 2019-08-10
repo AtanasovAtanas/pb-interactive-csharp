@@ -194,7 +194,7 @@ Try to do this without multiplying the 3 numbers
 [tests]
 [test]
 [input]
-2
+-2
 3
 1
 [/input]
@@ -210,6 +210,16 @@ negative
 [/input]
 [output]
 positive
+[/output]
+[/test]
+[test]
+[input]
+1
+2
+0
+[/input]
+[output]
+zero
 [/output]
 [/test]
 [/tests]
