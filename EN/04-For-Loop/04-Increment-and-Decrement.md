@@ -1,6 +1,6 @@
 [slide]
 # Increment Operator
-The unary increment operator `++` increments its operand by 1. The operand must be a variable.
+The unary increment operator `++` increments its operand by 1.
 
 The increment operator is supported in two forms: the postfix increment operator, `x++`, and the prefix increment operator, `++x`.
 
