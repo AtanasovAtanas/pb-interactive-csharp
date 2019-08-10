@@ -26,8 +26,7 @@ Computers can only understand numbers
 
 [slide]
 # Problem: Latin Letters
-
-[code-task title="Latin Letters" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Latin Letters" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -46,14 +45,33 @@ Write a program, which:
 * Reads 2 letters
 * Prints all letters in the given range inclusive
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+a
+c
+[/input]
+[output]
+a b c
+[/output]
+[/test]
+[test]
+[input]
+f
+l
+[/input]
+[output]
+f g h i g k l
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|ac|a b c|
+|a|a b c|
 |c||
-|fl|f g h i g k l|
+|f|f g h i g k l|
 |l||
 [/slide]
 
@@ -83,7 +101,26 @@ Write a program, which:
 * Reads 2 letters
 * Prints all letters in the given range inclusive
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+a
+c
+[/input]
+[output]
+a b c
+[/output]
+[/test]
+[test]
+[input]
+f
+l
+[/input]
+[output]
+f g h i g k l
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
