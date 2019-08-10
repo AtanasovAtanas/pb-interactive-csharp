@@ -5,6 +5,69 @@ Now, it's your turn to practice what you have learned in the training session.
 We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
 [/slide]
 
+
+
+[slide]
+# Problem: Bigger Number
+[code-task title="Bigger Number" taskId="p-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+
+public class Program
+{
+  public static void Main()
+  {
+    // Write code here
+  }
+}
+```
+[/code-editor]
+[task-description]
+Write a program, which:
+
+* Reads n - number representing amount of input numbers
+* Reads n numbers
+* Finds and prints the biggest number
+[/task-description]
+[tests]
+[test]
+[input]
+3
+30
+80
+40
+[/input]
+[output]
+80
+[/output]
+[/test]
+[test]
+[input]
+3
+-30
+-80
+-40
+[/input]
+[output]
+-30
+[/output]
+[/test]
+[/tests]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|3|90|
+|40||
+|90||
+|50||
+|3|-40|
+|-40||
+|-90||
+|-50||
+[/slide]
+
 [slide]
 # Problem: Number Sequence
 [code-task title="Number Sequence" taskId="p-01" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
@@ -279,67 +342,6 @@ Yes, value=10
 [/slide]
 
 [slide]
-# Problem: Bigger Number
-[code-task title="Bigger Number" taskId="p-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads n - number representing amount of input numbers
-* Reads n numbers
-* Finds and prints the biggest number
-[/task-description]
-[tests]
-[test]
-[input]
-3
-30
-80
-40
-[/input]
-[output]
-80
-[/output]
-[/test]
-[test]
-[input]
-3
--30
--80
--40
-[/input]
-[output]
--30
-[/output]
-[/test]
-[/tests]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|90|
-|40||
-|90||
-|50||
-|3|-40|
-|-40||
-|-90||
-|-50||
-[/slide]
-
-[slide]
 # Problem: Zig Zag Sum
 [code-task title="Zig Zag Sum" taskId="p-05" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
@@ -497,7 +499,7 @@ Write a program, which:
 6
 [/input]
 [output]
-66.66%
+66.67%
 100.00%
 33.33%
 [/output]
