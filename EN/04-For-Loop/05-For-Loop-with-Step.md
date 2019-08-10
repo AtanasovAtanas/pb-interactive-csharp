@@ -199,7 +199,7 @@ public class Program
 Write a program, which:
 
 * Reads an integer - count of days before an exam
-* For each day prints: "{currentDay} days before the exam"
+* For each day prints: "\{currentDay\} days before the exam"
 * At the end prints: "The exam has come"
 [/task-description]
 [tests]
