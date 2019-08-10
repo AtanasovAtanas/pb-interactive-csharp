@@ -11,10 +11,9 @@ for (char ch = 'a'; ch <= 'd'; ch++)
 ```
 
 # ASCII Table
-
-Computers can only understand numbers
-
-* ASCII code is the numerical representation of a character
+**ASCII** stands for American Standard Code for Information Interchange. 
+ 
+Computers can only understand numbers, so an **ASCII** code is the numerical representation of a character such as 'a' or '@' or an action of some sort. 
 
 |Dec|Hx|Oct|Html|Chr|
 |---|--|---|----|---|
