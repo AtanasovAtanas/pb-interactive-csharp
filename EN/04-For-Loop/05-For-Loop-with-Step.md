@@ -6,13 +6,20 @@ In this section we will pay attention to a particular and very important part of
 
 It is declared the last in the skeleton of the for loop.
 
-Most often, we have **a size of** `1`, and in this case, instead of writing `i += 1` or `i -= 1`, we can use the `i++` or `i--` operators. 
+Most often, we have **a size of** `1`, and in this case, instead of writing `i += 1` or `i -= 1`, we can use the `i++` or `i--` operators.
+
+```cs
+for (int i = 0; i < 10; i++)
+{
+  Console.WriteLine(i);
+}
+```
 
 If we want our step to be **different than 1**, when increasing, we use the `i +=` + step size operator, and when decreasing, the `i -=` + `step size`. With step of 10, the loop would look like this:
 ```csharp
 for (int i = 0; i < 10; i += 2)
 {
-    Console.WriteLine(i);
+  Console.WriteLine(i);
 }
 ```
 [/slide]
