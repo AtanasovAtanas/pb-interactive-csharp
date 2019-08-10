@@ -127,7 +127,7 @@ Write a program, which:
 
 [slide]
 # Problem: Exam Countdown
-[code-task title="Exam Countdown" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Exam Countdown" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -174,7 +174,7 @@ The exam has come
 
 [slide]
 # Solution: Exam Countdown
-[code-task title="Exam Countdown" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Exam Countdown" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
