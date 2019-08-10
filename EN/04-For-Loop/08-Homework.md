@@ -516,56 +516,6 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Solution: Divide Without Remainder
-[code-task title="Divide Without Remainder" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-      int n = int.Parse(Console.ReadLine());
-      double p1 = 0.0;
-      double p2 = 0.0;
-      double p3 = 0.0;
-      for (int i = 0; i < n; i++)
-      {
-        int num = int.Parse(Console.ReadLine());
-        if (num % 2 == 0) p1++;
-        if (num % 3 == 0) p2++;
-        if (num % 4 == 0) p3++;
-      }
-      var resultP1 = (p1 / n) * 100;
-      var resultP2 = (p2 / n) * 100;
-      var resultP3 = (p3 / n) * 100;
-      
-      Console.WriteLine($"{resultP1:F2}%");
-      Console.WriteLine($"{resultP2:F2}%");
-      Console.WriteLine($"{resultP3:F2}%");
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads n and n numbers
-* Finds in percentage how many of them can divide without remainder at 2, 3 and 4
-* Prints percentages p1, p2 and p3, formatted to the second digit
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|33.33%|
-|3|100.00%|
-|6|0.00%|
-|9||
-[/slide]
-
-[slide]
 # Problem: Vowel Sum
 [code-task title="Vowel Sum" taskId="p-07" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
