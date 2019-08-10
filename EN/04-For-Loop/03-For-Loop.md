@@ -33,7 +33,7 @@ In most cases a `for` loop is run between `1` and `n` times (for example from 1 
 
 The purpose of the loop is to pass sequentially through the numbers 1, 2, 3, …, n and for each of them to perform a particular action. 
 
-In the example above, the `i` variable accepts values from 1 to 10 and the current value is printed in the body of the loop. 
+In the first example, the `i` variable accepts values from 1 to 10 and the current value is printed in the body of the loop. 
 
 The loop repeats 10 times and each of these repetitions is called an **"iteration"**.
 [/slide]
