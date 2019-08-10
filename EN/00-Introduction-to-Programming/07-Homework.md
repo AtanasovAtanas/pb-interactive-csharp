@@ -101,6 +101,90 @@ Write a C# program, which:
 [/task-description]
 [code-io /]
 [/code-task]
+[html]
+    <style>
+    table.iotable{
+    border:2px solid white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    border-spacing: 10px;
+    font-size: 20px;
+}
+table th{
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 3px;
+    padding: 1.0%;
+}
+table tbody td{
+    text-align: center;
+    border-bottom:1px solid white;
+    padding: 1.0%;
+}
+
+table tbody tr:nth-child(even){
+    background-color: #234465;
+    color: white
+}
+
+table tr:last-child{
+  border: none;
+}
+
+table tbody tr:nth-child(odd){
+    color: white;
+    border-bottom: 1px solid gray;
+}
+
+table tr td:not(:last-child):hover{
+    text-decoration: underline;
+}
+    }
+  </style>
+<table class="iotable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Input</th>
+        <th>Output</th>
+        <th>Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>22222222</td>
+        <td>22222222</td>
+        <td>22222222</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>3333333333</td>
+        <td>3333333333</td>
+        <td>3333333333</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
+        <td>444444444444</td>
+      </tr>
+    </tbody>
+  </table>
+[/html]
 [/slide]
 
 [slide]
