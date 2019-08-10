@@ -15,9 +15,18 @@ for (int i = 0; i < 10; i++)
 }
 ```
 
-If we want our step to be **different than 1**, when increasing, we use the `i +=` + step size operator, and when decreasing, the `i -=` + `step size`. With step of 10, the loop would look like this:
+If we want our step to be **different than 1**, when increasing, we use the `i +=` + step size operator. With step of 2, the loop would look like this:
 ```csharp
 for (int i = 0; i < 10; i += 2)
+{
+  Console.WriteLine(i);
+}
+```
+
+We might want to have a decreasing step - `i -=` + step size. In this case we should pay attention to the end condition to avoid an infinite loop.
+
+```cs
+for (int i = 10; i >= 1; i--)
 {
   Console.WriteLine(i);
 }
