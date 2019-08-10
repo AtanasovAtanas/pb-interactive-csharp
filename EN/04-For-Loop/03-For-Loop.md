@@ -19,9 +19,15 @@ Upon declaring the loop, you can specify a start value and an end value.
 
 The body of the loop is usually enclosed in curly brackets `{ }` and represents a block of one or multiple commands. 
 
-The figure below shows the structure of a for loop:
+The code block below shows the structure of a `for` loop:
+```
+for (initialization; condition; update)
+{
+  loop's body;
+}
+```
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/july/assets/00.For-loop-02.png"/]
+It consists of an **initialization part** for the counter (in the pattern `int i = 0`), a boolean condition (`i < 10`), an expression for updating the counter (``i += 1``) and body of the loop.
 
 In most cases a `for` loop is run between `1` and `n` times (for example from 1 to 10). 
 
