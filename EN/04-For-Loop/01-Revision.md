@@ -1,47 +1,90 @@
 [slide]
 # Revision 
+Before proceeding ahead, let's remind ourselves about the program concepts and techniques that we have learned in the last session.
 
-# Nested Conditions
+## Nested Conditions
+Pretty often the program logic requires the use of `if` or `if-else` statements, which are contained one inside another. 
 
-An ***if...else*** statement can exist within another ***if...else*** statement
-  
-Generally used when we have to test one condition followed by another
+They are called **nested** `if` or `if-else` statements. 
 
-```csharp
-if (expression)
+As implied by the title **"nested"**, these are `if` or `if-else` statements that are placed inside other `if` or `else` statements.
+```cs
+if (condition1)
 {
-  if (nested expression)
-    // Code to be executed
-  else
-    // Code to be executed
+    if (condition2)
+    {
+      // body; 
+    }
+    else
+    {
+      // body;
+    }  
 }
 ```
 
-**Logical Operators**
+## Complex Conditions with &&, ||, ! and ()
+```cs
+if ((x == left || x == right) && y >= top && y <= bottom)
+{
+  Console.WriteLine(…);
+}
+```
 
-Logical operators are used to perform logical operation such as AND, OR
+### Logical AND
 
-The logical operators are:
+The logical **"AND"** (operator `&&)` means a few conditions have to be **fulfilled simultaneously**. 
 
-* AND (&&)
-* OR (||)
-* Logical negation (!)
+The following table of truthfulness is applicable:
 
-**Switch-case**
+| a | b  | a && b |
+|---|---|---|
+| true | true | true |
+| true | false | false |
+| false | true | false |
+| false | false | false |
 
-Used for choosing among a list of possibilities
+### Logical OR
+The logical **"OR"** (operator `||`) means that **at least one** among a few conditions is fulfilled. Similar to the operator `&&,` the logical **"OR"** accepts a few arguments of **bool** (conditional) type and returns `true` or `false`.
 
-Alternative to an if-else statement
+| a | b  | `a || b` |
+|---|---|---|
+| true | true | true |
+| true | false | true |
+| false | true | true |
+| false | false | false |
 
-```csharp
+### Logical Negation (NOT)
+**Logical negation** (operator `!`) means a given condition is **not fulfilled**.
+
+| a | !a |
+|---|---|
+| true | false |
+
+The operator `!` accepts as an **argument** a bool variable and **returns** its value.
+
+## Switch-Case Conditions
+The `switch-case` condition works as a sequence of `if-else` blocks. 
+
+Whenever the work of our program depends on the value of **one variable**, instead of making consecutive conditions with `if-else` blocks, we can use the conditional `switch` statement. 
+
+It is being used for **choosing between a list of possibilities**. 
+
+The statement compares a given value with defined constants and depending on the result, it takes an action.
+
+```cs
 switch (selector)
 {
-  case someCase:
-    statements;
-    break;
-  default:
-    statements;
-    break;
+    case value1:
+        construction;
+        break;
+    case value2:
+    case value3:
+        construction;
+        break;
+    …
+    default:
+        construction;
+        break;
 }
 ```
 [/slide]
