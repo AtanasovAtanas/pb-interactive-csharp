@@ -400,48 +400,6 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Solution: Zig Zag Sum
-[code-task title="Zig Zag Sum" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-      int n = int.Parse(Console.ReadLine());
-      int sum = 0;
-      for (int i = 1; i <= n; i++)
-      {
-        int m = int.Parse(Console.ReadLine());
-        if (i % 2 == 0) sum += m;
-        else sum -= m;
-      }
-      Console.WriteLine(sum);
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads n - number representing amount of input numbers
-* Reads n numbers 
-* For every even line adds the number to the result
-* For every odd line subtracts the number from the result
-* Prints the result
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|-30|
-|10||
-|20||
-[/slide]
-
-[slide]
 # Problem: Divide Without Remainder
 [code-task title="Divide Without Remainder" taskId="p-06" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
