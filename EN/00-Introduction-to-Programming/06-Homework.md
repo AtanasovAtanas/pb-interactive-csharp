@@ -131,11 +131,14 @@ table th{
     text-align: center;
     padding-bottom: 3px;
     padding: 1.0%;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
 }
 table tbody td{
     text-align: center;
     border-bottom:1px solid white;
     padding: 1.0%;
+    border-right: 1px solid white;
 }
 
 table tbody tr:nth-child(even){
