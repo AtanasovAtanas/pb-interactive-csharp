@@ -74,6 +74,7 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -145,6 +146,7 @@ Min number: -2
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
