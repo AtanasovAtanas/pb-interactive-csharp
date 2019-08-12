@@ -41,7 +41,7 @@ Console.WriteLine(i--); // output: 3
 Console.WriteLine(i);   // output: 2
 ```
 
-## Prefix Decrement Operator
+### Prefix Decrement Operator
 The result of `--x` is the value of `x` after the operation, as the following example shows:
 ```cs
 double a = 1.5;
