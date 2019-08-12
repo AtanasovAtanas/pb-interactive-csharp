@@ -1,27 +1,27 @@
 [slide]
 # Sequence of If-Else Conditions
-Sometimes we need to do a sequence of conditions before
-we decide what actions our program will execute. In such 
-cases, we can apply the construction  if-else if ... -else in series.
-For this purpose, we use the following format:
+Sometimes we need to do a sequence of conditions before we decide what actions our program will execute. 
 
+In such cases, we can apply the construction if-else if ... -else in series.
+
+For this purpose, we use the following format:
 ```csharp
 if (condition)
 {
-    // condition body;
+  // condition body;
 }
 else if (second condition)
 {
-    // condition body;
+  // condition body;
 }
 else if (third condition)
 {
-    // condition body;
+  // condition body;
 }
 …
 else
 {
-    // else construction body;
+  // else construction body;
 }
 ```
 [/slide]
@@ -82,11 +82,4 @@ two
 |7|seven|
 |10|Number too big|
 |2|two|
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="4534" endTimeInSeconds="5115" /]
-
 [/slide]
