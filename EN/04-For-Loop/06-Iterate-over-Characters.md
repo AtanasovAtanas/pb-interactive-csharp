@@ -60,7 +60,7 @@ f
 l
 [/input]
 [output]
-f g h i g k l
+f g h i j k l
 [/output]
 [/test]
 [/tests]
