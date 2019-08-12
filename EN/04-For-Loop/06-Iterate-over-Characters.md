@@ -76,7 +76,7 @@ f g h i g k l
 
 [slide]
 # Solution: Latin Letters
-[code-task title="Latin Letters" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Latin Letters" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
