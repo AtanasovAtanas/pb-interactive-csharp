@@ -12,3 +12,10 @@ In the example below, on the last line we are trying to print the variable salar
 The above code will not compile, because we are trying to access a variable out of its scope.
 
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="5119" endTimeInSeconds="5370" /]
+
+[/slide]

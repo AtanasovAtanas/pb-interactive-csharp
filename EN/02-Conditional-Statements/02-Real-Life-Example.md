@@ -17,3 +17,10 @@ else
   Water the plants
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="1424" endTimeInSeconds="1482" /]
+
+[/slide]

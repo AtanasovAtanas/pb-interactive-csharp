@@ -414,3 +414,10 @@ Invalid Triangle
 |4||
 |5||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="5372" endTimeInSeconds="5843" /]
+
+[/slide]

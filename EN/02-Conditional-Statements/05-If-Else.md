@@ -179,3 +179,10 @@ Greater number: 2
 |4|Greater number: 8|
 |8||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="2478" endTimeInSeconds="3566" /]
+
+[/slide]
