@@ -8,3 +8,10 @@ So, you'll pick up the first one and put it in the dishwasher - that's one item.
 
 Then you'll pick up the second one and put it in the dishwasher and continue repeating same action until you put all dirty dishes in the dishwasher.
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="1947" endTimeInSeconds="2004" /]
+
+[/slide]

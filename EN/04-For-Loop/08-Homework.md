@@ -5,8 +5,6 @@ Now, it's your turn to practice what you have learned in the training session.
 We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
 [/slide]
 
-
-
 [slide]
 # Problem: Bigger Number
 [code-task title="Bigger Number" taskId="p-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
@@ -695,4 +693,11 @@ Write a program, which:
 ||2 x 8 = 16|
 ||2 x 9 = 18|
 ||2 x 10 = 20|
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="7278" endTimeInSeconds="11336" /]
+
 [/slide]
