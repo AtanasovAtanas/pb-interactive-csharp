@@ -161,6 +161,76 @@ Write a program that applies bonus to given points
 [/slide]
 
 [slide]
+# Solution: Bonus Points
+[code-task title="Bonus Points" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+
+public class Program
+{
+  public static void Main()
+  {
+    int points = int.Parse(Console.ReadLine());
+
+    if (points >= 0 && points <= 3)
+    {
+      points += 5;
+    }
+    else if (points >= 4 && points <= 6)
+    {
+      points += 15;
+    }
+    else if (points >= 7 && points <= 9)
+    {
+      points += 20;
+    }
+
+    Console.WriteLine(points);
+  }
+}
+```
+[/code-editor]
+[task-description]
+Write a program that applies bonus to given points
+  * If points are between 0 and 3, adds 5
+  * If points are between 4 and 6, adds 15
+  * If points are between 7 and 9, adds 20
+[/task-description]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+19
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+28
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+6
+[/output]
+[/test]
+[/tests]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|4|19|
+[/slide]
+
+[slide]
 # Problem: Food or Drink
 [code-task title="Food or Drink" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
@@ -173,6 +243,76 @@ public class Program
   {
     // Write code here
   }
+}
+```
+[/code-editor]
+[task-description]
+Write a program, which:
+  * Reads single line and print "***drink***", "***food***" or "***unknown***"
+  * Foods: curry, noodles, sushi, spaghetti 
+  * Drinks: tea, water, coffee
+  * Everything else is unknown
+[/task-description]
+[tests]
+[test]
+[input]
+curry
+[/input]
+[output]
+food
+[/output]
+[/test]
+[test]
+[input]
+tea
+[/input]
+[output]
+drink
+[/output]
+[/test]
+[test]
+[input]
+something
+[/input]
+[output]
+unknown
+[/output]
+[/test]
+[/tests]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|curry|food|
+|water|drink|
+|flower|unknown|
+[/slide]
+
+[slide]
+# Solution: Food or Drink
+[code-task title="Food or Drink" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+
+public class Program
+{
+  public static void Main()
+  {
+    string item = Console.ReadLine();
+
+    if (item == "curry" || item == "noodles" || input == "sushi" || input == "spaghetti")
+    {
+      Console.WriteLine("food");
+    }
+    else if (item == "tea" || item == "water" || item == "coffee")
+    {
+      Console.WriteLine("drink");
+    }
+    else
+    {
+      Console.WriteLine("unknown");
+    }
 }
 ```
 [/code-editor]
