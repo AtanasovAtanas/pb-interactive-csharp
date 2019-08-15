@@ -301,7 +301,7 @@ public class Program
   {
     string input = Console.ReadLine();
 
-    if (input == "curry" || item == "noodles" || input == "sushi" || input == "spaghetti")
+    if (input == "curry" || input == "noodles" || input == "sushi" || input == "spaghetti")
     {
       Console.WriteLine("food");
     }
@@ -313,6 +313,7 @@ public class Program
     {
       Console.WriteLine("unknown");
     }
+  }
 }
 ```
 [/code-editor]
