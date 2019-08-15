@@ -328,7 +328,7 @@ coffee
 no
 [/input]
 [output]
-$1.00
+Final price: $1.00
 [/output]
 [/test]
 [test]
@@ -337,7 +337,7 @@ tea
 sugar
 [/input]
 [output]
-$1.00
+Final price: $1.00
 [/output]
 [/test]
 [test]
