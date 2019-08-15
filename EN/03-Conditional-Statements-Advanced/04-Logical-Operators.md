@@ -299,13 +299,13 @@ public class Program
 {
   public static void Main()
   {
-    string item = Console.ReadLine();
+    string input = Console.ReadLine();
 
-    if (item == "curry" || item == "noodles" || input == "sushi" || input == "spaghetti")
+    if (input == "curry" || item == "noodles" || input == "sushi" || input == "spaghetti")
     {
       Console.WriteLine("food");
     }
-    else if (item == "tea" || item == "water" || item == "coffee")
+    else if (input == "tea" || input == "water" || input == "coffee")
     {
       Console.WriteLine("drink");
     }
