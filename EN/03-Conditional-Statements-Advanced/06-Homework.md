@@ -531,3 +531,10 @@ Write a program to find the biggest among 5 numbers
 |-4||
 |-5||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="8419" endTimeInSeconds="11865" /]
+
+[/slide]

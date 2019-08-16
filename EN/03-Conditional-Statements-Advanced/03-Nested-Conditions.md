@@ -155,3 +155,10 @@ Write a program, which:
 |5||
 |3||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="1425" endTimeInSeconds="2839" /]
+
+[/slide]
