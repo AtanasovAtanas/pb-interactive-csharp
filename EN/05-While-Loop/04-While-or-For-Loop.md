@@ -3,7 +3,7 @@
 
 `while` and `for` loops both **repeat** a block of **code**.
 
-Sometime in programming we don't know in advance **how many times** to repeat a loop, neither we have a **clear loop condition**. In such cases, it is a good idea to **use `while` loop** instead of `for` loop.
+Sometime in programming we don't know in advance **how many times** to repeat a loop, neither we have a **clear loop condition**. In such cases, it is a good idea to **use** `while`  **loop** instead of `for` loop.
 
 When you know **exactly how many times** you want to loop through a block of code, use the `for` loop instead of a `while` loop.
 [/slide]
