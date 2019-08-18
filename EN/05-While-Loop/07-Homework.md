@@ -86,93 +86,6 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Solution: Sum Digits
-[code-task title="Sum Digits" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    int n = int.Parse(Console.ReadLine());
-    int sum = 0;
-    while (n > 0)
-    {
-      sum += n % 10;
-      n /= 10;
-    }
-    Console.WriteLine(sum);
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads a number from the console
-* **Sums** the **digits** of a number
-* Prints the sum
-[/task-description]
-[tests]
-[test]
-[input]
-123456
-[/input]
-[output]
-21
-[/output]
-[/test]
-[test]
-[input]
-489451
-[/input]
-[output]
-31
-[/output]
-[/test]
-[test]
-[input]
-8498498
-[/input]
-[output]
-50
-[/output]
-[/test]
-[test]
-[input]
-000000
-[/input]
-[output]
-0
-[/output]
-[/test]
-[test]
-[input]
-5684915
-[/input]
-[output]
-38
-[/output]
-[/test]
-[test]
-[input]
-8
-[/input]
-[output]
-8
-[/output]
-[/test]
-[/tests]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5634|18|
-[/slide]
-
-[slide]
 # Problem: Favorite Book
 [code-task title="Favorite Book" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
@@ -214,50 +127,6 @@ Book found! Attempts: 4
 |Input|Output|
 |-----|------|
 |Alice in Wonderland|Book Found! Attempts: 3|
-|Winnie the Pooh||
-|Peter Pan||
-|Alice in Wonderland||
-[/slide]
-
-[slide]
-# Solution: Favorite Book
-[code-task title="Favorite Book" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    string favoriteBook = Console.ReadLine();
-    string book = Console.ReadLine();
-
-    int counter = 0;
-    while(book != favoriteBook)
-    {
-      counter += 1;
-      book = Console.ReadLine();
-    }
-
-    Console.WriteLine($"Book found! Attempts: {counter}");
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Reads a **book's name** from the console
-* Receives names until it gets the **same book**
-* Prints **"Book found!"** and stops afterwards
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Alice in Wonderland|Book Found!|
 |Winnie the Pooh||
 |Peter Pan||
 |Alice in Wonderland||
@@ -357,59 +226,6 @@ Min number: 0
 [/slide]
 
 [slide]
-# Solution: Min and Max
-[code-task title="Min and Max" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    int min = int.MaxValue;
-    int max = int.MinValue;
-    
-    string line = Console.ReadLine();
-
-    while (line != "END")
-    {
-      int n = int.Parse(line);
-
-      if (n < min)
-        min = n;
-      if (n > max)
-        max = n;
-
-      line = Console.ReadLine();
-    }
-
-    Console.WriteLine($"Max number: {max}");
-    Console.WriteLine($"Min number: {min}");
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Receives integers until **"END"**
-* Prints the **biggest** and the **smallest** integer
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|10|Max number: 304|
-|20|Min number: 0|
-|304||
-|0||
-|50||
-|END||
-[/slide]
-
-[slide]
 # Problem: Special Number
 [code-task title="Special Number" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
@@ -459,63 +275,8 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Solution: Special Number
-[code-task title="Special Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    int originNumber = int.Parse(Console.ReadLine());
-    int number = originNumber;
-    bool isSpecial = true;
-
-    while (number > 0)
-    {
-      int digit = number % 10;
-      number /= 10;
-
-      if (originNumber % digit != 0)
-      {
-        isSpecial = false;
-        break;
-      }
-    }
-
-    if (isSpecial)
-    {
-      Console.WriteLine($"{originNumber} is special");
-    }
-    else
-    {
-      Console.WriteLine($"{originNumber} is not special");
-    }
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Receives integer
-* Prints "\{num\} is special" if the number is special
-* Special number is number divisible by all of its digits without remainder
-* Otherwise, prints "\{num\} is not special"
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|23|23 is not special|
-|44|44 is special|
-[/slide]
-
-[slide]
 # Problem: Special Bonus
-[code-task title="Special Bonus" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Special Bonus" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -718,45 +479,6 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Solution: Sequence 2k + 1
-[code-task title="Sequence 2k + 1" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-
-public class Program
-{
-  public static void Main()
-  {
-    int n = int.Parse(Console.ReadLine());
-    int k = 1;
-    while(k <= n)
-    {
-      Console.WriteLine(k);
-      k = k * 2 + 1;
-    }
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Reads a number **n** from the console
-* Prints a **sequence** of numbers, which are **<= n** and satisfy the following condition:
-* Each number is equal to the previous one multiplied by **2** plus **1**
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|8|1|
-||3|
-||7|
-[/slide]
-
-[slide]
 # Problem: Account Balance
 [code-task title="Account Balance" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
@@ -790,7 +512,7 @@ END
 [output]
 Increase: 5.50
 Increase: 60.23
-Increase: 100
+Increase: 100.00
 Total: ‭165.73‬
 [/output]
 [/test]
