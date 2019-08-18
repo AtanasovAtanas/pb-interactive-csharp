@@ -55,7 +55,7 @@ Write a program, which:
 
 [slide]
 # Solution: Odd Number
-[code-task title="Odd Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Odd Number" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
