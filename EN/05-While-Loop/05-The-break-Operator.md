@@ -1,21 +1,19 @@
 [slide]
 # The break Operator
-Used for prematurely **exiting** the loop
+The `break` operator stops the execution of a loop at the time it is called and continues from the first line after the end of the loop.
 
-Can only be executed from the loop's **body**
+This means that the current iteration of the loop will not be completed, accordingly, the rest of the code in the body of the loop will not be executed.
 
-When it is executed, the code inside the loop's body after it **is skipped** and does not execute
-
+This example breaks the loop when the input is an odd number:
 ```csharp
 while (true)
 {
   int number = int.Parse(Console.ReadLine());
+  
   if (number % 2 != 0)
   {
     break;
   }
-  
-  Console.WriteLine("Enter an even number!");
 }
 ```
 [/slide]
