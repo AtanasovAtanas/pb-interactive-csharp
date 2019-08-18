@@ -20,7 +20,7 @@ while (command != "End")
 }
 ```
 
-In the example above, the codinition is always true because it is never changed.
+In the example above, the condition is always `true` because it is never changed.
 
 # Example: Finite Loop (Bug Fixed)
 ```csharp
