@@ -330,55 +330,6 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Solution: Special Bonus
-[code-task title="Special Bonus" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    int special = int.Parse(Console.ReadLine());
-    int number = Console.ReadLine();
-    int previous = number;
-    
-    while(true)
-    {
-      if(number == special)
-      {
-        previous += previous * 0.2;
-        break;
-      }
-
-      previous = number
-      number = Console.ReadLine();
-    }
-
-    Console.WriteLine(previous);
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Reads an integer number from the console
-* Keeps reading integers until it finds the same one as the first one
-* When it finds it, it increases the value of the **previous** number **before it** with 20% and prints it
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|25|36|
-|20||
-|30||
-|25||
-[/slide]
-
-[slide]
 # Problem: Sequence 2k + 1
 [code-task title="Sequence 2k + 1" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
