@@ -1,37 +1,37 @@
 [slide]
 # Infinite While Loop
-Repeating a block of code an **infinite number of times**
+We call an infinite loop one that repeats infinitely the performance of its body. 
 
-Infinite ***while*** loops are caused when the check condition is always evaluated to ***true***
+In `while` and `do-while` loops the end check is a conditional expression that always returns `true`. 
 
 ```csharp
-while(true)
+while (true)
 {
   // Commands
 }
 ```
 
 # Example: Infinite While Loop (Bug)
-
 ```csharp
 string command = "Add";
-while (command != "End") // Always true (never changed)
+while (command != "End") 
 {
   Console.WriteLine("Executing: " + command);
 }
 ```
 
-# Example: Finite Loop (Bug Fixed)
+In the example above, the codinition is always true because it is never changed.
 
+# Example: Finite Loop (Bug Fixed)
 ```csharp
 string command = "Add";
-
 while (command != "End")
 {
   Console.WriteLine("Executing: " + command);
 
   command = Console.ReadLine();
 }
-
 ```
+
+Here, the value of the variable `command` is changed at each iteration and the **infinite loop** is avoided. 
 [/slide]
