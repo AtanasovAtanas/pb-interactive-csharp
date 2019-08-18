@@ -143,7 +143,7 @@ Write a program, which:
 
 [slide]
 # Problem: Numbers in Range
-[code-task title="Numbers in Range" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Numbers in Range" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;

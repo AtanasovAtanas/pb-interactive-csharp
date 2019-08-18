@@ -10,7 +10,7 @@ When you know **exactly how many times** you want to loop through a block of cod
 
 [slide]
 # Problem: Odd Number
-[code-task title="Odd Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Odd Number" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -105,7 +105,7 @@ Write a program, which:
 
 [slide]
 # Problem: Number Manipulator
-[code-task title="Number Manipulator" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Number Manipulator" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -173,7 +173,7 @@ END
 
 [slide]
 # Solution: Number Manipulator
-[code-task title="Number Manipulator" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Number Manipulator" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
