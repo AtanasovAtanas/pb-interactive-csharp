@@ -193,7 +193,7 @@ Write a program, which:
 
 * Reads a **book's name** from the console
 * Receives names until it gets **book with the same name as the first one**
-* Prints **"Book found! Attempts: \{attemptsCount\}"** and stops afterwards
+* Prints "Book found! Attempts: \{attemptsCount\}" and stops afterwards
 [/task-description]
 [tests]
 [test]
