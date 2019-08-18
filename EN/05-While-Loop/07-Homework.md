@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Sum Digits
-[code-task title="Sum Digits" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Sum Digits" taskId="p-01" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -87,7 +87,7 @@ Write a program, which:
 
 [slide]
 # Problem: Favorite Book
-[code-task title="Favorite Book" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Favorite Book" taskId="p-02" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -134,7 +134,7 @@ Book found! Attempts: 4
 
 [slide]
 # Problem: Min and Max
-[code-task title="Min and Max" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Min and Max" taskId="p-03" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -227,7 +227,7 @@ Min number: 0
 
 [slide]
 # Problem: Special Number
-[code-task title="Special Number" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Special Number" taskId="p-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -276,7 +276,7 @@ Write a program, which:
 
 [slide]
 # Problem: Special Bonus
-[code-task title="Special Bonus" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Special Bonus" taskId="p-05" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -331,7 +331,7 @@ Write a program, which:
 
 [slide]
 # Problem: Sequence 2k + 1
-[code-task title="Sequence 2k + 1" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Sequence 2k + 1" taskId="p-06" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -431,7 +431,7 @@ Write a program, which:
 
 [slide]
 # Problem: Account Balance
-[code-task title="Account Balance" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Account Balance" taskId="p-07" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
