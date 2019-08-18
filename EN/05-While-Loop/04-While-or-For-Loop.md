@@ -1,11 +1,11 @@
 [slide]
 # While or For Loop
 
-***While*** and ***for*** loops both **repeat** a block of **code**
+`while` and `for` loops both **repeat** a block of **code**.
 
-Use ***for*** when you know the **number of repetitions**
+Sometime in programming we don't know in advance **how many times** to repeat a loop, neither we have a **clear loop condition**. In such cases, it is a good idea to **use `while` loop** instead of `for` loop.
 
-Use ***while*** when you don't know when you will meet the end condition
+When you know **exactly how many times** you want to loop through a block of code, use the `for` loop instead of a `while` loop.
 [/slide]
 
 [slide]
@@ -30,7 +30,19 @@ Write a program, which:
 * Reads numbers from the console until it gets an **odd number**
 * Prints the **odd** number
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+2
+4
+8
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -68,7 +80,19 @@ Write a program, which:
 * Reads numbers from the console until it gets an **odd number**
 * Prints the **odd** number
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+2
+4
+8
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -104,7 +128,40 @@ Write a program, which:
 * **Subtract** - Subtracts 1 from the number
 * **END** -  Prints the number and stops the program
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+Add
+END
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+4
+Subtract
+END
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+4
+Add
+Add
+Subtract
+END
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -132,8 +189,12 @@ public class Program
       {
         switch (command)
         {
-            case "Add": number++; break;
-            case "Subtract": number--; break;
+            case "Add": 
+              number++;
+              break;
+            case "Subtract":
+              number--;
+              break;
         }
 
         command = Console.ReadLine();
@@ -153,7 +214,40 @@ Write a program, which:
 * **Subtract** - Subtracts 1 from the number
 * **END** -  Prints the number and stops the program
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+Add
+END
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+4
+Subtract
+END
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+4
+Add
+Add
+Subtract
+END
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
