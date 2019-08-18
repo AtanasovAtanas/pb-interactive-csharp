@@ -295,18 +295,18 @@ Write a program, which:
 
 * Reads an integer number from the console
 * Keeps reading integers until it finds the same one as the first one
-* When it finds it, it increases the value of the **previous** number **before it** with 20% and prints it
+* When it finds it, it increases the value of the **previous** number **before it** with 100% and prints it
 [/task-description]
 [tests]
 [test]
 [input]
 20
 5
-10
+5
 20
 [/input]
 [output]
-12
+10
 [/output]
 [/test]
 [test]
@@ -315,7 +315,7 @@ Write a program, which:
 20
 [/input]
 [output]
-24
+40
 [/output]
 [/test]
 [/tests]
@@ -525,49 +525,4 @@ Total: ‭165.73‬
 |69.42|Increase: 69.42|
 |100|Increase: 100.00|
 |END|Total: 174.93|
-[/slide]
-
-[slide]
-# Solution: Account Balance
-[code-task title="Account Balance" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    int n = int.Parse(Console.ReadLine());
-    double balance = 0.0;
-
-    while(n != 0)
-    {
-      double amount = double.Parse(Console.ReadLine());
-      balance += amount;
-      Console.WriteLine($"Increase: {amount:f2}");
-      n--;
-    }
-    
-    Console.WriteLine($"Total: {balance:f2}");
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which: 
-
-* Receives an integer **n** - count of transactions
-* Receives the amount of money for each transaction
-* Adds the money to the balance and prints: "***Increase***: \{money\} " and calculates and prints the total balance
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3||
-|5.51|Increase: 5.51|
-|69.42|Increase: 69.42|
-|100|Increase: 100|
-||Total: 174.93|
 [/slide]
