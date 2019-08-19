@@ -2,6 +2,14 @@
 # Complex Loops
 Loops with different **steps**
 
+The step is that part of the for loop construction that tells how much to **increase** or **decrease** the value of its leading variable. 
+
+It is declared the last in the skeleton of the for loop.
+
+Most often, we have a size of 1, and in this case, instead of writing i += 1 or i -= 1, we can use the **i++** or **i--** operators. 
+
+If we want our step to be different than 1, when increasing, we use the i += + step size operator, and when decreasing, the i -= + step size.
+
 ```csharp
 for (int i = n; i >= 1; i--) 
 for (int j = 1; j <= n; j+=2)
