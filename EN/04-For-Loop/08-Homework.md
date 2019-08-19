@@ -603,7 +603,6 @@ Waiting...
 14
 24
 26
-
 [/input]
 [output]
 The rollercoaster departures
@@ -629,12 +628,22 @@ The rollercoaster departures
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|2|1|
-|a||
-|g||
-|2|8|
-|i||
-|u||
+|2|The rollercoaster departures|
+|10||
+|2||
+|15||
+|24||
+
+|Input|Output|
+|-----|------|
+|2|Waiting...|
+|25||
+|5||
+|10||
+|15||
+|18||
+|5||
+|30||
 [/slide]
 
 [slide]
