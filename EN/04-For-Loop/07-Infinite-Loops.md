@@ -1,21 +1,25 @@
 [slide]
 # Infinite Loops
+So far, we were introduced to `for` loop, learning what structure has and how is applied. 
 
-Repeating a block of code an infinite number of times:
+Now, we need to understand what an **infinite loop** is and when it occurs.
 
-```csharp
-for ( ; ; ) // You can skip the initialization, condition and the increment
+We call an **infinite loop** one that **repeats infinitely** the performance of its body. 
+
+Infinite `for` occurs when there is **no condition to end the loop**.
+
+Here is what a `for` loop with no end condition looks like:
+```cs
+for ( ; ; ) 
 {
   Console.WriteLine("Hello World");
 }
 ```
+[/slide]
 
-**Usage in Programming**
+[slide]
+# Video
 
-Widely used in game development for drawing the game environment
-
-Used for drawing animations
-
-Web servers
+[vimeo-video videoId="341948488" startTimeInSeconds="4530" endTimeInSeconds="5061" /]
 
 [/slide]

@@ -1,31 +1,59 @@
 [slide]
-# Increment / Decrement Operators
+# Increment and Decrement Operators
 
-Increment (++) operator increases the value by 1
+## Increment Operator
+The unary increment operator `++` increments its operand by 1.
 
-Decrement (--) operator decreases the value by 1
+The increment operator is supported in two forms: the postfix increment operator, `x++`, and the prefix increment operator, `++x`.
 
-Can be used pre and post fix
-
-* Prefix: **++i**, **--i**
-* Postfix: **i++**, **i--**
-
-Both operators can be used only with numeric variables
-
-# Example
-
-Pre-decrement
-
-```csharp
-int a = 1; 
-Console.WriteLine(--a); // 0: Decreases the value and then prints it
-Console.WriteLine(a);   // 0
+### Postfix Increment Operator
+The result of `x++` is the value of `x` before the operation, as the following example shows:
+```cs
+int i = 3;
+Console.WriteLine(i);   // output: 3
+Console.WriteLine(i++); // output: 3
+Console.WriteLine(i);   // output: 4
 ```
-Post-decrement
 
-```csharp
-int a = 1; 
-Console.WriteLine(a--); // 1: First prints the value and then decreases it
-Console.WriteLine(a);   // 0
+### Prefix Increment Operator
+The result of `++x` is the value of `x` after the operation, as the following example shows:
+```cs
+double a = 1.5;
+Console.WriteLine(a);   // output: 1.5
+Console.WriteLine(++a); // output: 2.5
+Console.WriteLine(a);   // output: 2.5
 ```
+[/slide]
+
+[slide]
+## Decrement Operator
+
+The unary decrement operator `--` decrements its operand by 1.
+
+The decrement operator is supported in two forms: the postfix decrement operator, `x--`, and the prefix decrement operator, `--x`.
+
+### Postfix Decrement Operator
+The result of `x--` is the value of `x` before the operation, as the following example shows:
+```cs
+int i = 3;
+Console.WriteLine(i);   // output: 3
+Console.WriteLine(i--); // output: 3
+Console.WriteLine(i);   // output: 2
+```
+
+### Prefix Decrement Operator
+The result of `--x` is the value of `x` after the operation, as the following example shows:
+```cs
+double a = 1.5;
+Console.WriteLine(a);   // output: 1.5
+Console.WriteLine(--a); // output: 0.5
+Console.WriteLine(a);   // output: 0.5
+```
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="1693" endTimeInSeconds="1945" /]
+
 [/slide]
