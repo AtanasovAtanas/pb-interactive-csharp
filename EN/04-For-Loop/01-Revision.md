@@ -88,10 +88,3 @@ switch (selector)
 }
 ```
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="1007" endTimeInSeconds="1681" /]
-
-[/slide]

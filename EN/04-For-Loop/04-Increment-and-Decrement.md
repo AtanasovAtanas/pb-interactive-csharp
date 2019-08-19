@@ -50,10 +50,3 @@ Console.WriteLine(--a); // output: 0.5
 Console.WriteLine(a);   // output: 0.5
 ```
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="1693" endTimeInSeconds="1945" /]
-
-[/slide]

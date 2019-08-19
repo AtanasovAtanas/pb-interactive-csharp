@@ -234,10 +234,3 @@ Write a program, which:
 |100||
 |200||
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="2005" endTimeInSeconds="2990" /]
-
-[/slide]

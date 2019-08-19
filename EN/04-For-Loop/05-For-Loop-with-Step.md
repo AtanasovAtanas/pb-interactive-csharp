@@ -225,10 +225,3 @@ The exam has come
 ||1 days before the exam|
 ||The exam has come|
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="2991" endTimeInSeconds="3809" /]
-
-[/slide]
