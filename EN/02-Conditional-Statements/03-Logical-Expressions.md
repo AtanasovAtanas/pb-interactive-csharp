@@ -12,6 +12,7 @@ In programming, we can compare values using the following operators:
 | Less than or equal to |   <= |
 
 When compared, the result is a Boolean value `true` or `false`, depending on whether the result of the comparison is `true` or `false`.
+[/slide]
 
 [slide]
 # Examples for Comparing Numbers
