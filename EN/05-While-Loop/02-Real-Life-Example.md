@@ -14,3 +14,10 @@ You never know how many mugs of water you use, but only be stopped when the buck
 
 In this exmaple, you work until satisfying a given condition.
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="1197" endTimeInSeconds="1300" /]
+
+[/slide]

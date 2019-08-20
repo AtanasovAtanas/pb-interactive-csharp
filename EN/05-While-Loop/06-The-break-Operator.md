@@ -17,3 +17,10 @@ while (true)
 }
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="2820" endTimeInSeconds="3036" /]
+
+[/slide]

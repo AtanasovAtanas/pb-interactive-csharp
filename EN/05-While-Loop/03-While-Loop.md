@@ -235,3 +235,10 @@ Write a program, which:
 |101||
 |50||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="1304" endTimeInSeconds="2152" /]
+
+[/slide]
