@@ -1,17 +1,18 @@
 [slide]
-# If...else Statement
-In an if-else statement, **`if`** condition evaluates to **`true`**, the then-statement runs. 
+# If-Else Conditions
+The `if` construction may also contain an `else` clause to give a specific action in case the Boolean expression (which is set at the beginning `if (bool expression)` ) returns a negative result (`false`). 
 
+Built this way, **the conditional statement** is called `if-else` and its behavior is as follows: if the result of the condition is positive (`true`) – we perform some actions, when it is negative (`false`) – others. 
+
+The format of the construction is:
 ```csharp
 if (condition)
 {
-  // then-statement
-  // Commands to be executed if the condition is true
+  // condition body;
 }
 else
 {
-  // else-statement
-  // Commands to be executed if the condition is false
+  // else construction body;
 }
 ```
 
@@ -34,29 +35,30 @@ The statement or statements in the then-statement and the else-statement can be 
 
 [slide]
 # Block of Code
-The curly brackets `{ }` introduce a **block** (a group of commands).
+When we have **only one command** in the body of the **if construction**, we can **skip the curly brackets**, indicating the conditional operator body. 
 
-In case the `if` statement does **not** have curly brackets, only the code on the **next line** will be executed.
+When we want to execute **block of code** (group of commands), curly brackets are **required**. In case we drop them, **only the first line** after the **if clause** will be executed.
 
+Here is an example where dropping curly braces leads to confusion:
 ```csharp
 string color = "red";
 if (color == "red") 
   Console.WriteLine("tomato");
 else
   Console.WriteLine("banana");
-Console.WriteLine("lemon"); /* <- Always executed */
+Console.WriteLine("lemon"); 
 ```
+
+With curly braces:
 ```csharp
 string color = "red";
 if (color == "red")
 {
-  // Block of 2 commands
   Console.WriteLine("tomato");
   Console.WriteLine("strawberry"); 
 }
 else
 {
-  // Block of 2 commands
   Console.WriteLine("banana");
   Console.WriteLine("lemon");
 }

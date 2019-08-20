@@ -1,27 +1,22 @@
 [slide]
 # Debugging
-The process of **tracking** the execution of the program
+So far, we wrote a lot of code, and there were some mistakes in it, right? Now we will show a tool that can help us find mistakes more easily: **the debugger**.
 
-  * Debugging allows finding mistakes (**bugs**)
+# What is "Debugging"?
+**Debugging** is the process of "**attaching**" to the program execution, which allows us to **track step by step the process**. 
 
-Debugging is the process of "attaching" to the program execution, which allows us to track step by step the process. 
+We can track **line by line** what happens in our program, what path it follows, what are the values of defined variables at each step of debugging, and many other things that allow us to detect errors (**bugs**).
 
-We can track line by line what happens in our program, what path it follows, what are the values of defined variables at each step of debugging, and many other things that allow us to detect errors (bugs).
-
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-condtional-statements/assets/02-conditional-statements-2.png"/]
-
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Debugging-01.png"/]
 [/slide]
 
 [slide]
 # Debugging in Visual Studio
-We can create / remove *breakpoints* with **F9**
+By pressing the `[F10]` button, we run the program in **debug mode**. We move to **the next line** again with `[F10]`.
 
-Pressing **F5** will start the program in debug mode
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Debugging-02.png"/]
 
-We can go to the next step with **F10**
-
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-condtional-statements/assets/02-conditional-statements-3.png"/]
-
+With [F9] we create the so-called breakpoints, that we can reach directly using [F5] when we start the program.
 [/slide]
 
 [slide]
