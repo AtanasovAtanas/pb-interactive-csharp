@@ -129,3 +129,10 @@ f g h i j k l
 |f|f g h i g k l|
 |l||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="3810" endTimeInSeconds="4528" /]
+
+[/slide]

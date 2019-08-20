@@ -703,3 +703,10 @@ Write a program, which:
 ||2 x 9 = 18|
 ||2 x 10 = 20|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="7278" endTimeInSeconds="11336" /]
+
+[/slide]
