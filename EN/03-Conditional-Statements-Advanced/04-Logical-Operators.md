@@ -99,7 +99,7 @@ A point is internal for a given polygon, if the following four conditions are ap
 -  The point is placed downwards from the upper side of the rectangle.
 -  The point is placed upwards from the down side of the rectangle.
 
-```cs live
+```cs
 double x1 = 2;
 double y1 = -3;
 double x2 = 12;
