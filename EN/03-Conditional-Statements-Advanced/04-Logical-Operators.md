@@ -1,45 +1,62 @@
 [slide]
-# Logical Operators
-Logical Operators are used to perform the logical operation between two operands like **AND**, **OR** and **NOT** based on our requirements.
+# More Complex Conditions
+Let's take a look at how we can create more **complex logical conditions** in programming. 
 
-The Logical Operators will **always work with Boolean expressions** (**true** or **false**) and return **Boolean values**.
+We can use the logical **"AND"** (`&&`), logical **"OR"** (`||`), logical **negation** (`!`) and **brackets** (`()`).
 
-The logical operators are:
-  * AND (**&&**) - **returns true if both operands are true**
-  * OR (**\| \|**) - **returns true if any one operand is true**
-  * Logical negation (**!**) - **returns the reverse of logical state**
-    * Brackets **()** change the order
+# Logical "AND", "OR" and "NOT"
+This is a short example that demonstrates the power of logical **"AND"**, logical **"OR"** and logical **"NOT"**:
+```csharp
+string animal = Console.ReadLine();
+int speed = int.Parse(Console.ReadLine());
 
-| Operand1 | Operand2 | And | Or |
-|---|---|---|---|
-| true | true | true | true |
-| true | false | false | true |
-| false | true | false | true |
-| false | false | false | false |
+if ((animal == "horse" || animal == "donkey") && (speed > 40))
+{
+    Console.WriteLine("Run fast");
+}
+else if ((animal == "shark" || animal == "dolphin") && (speed > 45))
+{
+    Console.WriteLine("Swim fast");
+}
+else if (!(speed > 30 || animal == "turtle"))
+{
+    Console.WriteLine("Move slow");
+}
+```
 
-If you observe above table, **if any one operand value become false, then the logical AND operator will return false**, same way **the logical OR operator will return true, if any one operand value become true**
+We shall explain the logical **AND** (`||`), the logical **OR** (`||`), and the logical **NOT** (`!`) in the next few sections, along with examples and exercises.
 [/slide]
 
 [slide]
-# Logical AND Operator
-In some tasks we have to make many checks at once. 
+# Logical "AND" (`&&`)
+As we saw, in some tasks we have to make **many checks at once**. 
 
-But what happens when in order to execute some code more conditions have to be executed and we don't want to make a negation (else) for each one of them? 
+But what happens when in order to execute some code **more** conditions have to be executed and we **don't want** to make a **negation** (`else`) for each one of them? 
 
-The option with nested if blocks is valid, but the code would look very unordered and for sure – hard to read and maintain.
+The option with nested `if` **blocks** is valid, but the code would look very unordered and for sure – **hard to read and maintain**.
 
-The logical ***AND*** (operator **&&**) means a few conditions have to be fulfilled simultaneously.
+The logical **"AND"** (operator `&&`) means a few conditions have to be **fulfilled simultaneously**. 
 
-# How does it work?
-The && operator accepts a couple of Boolean (conditional) statements, which have a true or false value, and returns one bool statement as a result. 
+The following table of truthfulness is applicable:
+| Operand1 | Operand2 | AND |  |
+|---|---|---|---|
+| true | true | true |
+| true | false | false |
+| false | true | false |
+| false | false | false |
 
-Using it instead of a couple of nested if blocks, makes the code more readable, ordered and easy to maintain. 
+# How the `&&` Operator Works?
+The `&&` operator accepts **a couple of Boolean** (conditional) statements, which have a `true` or `false` value, and returns one bool statement as a result. 
 
-But how does it work, when we put a few conditions one after another? As we saw above, the logical ***AND*** returns **true**, only when it accepts as arguments statements with value true. 
+Using it instead of a couple of nested `if` blocks, makes the code **more readable**, **ordered** and **easy** to maintain. 
 
-Respectively, when we have a sequence of arguments, the logical ***AND*** checks either until one of the arguments is over, or until it meets an argument with value **false**.
+But how does it **work**, when we put a **few** conditions one after another? 
 
-Example:
+As we saw above, the logical **"AND"** returns `true`, **only** when it accepts as **arguments statements** with value `true`. 
+
+Respectively, when we have a **sequence** of arguments, the logical **"AND"** **checks** either until one of the arguments is **over**, or until it **meets** an argument with value `false`. 
+
+# Example
 ```csharp
 bool a = true;
 bool b = true;
@@ -49,60 +66,54 @@ bool result = a && b && c && d;
 // false (as d is not being checked)
 ```
 
-The program will run in the following way: 
- - It starts the check form **a**, reads it and accepts that it has a **true** value, after which it checks **b**. 
- - After it has accepted that **a** and **b** return true, it checks the next argument. It gets to **c** and sees that the variable has a **false** value. 
- - After the program accepts that the argument **c** has a **false** value, it calculates the expression before **c**, independent of what the value of **d** is. 
- - That is why the evaluation of **d** is being skipped and the whole expression is calculated as **false**.
-[/slide]
+The program will run in the **following** way: 
+- **It starts** the check form `a`, **reads** it and accepts that it has a `true` value, after which it **checks** `b`. 
+- After it has **accepted** that `a` and `b` return `true`, **it checks the next** argument. 
+- It gets to `c` and sees that the variable has a `false` value. 
+- After the program accepts that the argument `c` has a `false` value, it calculates the expression **before** `c`, **independent** of what the value of `d` is. 
+- That is why the evaluation of `d` is being **skipped** and the whole expression is calculated as `false`.
 
-[slide]
-# Logical OR Operator
-The logical ***OR*** (operator **||**) means that at least one among a few conditions is fulfilled. 
+# Example: Point in a Rectangle
+Checks whether **`point {x, y}`** is placed **inside the rectangle {x1, y1} – {x2, y2}**. 
 
-Similar to the operator **&&**, the logical ***OR*** accepts a few arguments of bool (conditional) type and returns true or false. 
+The input data is read from the console and consists of 6 lines: 
+- the decimal numbers `x1`, `y1`, `x2`, `y2`, `x` and `y` (as it is guaranteed that `x1 < x2` and `y1 < y2`).
 
-We can easily guess that we obtain a value true every time when at least one of the arguments has a true value. 
+## Sample Input and Output
+|Input|Output|
+|-----|------|
+|2|Inside|
+|-3||
+|12||
+|3||
+|8||
+|-1||
 
-| Operand | Not |
-|---|---|
-| true | false |
-| false | true |
-
-# How does it work?
-We have already learned what the logical ***OR*** represents. But how is it actually being achieved? 
-
-Just like with the logical "AND", the program checks from left to right the arguments that are given. 
-
-In order to obtain **true** from the expression, it is necessary for just one argument to have a **true** value. 
-
-Respectively, the checking continues until an argument with such value is met or until the arguments are over.
-
-Here is one example of the **||** operator in action:
+## Solution
+A point is internal for a given polygon, if the following four conditions are applied at the same time:
+-  The point is placed to the right from the left side of the rectangle.
+-  The point is placed to the left from the right side of the rectangle.
+-  The point is placed downwards from the upper side of the rectangle.
+-  The point is placed upwards from the down side of the rectangle.
 
 ```csharp
-bool a = false;
-bool b = true;
-bool c = false;
-bool d = true;
-bool result = a || b || c || d;
-// true (as c and d are not being checked)
+double x1 = double.Parse(Console.ReadLine());
+double y1 = double.Parse(Console.ReadLine());
+double x2 = double.Parse(Console.ReadLine());
+double y2 = double.Parse(Console.ReadLine());
+
+double x = double.Parse(Console.ReadLine());
+double y = double.Parse(Console.ReadLine());
+
+if (x >= x1 && x <= x2 && y >= y1 && y <= y2)
+{
+    Console.WriteLine("Inside");
+}
+else
+{
+    Console.WriteLine("Outside");
+}
 ```
-
-The programs checks **a**, accepts that it has a value **false** and continues. 
-
-Reaching **b**, it understands that it has a **true** value and the whole expression is calculated as **true**, without having to check **c** or **d**, because their values wouldn't change the result of the expression.
-
-[/slide]
-
-[slide]
-# Logical NOT Operator
-Logical negation (operator **!**) means a given condition is not fulfilled.
-
-The operator **!** accepts as an argument a bool variable and returns its value.
-
-**The NOT operator will always return the reverse value of operand** like **if operand value true, then the Logical NOT operator will return false and vice versa**
-
 [/slide]
 
 [slide]
@@ -228,6 +239,57 @@ Write a program that applies bonus to given points
 |Input|Output|
 |-----|------|
 |4|19|
+[/slide]
+
+[slide]
+# Logical OR Operator
+The logical ***OR*** (operator **||**) means that at least one among a few conditions is fulfilled. 
+
+Similar to the operator **&&**, the logical ***OR*** accepts a few arguments of bool (conditional) type and returns true or false. 
+
+We can easily guess that we obtain a value true every time when at least one of the arguments has a true value. 
+
+| Operand | Not |
+|---|---|
+| true | false |
+| false | true |
+
+# How does it work?
+We have already learned what the logical ***OR*** represents. But how is it actually being achieved? 
+
+Just like with the logical "AND", the program checks from left to right the arguments that are given. 
+
+In order to obtain **true** from the expression, it is necessary for just one argument to have a **true** value. 
+
+Respectively, the checking continues until an argument with such value is met or until the arguments are over.
+
+Here is one example of the **||** operator in action:
+
+```csharp
+bool a = false;
+bool b = true;
+bool c = false;
+bool d = true;
+bool result = a || b || c || d;
+// true (as c and d are not being checked)
+```
+
+The programs checks **a**, accepts that it has a value **false** and continues. 
+
+Reaching **b**, it understands that it has a **true** value and the whole expression is calculated as **true**, without having to check **c** or **d**, because their values wouldn't change the result of the expression.
+
+[/slide]
+
+
+
+[slide]
+# Logical NOT Operator
+Logical negation (operator **!**) means a given condition is not fulfilled.
+
+The operator **!** accepts as an argument a bool variable and returns its value.
+
+**The NOT operator will always return the reverse value of operand** like **if operand value true, then the Logical NOT operator will return false and vice versa**
+
 [/slide]
 
 [slide]
