@@ -28,7 +28,7 @@ We shall explain the logical **AND** (`||`), the logical **OR** (`||`), and the 
 [/slide]
 
 [slide]
-# Logical "AND" (`&&`)
+# Logical AND
 As we saw, in some tasks we have to make **many checks at once**. 
 
 But what happens when in order to execute some code **more** conditions have to be executed and we **don't want** to make a **negation** (`else`) for each one of them? 
