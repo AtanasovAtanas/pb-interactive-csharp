@@ -1,44 +1,39 @@
 [slide]
 # Nested Conditions
-Pretty often the program logic requires the use of ***if*** or ***if-else statements***, which are contained one inside another. 
+Pretty often the program logic requires the use of `if` or `if-else` statements, which are contained one inside another. 
 
-They are called nested if or if-else statements. 
-
-As implied by the title "nested", these are if or if-else statements that are placed inside other if or else statements.
+They are called **nested** `if` or `if-else` statements. As implied by the title **"nested"**, these are `if` or `if-else` statements that are placed inside other `if` or `else` statements.
 
 ```csharp
-if (expression)
+if (condition1)
 {
-  if (nested expression)
-    // Some code
-  else
-    // Some code
-} 
-```
-Only if the first condition is true the nested one is checked
-
-```csharp
-if (expression)
-{
-  if (nested expression)
-    // Some code
-  else
-    // Some code
-    // Executes when the nested expression is false
+    if (condition2)
+    {
+        // body; 
+    }
+    else
+    {
+        // body;
+    }
 }
 ```
+
 # Deep nesting
-
-Nesting of more than three conditional statements inside each other is not considered a good practice.
-
-It should be avoided, mostly through optimization of the structure/the algorithm of the code and/or by using another type of conditional statement.
-
-* Use up to 3 nested levels
-
+Nesting of **more than three conditional statements** inside each other is not considered a good practice and **has to be avoided**, mostly through optimization of the structure/the algorithm of the code and/or by using another type of conditional statement.
 [/slide]
 
 [slide]
 # Problem: Marketplace
+Write a program which:
+  * Reads a **product** and **day** from the console
+  * Prints the **price**, formatted to 2nd digit, based on the price table below
+
+|Product|Weekday|Weekend| 
+|-------|-------|-------|
+|Banana|2.50|2.70|
+|Apple|1.30|1.60|
+|Kiwi|2.20|3.00|
+
 [code-task title="Marketplace" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
@@ -54,10 +49,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program which:
-
-  * Reads a **product** and **day** from the console
-  * Prints the **price**, formatted to 2nd digit, based on the price table below
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|Banana|2.50|
+|Weekday||
 [/task-description]
 [tests]
 [test]
@@ -71,19 +67,6 @@ Weekday
 [/test]
 [/tests]
 [/code-task]
-
-|Product|Weekday|Weekend| 
-|-------|-------|-------|
-|Banana|2.50|2.70|
-|Apple|1.30|1.60|
-|Kiwi|2.20|3.00|
-
-# Sample Input and Output
-
-|Input|Output|
-|-----|------|
-|Banana|2.50|
-|Weekday||
 [/slide]
 
 [slide]
