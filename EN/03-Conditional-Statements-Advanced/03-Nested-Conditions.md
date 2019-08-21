@@ -125,15 +125,20 @@ Write a program, which:
 [/tests]
 [/code-task]
 # Sample Input and Output
-
 |Input|Output|
 |-----|------|
 |1|3|
 |2||
 |3||
+
+|Input|Output|
+|-----|------|
 |-1|-1|
 |-5||
 |-9||
+
+|Input|Output|
+|-----|------|
 |1|5|
 |5||
 |3||
