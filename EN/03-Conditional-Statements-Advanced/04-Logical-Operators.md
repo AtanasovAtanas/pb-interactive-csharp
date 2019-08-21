@@ -38,6 +38,7 @@ The option with nested `if` **blocks** is valid, but the code would look very un
 The logical **"AND"** (operator `&&`) means a few conditions have to be **fulfilled simultaneously**. 
 
 The following table of truthfulness is applicable:
+
 | Operand1 | Operand2 | AND |  |
 |---|---|---|---|
 | true | true | true |
