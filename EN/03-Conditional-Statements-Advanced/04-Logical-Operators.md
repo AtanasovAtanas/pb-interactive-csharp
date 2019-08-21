@@ -100,13 +100,13 @@ A point is internal for a given polygon, if the following four conditions are ap
 -  The point is placed upwards from the down side of the rectangle.
 
 ```cs live
-double x1 = double.Parse(Console.ReadLine());
-double y1 = double.Parse(Console.ReadLine());
-double x2 = double.Parse(Console.ReadLine());
-double y2 = double.Parse(Console.ReadLine());
+double x1 = 2;
+double y1 = -3;
+double x2 = 12;
+double y2 = 3;
 
-double x = double.Parse(Console.ReadLine());
-double y = double.Parse(Console.ReadLine());
+double x = 8;
+double y = -1;
 
 if (x >= x1 && x <= x2 && y >= y1 && y <= y2)
 {
