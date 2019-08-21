@@ -246,27 +246,31 @@ Write a program that applies bonus to given points
 
 [slide]
 # Logical OR Operator
-The logical ***OR*** (operator **||**) means that at least one among a few conditions is fulfilled. 
+The logical **OR** (operator `||`) means that **at least one** among a few conditions is fulfilled. 
 
-Similar to the operator **&&**, the logical ***OR*** accepts a few arguments of bool (conditional) type and returns true or false. 
+Similar to the operator `&&`, the logical **OR** accepts a few arguments of **bool** (conditional) type and returns `true` or `false`. 
 
-We can easily guess that we obtain a value true every time when at least one of the arguments has a true value. 
+We can easily guess that we **obtain** a value `true` every time when at least one of the arguments has a `true` value. 
 
-| Operand | Not |
-|---|---|
-| true | false |
-| false | true |
+| Operand1 | Operand2 | OR |
+|---|---|---|---|
+| true | true | true |
+| true | false | true |
+| false | true | true |
+| false | false | false |
 
-# How does it work?
-We have already learned what the logical ***OR*** represents. But how is it actually being achieved? 
+At school the teacher says: "John or Peter should clean the board". To fulfill this condition (to clean the board), it is possible either just for John to clean it, or just for Peter to clean it, or both of them to do it.
 
-Just like with the logical "AND", the program checks from left to right the arguments that are given. 
+# How the `||` Operator Works?
+We have already learned what the logical **OR** represents. But how is it actually being achieved? 
 
-In order to obtain **true** from the expression, it is necessary for just one argument to have a **true** value. 
+Just like with the logical **"AND"**, the program **checks** from left to right **the arguments** that are given. 
 
-Respectively, the checking continues until an argument with such value is met or until the arguments are over.
+In order to obtain `true` from the expression, it is necessary for **just one** argument to have a `true` value. 
 
-Here is one example of the **||** operator in action:
+Respectively, the checking **continues** until an **argument** with **such** value is met or until the arguments **are over**.
+
+Here is one **example** of the `||` operator in action:
 
 ```csharp
 bool a = false;
@@ -277,18 +281,9 @@ bool result = a || b || c || d;
 // true (as c and d are not being checked)
 ```
 
-The programs checks **a**, accepts that it has a value **false** and continues. 
+The programs **checks** `a`, accepts that it has a value `false` and continues. 
 
-Reaching **b**, it understands that it has a **true** value and the whole expression is calculated as **true**, without having to check **c** or **d**, because their values wouldn't change the result of the expression.
-[/slide]
-
-[slide]
-# Logical NOT Operator
-Logical negation (operator **!**) means a given condition is not fulfilled.
-
-The operator **!** accepts as an argument a bool variable and returns its value.
-
-**The NOT operator will always return the reverse value of operand** like **if operand value true, then the Logical NOT operator will return false and vice versa**
+Reaching `b`, it understands that it has a `true` value and the whole **expression** is calculated as `true`, without having to check `c` or `d`, because their values **wouldn't change** the result of the expression.
 [/slide]
 
 [slide]
@@ -418,6 +413,34 @@ unknown
 |curry|food|
 |water|drink|
 |flower|unknown|
+[/slide]
+
+[slide]
+# Logical NOT Operator
+Logical negation (operator **!**) means a given condition is **not fulfilled**.
+
+| a | !a |
+|---|---|
+| true | false |
+
+The operator `!` accepts as an **argument** a bool variable and **returns** its value.
+[/slide]
+
+[slide]
+# The Parenthesis `()` Operator
+Like the rest of the operators in programming, the operators `&&` and `||` have a priority, as in the case `&&` is with higher priority than `||`. 
+
+The operator `()` serves for **changing the priority of operators** and is being calculated first, just like in mathematics. 
+
+Using parentheses also gives the code better readability and is considered a good practice.
+
+Example of checking whether a variable belongs to certain ranges:
+```csharp
+if (x < 0) || ((x >= 5) && (x <= 10)) || (x > 20)
+{
+    // Commands
+}
+```
 [/slide]
 
 [slide]
