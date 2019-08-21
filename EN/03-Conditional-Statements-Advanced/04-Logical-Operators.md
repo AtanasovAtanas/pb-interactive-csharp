@@ -39,7 +39,7 @@ The logical **"AND"** (operator `&&`) means a few conditions have to be **fulfil
 
 The following table of truthfulness is applicable:
 
-| Operand1 | Operand2 | AND |  |
+| Operand1 | Operand2 | AND |
 |---|---|---|---|
 | true | true | true |
 | true | false | false |
