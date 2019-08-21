@@ -277,10 +277,7 @@ bool result = a || b || c || d;
 The programs checks **a**, accepts that it has a value **false** and continues. 
 
 Reaching **b**, it understands that it has a **true** value and the whole expression is calculated as **true**, without having to check **c** or **d**, because their values wouldn't change the result of the expression.
-
 [/slide]
-
-
 
 [slide]
 # Logical NOT Operator
@@ -289,7 +286,6 @@ Logical negation (operator **!**) means a given condition is not fulfilled.
 The operator **!** accepts as an argument a bool variable and returns its value.
 
 **The NOT operator will always return the reverse value of operand** like **if operand value true, then the Logical NOT operator will return false and vice versa**
-
 [/slide]
 
 [slide]
