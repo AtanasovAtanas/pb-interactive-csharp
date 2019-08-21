@@ -6,7 +6,7 @@ We can use the logical **"AND"** (`&&`), logical **"OR"** (`||`), logical **nega
 
 # Logical "AND", "OR" and "NOT"
 This is a short example that demonstrates the power of logical **"AND"**, logical **"OR"** and logical **"NOT"**:
-```csharp
+```cs
 string animal = Console.ReadLine();
 int speed = int.Parse(Console.ReadLine());
 
