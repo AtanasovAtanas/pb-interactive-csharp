@@ -427,7 +427,7 @@ The operator `!` accepts as an **argument** a bool variable and **returns** its 
 [/slide]
 
 [slide]
-# The Parenthesis `()` Operator
+# The Parenthesis  Operator
 Like the rest of the operators in programming, the operators `&&` and `||` have a priority, as in the case `&&` is with higher priority than `||`. 
 
 The operator `()` serves for **changing the priority of operators** and is being calculated first, just like in mathematics. 
