@@ -9,7 +9,7 @@ It is that the `do-while` loop will execute its body at least once. Why is this 
 In the do-while loop construction, **the condition** is always checked **after** the body, which ensures that **the first loop iteration will execute** the code and **the check for the end of the loop** will be applied to each subsequent iteration of the `do-while`.
 
 The following example shows the usage of the `do-while` loop:
-```cs
+```cs live
 int n = 0;
 do 
 {
@@ -35,7 +35,7 @@ Here is how we can specifically calculate factorial:
 - Outside the body of the loop, we print the final factorial value.
 
 This is a sample code, implementing the above described steps:
-```cs
+```cs live
 int n = int.Parse(Console.ReadLine());
 int fact = 1;
 

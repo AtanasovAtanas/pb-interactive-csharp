@@ -33,8 +33,8 @@ Here is how we can solve the problem:
 - In **the body of the loop**: we print the value of the current number and increase the current number by using the formula from the problem's description.
 
 Here is a sample implementation of this idea:
-```cs
-int n = int.Parse(Console.ReadLine());
+```cs live
+int n = 5;
 int num = 1;
 while (num <= n)
 {
