@@ -48,9 +48,7 @@ A program in C# is written in text format (**source code**).
 The result of execution is called an executable file (**prog.exe**) C# uses a handful of tools, provided by 
 the **.NET Core**
 
-[image src="https://csharp-book.softuni.org/assets/chapter-1-images/csharp-compilation-and-execution-diagram.png"/]
-
-#.NET Runtime Environment 
+# .NET Runtime Environment 
 It represents a virtual machine, something like a computer in the computer, which can run a compiled C# code. 
 
 The language C# is compiled into an intermediary .NET code and is executed from the .NET environment, which compiles this intermediary code additionally into machine instructions (machine code) in order to be executed

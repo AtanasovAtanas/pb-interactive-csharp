@@ -1,6 +1,6 @@
 [slide]
 # Integrated Development Environments (IDE)
-Integrated Development Environments (**IDE**) simplify software development
+Integrated Development Environments (**IDE**) simplify software development:
  * IDEs save time and eases the process of coding
  * Writing, running, testing, and debugging the code
  * For programming in C#, we use **Visual Studio**
@@ -13,11 +13,11 @@ To write programs, we need an IDE and the recommended ones for C# are:
 * Visual Studio / Raider (for macOS)
 * Visual Studio Code / Raider (for Linux)
 
-For **Java** -> IntelliJ IDEA / Eclipse / NetBeans
+For **Java** -> IntelliJ IDEA / Eclipse / NetBeans.
 
-For **Python** -> PyCharm / Eclipse / VS Code
+For **Python** -> PyCharm / Eclipse / VS Code.
 
-For **C#** -> Visual Studio / Raider / VS Code
+For **C#** -> Visual Studio / Raider / VS Code.
 [/slide]
 
 [slide]

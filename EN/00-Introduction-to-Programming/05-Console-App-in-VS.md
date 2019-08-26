@@ -1,6 +1,6 @@
 [slide]
 # Creating a Console Application in Visual Studio
-Start **Visual Studio** (VS)
+Start **Visual Studio** (VS).
 
 Create new Console Application: **`[File]`** -> **`[New]`** -> **`[Project]`** -> **`[Visual C#]`** -> **`[Windows]`** -> **`[Console Application]`**
 
@@ -16,11 +16,11 @@ The code of the program is written with indentation
 
 [slide]
 # Starting the Program in VS
-To start the program, press **`[Ctrl + F5]`**
+To start the program, press **`[Ctrl + F5]`**.
 
-If there are no errors, the program will be launched
+If there are no errors, the program will be launched.
 
-The result will appear in the **console** (terminal window)
+The result will appear in the **console** (terminal window).
 [/slide]
 
 [slide]
