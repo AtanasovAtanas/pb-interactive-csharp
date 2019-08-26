@@ -166,19 +166,15 @@ Write a program, which:
 
 Prints a square of 7 * 7 stars like this:
 
+```
 \* \* \* \* \* \* \*
-
 \* \* \* \* \* \* \*
-
 \* \* \* \* \* \* \*
-
 \* \* \* \* \* \* \*
-
 \* \* \* \* \* \* \*
-
 \* \* \* \* \* \* \*
-
 \* \* \* \* \* \* \*
+```
 
 [/task-description]
 [code-io /]

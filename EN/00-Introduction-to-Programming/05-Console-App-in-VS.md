@@ -7,7 +7,7 @@ Create new Console Application: **`[File]`** -> **`[New]`** -> **`[Project]`** -
 # Writing Programming Code in VS
 The commands of the program are written in **`Main(string[] args)`**
 
-Between the opening and closing curly brackets `{ }`
+Between the opening and closing curly brackets `{ }`.
 
 Press **`[Enter]`** after the opening bracket **`{`**
 
