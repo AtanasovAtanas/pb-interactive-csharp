@@ -1,64 +1,27 @@
 [slide]
 # What is Coding?
-**Coding** means to give **commands** to tell the computer what to do
+**To program** means to **give commands** to the computer, for example *"to play a sound"*, *"to print something on the screen"* or *"to multiply two numbers"*. 
 
-Sample command:
-```csharp
-Console.WriteLine("I am coding");
+When the commands are one after another, they are called **a computer program**. 
+
+The text of computer programs is called **a program code** (or a **source code**, or even shorter – **code**).
+
+Example of command for the computer:
+```cs
+Console.WriteLine("Welcome to coding");
 ```
-A **computer program** is a sequence of commands
-```csharp
-Console.WriteLine("First command");
-Console.WriteLine("Second command");
-Console.WriteLine("Third command");
+
 ```
-[/slide]
-
-[slide]
-# Commands in C# – Examples 
-Calculate an expression and print its value:
-```csharp
-Console.WriteLine(5 + 5);
+When executed, the above command prints the following text:
 ```
-Plays the "A" sound (works in Windows only)
-```csharp
-Console.Beep(432, 500);
-```
-Print the numbers from 1 to 100
-```csharp
-for (int i = 1; i <= 100; i ++)
-   Console.WriteLine(i);
-```
-[/slide]
-
-[slide]
-# Programming and Algorithms
-
-## Programming
-**Programming** means writing computer programs (commands). 
-
-Computer programs usually execute some algorithm. 
-
-Algorithms are a sequence of steps, necessary for the completion of a certain task and for gaining some expected result, something like a "recipe". 
-
-We need to use a certain **programming language**, such as C# or Python, to write it.
-
-## Algorithms
-**Algorithm** is a sequence of commands that achieves certain result
-
-In programming the computer programs execute algorithms, necessary for the completion of a certain task. 
-
-For example, to arrange a sequence of numbers in an ascending order, an algorithm is needed, e.g. find the smallest number and print it, then find the smallest number among the rest of the numbers and print it, and this is repeated until there are no more numbers left.
 [/slide]
 
 [slide]
 # Computer Programs
-Computer programs represent a sequence of commands that are written in certain programming language, 
-like C#, Java, JavaScript, Python, C++, PHP, C, Ruby, Swift, Go or another.
+Computer programs represent **a sequence of commands** that are written in certain **programming language**, like C#, Java, JavaScript, Python, C++, PHP, C, Ruby, Swift, Go or another.
 
-Sample C# program (sequence of C# commands):
-
-```csharp
+Example of **computer program** in C#:
+```cs
 using System;
 
 class SquareArea
@@ -72,24 +35,39 @@ class SquareArea
 }
 ```
 
-The above program defines a class SquareArea, holding a method Main(), which holds a sequence of 3 commands:
- * Declaring and assigning a variable: var size = 5;
- * Calculating and printing an expression: Console.WriteLine("Size = " + size);
- * Calculating and printing an expression: Console.WriteLine("Area = " + size * size);
+The above program defines a **class** `SquareArea`, holding a **method** `Main()`, which holds a sequence of **3 commands**:
+- Declaring and assigning a **variable**: `var size = 5;`
+- Calculating and **printing** an **expression**: `Console.WriteLine("Size = " + size);`
+- Calculating and **printing** an **expression**: `Console.WriteLine("Area = " + size * size);`
 
 The result (output) from the above program is as follows:
-```csharp
+```
 Size = 5
 Area = 25
 ```
 
-We shall explain in detail how to write programs in C# and why we need to define a class and why we need to define a method Main() a bit later.
+We **shall explain in detail how to write programs in C#**, why we need to define a **class** and why we need to define a **method** `Main()` a bit later. 
 
-In order to write commands, we should know the syntax and the semantics of the language which we are working with, in our case – C#. 
+Now, assume that the C# language requires all the above code in order to execute a sequence of command.
 
-Therefore, we are going to get familiar with the syntax and the semantics of the language C#, and with programming generally by learning step by step  code writing from the simpler to the more complex programming constructions.
+In order to write commands, we should know **the syntax and the semantics of the language** which we are working with, in our case – **C#**. 
 
-[image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-1.png"/]
+Therefore, we are going to get familiar with the syntax and the semantics of the language C#, and with programming generally, in the current book, by learning step by step code writing from the simpler to the more complex programming constructions.
+[/slide]
+
+[slide]
+# Algorithms
+Computer programs usually execute some algorithm. 
+
+**Algorithms** are a **sequence of steps**, necessary for the completion of a certain task and for gaining some expected result, something like a "recipe".
+
+For example, if we fry eggs, we follow some recipe (an algorithm): we warm up the oil in a pan, break the eggs inside it, wait for them to fry and move them away from the stove.
+
+Similarly, in programming **the computer programs execute algorithms**: a sequence of commands, necessary for the completion of a certain task. 
+
+For example, to arrange a sequence of numbers in an ascending order, an algorithm is needed, e.g. find the smallest number and print it, then find the smallest number among the rest of the numbers and print it, and this is repeated until there are no more numbers left.
+
+For convenience when creating programs, for writing programming code, for execution of programs and other operations related to programming, we need a **development environment**, for example Visual Studio.
 [/slide]
 
 [slide]
