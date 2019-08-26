@@ -26,14 +26,12 @@ It executes the commands in the program one after another, as it understands not
 
 [slide]
 # The C# Language
-**C#** is modern, general purpose programming language
-
+**C#** is modern, general purpose programming language.
 * It is used for creating web apps, mobile apps, games, back-end apps
 * It is object oriented
 * C# programs consist of **classes**, which hold **methods**
 
-Good choice for beginners
-
+Good choice for beginners.
 * Easy syntax, easy to read, **easy to learn**
 * Big developer **community**, many jobs
 * Lots of **resources**: books, lessons, courses
@@ -41,20 +39,24 @@ Good choice for beginners
 
 [slide]
 # C# Compilation and Execution
-C# is a **high-level language**, which is **compiled**, which means that we write commands that are being compiled before they're being executed. 
+As we have already mentioned, a program is **a sequence of commands**, otherwise said, it describes a sequence of calculations, evaluations, iterations and all kinds of similar operations, which aim to obtain certain result.
 
-A program in C# is written in text format (**source code**). 
+A C# program is written in a text format, and the text of the program is called a **source code**. 
 
-The result of execution is called an executable file (**prog.exe**) C# uses a handful of tools, provided by 
-the **.NET Core**
+It gets compiled into an **executable file** (for example `Program.cs` gets compiled to `Program.exe`) or it is **executed directly** from the .NET environment.
+
+The process of **compilation** of the code before its execution is used only in compiled languages like C#, Java and C++. 
+
+With **scripts and interpreted languages**, like JavaScript, Python and PHP, the source code gets executed step by step by an interpreter
 
 # .NET Runtime Environment 
-It represents a virtual machine, something like a computer in the computer, which can run a compiled C# code. 
+**.NET Runtime Environment** represents a virtual machine, something like a computer in the computer, which can run a compiled C# code. 
 
-The language C# is compiled into an intermediary .NET code and is executed from the .NET environment, which compiles this intermediary code additionally into machine instructions (machine code) in order to be executed
-by the microprocessor. 
+With the risk of going too deep into details, we have to explain that the language C# is compiled into an intermediary .NET code and is executed from the .NET environment, which compiles this intermediary code additionally into machine instructions (machine code) in order to be executed by the microprocessor. 
 
-.NET environment contains libraries with classes, CSC compiler, CLR (Common Language Runtime – CLR) and other components, which are required for working with the language C# and run C# programs.
+.NET environment contains libraries with classes, **CSC** compiler, **CLR** (Common Language Runtime – CLR) and other components, which are required for working with the language C# and run C# programs.
+
+**The .NET environment** is available as a free software with open source code for every modern operating system (like Windows, Linux and Mac OS X). It has two variations, **.NET Framework** (the older one) and **.NET Core** (the newer one), but none of that is essential when it comes to getting into programming. Let us focus on writing programs with the C# language.
 
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-2.png"/]
 
