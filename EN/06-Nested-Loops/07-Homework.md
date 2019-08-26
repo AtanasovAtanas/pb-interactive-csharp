@@ -241,48 +241,6 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Solution: Passwords
-[code-task title="Passwords" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-      int n = int.Parse(Console.ReadLine());
-      for (int i = 1; i <= n; i++)
-      {
-          for (int j = 1; j <= n; j++)
-          {
-              if (i % 2 == 0 && j % 2 != 0)
-              {
-                  Console.Write($"{i}{j}{i * j} ");
-              }
-          }
-      }
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Generates custom **3 digit** passwords, which meet the following conditions:
-* The **first** digit is an **even** number
-* The **second** digit is an **odd** number
-* The **third** is the **product** of the first two
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|6|212 236 2510 414 4312 4520 616 6318 6530|
-|5|212 236 2510 414 4312 4520|
-[/slide]
-
-[slide]
 # Problem: Magic Number
 [code-task title="Magic Number" taskId="p-03" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
