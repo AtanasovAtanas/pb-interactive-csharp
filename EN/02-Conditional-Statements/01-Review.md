@@ -5,7 +5,7 @@
 In programming **data** is stored in **variables**
 
   * Variables store data in a piece of the memory
-  * Variable read: retrieve the stored data
+  * Variable read: retrieve the stored data.
   * Variable write: modify the stored information
   
 Declaring, initializing, reading and changing a variable in C#:
