@@ -356,52 +356,6 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Solution: Magic Number
-[code-task title="Magic Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-      int magicNumber = int.Parse(Console.ReadLine());
-      for (int i = 1; i <= 9; i++)
-      {
-          for (int j = 1; j <= 9; j++)
-          { 
-              for (int k = 1; k <= 9; k++)
-              {
-                  if (i * j * k == magicNumber)
-                  {
-                    Console.WriteLine($"{i}{j}{k}");
-                  }
-              }
-          }
-      }
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-* Reads a **number - n**, from the console
-* Finds all **3-digit numbers**:
-* Forming **n** as a product of the multiplication of their digits
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|113|
-||131|
-||311|
-|1|111|
-[/slide]
-
-[slide]
 # Problem: Travelling
 [code-task title="Travelling" taskId="p-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
