@@ -1,4 +1,14 @@
 [slide]
+# Development Environments (IDE)
+In order to program we need an **Integrated Development Environment** (IDE). 
+
+This is actually an editor for programs, in which we write the program code and we can compile it and run it to see the errors, fix them and start the program again.
+- For programming with C# we use **Visual Studio** IDE for Windows operating system and **MonoDevelop** or **Raider** for Linux or Mac OS X.
+- If we program with Java, the environments **IntelliJ IDEA**, **Eclipse** or **NetBeans** are suitable.
+- If we write in Python, we can use the **PyCharm** environment.
+[/slide]
+
+[slide]
 # Installing Visual Studio
 We begin with the installation of the integrated environment **Microsoft Visual Studio** (Community, version 2017, latest as of June 2017). 
 
@@ -73,8 +83,25 @@ For **smaller projects** VS Solutions and VS Projects are **complicating the wor
 [/slide]
 
 [slide]
+# Development Environments: Desktop and Online
+Install Microsoft Visual Studio Community
+
+* https://visualstudio.com/products/visual-studio-community-vs
+* You can use an older version, but it is not recommended
+
+Alternative IDE (online)
+
+* C#: https://dotnetfiddle.net
+* Java: https://compilejava.net 
+* Python: https://repl.it
+* JavaScript: directly use the browser console (press \[F12\] key)
+
+[image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
+[/slide]
+
+[slide]
 # Video
 
-[vimeo-video videoId="342590118" startTimeInSeconds="4041" endTimeInSeconds="4405" /]
+[vimeo-video videoId="342590118" startTimeInSeconds="3573" endTimeInSeconds="4405" /]
 
 [/slide]
