@@ -25,10 +25,10 @@ public class Program
 Write a program, which:
 
 * Prints information about **apartments** (odd rows), **offices** (even rows) and the **last floor** (last row)
-* Apartment ***"A\{buildingNum\}\{apartmentNum\}"***
-* Office ***"O\{floorNum\}\{officeNum\}"***
-* Floor ***"L\{buildingNum\}\{apartmentNum\}"***
-* The numbers always start from **0**
+* Apartment `"A{buildingNum}{apartmentNum}"`
+* Office `"O{floorNum}{officeNum}"`
+* Floor `"L{buildingNum}{apartmentNum}"`
+* The numbers always start from 0
 [/task-description]
 [tests]
 [test]
