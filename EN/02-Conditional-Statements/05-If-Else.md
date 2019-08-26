@@ -31,6 +31,26 @@ Both the then-statement and the else-statement can consist of a single statement
 For a single statement, the braces are optional but recommended.
 
 The statement or statements in the then-statement and the else-statement can be of any kind, including another if statement nested inside the original if statement.
+
+# Example
+```csharp
+string isItRaining = Console.ReadLine();
+bool isRaining;
+
+if (isItRaining = "Yes")
+{
+   isRaining = true;
+}
+
+if (isRaining)
+{
+  Console.WriteLine("Take an umbrella!");
+}
+else
+{
+  Console.WriteLine("Leave your umbrella at home!")
+}
+```
 [/slide]
 
 [slide]
