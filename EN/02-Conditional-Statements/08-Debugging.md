@@ -16,7 +16,7 @@ By pressing the `[F10]` button, we run the program in **debug mode**. We move to
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Debugging-02.png"/]
 
-With [F9] we create the so-called breakpoints, that we can reach directly using [F5] when we start the program.
+With `[F9]` we create the so-called breakpoints, that we can reach directly using `[F5]` when we start the program.
 [/slide]
 
 [slide]
