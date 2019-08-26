@@ -236,7 +236,6 @@ Write a program, which:
 [output]
 1
 4
-16
 [/output]
 [/test]
 [/tests]
@@ -286,7 +285,6 @@ Write a program, which:
 [output]
 1
 4
-16
 [/output]
 [/test]
 [/tests]
