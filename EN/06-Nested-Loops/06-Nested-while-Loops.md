@@ -1,14 +1,5 @@
 [slide]
 # Nested While Loops
-
-A nested while loop is a **while statement inside** another **while statement**. 
-
-In a nested while loop, one iteration of the outer loop is first executed, after which the inner loop is executed. 
-
-The execution of the inner loop continues till the condition described in the inner loop is satisfied. 
-
-Once the condition of the inner loop is satisfied, the program moves to the next iteration of the outer loop.
-
 ```csharp
 while (condition) 
 {
@@ -22,7 +13,7 @@ while (condition)
 }
 ```
 
-**Example**
+# Example
 
 ```csharp
 int i = 0;
@@ -49,7 +40,7 @@ while (i < 2)
 
 [slide]
 # Problem: Triangle of Stars with While
-[code-task title="Triangle of Stars with While" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Triangle of Stars with While" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -68,7 +59,19 @@ Write a program, which:
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+*
+**
+***
+****
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -82,7 +85,7 @@ Write a program, which:
 
 [slide]
 # Solution: Triangle of Stars with While
-[code-task title="Triangle of Stars with While" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Triangle of Stars with While" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -115,7 +118,19 @@ Write a program, which:
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+*
+**
+***
+****
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
