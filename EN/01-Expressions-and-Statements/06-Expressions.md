@@ -16,7 +16,7 @@ int r = (150-20) / 2 + 5;
 ```
 In most of the contexts in which expressions are used, for example in statements, the expression is expected to evaluate to some value. 
 
-If x and y are integers, the expression `x + y` evaluates to a numeric value. 
+If `x` and `y` are integers, the expression `x + y` evaluates to a numeric value. 
 
 Every value has an associated type. For example, if x and y are both variables of type **int**, the value of the expression `x + y` is also typed as **int**.
 

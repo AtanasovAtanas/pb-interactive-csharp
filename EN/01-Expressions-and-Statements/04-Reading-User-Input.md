@@ -1,5 +1,5 @@
 [slide]
-# Console(Terminal)
+# Console (Terminal)
 The system **console** / **terminal** / **standard input and output**
 
   * A special window, used to communicate with the user
