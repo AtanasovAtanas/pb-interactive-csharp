@@ -35,20 +35,14 @@ The statement or statements in the then-statement and the else-statement can be 
 # Example
 ```csharp
 string isItRaining = Console.ReadLine();
-bool isRaining;
 
-if (isItRaining = "Yes")
+if (isItRaining == "Yes")
 {
-   isRaining = true;
-}
-
-if (isRaining)
-{
-  Console.WriteLine("Take an umbrella!");
+    Console.WriteLine("Take an umbrella!");
 }
 else
 {
-  Console.WriteLine("Leave your umbrella at home!")
+    Console.WriteLine("Leave your umbrella at home!")
 }
 ```
 [/slide]
