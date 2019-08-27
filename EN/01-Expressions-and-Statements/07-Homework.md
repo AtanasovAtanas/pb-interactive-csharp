@@ -24,8 +24,8 @@ public class Program
 [task-description]
 
 Write a program to calculate the speed by time and distance:
-  * Read 2 floating-point numbers: distance and time
-  * Calculate the speed needed to travel a given distance for given time
+  * Read 2 floating-point numbers: **distance** and **time**
+  * Calculate the **speed** needed to travel a given distance for given time
   * Print the calculated result
 
 [/task-description]
@@ -466,7 +466,7 @@ public class Program
 [task-description]
 
 Write a program, which:
-  * Reads 4 lines of **strings**: first name, last name, country and town 
+  * Reads 4 lines of **strings**: **first name**, **last name**, **country** and **town** 
   * Prints information about a person in the following format: `"{firstName} {lastName} from {country} - {town}!"`
 
 [/task-description]
