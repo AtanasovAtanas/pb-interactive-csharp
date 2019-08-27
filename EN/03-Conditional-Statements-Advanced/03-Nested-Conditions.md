@@ -247,6 +247,108 @@ Write a program, which:
 |3||
 [/slide]
 
+
+[slide]
+# Problem: Biggest Number of Three
+[code-task title="Biggest Number of Three" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        int num1 = int.Parse(Console.ReadLine());
+        int num2 = int.Parse(Console.ReadLine());
+        int num3 = int.Parse(Console.ReadLine());
+
+        if (num1 > num2) 
+        {
+            if (num1 > num3) 
+            {
+                Console.WriteLine(num1);
+            }
+            else 
+            {
+                Console.WriteLine(num3);
+            }
+        }
+        else if (num2 > num1)
+        {
+            if (num2 > num3)
+            {
+                Console.WriteLine(num2);
+            }
+            else 
+            {
+                Console.WriteLine(num3);
+            }
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+Write a program, which:
+
+  * Reads **3 numbers** from the console
+  * Prints **the biggest** number
+[/task-description]
+[tests]
+[test]
+[input]
+1
+2
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+-1
+-5
+-9
+[/input]
+[output]
+-1
+[/output]
+[/test]
+[test]
+[input]
+1
+5
+3
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|1|3|
+|2||
+|3||
+
+|Input|Output|
+|-----|------|
+|-1|-1|
+|-5||
+|-9||
+
+|Input|Output|
+|-----|------|
+|1|5|
+|5||
+|3||
+[/slide]
+
+
 [slide]
 # Video
 
