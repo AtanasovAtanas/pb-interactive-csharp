@@ -264,7 +264,7 @@ Greater number: 2
 
 
 [slide]
-# Problem: Greater Numbers
+# Solution: Greater Numbers
 [code-task title="Greater Number" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
