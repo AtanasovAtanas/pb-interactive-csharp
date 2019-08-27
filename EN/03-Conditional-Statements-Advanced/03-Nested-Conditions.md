@@ -65,6 +65,15 @@ Weekday
 2.50
 [/output]
 [/test]
+[test]
+[input]
+Apple
+Weekend
+[/input]
+[output]
+1.60
+[/output]
+[/test]
 [/tests]
 [/code-task]
 [/slide]
