@@ -6,6 +6,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 [/slide]
 
 [slide]
+# 
 [code-task title="Calculate Speed" taskId="p-01" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
@@ -77,7 +78,6 @@ Write a program to calculate the speed by time and distance:
 [/slide]
 
 [slide]
-
 # Problem: Currency Converter
 [code-task title="Currency Converter" taskId="p-02" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
