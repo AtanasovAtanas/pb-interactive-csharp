@@ -39,7 +39,7 @@ Welcome
 [/test]
 [test]
 [input]
-qwerty
+wrong
 [/input]
 [output]
 Wrong password!
@@ -80,7 +80,7 @@ Write a program, which checks for hot water:
 [tests]
 [test]
 [input]
-104.8
+105
 [/input]
 [output]
 The water is boiling
@@ -88,7 +88,7 @@ The water is boiling
 [/test]
 [test]
 [input]
-29
+10
 [/input]
 [output]
 The water is not hot enough
@@ -137,7 +137,7 @@ Slow
 [/test]
 [test]
 [input]
-60
+43
 [/input]
 [output]
 Fast
