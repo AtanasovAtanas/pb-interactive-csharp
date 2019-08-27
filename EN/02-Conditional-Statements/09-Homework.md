@@ -24,9 +24,9 @@ public class Program
 [task-description]
 Write a program to check a password:
 
-  * Read a string: the password guess
-  * Print "Welcome" if the password guess is "s3cr3t!"
-  * Print "Wrong password!" in all other cases 
+  * Read a string: the password **guess**
+  * Print **"Welcome"** if the password guess is **"s3cr3t!"**
+  * Print **"Wrong password!"** in all other cases 
 [/task-description]
 [tests]
 [test]
@@ -73,9 +73,9 @@ public class Program
 [task-description]
 Write a program, which checks for hot water: 
 
-  * Read a floating-point number: the water temperature (in °C)
-  * Print "The water is boiling" if the number > 100
-  * Prints "The water is not hot enough" in all other cases 
+  * Read a floating-point number: the water **temperature** (in °C)
+  * Print **"The water is boiling"** if the number **> 100**
+  * Prints **"The water is not hot enough"** in all other cases 
 [/task-description]
 [tests]
 [test]
@@ -122,9 +122,9 @@ public class Program
 [task-description]
 Write a program to check for fast / slow speed: 
 
-  * Read the speed (a floating-point number)
-  * Print "Slow" if the speed <= 30
-  * Print "Fast" if the speed > 30
+  * Read the **speed** (a floating-point number)
+  * Print **"Slow"** if the speed **<= 30**
+  * Print **"Fast"** if the speed **> 30**
 [/task-description]
 [tests]
 [test]
@@ -171,11 +171,11 @@ public class Program
 [task-description]
 Write a program to calculate the area of different figures:
 
-  * Read a string: the figure type
-  * Read a number (the size) or two numbers for rectangle (sizes)
-  * Checks if the entered figure is square, rectangle or circle
-  * Print the calculated area formatted to the second decimal
-  * For unknown figure print "Unknown figure"
+  * Read a string: the figure **type**
+  * Read a number (the **size**) or two numbers for rectangle (sizes)
+  * Checks if the entered figure is **square**, **rectangle** or **circle**
+  * Print the calculated area **formatted** to the second decimal
+  * For unknown figure print **"Unknown figure"**
 [/task-description]
 [tests]
 [test]
@@ -242,12 +242,12 @@ public class Program
 [task-description]
 Write a program to calculate a ticket price:
 
-  * Read a ticket type: either student or regular
-  * Print the price in the following format "$\{price\}":
-    * The price should be formatted to 2nd digit after the decimal point
-  * Student ticket price: 1.00
-  * Regular ticket price: 1.60
-  * For invalid type print "Invalid ticket type!"
+  * Read a ticket type: either **student** or **regular**
+  * Print the **price** in the following format "$\{price\}":
+    * The price should be **formatted** to 2nd digit after the decimal point
+  * Student ticket price: **1.00**
+  * Regular ticket price: **1.60**
+  * For invalid type print **"Invalid ticket type!"**
 [/task-description]
 [tests]
 [test]
@@ -302,15 +302,15 @@ public class Program
 [task-description]
 Write a program to calculate the drink price in a coffee shop:
 
-  * Read a drink: either "coffee" or "tea"
-  * Read an extra: either "sugar" or "no"
-  * Print the price in format "Final price: $\{price\}"
-    * The price should be formatted to 2nd digit after the decimal point
+  * Read a drink: either **"coffee"** or **"tea"**
+  * Read an extra: either **"sugar"** or **"no"**
+  * Print the price in format **"Final price: $\{price\}"**
+    * The price should be **formatted** to 2nd digit after the decimal point
   
 Prices:
-  * Coffee price: 1.00
-  * Tea price: 0.60
-  * Sugar price: 0.40
+  * Coffee price: **1.00**
+  * Tea price: **0.60**
+  * Sugar price: **0.40**
 [/task-description]
 [tests]
 [test]
@@ -379,10 +379,10 @@ public class Program
 [task-description]
 Write a program to check if a triangle is valid by its sizes:
 
-  * Read 3 integers: the sides of a triangle
+  * Read 3 integers: the **sides of a triangle**
   * Checks if each side is lesser than the sum of the other 2
-    * Prints "Valid Triangle" if the above condition is met
-    * Prints "Invalid Triangle" otherwise 
+    * Prints **"Valid Triangle"** if the above condition is met
+    * Prints **"Invalid Triangle"** otherwise 
 [/task-description]
 [tests]
 [test]
