@@ -249,7 +249,7 @@ Write a program, which:
 
 
 [slide]
-# Problem: Biggest Number of Three
+# Solution: Biggest Number of Three
 [code-task title="Biggest Number of Three" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
