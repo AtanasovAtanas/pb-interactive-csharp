@@ -1,48 +1,43 @@
 [slide]
-# Statements
-The **actions** that a program takes, are expressed as **statements**. 
-C# supports several different kinds of statements and here are a few of them:
-  * **Declaration statements** - declare local variables and constants
-  * **Expression statements** - evaluate expressions
-  * **Selection statements** - select one of a number of possible statements
-  * **Iteration statements** - execute repeatedly an embedded statement
-  * **Jump statements** - transfer control
-  
-Common actions include:
+# Live Code - CSharp
 
-  **Declaring** a variable
-  ```csharp
-  int counter;
-  ```
+```cs live
+int a = 5;
 
-  **Assigning** a value
-  ```csharp
-  counter = 1;
-  ```
+for(var i = 0; i < a; i ++)
+{
+  Console.WriteLine(i);
+}
+```
 
-  Declaring + **initializing**
-  ```csharp
-  int counter = 1;
-  ```
+# Live Code - Java
 
-  **Printing** a value
-  ```csharp
-  Console.WriteLine(counter);
-  ```
+```java live
+int a = 10;
 
-  **Modifying** a value
-  ```csharp
-  counter++;
-  ```
-  
-  ```csharp
-  sum = a + b;
-  ```
-[/slide]
+for(int i = 0; i < a; i ++) {
+  if (i % 2 == 0) {
+    System.out.println(i);
+  }
+}
+```
+# Live Code - Python
 
-[slide]
-# Video
+```py live
+a = 10
 
-[vimeo-video videoId="341512905" startTimeInSeconds="3677" endTimeInSeconds="3815" /]
+for i in range(0, a):
+  if i % 2 == 0:
+    print(i)
+```
 
+# Live Code - JavaScript
+
+```js live
+for (let i = 0; i <= 10; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+}
+```
 [/slide]
