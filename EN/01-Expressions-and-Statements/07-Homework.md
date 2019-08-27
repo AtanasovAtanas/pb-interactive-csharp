@@ -392,9 +392,9 @@ public class Program
 [/code-editor]
 [task-description]
 
-Write a program to calculate a circle area and perimeter:
-  * Read a floating-point number: the radius of a circle
-  * Calculate the area and perimeter of a circle
+Write a program to calculate a **circle** area and perimeter:
+  * Read a floating-point number: the **radius** of a circle
+  * Calculate the **area** and **perimeter** of a circle
   * Print the calculated values
 
 [/task-description]
@@ -548,7 +548,7 @@ public class Program
 
 Write a program, which:
   * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
-  * Prints information about a town in the following format: `"Town {name} has population of {population} and area {area} square km"`
+  * Prints information about a town in the following format: `"Town {name} has population of {population} and area {area} square km."`
 
 [/task-description]
 [tests]
