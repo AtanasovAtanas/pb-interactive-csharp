@@ -148,3 +148,10 @@ Write a program, which:
 ||****|
 ||*****|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342526930" startTimeInSeconds="3765" endTimeInSeconds="4420" /]
+
+[/slide]
