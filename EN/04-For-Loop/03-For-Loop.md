@@ -58,8 +58,8 @@ public class Program
 Write a program, which:
 
 * Reads number n from the console
-* Sums all numbers from 1 to n
-* Prints the sum on the console
+* **Sums** all numbers from **1** to **n**
+* **Prints** the sum on the console
 [/task-description]
 [tests]
 [test]
@@ -113,8 +113,8 @@ public class Program
 Write a program, which:
 
 * Reads number n from the console
-* Sums all numbers from 1 to n
-* Prints the sum on the console
+* **Sums** all numbers from **1** to **n**
+* **Prints** the sum on the console
 [/task-description]
 [tests]
 [test]
@@ -161,8 +161,8 @@ public class Program
 Write a program, which:
 
 * Reads working days in the current month and salary per day
-* Calculates the salary for the month
-* Prints the result on the console
+* **Calculates** the salary for the month
+* **Prints** the result on the console
 [/task-description]
 [tests]
 [test]
@@ -211,8 +211,8 @@ public class Program
 Write a program, which:
 
 * Reads working days in the current month and salary per day
-* Calculates the salary for the month
-* Prints the result on the console
+* **Calculates** the salary for the month
+* **Prints** the result on the console
 [/task-description]
 [tests]
 [test]
