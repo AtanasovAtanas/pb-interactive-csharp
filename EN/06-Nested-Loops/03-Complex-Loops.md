@@ -298,3 +298,10 @@ Write a program, which:
 ||...|
 ||1024|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342526930" startTimeInSeconds="1773" endTimeInSeconds="3216" /]
+
+[/slide]

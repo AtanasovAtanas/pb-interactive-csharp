@@ -43,3 +43,10 @@ After **the inner** loop **finishes** executing at the first iteration of the ou
 
 The inner loop will execute as many times as the body of the outer loop executes, in this case `n` times.
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342526930" startTimeInSeconds="3218" endTimeInSeconds="3761" /]
+
+[/slide]

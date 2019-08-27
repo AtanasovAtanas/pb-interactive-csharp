@@ -798,3 +798,10 @@ Write a program, which:
 |-----|------|
 |3|1212 1221 2112 2121|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342526930" startTimeInSeconds="7434" endTimeInSeconds="11478" /]
+
+[/slide]

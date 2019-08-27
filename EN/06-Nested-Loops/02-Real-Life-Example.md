@@ -15,3 +15,10 @@ for h which is in range from 0 to 23
         print h and m in format similar to the clock
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342526930" startTimeInSeconds="1524" endTimeInSeconds="1772" /]
+
+[/slide]
