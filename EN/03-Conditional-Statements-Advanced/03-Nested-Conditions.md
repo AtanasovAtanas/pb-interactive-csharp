@@ -70,6 +70,100 @@ Weekday
 [/slide]
 
 [slide]
+# Solution: Marketplace
+Write a program which:
+  * Reads a **product** and **day** from the console
+  * Prints the **price**, formatted to 2nd digit, based on the price table below
+
+|Product|Weekday|Weekend| 
+|-------|-------|-------|
+|Banana|2.50|2.70|
+|Apple|1.30|1.60|
+|Kiwi|2.20|3.00|
+
+[code-task title="Marketplace" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        String product = Console.ReadLine();
+        String day = Console.ReadLine();
+
+        double price = 0;
+
+        if (product.Equals("Banana"))
+        {
+            if (day.Equals("Weekday"))
+            {
+                price = 2.50;
+            }
+            else
+            {
+                price = 2.70;
+            }
+            }
+            else if (product.Equals("Apple"))
+            {
+            if (day.Equals("Weekday"))
+            {
+                price = 1.30;
+            }
+            else
+            {
+                price = 1.60;
+            }
+            }
+            else if (product.Equals("Kiwi"))
+            {
+            if (day.Equals("Weekday"))
+            {
+                price = 2.20;
+            }
+            else
+            {
+                price = 3.00;
+            }
+        }
+        Console.WriteLine("{0:F2}", price);
+    }
+}
+```
+[/code-editor]
+[task-description]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|Banana|2.50|
+|Weekday||
+[/task-description]
+[tests]
+[test]
+[input]
+Banana
+Weekday
+[/input]
+[output]
+2.50
+[/output]
+[/test]
+[test]
+[input]
+Apple
+Weekend
+[/input]
+[output]
+1.60
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
 # Problem: Biggest Number of Three
 [code-task title="Biggest Number of Three" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
