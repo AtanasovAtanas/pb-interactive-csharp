@@ -293,7 +293,7 @@ Write a program, which finds the greater of two numbers:
 
   * Read two **integers**
   * Find the greater number
-  * Print ***"Greater number:"*** + the **greater** number
+  * Print ***"Greater number: "*** + the **greater** number
 [/task-description]
 [tests]
 [test]
