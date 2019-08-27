@@ -239,7 +239,7 @@ public class Program
 
 Write a program, which:
   * **Reads** 2 real numbers from the **console**
-  * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: **+, -, *, /**
+  * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: **+, -, \*, \/**
   * **Formats** and **prints** the results like this example:
 
 [/task-description]
