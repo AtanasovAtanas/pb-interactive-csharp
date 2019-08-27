@@ -21,6 +21,7 @@ public class Program
 }
 ```
 [/code-editor]
+[code-io/]
 [task-description]
 
 Write a program to calculate the speed by time and distance:
