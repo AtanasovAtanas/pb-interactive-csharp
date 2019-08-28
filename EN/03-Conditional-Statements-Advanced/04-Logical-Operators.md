@@ -137,9 +137,9 @@ public class Program
 [/code-editor]
 [task-description]
 Write a program that applies bonus to given points
-  * If points are between 0 and 3, adds 5
-  * If points are between 4 and 6, adds 15
-  * If points are between 7 and 9, adds 20
+  * If points are between **0** and **3**, adds **5**
+  * If points are between **4** and **6**, adds **15**
+  * If points are between **7** and **9**, adds **20**
 [/task-description]
 [tests]
 [test]
@@ -207,9 +207,9 @@ public class Program
 [/code-editor]
 [task-description]
 Write a program that applies bonus to given points
-  * If points are between 0 and 3, adds 5
-  * If points are between 4 and 6, adds 15
-  * If points are between 7 and 9, adds 20
+  * If points are between **0** and **3**, adds **5**
+  * If points are between **4** and **6**, adds **15**
+  * If points are between **7** and **9**, adds **20**
 [/task-description]
 [tests]
 [test]

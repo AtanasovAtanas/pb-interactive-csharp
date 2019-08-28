@@ -137,6 +137,72 @@ even
 [/slide]
 
 [slide]
+# Solution: Even or Odd
+[code-task title="Even or Odd" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      double number = double.Parse(Console.ReadLine());
+
+      if (number % 2 == 0)
+      {
+          Console.WriteLine("even");
+      }
+      else
+      {
+          Console.WriteLine("odd");
+      }
+    }
+}
+```
+[/code-editor]
+[task-description]
+Write a program, which checks if a number is **even** or **odd**
+
+  * If it's even, print "**even**"
+  * If it's odd, print "**odd**"
+[/task-description]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+even
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+even
+[/output]
+[/test]
+[/tests]
+[/code-task]
+
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|4|even|
+|7|odd|
+|0|even|
+[/slide]
+
+[slide]
 # Problem: Greater Numbers
 [code-task title="Greater Number" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
@@ -157,6 +223,77 @@ Write a program, which finds the greater of two numbers:
   * Read two **integers**
   * Find the greater number
   * Print ***"Greater number:"*** + the **greater** number
+[/task-description]
+[tests]
+[test]
+[input]
+4
+8
+[/input]
+[output]
+Greater number: 8
+[/output]
+[/test]
+[test]
+[input]
+7
+3
+[/input]
+[output]
+Greater number: 7
+[/output]
+[/test]
+[test]
+[input]
+1
+2
+[/input]
+[output]
+Greater number: 2
+[/output]
+[/test]
+[/tests]
+[/code-task]
+
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|4|Greater number: 8|
+|8||
+[/slide]
+
+
+[slide]
+# Solution: Greater Numbers
+[code-task title="Greater Number" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      double number1 = double.Parse(Console.ReadLine());
+      double number2 = double.Parse(Console.ReadLine());
+
+      if (number1 > number2)
+      {
+          Console.WriteLine("Greater number: " + number1);
+      }
+      else if (number2 > number1)
+      {
+          Console.WriteLine("Greater number: " + number2);
+      }
+    }
+}
+```
+[/code-editor]
+[task-description]
+Write a program, which finds the greater of two numbers:
+
+  * Read two **integers**
+  * Find the greater number
+  * Print ***"Greater number: "*** + the **greater** number
 [/task-description]
 [tests]
 [test]
