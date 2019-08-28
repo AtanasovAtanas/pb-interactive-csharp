@@ -41,8 +41,8 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads 2 letters
-* Prints all letters in the given range inclusive
+* Reads **2 letters**
+* Prints **all letters** in the given range **inclusive**
 [/task-description]
 [tests]
 [test]
@@ -97,8 +97,8 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads 2 letters
-* Prints all letters in the given range inclusive
+* Reads **2 letters**
+* Prints **all letters** in the given range **inclusive**
 [/task-description]
 [tests]
 [test]

@@ -161,7 +161,7 @@ A10 A11 A12
 |Input|Output|
 |-----|------|
 |6|L60 L61 L62 L63|
-|4|L60 A50 A51 A52 A53|
+|4|A50 A51 A52 A53|
 ||O40 O41 O42 O43|
 ||A30 A31 A32 A33|
 ||O20 O21 O22 O23|
@@ -509,7 +509,6 @@ End
 [output]
 Going to South Africa!
 Going to Egypt!
-
 [/output]
 [/test]
 [test]
@@ -541,7 +540,6 @@ End
 [/input]
 [output]
 Going to Albania!
-
 [/output]
 [/test]
 [/tests]
@@ -574,8 +572,8 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads two numbers from the console
-* Prints the prime number in that range
+* Reads **two numbers** from the console
+* Prints the **prime** number in that **range**
 [/task-description]
 [tests]
 [test]
@@ -669,13 +667,13 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads 3 digits - n1, n2 and n3
-* Generates unique 3 digit PIN Codes, which meet the following conditions:
-* The first digit should not be greater than n1
-* The second digit should not be greater than n2
-* The third digit should not be greater than n3
-* The first and the third digit must be even
-* The second digit must be a prime number in the range \[2…7\]
+* Reads **3 digits** - n1, n2 and n3
+* Generates **unique 3 digit PIN Codes**, which meet the following **conditions**:
+* The **first** digit should not be greater than n1
+* The **second** digit should not be greater than n2
+* The **third** digit should not be greater than n3
+* The **first** and the **third** digit must be even
+* The second digit must be a **prime number** in the range \[2…7\]
 [/task-description]
 [tests]
 [test]
@@ -735,9 +733,9 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Prints letters combinations and the count of the printed combinations
-* You will receive the range of letters on the first and second line
-* On the third line, you will receive a letter, which you must ignore - don't print combinations with it
+* Prints **letters combinations** and the **count** of the printed combinations
+* You will receive the **range of letters** on the first and second line
+* On the third line, you will receive a **letter**, which you must **ignore** - don't print combinations with it
 [/task-description]
 [tests]
 [test]
@@ -780,9 +778,9 @@ public class Program
 Write a program, which:
 
 * Reads a number n
-* Prints all 4 digit numbers, which meet the following conditions:
-* When you split them in two pairs and add the first digit to the second - the result equals n
-* When you add the first two digits to each other, the result must be divisible by n without a remainder
+* Prints **all 4 digit numbers**, which meet the following conditions:
+* When you **split** them in two pairs and **add** the first digit to the second - the result **equals** n
+* When you add the first two digits to each other, the result must be **divisible** by n **without a remainder**
 [/task-description]
 [tests]
 [test]

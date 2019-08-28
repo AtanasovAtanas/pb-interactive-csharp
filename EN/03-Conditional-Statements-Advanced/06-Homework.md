@@ -26,7 +26,7 @@ Write a program to check for fruit or vegetable:
 * Read a single input line: an item from the greengrocery
 * Fruits: banana, apple, kiwi, cherry, lemon, grapes
 * Vegetables: cucumber, pepper, carrot, onion
-* Print: "vegetable", "fruit" or "unknown"
+* Print: **"vegetable"**, **"fruit"** or **"unknown"**
 [/task-description]
 [tests]
 [test]
@@ -72,9 +72,9 @@ public class Program
 [task-description]
 Write a program to print the day of week as words:
 
-* Read and integer n: the day of the week in range [1..7]
-* Print the name of the day (as words, in English)
-* Print "Error" if the number is not in the given range
+* Read and integer **n**: the **day of the week** in range [1..7]
+* Print the **name of the day** (as words, in English)
+* Print **"Error"** if the number is not in the given range
 [/task-description]
 [tests]
 [test]
@@ -129,8 +129,8 @@ public class Program
 [task-description]
 Write a program to check a letter for vowel or consonant:
 
-* Read a letter from the English alphabet
-* Print either "Vowel" or "Consonant"
+* Read a **letter** from the English alphabet
+* Print either **"Vowel"** or **"Consonant"**
 [/task-description]
 [tests]
 [test]
@@ -185,10 +185,10 @@ public class Program
 [task-description]
 Calculate the sign of the product of 3 numbers:
 
-* Read 3 floating-point numbers
-* Print the sign of the product of the entered 3 numbers: positive, negative or zero
+* Read **3 floating-point** numbers
+* Print the **sign** of the product of the entered 3 numbers: **positive**, **negative** or **zero**
 
-Try to do this without multiplying the 3 numbers
+Try to do this **without multiplying** the 3 numbers
 
 [/task-description]
 [tests]
@@ -251,12 +251,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program, which checks for sorted 3 numbers:
+Write a program, which checks for **sorted 3 numbers**:
 
 * Read 3 real numbers
-* Print "Ascending" if the numbers are in ascending order
-* Print "Descending" if the numbers are in descending order
-* Print "Not sorted" in any other case
+* Print **"Ascending"** if the numbers are in ascending order
+* Print **"Descending"** if the numbers are in descending order
+* Print **"Not sorted"** in any other case
 
 [/task-description]
 [tests]
@@ -358,10 +358,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Calculate the price for all the tickets for a cinema movie:
+Calculate the **price** for all the tickets for a cinema movie:
 
-* Reads the type of the movie, the rows and the seats per row in the cinema
-* Prints the total price for all seats formatted to the 2nd digit after the decimal point
+* Reads the **type of the movie**, the **rows** and the **seats per row** in the cinema
+* Prints the **total price** for all seats **formatted** to the 2nd digit after the decimal point
 
 [/task-description]
 [tests]
@@ -408,9 +408,9 @@ public class Program
 [task-description]
 Write a program to apply an operator for given two numbers:
 
-* Read two real numbers and math operator from the console
+* Read **two real numbers** and **math operator** from the console
 * The math operator could be: "+", "-", "/", "%" and "*"
-* The output should be in the following format: "\{N1\} \{operator\} \{N2\} = \{result\}"
+* The output should be in the following **format**: "\{N1\} \{operator\} \{N2\} = \{result\}"
 
 [/task-description]
 [tests]
@@ -452,10 +452,10 @@ public class Program
 [task-description]
 Write a program to simulate an ATM withdrawal:
 
-* Read: balance, withdraw and limit
-* Print "The withdraw was successful." if the balance is enough
-* Print "The daily limit was exceeded." if the limit is exceeded
-* Print "Insufficient availability." if the balance isn't enough
+* Read: **balance**, **withdraw** and **limit**
+* Print **"The withdraw was successful."** if the balance is enough
+* Print **"The daily limit was exceeded."** if the limit is exceeded
+* Print **"Insufficient availability."** if the balance isn't enough
 
 [/task-description]
 [tests]
@@ -499,8 +499,8 @@ public class Program
 [/code-editor]
 [task-description]
 Write a program to find the biggest among 5 numbers
-* Read 5 integers
-* Print the biggest number
+* Read **5 integers**
+* Print the **biggest** number
 [/task-description]
 [tests]
 [test]

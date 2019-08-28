@@ -52,8 +52,8 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads a number n
-* Prints all numbers from 7 to n, ending with 7
+* Reads a number **n**
+* Prints all numbers from **7 to n**, **ending with 7**
 [/task-description]
 [tests]
 [test]
@@ -100,8 +100,8 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads a number n
-* Prints all numbers from 7 to n, ending with 7
+* Reads a number **n**
+* Prints all numbers from **7 to n**, **ending with 7**
 [/task-description]
 [tests]
 [test]
@@ -144,9 +144,9 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads an integer - count of days before an exam
-* For each day prints: "\{currentDay\} days before the exam"
-* At the end prints: "The exam has come"
+* Reads an integer - count of **days before an exam**
+* For **each day** prints: "\{currentDay\} days before the exam"
+* At the end prints: **"The exam has come"**
 [/task-description]
 [tests]
 [test]
@@ -198,9 +198,9 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads an integer - count of days before an exam
-* For each day prints: "\{currentDay\} days before the exam"
-* At the end prints: "The exam has come"
+* Reads an integer - count of **days before an exam**
+* For **each day** prints: "\{currentDay\} days before the exam"
+* At the end prints: **"The exam has come"**
 [/task-description]
 [tests]
 [test]

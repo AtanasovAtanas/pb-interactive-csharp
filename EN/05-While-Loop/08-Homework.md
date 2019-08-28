@@ -241,11 +241,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Special number is number divisible by all of its digits without remainder. 
+Special number is number **divisible by all of its digits** without remainder. 
 
 Write a program, which: 
 * Receives integer
-* Prints "\{num\} is special", if the number is special
+* **Prints** "\{num\} is special", if the number is special
 * Otherwise, prints "\{num\} is not special"
 [/task-description]
 [tests]
@@ -293,8 +293,8 @@ public class Program
 [task-description]
 Write a program, which: 
 
-* Reads an integer number from the console
-* Keeps reading integers until it finds the same one as the first one
+* Reads an **integer** number from the console
+* Keeps reading integers until it finds the **same one as the first one**
 * When it finds it, it increases the value of the **previous** number **before it** with 100% and prints it
 [/task-description]
 [tests]
@@ -323,7 +323,7 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|25|36|
+|25|60|
 |20||
 |30||
 |25||
@@ -448,9 +448,9 @@ public class Program
 [task-description]
 Write a program, which: 
 
-* Receives the amount of money for each transaction untill "END"
-* Adds the money to the balance and prints: "Increase: \{money\}", format `money` to the 2nd digit after the decimal point
-* After "END" calculates and prints the total balance: "Total: \{balance\}", format `balance` to the 2nd digit after the decimal point
+* Receives the **amount of money** for each transaction untill **"END"**
+* **Adds** the money to the **balance** and **prints**: "Increase: \{money\}", format `money` to the **2nd digit** after the decimal point
+* After **"END"** calculates and **prints** the total balance: "Total: \{balance\}", format `balance` to the **2nd digit** after the decimal point
 [/task-description]
 [tests]
 [test]
