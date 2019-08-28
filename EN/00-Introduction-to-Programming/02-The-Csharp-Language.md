@@ -26,15 +26,18 @@ It executes the commands in the program one after another, as it understands not
 
 [slide]
 # The C# Language
-**C#** is modern, general purpose programming language.
-* It is used for creating web apps, mobile apps, games, back-end apps
-* It is object oriented
-* C# programs consist of **classes**, which hold **methods**
+**C#** is modern, general purpose programming language. 
 
-Good choice for beginners.
-* Easy syntax, easy to read, **easy to learn**
-* Big developer **community**, many jobs
-* Lots of **resources**: books, lessons, courses
+Extremely versatile. You can create everything: from desktop and mobile applications to web applications, online services and back-end functionality. 
+
+The demand for C# / .NET Core developers is currently among the highest because of the technical level and openness of the platform. This ensures professional realization once you have the skills you need! C# and .NET Core are used by about **2,000,000** programmers around the world (according to Microsoft). 
+
+Right now C# is one of the most suitable programming languages for **beginners**. 
+* It is easy to learn C# through the rich set of video tutorials and exercises at **SoftUni**. 
+
+Combines **procedural**, **object-oriented** and **functional programming** with a **clear and concise syntax**. 
+
+C# and .NET Core are used by about 2,000,000 programmers around the world (according to Microsoft). 
 [/slide]
 
 [slide]
