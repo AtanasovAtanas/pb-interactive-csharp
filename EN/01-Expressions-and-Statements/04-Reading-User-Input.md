@@ -74,40 +74,61 @@ The result from the execution would be:
 [/slide]
 
 [slide]
-
 # Reading Integers
-Reading an integer number:
+In order to read an **integer** (not a float) **number** from the console, we have to **declare a variable**, declare the **number type** and use the standard command for **reading a text line** from the system console `Console.ReadLine()` and after that **convert the text line into an integer number** using `int.Parse(text)`:
 
-```csharp
+```cs
 int num = int.Parse(Console.ReadLine());
 ```
-Example: 
 
-  * Calculating square's area by given side **a**
-  ```csharp
-  int a = int.Parse(Console.ReadLine());
-  int area = a * a;
-  Console.WriteLine(area);
-  ```
+The above line of C# code **reads an integer** from the first line on the console.
 
+Try to write a wrong number, for example **"hello"**. 
+
+You will get an error message during runtime (exception). This is normal. 
+
+Later on, we will find out how we can catch these kinds of errors and make the user enter a number again.
+
+# Examole: Calculating a Square Area
+This code demonstrates how we can calculate the square area by the given length of the side:
+```cs
+Console.Write("a = ");              
+int a = int.Parse(Console.ReadLine());
+int area = a * a;
+Console.Write("Square area = ");
+Console.WriteLine(area);
+```
+
+Here is how the program would work when we have a square with a side length equal to 3:
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Square-area-01.jpg"/]
 [/slide]
 
 [slide]
 
 # Reading Floating-Point Numbers
-Reading a floating-point number:
-
-```csharp
+To read a **floating-point number** (fractional number, non-integer) from the console use the following command:
+```cs
 double num = double.Parse(Console.ReadLine());
 ```
-Example: 
 
-  * Convert inches to centimeters
-```csharp
+The above C# code first reads a **text line** from the console, then converts (parses) it to a **floating-point number**.
+
+# Example: Converting Inches into Centimeters
+Let's write a program that reads a floating-point number in inches and converts it to centimeters:
+```cs
+Console.Write("Inches = ");              
 double inches = double.Parse(Console.ReadLine());
 double centimeters = inches * 2.54;
+Console.Write("Centimeters = ");
 Console.WriteLine(centimeters);
 ```
+
+Let's start the program and make sure that when a value in inches is entered, we obtain a correct output in centimeters:
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Inches-to-centimeters-01.jpg"/]
+
+Note that if you enter and **invalid number**, e.g. **"asfd"**, the program will crash with an error message (exception). We will learn how to handle exceptions in later courses.
 [/slide]
 
 [slide]
