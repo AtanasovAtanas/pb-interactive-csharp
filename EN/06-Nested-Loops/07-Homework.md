@@ -187,10 +187,10 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Generates custom **3 digit** passwords, which meet the following conditions:
-* The **first** digit is an **even** number
-* The **second** digit is an **odd** number
-* The **third** is the **product** of the first two
+* Generates custom passwords, which meet the following conditions:
+* The **first** part is an **even** number
+* The **second** part is an **odd** number
+* The **last part** is the **product** of the first two
 [/task-description]
 [tests]
 [test]
