@@ -172,9 +172,10 @@ public class Program
 Write a program to calculate the area of different figures:
 
   * Read a string: the figure **type**
-  * Read a number (the **size**) or two numbers for rectangle (sizes)
+  * Read number (the **size**) or two numbers for rectangle (sizes)
+    * Numbers will be floating-point
   * Checks if the entered figure is **square**, **rectangle** or **circle**
-  * Print the calculated area **formatted** to the second decimal
+  * Print the calculated area **formatted** to the second digit after the decimal point
   * For unknown figure print **"Unknown figure"**
 [/task-description]
 [tests]
@@ -304,7 +305,7 @@ Write a program to calculate the drink price in a coffee shop:
 
   * Read a drink: either **"coffee"** or **"tea"**
   * Read an extra: either **"sugar"** or **"no"**
-  * Print the price in format **"Final price: $\{price\}"**
+  * Print the price in format `"Final price: ${price}"`
     * The price should be **formatted** to 2nd digit after the decimal point
   
 Prices:
@@ -354,9 +355,9 @@ Final price: $0.60
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|coffee|$1.40|
+|coffee|Final price: $1.40|
 |sugar||
-|tea|$0.60|
+|tea|Final price: $0.60|
 |no||
 [/slide]
 
@@ -380,7 +381,7 @@ public class Program
 Write a program to check if a triangle is valid by its sizes:
 
   * Read 3 integers: the **sides of a triangle**
-  * Checks if each side is lesser than the sum of the other 2
+  * Checks if each side is less than the sum of the others 2
     * Prints **"Valid Triangle"** if the above condition is met
     * Prints **"Invalid Triangle"** otherwise 
 [/task-description]

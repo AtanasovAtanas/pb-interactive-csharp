@@ -142,9 +142,10 @@ even
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
       double number = double.Parse(Console.ReadLine());
 
@@ -208,9 +209,10 @@ even
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
       // Write code here
     }
@@ -222,7 +224,7 @@ Write a program, which finds the greater of two numbers:
 
   * Read two **integers**
   * Find the greater number
-  * Print ***"Greater number:"*** + the **greater** number
+  * Print `"Greater number: "` + the **greater** number
 [/task-description]
 [tests]
 [test]
@@ -269,12 +271,13 @@ Greater number: 2
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
-      double number1 = double.Parse(Console.ReadLine());
-      double number2 = double.Parse(Console.ReadLine());
+      int number1 = int.Parse(Console.ReadLine());
+      int number2 = int.Parse(Console.ReadLine());
 
       if (number1 > number2)
       {
@@ -293,7 +296,7 @@ Write a program, which finds the greater of two numbers:
 
   * Read two **integers**
   * Find the greater number
-  * Print ***"Greater number: "*** + the **greater** number
+  * Print `"Greater number: "` + the **greater** number
 [/task-description]
 [tests]
 [test]
