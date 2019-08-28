@@ -2,10 +2,26 @@
 # Development Environments (IDE)
 In order to program we need an **Integrated Development Environment** (IDE). 
 
-This is actually an editor for programs, in which we write the program code and we can compile it and run it to see the errors, fix them and start the program again.
-- For programming with C# we use **Visual Studio** IDE for Windows operating system and **MonoDevelop** or **Raider** for Linux or Mac OS X.
-- If we program with Java, the environments **IntelliJ IDEA**, **Eclipse** or **NetBeans** are suitable.
-- If we write in Python, we can use the **PyCharm** environment.
+**An environment for development** (Integrated Development Environment – **IDE**) is a combination of traditional tools for development of software applications. 
+
+In the development environment we write code, compile and execute the programs. Development environments integrate in them a text editor for writing code, a programming language, a compiler or an interpreter and a runtime environment for executing programs, a debugger for tracking the program and seeking out errors, tools for user interface design and other tools and add-ons.
+
+**Environments for development** are convenient, because they integrate everything necessary for the development of the program, without the need to exit the environment. 
+
+If we don't use an environment for development, we will have to write the code in a text editor, to compile it with a command on the console, to run it with another command on the console and to write more additional commands when needed, which is very time consuming. 
+
+For programming with **the C# language** the most commonly used IDE is **Visual Studio**, which is developed and distributed freely by Microsoft and can be downloaded from: https://www.visualstudio.com/downloads/. Alternatives of Visual Studio are:
+- Rider – https://www.jetbrains.com/rider
+- MonoDevelop / Xamarin Studio – https://www.monodevelop.com
+- SharpDevelop – http://www.icsharpcode.net/OpenSource/SD
+- Visual Studio Code - https://code.visualstudio.com
+- Eclipse aCute – https://projects.eclipse.org/projects/tools.acute
+
+In this course, we are going to use the development environment **Visual Studio**. 
+
+This an example how a development IDE may look (the Visual Studio IDE for C#):
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/01.Hello-csharp-4.png"/]
 [/slide]
 
 [slide]
