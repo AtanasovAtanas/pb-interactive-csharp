@@ -24,9 +24,9 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads n - number representing amount of input numbers
+* Reads **n** - number representing amount of input numbers
 * Reads n numbers
-* Finds and prints the biggest number
+* Finds and prints the **biggest number**
 [/task-description]
 [tests]
 [test]
@@ -85,8 +85,8 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads n representing the count of numbers to read next
-* Finds the max and the min numbers
+* Reads **n** representing the count of numbers to read next
+* Finds the **max** and the **min numbers**
 * Prints them on the console
 [/task-description]
 [tests]
@@ -157,7 +157,7 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads p – the power and n – the number
+* Reads **p – the power** and **n – the number**
 * Prints the result of n powered by p
 * Don't use Math.Pow()
 [/task-description]
@@ -201,10 +201,10 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads number n and n pairs of numbers
-* Prints "Yes, value=\{sum\}", if the sum of all pairs is the same
-* Otherwise, prints "No, maxdiff=\{diff\}"
-* diff is the max difference in the sum between two pairs
+* Reads number **n** and **n pairs** of numbers
+* Prints "Yes, value=\{sum\}", if the **sum of all** pairs is the **same**
+* **Otherwise**, prints "No, maxdiff=\{diff\}"
+* diff is the **max difference** in the sum between two pairs
 [/task-description]
 [tests]
 [test]
@@ -285,28 +285,6 @@ No, maxdiff=2
 [/test]
 [test]
 [input]
-7
-34
--33
-52
-12
--32
-32
-23
-41
-7
-25
-34
-23
-124
-21
-[/input]
-[output]
-No, maxdiff=88
-[/output]
-[/test]
-[test]
-[input]
 8
 5
 5
@@ -360,11 +338,11 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads n - number representing amount of input numbers
-* Reads n numbers 
-* For every even line adds the number to the result
-* For every odd line subtracts the number from the result
-* Prints the result
+* Reads **n** - number representing amount of input numbers
+* Reads **n numbers** 
+* For every **even** line **adds** the number to the result
+* For every **odd** line **subtracts** the number from the result
+* **Prints** the result
 [/task-description]
 [tests]
 [test]
@@ -418,9 +396,9 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads n and n numbers
-* Finds in percentage how many of them can divide without remainder at 2, 3 and 4
-* Prints percentages p1, p2 and p3, formatted to the second digit
+* Reads **n** and **n numbers**
+* Finds in **percentage** how many of them can **divide without remainder** at **2**, **3** and **4**
+* Prints percentages p1, p2 and p3, **formatted** to the second digit
 [/task-description]
 [tests]
 [test]
@@ -466,8 +444,8 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads n - the count of characters:
-* If character is vowel adds its value to the result
+* Reads **n** - the count of characters:
+* If character is **vowel** adds its value to the result
 
     |character|a|e|i|o|u|
     |---------|-|-|-|-|-|
@@ -556,9 +534,9 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads rollercoaster places, minimum age, count of people on the queue and age for each person
-* If all places are taken, prints - "The rollercoaster departures"
-* In other case, prints "Waiting..."
+* Reads rollercoaster **places**, **minimum age**, **count of people** on the queue and **age** for each person
+* If all places are taken, prints - **"The rollercoaster departures"**
+* In other case, prints **"Waiting..."**
 [/task-description]
 [tests]
 [test]
@@ -603,7 +581,6 @@ Waiting...
 14
 24
 26
-
 [/input]
 [output]
 The rollercoaster departures
@@ -666,9 +643,9 @@ public class Program
 [task-description]
 Write a program, which: 
 
-* Reads n 
-* Prints n's multiples in the format "\{n\} x \{i\} = \{result\}"
-* Where i are the numbers from 1 to 10 (inclusive)
+* Reads **n** 
+* Prints **n's multiples** in the format "\{n\} x \{i\} = \{result\}"
+* Where i are the numbers from **1 to 10** (**inclusive**)
 [/task-description]
 [tests]
 [test]
