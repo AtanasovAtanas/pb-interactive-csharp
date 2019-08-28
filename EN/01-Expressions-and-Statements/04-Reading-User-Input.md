@@ -238,22 +238,41 @@ Hello, George
 
 [slide]
 # Concatenating Text and Numbers
-We can use the **+** to append strings:
+Besides for summing up numbers, the operator `+` is also used for **joining pieces of text** (concatenation of two strings one after another). 
 
-```csharp
+In programming, joining two pieces of text is called **"concatenation"**. 
+
+Here is how we can concatenate a text with a number by the `+` operator:
+
+```cs
 string firstName = "John";
 string lastName = "Doe";
-int age = 34;
-string str = firstName + " " + lastName + " | " + age;
-Console.WriteLine(str); // John Doe | 34
+int age = 19;
+var str = firstName + " " + lastName + " @ " + age;
+Console.WriteLine(str);  // John Doe @ 19
 ```
 
-When using the **+** sign with numbers, an addition operation is performed:
-```csharp
-int a = 5;
-int b = 11;
-string str = "a + b = " + a + b;
-Console.WriteLine(str); // a + b = 511
+# Examples: Concatenating Text and Numbers
+Here is another **example** of concatenating text and numbers:
+```cs
+double a = 1.5;
+double b = 2.5;
+string sum = "The sum is: " + a + b;
+Console.WriteLine(sum);  // The sum is: 1.52.5
+```
+
+Did you notice **something strange**? 
+
+Maybe you expected the numbers `a` and `b` to be summed? 
+
+Actually, the concatenation works from right to left and the result above is absolutely correct. 
+
+If we want to sum the numbers, we have to use **brackets**, in order to change the order of execution of the operations:
+```cs
+double a = 1.5;
+double b = 2.5;
+string sum = "The sum is: " + (a + b);
+Console.WriteLine(sum);  // The sum is: 4
 ```
 [/slide]
 
