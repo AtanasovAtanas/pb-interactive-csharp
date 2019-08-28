@@ -11,8 +11,9 @@ Example of command for the computer:
 Console.WriteLine("Welcome to coding");
 ```
 
-```
 When executed, the above command prints the following text:
+```
+Welcome to coding
 ```
 [/slide]
 
