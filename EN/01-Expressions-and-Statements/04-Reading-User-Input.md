@@ -29,37 +29,6 @@ By default, the `Console.ReadLine(…)` method returns a **text result** – a t
 [/slide]
 
 [slide]
-# Formatting Output
-Formatting text with **placeholders**
-
-```csharp
-string firstName = "John";
-string lastName = "Doe";
-Console.WriteLine("{0} {1}", firstName, lastName);
-// John Doe
-```
-
-Formatting numbers with **placeholders**
-```csharp
-double a = 5.123;
-double b = 6.456;
-Console.WriteLine("{0:F2}", a + b); // 11.58
-```
-
-Formatting output using **string interpolation**
-  * **String interpolation** provides a **more readable** and **convenient** syntax to create **formatted strings**
-  * To identify a string as an interpolated string, prepend it with the **`$`** symbol
-  * **Parameters** are put directly in **placeholders**
-```csharp
-int day = 12;
-string month = "April";
-int year = 2018
-Console.WriteLine($"{day}-{month}-{year}");
-// 12-April-2018
-```
-[/slide]
-
-[slide]
 # Reading Integers
 In order to read an **integer** (not a float) **number** from the console, we have to **declare a variable**, declare the **number type** and use the standard command for **reading a text line** from the system console `Console.ReadLine()` and after that **convert the text line into an integer number** using `int.Parse(text)`:
 
@@ -91,7 +60,6 @@ Here is how the program would work when we have a square with a side length equa
 [/slide]
 
 [slide]
-
 # Reading Floating-Point Numbers
 To read a **floating-point number** (fractional number, non-integer) from the console use the following command:
 ```cs
@@ -115,6 +83,70 @@ Let's start the program and make sure that when a value in inches is entered, we
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Inches-to-centimeters-01.jpg"/]
 
 Note that if you enter and **invalid number**, e.g. **"asfd"**, the program will crash with an error message (exception). We will learn how to handle exceptions in later courses.
+[/slide]
+
+[slide]
+# Printing and Formatting Text and Numbers
+
+## Using `Console.Write(…)` and `Console.WriteLine(…)`
+Work with these methods is easy because they can print all the basic types (string, numeric and primitive types).
+
+Here are some examples of printing various types of data:
+```cs
+Console.WriteLine("Hello World");
+Console.WriteLine(5);
+Console.WriteLine(3.14159265358979);
+```
+
+As we see by using `Console.WriteLine(…)` it is possible to print various data types because for each type there is a predefined version of the method `WriteLine(…)` in the `Console` class.
+
+The difference between `Write(…)` and `WriteLine(…)` is that the `Write(…)` method prints on the console what it is provided between the parentheses but does nothing in addition while the method `WriteLine(…)` means directly **"write line"**. 
+
+This method does what the `Write(…)` one does but in addition goes to a new line. 
+
+In fact the method does not print a new line but simply puts a **"command" for moving** cursor to the position where the new line starts (this command consists of the character `\r` followed by `\n`).
+
+Here is an example, which illustrates the difference between `Write(…)` and `WriteLine(…)`:
+```cs
+Console.WriteLine("I love");
+Console.Write("this ");
+Console.Write("course!");
+```
+
+We notice that the output of this example is printed on two lines, even though the code is on three. 
+
+This happens because on the first line of code we use `WriteLine(…)` which prints **"I love"** and then goes to a new line. 
+
+In the next two lines of the code uses the `Write(…)` method, which prints without going on a new line and thus the words **"this"** and **"course!"** remain on the same line.
+
+## Formatting
+In C#, when printing a text, numbers and other data on the console, **we can join them** by using templates `{0}`, `{1}`, `{2}` etc. 
+
+In programming, these templates are called **placeholders**. This is a simple example:
+```cs
+Console.WriteLine("{0} + {1} = {2}", 3, 5, 3 + 5);
+```
+
+The placeholders `{0}`, `{1}` and `{2}` are replaced by the expressions, given after the text. The result from the above code is:
+```
+3 + 5 = 8
+```
+
+## Using the Dollar String Interpolation
+We can format text in C# using also the following $ syntax. It provides simplifies text formatting:
+```cs
+double a = 4.5;
+Console.WriteLine($"Square size = {a}");
+Console.WriteLine($"Square area = {a * a}");
+```
+
+The output from the above code is as follows:
+```
+Square size = 4.5
+Square area = 20.25
+```
+
+The `$` prefix before a string in C# enables the so called **"string interpolation"**: replacing all expressions, staying in curly brackets `{ }` in the text with their values.
 [/slide]
 
 [slide]
