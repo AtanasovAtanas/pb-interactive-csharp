@@ -59,21 +59,6 @@ Console.WriteLine($"{day}-{month}-{year}");
 [/slide]
 
 [slide]
-
-# Reading User Input
-A program which **reads** a name from the console and **prints** it:
-
-```csharp
-string name = Console.ReadLine();
-Console.WriteLine(name);
-```
-The result from the execution would be:
-
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-expressions-and-statements/assets/expressions-and-statements-2.png"/]
-
-[/slide]
-
-[slide]
 # Reading Integers
 In order to read an **integer** (not a float) **number** from the console, we have to **declare a variable**, declare the **number type** and use the standard command for **reading a text line** from the system console `Console.ReadLine()` and after that **convert the text line into an integer number** using `int.Parse(text)`:
 
