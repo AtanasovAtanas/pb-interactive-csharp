@@ -17,14 +17,15 @@ In the next examples we will **read data** (like integers, floating-point number
 
 [slide]
 # Reading User Input
-Everything we read from the console comes as a **string**. 
-
-In order to read an integer (not a float) number from the console, we have to declare a variable, declare the number type and use the standard command for reading a text line from the system console `Console.ReadLine()` and after that convert the text line into an integer number using `int.Parse(text)`.
-
-Here are ways to read user input from the console:
-```csharp
-string name = Console.ReadLine();
+To read a **text** (string) from the console, again, we have to **declare a new variable** and use the standard **command for reading a text from the console**:
+```cs
+string str = Console.ReadLine();
 ```
+
+By default, the `Console.ReadLine(…)` method returns a **text result** – a text line, read from the console.
+- After you read a text from the console, additionally, you can **parse the text** to an integer by `int.Parse(…)` or a floating-point number by `double.Parse(…)`.
+- If parsing to a number is not done, **each number** will simply be **text**, and we **cannot do** arithmetic operations with it.
+
 [/slide]
 
 [slide]
@@ -261,9 +262,7 @@ string sum = "The sum is: " + a + b;
 Console.WriteLine(sum);  // The sum is: 1.52.5
 ```
 
-Did you notice **something strange**? 
-
-Maybe you expected the numbers `a` and `b` to be summed? 
+Did you notice **something strange**? Maybe you expected the numbers `a` and `b` to be summed? 
 
 Actually, the concatenation works from right to left and the result above is absolutely correct. 
 
