@@ -104,9 +104,9 @@ public class Program
 
         double price = 0;
 
-        if (product.Equals("Banana"))
+        if (product == "Banana")
         {
-            if (day.Equals("Weekday"))
+            if (day == "Weekday")
             {
                 price = 2.50;
             }
@@ -114,10 +114,10 @@ public class Program
             {
                 price = 2.70;
             }
-            }
-            else if (product.Equals("Apple"))
-            {
-            if (day.Equals("Weekday"))
+        }
+        else if (product == "Apple")
+        {
+            if (day == "Weekday")
             {
                 price = 1.30;
             }
@@ -125,10 +125,10 @@ public class Program
             {
                 price = 1.60;
             }
-            }
-            else if (product.Equals("Kiwi"))
-            {
-            if (day.Equals("Weekday"))
+        }
+        else if (product == "Kiwi")
+        {
+            if (day == "Weekday")
             {
                 price = 2.20;
             }
