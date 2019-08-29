@@ -46,7 +46,6 @@ The best movie for you is Breaking bad with 878 ASCII sum.
 First we get Matrix, the first letter is M with a value of 77, but it is a capital letter and we subtract from it the length of the title  77- 6  = 71, the second letter is a with a value of 97 and we subtract twice the movie title 97 - 12 = 85. Similarly, we proceed with each subsequent letter and receive an amount of 563.
 Upon receiving the STOP command, we print the title with the highest value, which is Breaking bad with sum of 878.
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]

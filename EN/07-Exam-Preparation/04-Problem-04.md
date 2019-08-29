@@ -65,7 +65,6 @@ After that we receive that 6 people enter the hall and 6 can be divided by 3, so
 
 We continue until we receive the command "Movie time!" and then we print a suitable output.
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
