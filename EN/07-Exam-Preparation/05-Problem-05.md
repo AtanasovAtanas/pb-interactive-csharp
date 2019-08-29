@@ -61,7 +61,6 @@ You bought all the series and left with 0.50$
 ## Comments
 You receive budget – 10$ and count of series - 3. The first series is Thrones with price 5$, which has 50% discount from the price 5 - 50% = 2.50$. The second series is Riverdale, which does not have a discount on the price. The third series also does not have a discount. Price of series is 2.50 + 5 + 2 = 9.50$. Your budget is bigger than the price of series, so you can buy them.
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]

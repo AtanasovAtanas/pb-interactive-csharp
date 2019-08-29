@@ -58,7 +58,6 @@ For this movie there is 30% discount for 4 or more people.
 
 100$ – 30$ -> 70$ is the total price.
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]

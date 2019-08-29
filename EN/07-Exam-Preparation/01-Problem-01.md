@@ -55,7 +55,6 @@ Additional time from the special episode: 3*10 = 30
 
 Total time to watch the episodes: 66 * 18 * 3 + 30 = 3594.0  
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
