@@ -8,7 +8,7 @@ Let's imagine the following daily situation:
 
 You have some plants in the garden that need watering. 
 
-Depending on the wheather outside, you could decide to water them or not.
+Depending on the weather outside, you could decide to water them or not.
 
 **If** it is raining:
 
