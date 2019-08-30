@@ -22,6 +22,8 @@ Here you can check the whole **ASCII Table**:
 **http://www.asciitable.com**
 
 The columns that you would most probably use for the purposes of this course are the **decimal** and **character** ones.
+
+For example, the decimal value of the character 'a' is 97 and the one corresponding to '@' is 64.
 [/slide]
 
 [slide]
