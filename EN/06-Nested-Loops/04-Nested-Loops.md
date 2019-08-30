@@ -2,30 +2,9 @@
 # Nested Loops
 A **nested loop** is a construction where **in the body of one loop** (outer one) **stays another loop** (inner one). 
 
-Here is the syntax for nested `for` and `while` loops:
-```csharp
-// Outer Loop
-for (variable initialization; condition; increment) 
-{
-  // Inner Loop
-  for (variable initialization; condition; increment) 
-  { 
-      // Commands
-  }
-}
-```
-```csharp
-// Outer Loop
-while (condition) 
-{
-   // Inner Loop 
-   while (condition) 
-   {   
-       // Statements
-   }
-}
-```
-You can also nest `for` into `while` and vice versa.
+There are nested `for` and `while` loops.
+
+You can not only nest `for` into `for` and `while` into `while`, but `for` into `while` and vice versa:
 ```csharp
 // Outer Loop
 while (condition) 

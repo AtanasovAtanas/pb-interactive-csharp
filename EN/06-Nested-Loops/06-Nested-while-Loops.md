@@ -1,5 +1,8 @@
 [slide]
 # Nested While Loops
+The use of nested `while` loops is very similar to the one of the `for`.
+
+Here is the syntax in C#:
 ```csharp
 while (condition) 
 {
