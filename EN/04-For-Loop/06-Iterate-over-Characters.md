@@ -19,7 +19,7 @@ Computers can only understand numbers, so an **ASCII** code is the numerical rep
 
 Here you can check the whole **ASCII Table**:
 
-http://www.asciitable.com
+**http://www.asciitable.com**
 
 The columns that you would most probably use for the purposes of this course are the **decimal** and **character** ones.
 [/slide]
