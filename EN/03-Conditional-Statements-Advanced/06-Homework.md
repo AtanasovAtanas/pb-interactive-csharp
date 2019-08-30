@@ -434,10 +434,10 @@ Write a program to apply an operator for given two numbers:
 [input]
 12
 10
--
+\-
 [/input]
 [output]
-12 - 10 = 2
+12 \- 10 = 2
 [/output]
 [/test]
 [test]
