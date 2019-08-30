@@ -1,8 +1,14 @@
 [slide]
 # Homework
-Now, it's your turn to practice what you have learned in the training session.
+Welcome to the homework. 
 
-We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
+Now we are going to write a couple of console applications, by which we are going to make a few more steps into programming. 
+
+We have prepared some problems for you to solve.
+
+Let's solve a few problems to confirm what we have learned.
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/homeowrk.png"/]
 [/slide]
 
 [slide]
