@@ -1,6 +1,10 @@
 [slide]
 # Real-Life Example: Clock
-Imagine the current time is exactly 12:00 AM. 
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/06-nested-loops-clock-1159.png"/]
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/06-nested-loops-clock-1200.png"/]
+
+Imagine the current time is exactly 11:00 AM. 
 
 Our minutes will gradually increase by one until they reach 59. 
 
