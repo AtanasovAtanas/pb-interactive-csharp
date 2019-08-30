@@ -1,14 +1,20 @@
 [slide]
 # Real-Life Example: Clock
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/06-nested-loops-clock-1159.png"/] [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/06-nested-loops-clock-1200.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/06-nested-loops-clock-1159.png"/] 
 
-Imagine the current time is exactly 11:00 AM. 
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/06-nested-loops-clock-1200.png"/]
 
-Our minutes will gradually increase by one until they reach 59. 
+Imagine the current time is exactly **11:00** AM. 
 
-Once they get to 60, the hours will be incremented by 1 and the minutes will be reset back to zero. 
+Our minutes will gradually increase by **1** until they reach **59**. 
 
-We can represent this process using for loops, and more importantly, why would we even need more than one for-loop to simulate how a simple clock works
+Once they get to 60, the hours will be incremented by **1** and the minutes will be reset back to **00**. 
+
+We can represent this process using `for` loops, and more importantly, why would we even need more than one for-loop to simulate how a simple clock works
+
+As you can see in pseudocode example there are two `for` loops: inner and outer.
+
+The outer one represents the hours, while the inner one is responsible for the minutes.
 
 # Pseudocode
 ```
