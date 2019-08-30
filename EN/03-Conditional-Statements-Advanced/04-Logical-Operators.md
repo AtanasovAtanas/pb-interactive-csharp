@@ -424,6 +424,21 @@ Logical negation (operator **!**) means a given condition is **not fulfilled**.
 | true | false |
 
 The operator `!` accepts as an **argument** a bool variable and **returns** its value.
+
+# Example: Invalid Number
+A given **number is valid** if it is in the range **\[100 … 200\]** or it is **0**. Do a validation for an **invalid** number.
+
+For example, `75` and `220` are **invalid**, but `150` is **valid**.
+
+```cs
+int num = 75;
+
+bool inRange = (num >= 100 && num <= 200) || num == 0;
+if (inRange)
+{
+    Console.WriteLine("invalid");
+}
+```
 [/slide]
 
 [slide]
