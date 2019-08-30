@@ -1,40 +1,48 @@
 [slide]
 # Revision
+Let's revise what we learned in the last lesson:
+- Numbers can be **compared** by the `==`, `<`, `>`, `<=`, `>=` and `!=` operators:
+```cs
+Console.WriteLine(5 <= 10);  // True
+```
 
-# Comparison Operators
-Comparison operators work for **numbers**, **dates** and other **comparable data types**
-
-  * Equal to (**==**), works also for **strings**
-  * Not equal to (**!=**)
-  * Greater than (**>**)
-  * Greater than or equal to (**>=**)
-  * Less than (**<**)
-  * Less than or equal to (**<=**)
-
-# Conditional Statements
-An if statement identifies which statement to run based on a boolean expression
-
-```csharp
-if (…) 
+- Simple **if-conditions** check a condition and execute a code block if it is **true**:
+```cs
+int a = 10;
+if (a > 5)
 {
-  // Some code
-}
-else
-{
-    // Some code
+    Console.WriteLine("The number `a` is bigger than 5");
 }
 ```
 
-The ***if-else*** statement can be in a series
-
-```csharp
-if (…) 
-  // Some code
-else if (…) 
-  // Some code
+- The **if-else construction** executes one of two blocks depending on whether a condition is **true** or **false**:
+```cs
+int a = 10;
+if (a > 5)
+{
+    Console.WriteLine("The number `a` is bigger than 5");
+}
 else
-  // Some code
-// If one condition is true, the program will NOT check the rest of the conditions
+{
+    Console.WriteLine("The number `a` is smaller or equal than 5");
+}
+```
+
+- If-else constructions can be chained as **if-else-if-else sequences**:
+```cs
+int a = 10;
+if (a > 100)
+{
+    Console.WriteLine("The number `a` is bigger than 100");
+}
+else if (a > 20)
+{
+    Console.WriteLine("The number `a` is bigger than 20");
+}
+else
+{
+    Console.WriteLine("The number `a` is smaller or equal than 20");
+}
 ```
 [/slide]
 
