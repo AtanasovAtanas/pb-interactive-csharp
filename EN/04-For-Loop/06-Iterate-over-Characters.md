@@ -32,12 +32,13 @@ For example, the decimal value of the character 'a' is 97 and the one correspond
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -83,17 +84,18 @@ f g h i j k l
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    char firstLetter = char.Parse(Console.ReadLine());
-    char secondLetter = char.Parse(Console.ReadLine());
-    for (char i = firstLetter; i <= secondLetter; i++)
+    public static void Main()
     {
-      Console.Write(i + " ");
+        char firstLetter = char.Parse(Console.ReadLine());
+        char secondLetter = char.Parse(Console.ReadLine());
+        for (char i = firstLetter; i <= secondLetter; i++)
+        {
+            Console.Write(i + " ");
+        }
     }
-  }
 }
 ```
 [/code-editor]

@@ -46,10 +46,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -90,14 +90,14 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    int n = int.Parse(Console.ReadLine());
-    for (int i = 7; i <= n; i += 10)
+    public static void Main()
     {
-      Console.WriteLine(i);
+        int n = int.Parse(Console.ReadLine());
+        for (int i = 7; i <= n; i += 10)
+        {
+            Console.WriteLine(i);
+        }
     }
-  }
 }
 ```
 [/code-editor]
@@ -138,10 +138,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -185,17 +185,17 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    int days = int.Parse(Console.ReadLine());
-
-    for (int i = days; i >= 1; i -= 1)
+    public static void Main()
     {
-      Console.WriteLine($"{i} days before the exam");
+        int days = int.Parse(Console.ReadLine());
+
+        for (int i = days; i >= 1; i -= 1)
+        {
+            Console.WriteLine($"{i} days before the exam");
+        }
+
+        Console.WriteLine("The exam has come");
     }
-    
-    Console.WriteLine("The exam has come");
-  }
 }
 ```
 [/code-editor]

@@ -47,10 +47,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -96,16 +96,16 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    int n = int.Parse(Console.ReadLine());
-    int sum = 0;
-    for (int i = 1; i <= n; i += 1)
+    public static void Main()
     {
-        sum += i;
+        int n = int.Parse(Console.ReadLine());
+        int sum = 0;
+        for (int i = 1; i <= n; i += 1)
+        {
+            sum += i;
+        }
+        Console.WriteLine(sum);
     }
-    Console.WriteLine(sum);
-  }
 }
 ```
 [/code-editor]
@@ -148,12 +148,13 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -191,19 +192,20 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    int days = int.Parse(Console.ReadLine());
-    int totalSalary = 0;
-    for (int i = 1; i <= days; i += 1)
+    public static void Main()
     {
-      int salaryPerDay = int.Parse(Console.ReadLine());
-      totalSalary += salaryPerDay;
+        int days = int.Parse(Console.ReadLine());
+        int totalSalary = 0;
+        for (int i = 1; i <= days; i += 1)
+        {
+            int salaryPerDay = int.Parse(Console.ReadLine());
+            totalSalary += salaryPerDay;
+        }
+        Console.WriteLine(totalSalary);
     }
-    Console.WriteLine(totalSalary);
-  }
 }
 ```
 [/code-editor]
