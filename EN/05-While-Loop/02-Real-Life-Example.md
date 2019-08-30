@@ -10,7 +10,9 @@ Before we jump to the lesson, let's cover an example which is from the real life
 
 You have to fill a bucket with water using a mug.
 
-You never know how many mugs of water you use, but only be stopped when the bucket is full.
+You never know how many mugs of water you will use.
+
+You will stop when the bucket is full.
 
 In this exmaple, you work until satisfying a given condition.
 [/slide]
