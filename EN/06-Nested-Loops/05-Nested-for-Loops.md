@@ -1,25 +1,11 @@
 [slide]
 # Nested for Loops
-Statements that consist of several ** for loops** located **inside each other**
+Statements that consist of several **for loops** located **inside each other**
 
 **Nested for loops** are used:
 
 * To execute an **action**, which **executes** multiple **actions**
 * To make more **complex** calculations and variations
-
-These are `for` loops nested in one another:
-```csharp
-for (int i = 1; i <= n; i+=3) 
-{
-   for (int j = 1; j <= n; j+=3)
-   {
-      for (int k = 1; k <= n; k+=3)
-      {
-        // ...
-      }
-   }
-}
-```
 
 The syntax for a **nested for loop in C#** is as follows:
 ```csharp
@@ -32,6 +18,19 @@ for (variable initialization; condition; increment)
 
     // Statements
   }
+}
+```
+These are 3 `for` loops nested in one another:
+```csharp
+for (int i = 1; i <= n; i+=3) 
+{
+   for (int j = 1; j <= n; j+=3)
+   {
+      for (int k = 1; k <= n; k+=3)
+      {
+        // ...
+      }
+   }
 }
 ```
 Here is an example C# program:
