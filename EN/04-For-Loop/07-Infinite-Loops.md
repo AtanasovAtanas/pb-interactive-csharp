@@ -15,13 +15,6 @@ for ( ; ; )
   Console.WriteLine("Hello World");
 }
 ```
-Another example is:
-```cs
-while (true) 
-{
-  Console.WriteLine("Hello World");
-}
-```
 
 Usually, an infinite loop results from a programming error - for example, where the conditions for exit are incorrectly written. 
 
