@@ -20,10 +20,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -100,10 +100,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -147,10 +147,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -237,12 +237,13 @@ Min number: 0
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -289,10 +290,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -341,12 +342,13 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -444,10 +446,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
