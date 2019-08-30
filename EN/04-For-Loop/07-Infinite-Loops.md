@@ -16,7 +16,7 @@ for ( ; ; )
 }
 ```
 
-Usually, an infinite loop results from a programming error - for example, where the conditions for exit are incorrectly written. 
+Usually, it results from a programming error - for example, where the conditions for exit are incorrectly written. 
 
 An infinite loop is not dangerous. It can, however, be annoying when it occurs.
 
