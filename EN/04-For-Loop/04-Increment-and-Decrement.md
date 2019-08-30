@@ -5,8 +5,8 @@ The unary increment operator `++` increments its operand by 1, while the unary d
 
 The increment and decrement operators are supported in two forms: 
 
-*the postfix increment/decrement operator, `x++`/`x--` 
-*the prefix increment/decrement operator, `++x`/`--x`
+* the postfix increment/decrement operator, `x++`/`x--` 
+* the prefix increment/decrement operator, `++x`/`--x`
 
 ## Increment Operator
 
