@@ -160,7 +160,7 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads working days in the current month and salary per day
+* Reads working days in the current month and salary per day - integers
 * **Calculates** the salary for the month
 * **Prints** the result on the console
 [/task-description]
@@ -210,7 +210,7 @@ public class Program
 [task-description]
 Write a program, which:
 
-* Reads working days in the current month and salary per day
+* Reads working days in the current month and salary per day - integers
 * **Calculates** the salary for the month
 * **Prints** the result on the console
 [/task-description]
