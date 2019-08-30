@@ -17,12 +17,13 @@ Let's solve a few problems to confirm what we have learned.
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -66,12 +67,13 @@ vegetable
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -123,12 +125,13 @@ Sunday
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -179,12 +182,13 @@ Consonant
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -247,12 +251,13 @@ zero
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -286,6 +291,16 @@ Ascending
 Not sorted
 [/output]
 [/test]
+[test]
+[input]
+3
+2
+1
+[/input]
+[output]
+Descending
+[/output]
+[/test]
 [/tests]
 [/code-task]
 # Sample Input and Output
@@ -305,12 +320,13 @@ Not sorted
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -354,12 +370,13 @@ Hotel
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -402,12 +419,13 @@ Normal
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -486,12 +504,13 @@ Write a program to apply an operator for given two numbers:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -534,12 +553,13 @@ The withdraw was successful.
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
