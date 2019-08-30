@@ -1,10 +1,14 @@
 [slide]
 # Increment and Decrement Operators
 
-## Increment Operator
-The unary increment operator `++` increments its operand by 1.
+The unary increment operator `++` increments its operand by 1, while the unary decrement operator `--` decrements it by 1.
 
-The increment operator is supported in two forms: the postfix increment operator, `x++`, and the prefix increment operator, `++x`.
+The increment and decrement operators are supported in two forms: 
+
+*the postfix increment/decrement operator, `x++`/`x--` 
+*the prefix increment/decrement operator, `++x`/`--x`
+
+## Increment Operator
 
 ### Postfix Increment Operator
 The result of `x++` is the value of `x` before the operation, as the following example shows:
@@ -23,14 +27,8 @@ Console.WriteLine(a);   // output: 1.5
 Console.WriteLine(++a); // output: 2.5
 Console.WriteLine(a);   // output: 2.5
 ```
-[/slide]
 
-[slide]
 ## Decrement Operator
-
-The unary decrement operator `--` decrements its operand by 1.
-
-The decrement operator is supported in two forms: the postfix decrement operator, `x--`, and the prefix decrement operator, `--x`.
 
 ### Postfix Decrement Operator
 The result of `x--` is the value of `x` before the operation, as the following example shows:
