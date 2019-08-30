@@ -414,7 +414,7 @@ public class Program
 [task-description]
 Write a program to apply an operator for given two numbers:
 
-* Read **two real numbers** and **math operator** from the console
+* Read **two integers** and **math operator** from the console
 * The math operator could be: "+", "-", "/", "%" and "*"
 * The output should be in the following **format**: "\{N1\} \{operator\} \{N2\} = \{result\}"
 
@@ -428,6 +428,46 @@ Write a program to apply an operator for given two numbers:
 [/input]
 [output]
 10 + 12 = 22
+[/output]
+[/test]
+[test]
+[input]
+12
+10
+-
+[/input]
+[output]
+12 - 10 = 2
+[/output]
+[/test]
+[test]
+[input]
+10
+12
+*
+[/input]
+[output]
+10 * 12 = 120
+[/output]
+[/test]
+[test]
+[input]
+6
+2
+/
+[/input]
+[output]
+6 / 2 = 3
+[/output]
+[/test]
+[test]
+[input]
+5
+2
+%
+[/input]
+[output]
+5 % 2 = 1
 [/output]
 [/test]
 [/tests]
