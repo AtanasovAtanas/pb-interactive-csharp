@@ -3,9 +3,20 @@
 
 `while` and `for` loops both **repeat** a block of **code**.
 
-Sometime in programming we don't know in advance **how many times** to repeat a loop, neither we have a **clear loop condition**. In such cases, it is a good idea to **use** `while`  **loop** instead of `for` loop.
+But there are different situations when writing code that require either the first loop, or the other.
 
-When you know **exactly how many times** you want to loop through a block of code, use the `for` loop instead of a `while` loop.
+When you know **exactly how many times** you want to loop through a block of code, use the `for` loop.
+
+It is usually appropriate for loops in which the initialization and increment are single statements and logically related. 
+
+It is more compact than `while` and it keeps the loop control statements together in one place.
+
+But, there could be many **complex** problems where number of iterations depend upon a certain **condition** and can't be predicated beforehand. 
+
+That means we don't know in advance **how many times** to repeat a loop.
+
+In those situation it is better to use `while` loop.
+
 [/slide]
 
 [slide]

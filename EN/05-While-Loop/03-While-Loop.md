@@ -12,15 +12,15 @@ while (condition)
 }
 ```
 
-In the code above example, condition is any **expression that returns a Boolean result** – `true` or `false`. 
+In the code example above, condition is any **expression that returns a Boolean result** – `true` or `false`. 
 
-It determines how long the loop body will be repeated and is called the `loop condition`. 
+It determines how long the loop body will be repeated and is called `loop condition`. 
 
 In this example the `loop body` is the programming code executed at each iteration of the loop, i.e. whenever the input condition is true.
 
-In the while loop, first of all the Boolean expression is calculated and if it is `true` the sequence of operations in the body of the loop is executed. 
+In the while loop, firstly the Boolean expression is evaluated and if it is `true`, the sequence of operations in the body of the loop is executed. 
 
-Then again the input condition is checked and if it is `true` again the body of the loop is executed. 
+Then again the input condition is checked and if it is `true` again, the body of the loop is executed. 
 
 All this is repeated again and again **until at some point the conditional expression returns value** `false`.
 
