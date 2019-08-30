@@ -228,23 +228,11 @@ Write a program, which:
 [/tests]
 [/code-task]
 # Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|3|
-|2||
-|3||
-
-|Input|Output|
-|-----|------|
-|-1|-1|
-|-5||
-|-9||
-
-|Input|Output|
-|-----|------|
-|1|5|
-|5||
-|3||
+|Input|Output|Input|Output|Input|Output|
+|-----|------|-----|------|-----|------|
+|1|3|-1|-1|1|5|
+|2||-5||5||
+|3||-9||3||
 [/slide]
 
 
@@ -329,23 +317,11 @@ Write a program, which:
 [/tests]
 [/code-task]
 # Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|3|
-|2||
-|3||
-
-|Input|Output|
-|-----|------|
-|-1|-1|
-|-5||
-|-9||
-
-|Input|Output|
-|-----|------|
-|1|5|
-|5||
-|3||
+|Input|Output|Input|Output|Input|Output|
+|-----|------|-----|------|-----|------|
+|1|3|-1|-1|1|5|
+|2||-5||5||
+|3||-9||3||
 [/slide]
 
 
