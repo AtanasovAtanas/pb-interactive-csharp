@@ -1,8 +1,10 @@
 [slide]
 # Iterating over Characters
-It is good to know that the for loops don't only work with numbers. 
+It is good to know that the **for loops** don't only work with numbers. 
 
-We can solve the task by running a for loop that passes sequentially through all letters in the English alphabet:
+We can also use **for loops** to iterate over **characters**.
+
+Here is an example of how a loop can pass sequentially through some **letters** in the English alphabet:
 ```csharp
 for (char ch = 'a'; ch <= 'd'; ch++)
 {
@@ -15,12 +17,11 @@ for (char ch = 'a'; ch <= 'd'; ch++)
  
 Computers can only understand numbers, so an **ASCII** code is the numerical representation of a character such as 'a' or '@' or an action of some sort. 
 
-|Dec|Hx|Oct|Html|Chr|
-|---|--|---|----|---|
-|97|61|141|\&\#97;|a|
-|98|62|142|\&\#98;|b|
+Here you can check the whole **ASCII Table**:
 
-* 'a' has the int value of 97
+http://www.asciitable.com
+
+The columns that you would most probably use for the purposes of this course are the **decimal** and **character** ones.
 [/slide]
 
 [slide]

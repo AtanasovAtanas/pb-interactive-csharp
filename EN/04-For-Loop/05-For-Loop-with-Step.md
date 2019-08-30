@@ -4,9 +4,9 @@ In this section we will pay attention to a particular and very important part of
 
 **The step** is that **part** of the `for` loop construction that tells **how** much to **increase** or **decrease** the value of its **leading** variable. 
 
-It is declared the last in the skeleton of the for loop.
+It is declared last in the **skeleton** of the for loop.
 
-Most often, we have **a size of** `1`, and in this case, instead of writing `i += 1` or `i -= 1`, we can use the `i++` or `i--` operators.
+Most often, we have **a size of** `1`, and in this case, instead of writing `i += 1` or `i -= 1`, we can use for a shorter syntax the `i++` or `i--` operators.
 
 ```cs
 for (int i = 0; i < 10; i++)
@@ -15,7 +15,9 @@ for (int i = 0; i < 10; i++)
 }
 ```
 
-If we want our step to be **different than 1**, when increasing, we use the `i +=` + step size operator. With step of 2, the loop would look like this:
+If we want our step to be **different than 1**, when **increasing**, we use the `i +=` + step size operator.
+
+ With step of 2, the loop would look like this:
 ```csharp
 for (int i = 0; i < 10; i += 2)
 {
@@ -23,7 +25,9 @@ for (int i = 0; i < 10; i += 2)
 }
 ```
 
-We might want to have a decreasing step - `i -=` + step size. In this case we should pay attention to the end condition to avoid an infinite loop.
+We might want to have a **decreasing step** - `i -=` + step size. 
+
+In this case we should pay attention to the end condition to **avoid** an **infinite loop**.
 
 ```cs
 for (int i = 10; i >= 1; i--)
