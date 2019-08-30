@@ -54,7 +54,7 @@ When we have **only one command** in the body of the **if construction**, we can
 When we want to execute **block of code** (group of commands), curly brackets are **required**. In case we drop them, **only the first line** after the **if clause** will be executed.
 
 Here is an example where dropping curly braces leads to confusion:
-```csharp
+```cs
 string color = "red";
 if (color == "red") 
   Console.WriteLine("tomato");
@@ -64,7 +64,7 @@ Console.WriteLine("lemon");
 ```
 
 With curly braces:
-```csharp
+```cs
 string color = "red";
 if (color == "red")
 {
@@ -85,11 +85,12 @@ else
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
-  public static void Main()
+    public static void Main()
     {
-      // Write code here
+        // Write code here
     }
 }
 ```
@@ -147,16 +148,16 @@ public class Program
 {
     public static void Main()
     {
-      double number = double.Parse(Console.ReadLine());
+        double number = double.Parse(Console.ReadLine());
 
-      if (number % 2 == 0)
-      {
-          Console.WriteLine("even");
-      }
-      else
-      {
-          Console.WriteLine("odd");
-      }
+        if (number % 2 == 0)
+        {
+            Console.WriteLine("even");
+        }
+        else
+        {
+           Console.WriteLine("odd");
+        }
     }
 }
 ```
