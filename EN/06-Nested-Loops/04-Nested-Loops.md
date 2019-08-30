@@ -18,7 +18,7 @@ while (condition)
 ```
 In each iteration of the outer loop, **the whole** inner loop is executed. 
 
-This happens in the following way:
+This happens the following way:
 * When nested loops start executing, **the outer loop starts** first: 
   * the controlling **variable** is initialized and after a check for ending the loop the code in its body is executed
 * After that, **the inner loop is executed**: 
