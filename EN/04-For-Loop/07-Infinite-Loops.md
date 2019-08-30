@@ -1,6 +1,6 @@
 [slide]
 # Infinite Loops
-So far, we were introduced to `for` loop, learning what structure has and how is applied. 
+So far, we were introduced to `for` loop, learning what structure it has and how it is applied. 
 
 Now, we need to understand what an **infinite loop** is and when it occurs.
 
@@ -15,6 +15,19 @@ for ( ; ; )
   Console.WriteLine("Hello World");
 }
 ```
+Another example is:
+```cs
+while (true) 
+{
+  Console.WriteLine("Hello World");
+}
+```
+
+Usually, an infinite loop results from a programming error - for example, where the conditions for exit are incorrectly written. 
+
+An infinite loop is not dangerous. It can, however, be annoying when it occurs.
+
+So you have to be careful not to cause one by accident.
 [/slide]
 
 [slide]
