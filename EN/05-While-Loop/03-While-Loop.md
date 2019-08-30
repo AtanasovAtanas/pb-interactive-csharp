@@ -53,10 +53,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -99,15 +99,15 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-      int number = int.Parse(Console.ReadLine());
-      while (number >= 1)
-      {
-          Console.WriteLine(number);
-          number--;
-      }
-  }
+    public static void Main()
+    {
+        int number = int.Parse(Console.ReadLine());
+        while (number >= 1)
+        {
+            Console.WriteLine(number);
+            number--;
+        }
+    }
 }
 ```
 [/code-editor]
@@ -150,10 +150,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -195,15 +195,15 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-      int num = int.Parse(Console.ReadLine());
-      while (num < 1 || num > 100)
-      {
-          num = int.Parse(Console.ReadLine());
-      }
-      Console.WriteLine(num);
-  }
+    public static void Main()
+    {
+        int num = int.Parse(Console.ReadLine());
+        while (num < 1 || num > 100)
+        {
+            num = int.Parse(Console.ReadLine());
+        }
+        Console.WriteLine(num);
+    }
 }
 ```
 [/code-editor]

@@ -28,10 +28,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -73,15 +73,17 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-      int number = int.Parse(Console.ReadLine());
-      while (number % 2 == 0)
-      {
-          number = int.Parse(Console.ReadLine());
-      }
-      Console.WriteLine(number);
-  }
+    public static void Main()
+    {
+        int number = int.Parse(Console.ReadLine());
+
+        while (number % 2 == 0)
+        {
+            number = int.Parse(Console.ReadLine());
+        }
+
+        Console.WriteLine(number);
+    }
 }
 ```
 [/code-editor]
@@ -123,10 +125,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -191,28 +193,28 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-      int number = int.Parse(Console.ReadLine());
-      string command = Console.ReadLine();
+    public static void Main()
+    {
+        int number = int.Parse(Console.ReadLine());
+        string command = Console.ReadLine();
 
-      while (command != "END")
-      {
-        switch (command)
+        while (command != "END")
         {
-            case "Add": 
-              number++;
-              break;
-            case "Subtract":
-              number--;
-              break;
+            switch (command)
+            {
+                case "Add":
+                    number++;
+                    break;
+                case "Subtract":
+                    number--;
+                    break;
+            }
+
+            command = Console.ReadLine();
         }
 
-        command = Console.ReadLine();
-      }
-
-      Console.WriteLine(number);
-  }
+        Console.WriteLine(number);
+    }
 }
 ```
 [/code-editor]
