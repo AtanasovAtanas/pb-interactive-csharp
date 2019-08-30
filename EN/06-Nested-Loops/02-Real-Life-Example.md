@@ -12,7 +12,7 @@ Once they get to 60, the hours will be incremented by **1** and the minutes will
 
 We can represent this process using `for` loops, and more importantly, why would we even need more than one for-loop to simulate how a simple clock works
 
-As you can see in pseudocode example there are two `for` loops: inner and outer.
+As you can see in pseudocode example there are two `for` loops: **inner** and **outer**.
 
 The outer one represents the hours, while the inner one is responsible for the minutes.
 

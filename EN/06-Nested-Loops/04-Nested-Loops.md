@@ -2,13 +2,54 @@
 # Nested Loops
 A **nested loop** is a construction where **in the body of one loop** (outer one) **stays another loop** (inner one). 
 
+Here is the syntax for nested `for` and `while` loops:
+```csharp
+// Outer Loop
+for (variable initialization; condition; increment) 
+{
+  // Inner Loop
+  for (variable initialization; condition; increment) 
+  { 
+      // Commands
+  }
+}
+```
+```csharp
+// Outer Loop
+while (condition) 
+{
+   // Inner Loop 
+   while (condition) 
+   {   
+       // Statements
+   }
+}
+```
+You can also nest `for` into `while` and vice versa.
+```csharp
+// Outer Loop
+while (condition) 
+{
+   // Inner Loop 
+   for (variable initialization; condition; increment) 
+   {   
+       // Statements
+   }
+}
+```
 In each iteration of the outer loop, **the whole** inner loop is executed. 
 
 This happens in the following way:
-- When nested loops start executing, **the outer loop starts** first: the controlling **variable** is initialized and after a check for ending the loop the code in its body is executed.
-- After that, **the inner loop is executed**. The controlling variables start position is initialized, a check for ending the loop is made and the code in its body is executed.
-- When reaching the specified value for **ending the loop**, the program goes back one step up and continues executing the previous (outer) loop. The controlling variable of the outer loop changes with one step, a check is made to see if the condition for ending the loop is met and **a new execution of the nested (inner) loop is started**.
-- This is repeated until the variable of the outer loop meets the condition to **end the loop**.
+- When nested loops start executing, **the outer loop starts** first: 
+
+the controlling **variable** is initialized and after a check for ending the loop the code in its body is executed
+- After that, **the inner loop is executed**: 
+
+the controlling variables start position is initialized, a check for ending the loop is made and the code in its body is executed.
+- When reaching the specified value for **ending the loop**, the program goes back one step up and continues executing the previous (outer) loop
+
+the controlling variable of the outer loop changes with one step, a check is made to see if the condition for ending the loop is met and **a new execution of the nested (inner) loop is started**
+- This is repeated until the variable of the outer loop meets the condition to **end the loop**
 [/slide]
 
 [slide]
