@@ -26,8 +26,12 @@ Each of the variables in C# has a name, a type and a value.
 
 Here is how we would declare a variable and assign it with a value at the same time:
 ```csharp
-int age = 25;
+String name = "Bob";
+bool employed = true;
+int age = 35;
 ```
+If you think of the variables as boxes that hold information, this is how they would look like:
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/expressions-and-statements-boxes.png"/]
 
 Variables can be stored in the program's:
   * Operational memory - in the execution **stack**
