@@ -10,7 +10,9 @@ In the development environment we write code, compile and execute the programs. 
 
 If we don't use an environment for development, we will have to write the code in a text editor, to compile it with a command on the console, to run it with another command on the console and to write more additional commands when needed, which is very time consuming. 
 
-For programming with **the C# language** the most commonly used IDE is **Visual Studio**, which is developed and distributed freely by Microsoft and can be downloaded from: https://www.visualstudio.com/downloads/. Alternatives of Visual Studio are:
+For programming with **the C# language** the most commonly used IDE is **Visual Studio**, which is developed and distributed freely by Microsoft and can be downloaded from: https://www.visualstudio.com/downloads/.
+
+Alternatives of Visual Studio are:
 - Rider – https://www.jetbrains.com/rider
 - MonoDevelop / Xamarin Studio – https://www.monodevelop.com
 - SharpDevelop – http://www.icsharpcode.net/OpenSource/SD
