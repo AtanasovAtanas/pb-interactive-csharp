@@ -17,7 +17,9 @@ for (char ch = 'a'; ch <= 'd'; ch++)
  
 Computers can only understand numbers, so an **ASCII** code is the numerical representation of a character such as 'a' or '@' or an action of some sort. 
 
-Here you can check the whole **ASCII Table**: **http://www.asciitable.com**
+This is an example part of the table:
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/04-for-loop-ascii.png"/]
+And here you can check the whole **ASCII Table**: **http://www.asciitable.com**
 
 The columns that you would most probably use for the purposes of this course are the **decimal** and **character** ones.
 
