@@ -64,7 +64,9 @@ Console.WriteLine(a / 0);  // Error: divide by 0
 ### Dividing Floating-Point Numbers
 Let's look at a few examples for **floating division**. 
 
-When we divide floating point numbers, the result is always a **float number** and the division never fails, and works correctly with the special values **+∞** and **-∞**:
+When we divide floating point numbers, the result is always a **float number** and the division never fails.
+
+It also works correctly with the special values **+∞** and **-∞**:
 ```cs
 var a = 15;
 Console.WriteLine(a / 2.0);   // Float result: 7.5
