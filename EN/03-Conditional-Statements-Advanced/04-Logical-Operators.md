@@ -2,7 +2,11 @@
 # More Complex Conditions
 Let's take a look at how we can create more **complex logical conditions** in programming. 
 
-We can use the logical **"AND"** (`&&`), logical **"OR"** (`||`), logical **negation** (`!`) and **brackets** (`()`).
+We can use:
+* logical **"AND"** (`&&`)
+* logical **"OR"** (`||`)
+* logical **negation** (`!`) 
+* **brackets** (`()`).
 
 # Logical "AND", "OR" and "NOT"
 This is a short example that demonstrates the power of logical **"AND"**, logical **"OR"** and logical **"NOT"**:
@@ -46,7 +50,7 @@ The following table of truthfulness is applicable:
 | false | true | false |
 | false | false | false |
 
-# How the `&&` Operator Works?
+# How Does the `&&` Operator Work?
 The `&&` operator accepts **a couple of Boolean** (conditional) statements, which have a `true` or `false` value, and returns one bool statement as a result. 
 
 Using it instead of a couple of nested `if` blocks, makes the code **more readable**, **ordered** and **easy** to maintain. 
@@ -261,7 +265,7 @@ We can easily guess that we **obtain** a value `true` every time when at least o
 
 At school the teacher says: "John or Peter should clean the board". To fulfill this condition (to clean the board), it is possible either just for John to clean it, or just for Peter to clean it, or both of them to do it.
 
-# How the `||` Operator Works?
+# How Does the `||` Operator Work?
 We have already learned what the logical **OR** represents. But how is it actually being achieved? 
 
 Just like with the logical **"AND"**, the program **checks** from left to right **the arguments** that are given. 
@@ -445,7 +449,7 @@ if (inRange)
 # The Parenthesis  Operator
 Like the rest of the operators in programming, the operators `&&` and `||` have a priority, as in the case `&&` is with higher priority than `||`. 
 
-The operator `()` serves for **changing the priority of operators** and is being calculated first, just like in mathematics. 
+The operator `()` serves for **changing the priority of operators** and is being calculated first, just like in maths. 
 
 Using parentheses also gives the code better readability and is considered a good practice.
 
