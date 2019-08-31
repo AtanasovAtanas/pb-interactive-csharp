@@ -3,7 +3,7 @@
 The next type of loops we will get familiar with are the `do-while` loops. 
 
 By structure, this type of loop resembles the while loop, but there is a significant difference between them.
-
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/05-while-loop-use-case-do-while.png"/]
 The following example shows the usage of the `do-while` loop:
 ```cs
 int n = 0;
