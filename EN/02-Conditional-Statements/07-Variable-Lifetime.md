@@ -11,7 +11,17 @@ Thus, it is important to know that **any variable defined inside the body of cer
 # Variable Scope – Example
 In the example below, on the last line we are trying to print the variable `salary` that is defined in the `if` statement, we will get an **error** because we don't have access to it.
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Variable-scope-01.png"/]
+```csharp
+var myMoney = 500;
+var payDayDate = 10;
+if (todayDate >= payDayDate)
+{
+    var salary = 5000;
+    myMoney = myMoney + salary;
+}
+Console.WriteLine(myMoney); 
+Console.WriteLine(salary); //Error
+```
 
 The above code **will not compile**, because we are trying to access a variable **out of its scope**.
 [/slide]

@@ -35,6 +35,9 @@ For a single statement, the braces are optional but recommended.
 The statement or statements in the then-statement and the else-statement can be of any kind, including another if statement nested inside the original if statement.
 
 # Example: Weather
+This is an extended version of the example from the previous slide.
+
+As you can see now we have another case, which will be executed when the condition in the `if` statement turns out **false**.
 ```cs
 string weather = Console.ReadLine();
 
@@ -53,7 +56,9 @@ else
 # Block of Code
 When we have **only one command** in the body of the **if construction**, we can **skip the curly brackets**, indicating the conditional operator body. 
 
-When we want to execute **block of code** (group of commands), curly brackets are **required**. In case we drop them, **only the first line** after the **if clause** will be executed.
+When we want to execute **block of code** (group of commands), curly brackets are **required**. 
+
+In case we drop them, **only the first line** after the **if clause** will be executed.
 
 Here is an example where dropping curly braces leads to confusion:
 ```cs
