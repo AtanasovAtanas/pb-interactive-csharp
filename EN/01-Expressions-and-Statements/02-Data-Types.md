@@ -20,29 +20,38 @@ float f = 4.2;
 Data types set ranges of values with similar characteristics.
 
 The are characterized by:
-  * Name - E.g. bool, int, string, DateTime
-  * Size (memory usage) - Example: 4 bytes
-  * Default value - Example: 0
+  * **Name** - E.g. bool, int, string, DateTime
+  * **Size** (memory usage) - Example: 4 bytes
+  * **Default value** - Example: 0
 [/slide]
 
 [slide]
 # Naming Conventions
-In computer programming, a naming convention is a set of rules for choosing the name to be used for variables.
+In computer programming, a naming convention is a set of **rules** for choosing the name to be used for variables.
 
-In C# the convention for naming variables are used ***"camel-case"***. There are other naming conventions which are used in different languages such as pascal case, snake case. 
+In C# the convention for naming variables are used ***"camel-case"***. 
 
-**Camel case** combines words by capitalizing all words following the first word and removing the space, as follows:
+There are other naming conventions which are used in different languages such as pascal case, snake case. 
 
+**Camel case** combines words by:
+* capitalizing all words following the first word
+* removing the space:
 ```csharp
 int userLoginCount;
 ```
 
-**Pascal case** combines words by capitalizing each word along with the first one as it follows:
+**Pascal case** combines words by:
+* capitalizing each word along with the first one
+* removing the space:
 ```csharp
 int UserLoginCount;
 ```
 
-**Snake-case** is another naming convention, which separates words with one underscore character (_) and no spaces, with each element's initial letter usually lowercased within the compound and the first letter either upper or lowercase as it follows:
+**Snake-case** is another naming convention, which separates words with:
+* one underscore character (_)
+* no spaces
+* each element's initial letter usually lowercased within the compound
+* the first letter either upper or lowercase:
 ```csharp
 int users_count;
 string first_name;
