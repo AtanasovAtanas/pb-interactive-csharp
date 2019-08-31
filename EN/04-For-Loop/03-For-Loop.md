@@ -28,7 +28,11 @@ for (initialization; condition; update)
 }
 ```
 
-It consists of an **initialization part** for the counter (in the pattern `int i = 0`), a **boolean** condition (`i < 10`), an expression for **updating** the counter (``i += 1``) and body of the loop.
+It consists of:
+* an **initialization part** for the counter (in the pattern `int i = 0`)
+* a **boolean** condition (`i < 10`)
+* an expression for **updating** the counter (``i += 1``)
+* body of the loop.
 
 In most cases a `for` loop is run between `1` and `n` times (for example from 1 to 10). 
 
