@@ -11,12 +11,14 @@ C# supports several different kinds of statements and here are a few of them:
 Common actions include:
 
   **Declaring** a variable
+  
   Declaring a variable means **defining** its **type**.
   ```csharp
   int counter;
   ```
 
   **Assigning** a value
+
   After you declare a variable, you can assign a value to a variable. 
   
   Assigning a value to a variable means **storing** a **value** to a variable.
