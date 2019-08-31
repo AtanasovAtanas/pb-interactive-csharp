@@ -1,6 +1,7 @@
 [slide]
 # Statements
 The **actions** that a program takes, are expressed as **statements**. 
+
 C# supports several different kinds of statements and here are a few of them:
   * **Declaration statements** - declare local variables and constants
   * **Expression statements** - evaluate expressions
@@ -11,7 +12,7 @@ C# supports several different kinds of statements and here are a few of them:
 Common actions include:
 
   **Declaring** a variable
-  
+
   Declaring a variable means **defining** its **type**.
   ```csharp
   int counter;

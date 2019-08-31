@@ -44,7 +44,7 @@ You will get an error message during runtime (exception). This is normal.
 
 Later on, we will find out how we can catch these kinds of errors and make the user enter a number again.
 
-# Examole: Calculating a Square Area
+# Example: Calculating a Square Area
 This code demonstrates how we can calculate the square area by the given length of the side:
 ```cs
 Console.Write("a = ");              
@@ -54,7 +54,7 @@ Console.Write("Square area = ");
 Console.WriteLine(area);
 ```
 
-Here is how the program would work when we have a square with a side length equal to 3:
+Here is how the program would work if we had a square with a side length equal to 3:
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Square-area-01.jpg"/]
 [/slide]
@@ -82,7 +82,9 @@ Let's start the program and make sure that when a value in inches is entered, we
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Inches-to-centimeters-01.jpg"/]
 
-Note that if you enter and **invalid number**, e.g. **"asfd"**, the program will crash with an error message (exception). We will learn how to handle exceptions in later courses.
+Note that if you enter and **invalid number**, e.g. **"asfd"**, the program will crash with an error message (exception). 
+
+We will learn how to handle exceptions in later courses.
 [/slide]
 
 [slide]

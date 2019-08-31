@@ -1,6 +1,8 @@
 [slide]
 # Arithmetic Operations
-Let's examine the basic **arithmetic operations** in programming. We can add, subtract, multiply and divide numbers using the operators `+`, `-`, `*` and `/`.
+Let's examine the basic **arithmetic operations** in programming. 
+
+We can add, subtract, multiply and divide numbers using the operators `+`, `-`, `*` and `/`.
 
 ## Summing up Numbers
 We can **sum** up numbers using the `+` operator:
@@ -28,11 +30,17 @@ Console.WriteLine(a * b); // 35
 ```
 
 ## Dividing Numbers
-**Dividing** numbers is done using the `/` operator. It works differently with **integers** and **floating point numbers**.
-- When we divide two integers, an **integer division** is applied, and the obtained output is without its fractional part. Example: `11 / 3 = 3`.
-- When we divide two numbers and at least one of them is a float number, a **floating division** is applied, and the obtained result is a float number, just like in math. Example `11 / 4.0 = 2.75`. When it cannot be done with exact precision, the result is being rounded, for example `11.0 / 3 = 3.66666666666667`.
-- The integer **division by 0** causes an **exception** during runtime (runtime exception).
-- Float numbers **divided by 0** do not cause an exception and the result is **+/- infinity** or a special value **NaN**. Example `5 / 0.0 = ∞`.
+**Dividing** numbers is done using the `/` operator. 
+
+It works differently with **integers** and **floating point numbers**.
+* When we divide two integers, an **integer division** is applied, and the obtained output is without its fractional part. 
+  * Example: `11 / 3 = 3`.
+* When we divide two numbers and at least one of them is a float number, a **floating division** is applied, and the obtained result is a float number, just like in math. 
+  * Example: `11 / 4.0 = 2.75`
+  * When it cannot be done with exact precision, the result is being rounded, for example `11.0 / 3 = 3.66666666666667`.
+* The integer **division by 0** causes an **exception** during runtime (runtime exception).
+* Float numbers **divided by 0** do not cause an exception and the result is **+/- infinity** or a special value **NaN**. 
+  * Example `5 / 0.0 = ∞`.
 
 Here are a few examples with the division operator:
 ```cs
@@ -66,7 +74,9 @@ Console.WriteLine(0.0 / 0.0); // Result: NaN (Not a Number), e.g. the result
                               // from the operation is not a valid numeric value
 ```
 
-When printing the values ∞ and -∞, the console output may be `?`, because the console in Windows does not work correctly with Unicode and breaks most of the non-standard symbols, letters and special characters.
+When printing the values ∞ and -∞, the console output may be `?`.
+
+This happens because the console in Windows does not work correctly with Unicode and breaks most of the non-standard symbols, letters and special characters.
 
 ### Remainder
 The remainder operator `%` computes the remainder after dividing its left-hand operand by its right-hand operand.
@@ -74,12 +84,16 @@ The remainder operator `%` computes the remainder after dividing its left-hand o
 int a = 7;
 int b = 2;
 Console.WriteLine(a % b);   // 1
+Console.WriteLine(3.5 % 1); // 0.5
 ```
+It is useful if we want to check whether a number is **even** or **odd**.
 
+If the remainder when dividing by 2 is equal to 0, then the number is even, otherwise it is odd.
+
+See the following example: 
 ```cs
 Console.WriteLine(3 % 2);   // 1
 Console.WriteLine(4 % 2);   // 0
-Console.WriteLine(3.5 % 1); // 0.5
 ```
 [/slide]
 
