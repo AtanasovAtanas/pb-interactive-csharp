@@ -4,12 +4,12 @@ In programming, we can compare values using the following operators:
 
 |Operators|Designation|
 |---------|-----------|
-| Equal to |   == |
-| Not Equal to |   != |
-| Greater than |   > |
-| Greater than or equal to |   >= |
-| Less than |   < |
-| Less than or equal to |   <= |
+| Equal to |   **==** |
+| Not Equal to |   **!=** |
+| Greater than |   **>** |
+| Greater than or equal to |   **>=** |
+| Less than |   **<** |
+| Less than or equal to |   **<=** |
 
 When compared, the result is a Boolean value `true` or `false`, depending on whether the result of the comparison is `true` or `false`.
 [/slide]
