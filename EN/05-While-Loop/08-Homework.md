@@ -84,6 +84,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -128,6 +129,7 @@ Book found! Attempts: 4
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -219,6 +221,7 @@ Min number: 0
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -273,6 +276,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -326,6 +330,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -428,6 +433,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -476,6 +482,7 @@ Total: ‭165.73‬
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
