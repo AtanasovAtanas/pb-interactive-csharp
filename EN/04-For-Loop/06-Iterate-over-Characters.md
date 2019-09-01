@@ -5,7 +5,7 @@ It is good to know that the **for loops** don't only work with numbers.
 We can also use **for loops** to iterate over **characters**.
 
 Here is an example of how a loop can pass sequentially through some **letters** in the English alphabet:
-```csharp
+```cs live
 for (char ch = 'a'; ch <= 'd'; ch++)
 {
   Console.Write(ch + " ");
@@ -18,12 +18,14 @@ for (char ch = 'a'; ch <= 'd'; ch++)
 Computers can only understand numbers, so an **ASCII** code is the numerical representation of a character such as 'a' or '@' or an action of some sort. 
 
 This is an example part of the table:
+
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/04-for-loop-ascii.png"/]
+
 And here you can check the whole **ASCII Table**: **http://www.asciitable.com**
 
 The columns that you would most probably use for the purposes of this course are the **decimal** and **character** ones.
 
-For example, the decimal value of the character 'a' is 97 and the one corresponding to '@' is 64.
+For example, the decimal value of the character **'a'** is **97** and the one corresponding to **'@'** is **64**.
 [/slide]
 
 [slide]
@@ -68,6 +70,7 @@ f g h i j k l
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -125,6 +128,7 @@ f g h i j k l
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
