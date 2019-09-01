@@ -50,15 +50,18 @@ var i = a / 4;      // we are applying an integer division:
                     // because we are dividing integers
 var f = a / 4.0;    // 6.25 – floating division. We have set the number 4 to be interpreted 
                     // as a float by adding a decimal separator followed by zero 
-var error = a / 0;  // Error: Integer divided by zero
 ```
 
 ### Dividing Integers
 Let's examine a few examples for **integer division** (remember that when we **divide integers** in C# the result is an **integer**):
 ```cs live
 var a = 25;
-Console.WriteLine(a / 4);  // Integer result: 6
-Console.WriteLine(a / 0);  // Error: divide by 0
+Console.WriteLine(a / 4);
+```
+
+Dividing an integer by zero leads to an error.
+``` cs live
+Console.WriteLine(a / 0);
 ```
 
 ### Dividing Floating-Point Numbers
