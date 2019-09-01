@@ -57,10 +57,7 @@ In programming, these templates are called **placeholders**. This is a simple ex
 Console.WriteLine("{0} + {1} = {2}", 3, 5, 3 + 5);
 ```
 
-The placeholders `{0}`, `{1}` and `{2}` are replaced by the expressions, given after the text. The result from the above code is:
-```
-3 + 5 = 8
-```
+The placeholders `{0}`, `{1}` and `{2}` are replaced by the expressions, given after the text.
 
 ## Using the Dollar String Interpolation
 We can format text in C# using also the following $ syntax. It provides simplifies text formatting:
