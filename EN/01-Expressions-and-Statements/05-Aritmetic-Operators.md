@@ -6,7 +6,7 @@ We can add, subtract, multiply and divide numbers using the operators `+`, `-`, 
 
 ## Summing up Numbers
 We can **sum** up numbers using the `+` operator:
-```cs
+```cs live
 int a = 5;
 int b = 7;
 int sum = a + b;
@@ -15,7 +15,7 @@ Console.WriteLine(sum); // 12
 
 ## Subtracting Numbers
 **Subtracting** numbers is done using the `-` operator:
-```csharp
+```cs live
 int a = 15;
 int b = 7;
 Console.WriteLine(a - b); // 8
@@ -23,7 +23,7 @@ Console.WriteLine(a - b); // 8
 
 ## Multiplying Numbers
 For **multiplication** of numbers we use the `*` operator:
-```csharp
+```cs live
 int a = 5;
 int b = 7;
 Console.WriteLine(a * b); // 35
@@ -43,7 +43,7 @@ It works differently with **integers** and **floating point numbers**.
   * Example `5 / 0.0 = ∞`.
 
 Here are a few examples with the division operator:
-```cs
+```cs live
 var a = 25;
 var i = a / 4;      // we are applying an integer division:
                     // the result of this operation will be 6 – the fractional part will be cut, 
@@ -55,7 +55,7 @@ var error = a / 0;  // Error: Integer divided by zero
 
 ### Dividing Integers
 Let's examine a few examples for **integer division** (remember that when we **divide integers** in C# the result is an **integer**):
-```cs
+```cs live
 var a = 25;
 Console.WriteLine(a / 4);  // Integer result: 6
 Console.WriteLine(a / 0);  // Error: divide by 0
@@ -67,7 +67,7 @@ Let's look at a few examples for **floating division**.
 When we divide floating point numbers, the result is always a **float number** and the division never fails.
 
 It also works correctly with the special values **+∞** and **-∞**:
-```cs
+```cs live
 var a = 15;
 Console.WriteLine(a / 2.0);   // Float result: 7.5
 Console.WriteLine(a / 0.0);   // Result: Infinity
@@ -82,20 +82,20 @@ This happens because the console in Windows does not work correctly with Unicode
 
 ### Remainder
 The remainder operator `%` computes the remainder after dividing its left-hand operand by its right-hand operand.
-```cs
+```cs live
 int a = 7;
 int b = 2;
-Console.WriteLine(a % b);   // 1
-Console.WriteLine(3.5 % 1); // 0.5
+Console.WriteLine(a % b);
+Console.WriteLine(3.5 % 1);
 ```
 It is useful if we want to check whether a number is **even** or **odd**.
 
 If the remainder when dividing by 2 is equal to 0, then the number is even, otherwise it is odd.
 
 See the following example: 
-```cs
-Console.WriteLine(3 % 2);   // 1
-Console.WriteLine(4 % 2);   // 0
+```cs live
+Console.WriteLine(3 % 2);
+Console.WriteLine(4 % 2);
 ```
 [/slide]
 
