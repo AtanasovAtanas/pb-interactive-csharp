@@ -20,31 +20,35 @@ for (variable initialization; condition; increment)
   }
 }
 ```
-These are 3 `for` loops nested in one another:
-```csharp
-for (int i = 1; i <= n; i+=3) 
+T
+hese are 3 `for` loops nested in one another:
+```cs live
+int n = 5;
+for (int i = 1; i <= n; i += 3) 
 {
-   for (int j = 1; j <= n; j+=3)
-   {
-      for (int k = 1; k <= n; k+=3)
-      {
-        // ...
-      }
-   }
+    for (int j = 1; j <= n; j += 3)
+    {
+        for (int k = 1; k <= n; k += 3)
+        {
+            Console.WriteLine($"{i}{j}{k}");
+        }
+    }
 }
 ```
 # Example
 Here is an example C# program:
-```csharp
+```cs live
 int a = 3;
 int b = 3;
+
 for (int i = 0; i < a; i++) 
 {
-  Console.WriteLine("i = " + i);
-  for (int j = 0; j < b; j++)
-  {
-    // Print "j = " and value of j
-  }
+    Console.WriteLine("i = " + i);
+
+    for (int j = 0; j < b; j++)
+    {
+        Console.WriteLine($"  j = " + j);
+    }
 }
 ```
 [/slide]
@@ -83,6 +87,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -136,6 +141,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
