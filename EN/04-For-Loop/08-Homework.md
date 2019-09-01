@@ -58,6 +58,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -132,6 +133,7 @@ Min number: -2
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -178,6 +180,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -314,6 +317,7 @@ Yes, value=10
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -374,6 +378,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -421,6 +426,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -509,6 +515,7 @@ s
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -608,6 +615,7 @@ The rollercoaster departures
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -672,6 +680,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
