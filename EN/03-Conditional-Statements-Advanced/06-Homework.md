@@ -53,6 +53,7 @@ vegetable
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -110,6 +111,7 @@ Sunday
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -167,6 +169,7 @@ Consonant
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -233,6 +236,7 @@ zero
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -302,6 +306,7 @@ Descending
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -349,6 +354,7 @@ Hotel
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 |Season|Hotel|Camping|Discount|
 |-----|------|-------|--------|
@@ -399,6 +405,7 @@ Normal
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 |Type|Price|
 |-----|----|
@@ -489,6 +496,7 @@ Write a program to apply an operator for given two numbers:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -535,6 +543,7 @@ The withdraw was successful.
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -582,6 +591,7 @@ Write a program to find the biggest among 5 numbers
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
