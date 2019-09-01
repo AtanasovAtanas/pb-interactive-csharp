@@ -48,8 +48,10 @@ var a = 25;
 var i = a / 4;      // we are applying an integer division:
                     // the result of this operation will be 6 – the fractional part will be cut, 
                     // because we are dividing integers
+Console.WriteLine(i);
 var f = a / 4.0;    // 6.25 – floating division. We have set the number 4 to be interpreted 
                     // as a float by adding a decimal separator followed by zero 
+Console.WriteLine(f);
 ```
 
 ### Dividing Integers
