@@ -21,7 +21,7 @@ for (int i = 1; i <= n; i += 1)
 
 We can iterate over characters:
 ```cs live
-for (char ch = 'a'; ch <= 'z'; ch += 1)
+for (char ch = 'a'; ch <= 'z'; ch++)
 {
    Console.WriteLine(ch);
 }
