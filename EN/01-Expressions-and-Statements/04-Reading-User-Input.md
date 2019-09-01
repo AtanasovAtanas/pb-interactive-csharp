@@ -67,12 +67,6 @@ Console.WriteLine($"Square size = {a}");
 Console.WriteLine($"Square area = {a * a}");
 ```
 
-The output from the above code is as follows:
-```
-Square size = 4.5
-Square area = 20.25
-```
-
 The `$` prefix before a string in C# enables the so called **"string interpolation"**: replacing all expressions, staying in curly brackets `{ }` in the text with their values.
 [/slide]
 
