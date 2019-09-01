@@ -128,6 +128,7 @@ Weekend
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 [/slide]
 
@@ -222,6 +223,7 @@ Weekend
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 [/slide]
 
@@ -279,6 +281,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|Input|Output|Input|Output|
@@ -368,6 +371,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|Input|Output|Input|Output|
