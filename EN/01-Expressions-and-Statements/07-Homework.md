@@ -73,6 +73,7 @@ Write a program to calculate the speed by time and distance:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -142,6 +143,7 @@ Write a program to convert from USD to EUR:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -215,6 +217,7 @@ Write a program to calculate a triangle area:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -299,6 +302,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -370,6 +374,7 @@ Write a program to convert from days to minutes:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -442,6 +447,7 @@ Perimeter = 59.061942
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -522,6 +528,7 @@ A B from C - D!
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -599,6 +606,7 @@ Town A has population of 123456 and area 789 square km.
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
