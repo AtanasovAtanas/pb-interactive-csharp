@@ -20,6 +20,55 @@ if (condition1)
 }
 ```
 
+# Example: Personal Titles
+Depending on **age** (decimal number and **gender** (**m** / **f**), print a personal title:
+-  "Mr." – a man (gender "m") – 16 or more years old.
+-  "Master" – a boy (gender "m") under 16 years.
+-  "Ms." – a woman (gender "f") – 16 or more years old.
+-  "Miss" – a girl (gender "f") under 16 years.
+
+# Solution: Person Titles
+We should notice that the **output** of the program **depends on a few things**. 
+
+**First**, we have to check what is the entered **gender** and **then** check the **age**. 
+
+Respectively, we are going to use **a few** `if-else` blocks. 
+
+These blocks will be **nested**, meaning from **the result** of the first, we are going to **define** which one of the **others** to execute.
+
+The diagram below illustrates the process in detail:
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/01.Personal-titles-01.jpg"/]
+
+After reading the input data from the console, the following program logic should be executed:
+```cs
+int age = int.Parse(Console.ReadLine());
+string char = Console.ReadLine();
+
+if (age < 16)
+{
+    if (gender == "m")
+    {
+        Console.WriteLine("Master");
+    }
+    else if (gender == "f")
+    {
+        Console.WriteLine("Miss");
+    }
+}
+else
+{
+    if (gender == "m")
+    {
+        Console.WriteLine("Mr.");
+    }
+    else if (gender == "f")
+    {
+        Console.WriteLine("Ms.");
+    }
+}
+```
+
 # Deep nesting
 Nesting of **more than three conditional statements** inside each other is not considered a good practice.
 
