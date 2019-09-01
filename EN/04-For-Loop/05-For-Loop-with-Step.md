@@ -8,7 +8,7 @@ It is declared last in the **skeleton** of the for loop.
 
 Most often, we have **a size of** `1`, and in this case, instead of writing `i += 1` or `i -= 1`, we can use for a shorter syntax the `i++` or `i--` operators.
 
-```cs
+```cs live
 for (int i = 0; i < 10; i++)
 {
   Console.WriteLine(i);
@@ -18,7 +18,7 @@ for (int i = 0; i < 10; i++)
 If we want our step to be **different than 1**, when **increasing**, we use the `i +=` + step size operator.
 
  With step of 2, the loop would look like this:
-```csharp
+```cs live
 for (int i = 0; i < 10; i += 2)
 {
   Console.WriteLine(i);
@@ -29,7 +29,7 @@ We might want to have a **decreasing step** - `i -=` + step size.
 
 In this case we should pay attention to the end condition to **avoid** an **infinite loop**.
 
-```cs
+```cs live
 for (int i = 10; i >= 1; i--)
 {
   Console.WriteLine(i);
@@ -72,6 +72,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -120,6 +121,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -166,6 +168,7 @@ The exam has come
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -220,6 +223,7 @@ The exam has come
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
