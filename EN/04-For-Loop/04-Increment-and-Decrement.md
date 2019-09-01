@@ -11,7 +11,7 @@ The increment and decrement operators are supported in two forms:
 
 ### Postfix Increment Operator
 The result of `x++` is the value of `x` before the operation, as the following example shows:
-```cs
+```cs live
 int i = 3;
 Console.WriteLine(i);   // output: 3
 Console.WriteLine(i++); // output: 3
@@ -20,7 +20,7 @@ Console.WriteLine(i);   // output: 4
 
 ### Prefix Increment Operator
 The result of `++x` is the value of `x` after the operation, as the following example shows:
-```cs
+```cs live
 double a = 1.5;
 Console.WriteLine(a);   // output: 1.5
 Console.WriteLine(++a); // output: 2.5
@@ -31,7 +31,7 @@ Console.WriteLine(a);   // output: 2.5
 
 ### Postfix Decrement Operator
 The result of `x--` is the value of `x` before the operation, as the following example shows:
-```cs
+```cs live
 int i = 3;
 Console.WriteLine(i);   // output: 3
 Console.WriteLine(i--); // output: 3
@@ -40,7 +40,7 @@ Console.WriteLine(i);   // output: 2
 
 ### Prefix Decrement Operator
 The result of `--x` is the value of `x` after the operation, as the following example shows:
-```cs
+```cs live
 double a = 1.5;
 Console.WriteLine(a);   // output: 1.5
 Console.WriteLine(--a); // output: 0.5
