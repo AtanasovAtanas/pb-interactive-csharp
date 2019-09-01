@@ -286,7 +286,7 @@ In programming, joining two pieces of text is called **"concatenation"**.
 
 Here is how we can concatenate a text with a number by the `+` operator:
 
-```cs
+```cs live
 string firstName = "John";
 string lastName = "Doe";
 int age = 19;
@@ -296,7 +296,7 @@ Console.WriteLine(str);  // John Doe @ 19
 
 # Examples: Concatenating Text and Numbers
 Here is another **example** of concatenating text and numbers:
-```cs
+```cs live
 double a = 1.5;
 double b = 2.5;
 string sum = "The sum is: " + a + b;
@@ -308,7 +308,7 @@ Did you notice **something strange**? Maybe you expected the numbers `a` and `b`
 Actually, the concatenation works from right to left and the result above is absolutely correct. 
 
 If we want to sum the numbers, we have to use **brackets**, in order to change the order of execution of the operations:
-```cs
+```cs live
 double a = 1.5;
 double b = 2.5;
 string sum = "The sum is: " + (a + b);
