@@ -250,14 +250,12 @@ Write a program, which:
   * **Reads** 2 real numbers from the **console**
   * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: +, -, \*, \/
   * **Formats** and **prints** the results like this example:
-
-|       Input       | Output |
-|-------------------|--------|
-|5|5.00 + 10.00 = 15.00| 
-|10|5.00 - 10.00 = -5.00|
-||5.00 * 10.00 = 50.00|
-||5.00 / 10.00 = 0.50|
-
+  ```
+  5.00 + 10.00 = 15.00
+  5.00 - 10.00 = -5.00
+  5.00 * 10.00 = 50.00
+  5.00 / 10.00 = 0.50
+  ```
 [/task-description]
 [tests]
 [test]
