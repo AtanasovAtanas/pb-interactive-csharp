@@ -5,7 +5,9 @@ The `if` construction may also contain an `else` clause to give a specific actio
 Built this way, **the conditional statement** is called `if-else` and its behavior is as follows: 
 * if the result of the condition is positive (`true`) – we perform some actions
 * when it is negative (`false`) – others. 
+
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/02-usecase-if-else-statement.png"/]
+
 The format of the construction is:
 ```csharp
 if (condition)
@@ -61,7 +63,7 @@ When we want to execute **block of code** (group of commands), curly brackets ar
 In case we drop them, **only the first line** after the **if clause** will be executed.
 
 Here is an example where dropping curly braces leads to confusion:
-```cs
+```cs live
 string color = "red";
 if (color == "red") 
   Console.WriteLine("tomato");
@@ -71,7 +73,7 @@ Console.WriteLine("lemon");
 ```
 
 With curly braces:
-```cs
+```cs live
 string color = "red";
 if (color == "red")
 {
@@ -134,6 +136,7 @@ even
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 # Sample Input and Output
@@ -201,6 +204,7 @@ even
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 # Sample Input and Output
@@ -263,6 +267,7 @@ Greater number: 2
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 # Sample Input and Output
@@ -335,6 +340,7 @@ Greater number: 2
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 # Sample Input and Output

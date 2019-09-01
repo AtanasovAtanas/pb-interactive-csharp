@@ -17,7 +17,7 @@ When compared, the result is a Boolean value `true` or `false`, depending on whe
 [slide]
 # Examples for Comparing Numbers
 Examples of such an expression are as follows:
-```csharp
+```cs live
 int a = 5;
 int b = 10;
 Console.WriteLine(a < b);      // true
@@ -33,7 +33,7 @@ You can also compare numeric expressions.
 
 The expressions you compare can themselves be complex expressions, as in the following example.
 
-```csharp
+```cs
 x / 45 * (y +17) >= Math.Sqrt(z) / (p - (x * 16))
 ```
 
@@ -46,15 +46,16 @@ If the value of the expression on the left side is greater than or equal to the 
 
 [slide]
 # String Comparison
-Comparing text using the equality operator(**==**)
+Comparing text using the equality operator(`==`).
 
 Two string operands are equal when both of them are `null` or both string instances are of the same length and have identical characters in each character position:
-```csharp
+```cs live
 string a = "Examplе";
 string b = a;
 Console.WriteLine(a == b); // true
 ```
-```csharp
+
+```cs
 string a = "hello";
 string b = "hello";
 Console.WriteLine(a == b); // true

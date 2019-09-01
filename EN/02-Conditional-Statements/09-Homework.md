@@ -20,10 +20,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -52,6 +52,7 @@ Wrong password!
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -69,10 +70,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -101,6 +102,7 @@ The water is not hot enough
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -118,10 +120,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -150,6 +152,7 @@ Fast
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -167,10 +170,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -222,6 +225,7 @@ Unknown figure
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -239,10 +243,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -282,6 +286,7 @@ Invalid ticket type!
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -299,10 +304,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -357,6 +362,7 @@ Final price: $0.60
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -376,10 +382,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -413,6 +419,7 @@ Invalid Triangle
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|

@@ -9,7 +9,7 @@ In programming **data** is stored in **variables**
   * Variable write: modify the stored information
   
 Declaring, initializing, reading and changing a variable in C#:
-```csharp
+```cs live
 int age = 5;
 age = age + 1;
 Console.WriteLine(age);
