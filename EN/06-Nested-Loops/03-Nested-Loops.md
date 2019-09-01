@@ -5,7 +5,7 @@ A **nested loop** is a construction where **in the body of one loop** (outer one
 There are nested `for` and `while` loops.
 
 You can not only nest `for` into `for` and `while` into `while`, but `for` into `while` and vice versa:
-```csharp
+```cs
 // Outer Loop
 while (condition) 
 {
@@ -35,7 +35,7 @@ Here is an **example** that illustrates nested loops.
 
 The aim is again to print a rectangle made of `n` * `n` stars, in which for each row a loop iterates from **1** to `n`, and for each column a nested loop is executed from **1** to * `n`:
 
-```csharp
+```cs live
 int n = 5;
 for (int r = 1; r <= n; r++)
 {
