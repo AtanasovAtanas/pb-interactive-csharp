@@ -20,13 +20,14 @@ while (condition)
 
 ```cs live
 int i = 0;
-while (i < 2)
+int n = 5;
+while (i < n)
 {
   Console.WriteLine($"Value of i: {i}");
   int j = 1;
   i++;
 
-  while (j < 2)
+  while (j < n)
   {
     Console.WriteLine($"  Value of j: {j}");
     j++;
