@@ -10,39 +10,35 @@ C# supports several different kinds of statements and here are a few of them:
   * **Jump statements** - transfer control
   
 Common actions include:
-
-  **Declaring** a variable
-
+-  **Declaring** a variable
   Declaring a variable means **defining** its **type**.
-  ```csharp
+  ```cs
   int counter;
   ```
-
-  **Assigning** a value
-
+-  **Assigning** a value
   After you declare a variable, you can assign a value to a variable. 
   
   Assigning a value to a variable means **storing** a **value** to a variable.
-  ```csharp
+  ```cs
   counter = 1;
   ```
 
-  Declaring + **initializing**
-  ```csharp
+- Declaring + **initializing**
+  ```cs
   int counter = 1;
   ```
 
-  **Printing** a value
-  ```csharp
+- **Printing** a value
+  ```cs
   Console.WriteLine(counter);
   ```
 
-  **Modifying** a value
-  ```csharp
+- **Modifying** a value
+  ```cs
   counter++;
   ```
   
-  ```csharp
+  ```cs
   sum = a + b;
   ```
 [/slide]

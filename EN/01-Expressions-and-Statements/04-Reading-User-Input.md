@@ -16,9 +16,73 @@ In the next examples we will **read data** (like integers, floating-point number
 [/slide]
 
 [slide]
+# Printing and Formatting Text and Numbers
+
+## Using `Console.Write(…)` and `Console.WriteLine(…)`
+Work with these methods is easy because they can print all the basic types (string, numeric and primitive types).
+
+Here are some examples of printing various types of data:
+```cs live
+Console.WriteLine("Hello World");
+Console.WriteLine(5);
+Console.WriteLine(3.14159265358979);
+```
+
+As we see by using `Console.WriteLine(…)` it is possible to print various data types because for each type there is a predefined version of the method `WriteLine(…)` in the `Console` class.
+
+The difference between `Write(…)` and `WriteLine(…)` is that the `Write(…)` method prints on the console what it is provided between the parentheses but does nothing in addition while the method `WriteLine(…)` means directly **"write line"**. 
+
+This method does what the `Write(…)` one does but in addition goes to a new line. 
+
+In fact the method does not print a new line but simply puts a **"command" for moving** cursor to the position where the new line starts (this command consists of the character `\r` followed by `\n`).
+
+Here is an example, which illustrates the difference between `Write(…)` and `WriteLine(…)`:
+```cs live
+Console.WriteLine("I love");
+Console.Write("this ");
+Console.Write("course!");
+```
+
+We notice that the output of this example is printed on two lines, even though the code is on three. 
+
+This happens because on the first line of code we use `WriteLine(…)` which prints **"I love"** and then goes to a new line. 
+
+In the next two lines of the code uses the `Write(…)` method, which prints without going on a new line and thus the words **"this"** and **"course!"** remain on the same line.
+
+## Formatting
+In C#, when printing a text, numbers and other data on the console, **we can join them** by using templates `{0}`, `{1}`, `{2}` etc. 
+
+In programming, these templates are called **placeholders**. This is a simple example:
+```cs live
+Console.WriteLine("{0} + {1} = {2}", 3, 5, 3 + 5);
+```
+
+The placeholders `{0}`, `{1}` and `{2}` are replaced by the expressions, given after the text. The result from the above code is:
+```
+3 + 5 = 8
+```
+
+## Using the Dollar String Interpolation
+We can format text in C# using also the following $ syntax. It provides simplifies text formatting:
+```cs live
+double a = 4.5;
+Console.WriteLine($"Square size = {a}");
+Console.WriteLine($"Square area = {a * a}");
+```
+
+The output from the above code is as follows:
+```
+Square size = 4.5
+Square area = 20.25
+```
+
+The `$` prefix before a string in C# enables the so called **"string interpolation"**: replacing all expressions, staying in curly brackets `{ }` in the text with their values.
+[/slide]
+
+[slide]
 # Reading User Input
 To read a **text** (string) from the console, again, we have to **declare a new variable** and use the standard **command for reading a text from the console**:
-```cs
+```cs 
 string str = Console.ReadLine();
 ```
 
@@ -26,6 +90,20 @@ By default, the `Console.ReadLine(…)` method returns a **text result** – a t
 - After you read a text from the console, additionally, you can **parse the text** to an integer by `int.Parse(…)` or a floating-point number by `double.Parse(…)`.
 - If parsing to a number is not done, **each number** will simply be **text**, and we **cannot do** arithmetic operations with it.
 
+# Example: Home Town
+Let's write a program that asks the user for their home town and prints the text `"I am from {homeTown}!"`.
+
+```cs
+string homeTown = Console.ReadLine();
+Console.WriteLine($"I am from {homeTown}!");
+```
+
+In this case the `{homeTown}` expression is replaced with the value of the variable `homeTown`. 
+
+If we enter **"Sofia"**, the output will be as follows:
+```
+I am from Sofia!
+```
 [/slide]
 
 [slide]
@@ -88,70 +166,6 @@ We will learn how to handle exceptions in later courses.
 [/slide]
 
 [slide]
-# Printing and Formatting Text and Numbers
-
-## Using `Console.Write(…)` and `Console.WriteLine(…)`
-Work with these methods is easy because they can print all the basic types (string, numeric and primitive types).
-
-Here are some examples of printing various types of data:
-```cs
-Console.WriteLine("Hello World");
-Console.WriteLine(5);
-Console.WriteLine(3.14159265358979);
-```
-
-As we see by using `Console.WriteLine(…)` it is possible to print various data types because for each type there is a predefined version of the method `WriteLine(…)` in the `Console` class.
-
-The difference between `Write(…)` and `WriteLine(…)` is that the `Write(…)` method prints on the console what it is provided between the parentheses but does nothing in addition while the method `WriteLine(…)` means directly **"write line"**. 
-
-This method does what the `Write(…)` one does but in addition goes to a new line. 
-
-In fact the method does not print a new line but simply puts a **"command" for moving** cursor to the position where the new line starts (this command consists of the character `\r` followed by `\n`).
-
-Here is an example, which illustrates the difference between `Write(…)` and `WriteLine(…)`:
-```cs
-Console.WriteLine("I love");
-Console.Write("this ");
-Console.Write("course!");
-```
-
-We notice that the output of this example is printed on two lines, even though the code is on three. 
-
-This happens because on the first line of code we use `WriteLine(…)` which prints **"I love"** and then goes to a new line. 
-
-In the next two lines of the code uses the `Write(…)` method, which prints without going on a new line and thus the words **"this"** and **"course!"** remain on the same line.
-
-## Formatting
-In C#, when printing a text, numbers and other data on the console, **we can join them** by using templates `{0}`, `{1}`, `{2}` etc. 
-
-In programming, these templates are called **placeholders**. This is a simple example:
-```cs
-Console.WriteLine("{0} + {1} = {2}", 3, 5, 3 + 5);
-```
-
-The placeholders `{0}`, `{1}` and `{2}` are replaced by the expressions, given after the text. The result from the above code is:
-```
-3 + 5 = 8
-```
-
-## Using the Dollar String Interpolation
-We can format text in C# using also the following $ syntax. It provides simplifies text formatting:
-```cs
-double a = 4.5;
-Console.WriteLine($"Square size = {a}");
-Console.WriteLine($"Square area = {a * a}");
-```
-
-The output from the above code is as follows:
-```
-Square size = 4.5
-Square area = 20.25
-```
-
-The `$` prefix before a string in C# enables the so called **"string interpolation"**: replacing all expressions, staying in curly brackets `{ }` in the text with their values.
-[/slide]
-
-[slide]
 # Problem: Greeting
 [code-task title="Greeting" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
@@ -160,10 +174,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -207,6 +221,7 @@ Hello, George
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 [/slide]
 
@@ -219,12 +234,12 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    string name = Console.ReadLine();
-    Console.Write("Hello, ");
-    Console.WriteLine(name);
-  }
+    public static void Main()
+    {
+        string name = Console.ReadLine();
+        Console.Write("Hello, ");
+        Console.WriteLine(name);
+    }
 }
 ```
 [/code-editor]
@@ -268,6 +283,7 @@ Hello, George
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 [/slide]
 
