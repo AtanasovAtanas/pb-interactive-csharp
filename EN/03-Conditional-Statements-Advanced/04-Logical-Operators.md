@@ -62,13 +62,13 @@ As we saw above, the logical **"AND"** returns `true`, **only** when it accepts 
 Respectively, when we have a **sequence** of arguments, the logical **"AND"** **checks** either until one of the arguments is **over**, or until it **meets** an argument with value `false`. 
 
 # Example
-```csharp
+```cs live
 bool a = true;
 bool b = true;
 bool c = false;
 bool d = true;
 bool result = a && b && c && d;
-// false (as d is not being checked)
+Console.WriteLine(result);
 ```
 
 The program will run in the **following** way: 
@@ -103,7 +103,7 @@ A point is internal for a given polygon, if the following four conditions are ap
 -  The point is placed downwards from the upper side of the rectangle.
 -  The point is placed upwards from the down side of the rectangle.
 
-```cs
+```cs live
 double x1 = 2;
 double y1 = -3;
 double x2 = 12;
@@ -132,10 +132,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -171,6 +171,7 @@ Write a program that applies bonus to given points
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -187,25 +188,25 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    int points = int.Parse(Console.ReadLine());
+    public static void Main()
+    {
+        int points = int.Parse(Console.ReadLine());
 
-    if (points >= 0 && points <= 3)
-    {
-      points += 5;
-    }
-    else if (points >= 4 && points <= 6)
-    {
-      points += 15;
-    }
-    else if (points >= 7 && points <= 9)
-    {
-      points += 20;
-    }
+        if (points >= 0 && points <= 3)
+        {
+            points += 5;
+        }
+        else if (points >= 4 && points <= 6)
+        {
+            points += 15;
+        }
+        else if (points >= 7 && points <= 9)
+        {
+            points += 20;
+        }
 
-    Console.WriteLine(points);
-  }
+        Console.WriteLine(points);
+    }
 }
 ```
 [/code-editor]
@@ -241,6 +242,7 @@ Write a program that applies bonus to given points
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -276,13 +278,13 @@ Respectively, the checking **continues** until an **argument** with **such** val
 
 Here is one **example** of the `||` operator in action:
 
-```csharp
+```cs live
 bool a = false;
 bool b = true;
 bool c = false;
 bool d = true;
 bool result = a || b || c || d;
-// true (as c and d are not being checked)
+Console.WriteLine(result);
 ```
 
 The programs **checks** `a`, accepts that it has a value `false` and continues. 
@@ -299,10 +301,10 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    // Write code here
-  }
+    public static void Main()
+    {
+        // Write code here
+    }
 }
 ```
 [/code-editor]
@@ -339,6 +341,7 @@ unknown
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -357,23 +360,23 @@ using System;
 
 public class Program
 {
-  public static void Main()
-  {
-    string input = Console.ReadLine();
+    public static void Main()
+    {
+        string input = Console.ReadLine();
 
-    if (input == "curry" || input == "noodles" || input == "sushi" || input == "spaghetti")
-    {
-      Console.WriteLine("food");
+        if (input == "curry" || input == "noodles" || input == "sushi" || input == "spaghetti")
+        {
+            Console.WriteLine("food");
+        }
+        else if (input == "tea" || input == "water" || input == "coffee")
+        {
+            Console.WriteLine("drink");
+        }
+        else
+        {
+            Console.WriteLine("unknown");
+        }
     }
-    else if (input == "tea" || input == "water" || input == "coffee")
-    {
-      Console.WriteLine("drink");
-    }
-    else
-    {
-      Console.WriteLine("unknown");
-    }
-  }
 }
 ```
 [/code-editor]
@@ -410,6 +413,7 @@ unknown
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -434,7 +438,7 @@ A given **number is valid** if it is in the range **\[100 … 200\]** or it is *
 
 For example, `75` and `220` are **invalid**, but `150` is **valid**.
 
-```cs
+```cs live
 int num = 75;
 
 bool inRange = (num >= 100 && num <= 200) || num == 0;
@@ -454,7 +458,7 @@ The operator `()` serves for **changing the priority of operators** and is being
 Using parentheses also gives the code better readability and is considered a good practice.
 
 Example of checking whether a variable belongs to certain ranges:
-```csharp
+```cs 
 if (x < 0) || ((x >= 5) && (x <= 10)) || (x > 20)
 {
     // Commands
