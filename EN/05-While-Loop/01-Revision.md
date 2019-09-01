@@ -3,7 +3,7 @@
 
 ## For-Loop
 We can repeat a code block using a `for` loop:
-```cs
+```cs live
 for (int i = 1; i <= 10; i += 1)
 {
    Console.WriteLine(i);
@@ -20,7 +20,7 @@ for (int i = 1; i <= n; i += 1)
 ```
 
 We can iterate over characters:
-```cs
+```cs live
 for (char ch = 'a'; ch <= 'z'; ch += 1)
 {
    Console.WriteLine(ch);
@@ -34,14 +34,14 @@ Both operators are supported in two forms: the postfix increment operator, `x++`
 
 Prefix operator means increment / decrement the value before using it, while the postfix operator means increment / decremenet the value after using it.
 
-```cs
+```cs live
 int i = 3;
 Console.WriteLine(i);   // output: 3
 Console.WriteLine(i++); // output: 3
 Console.WriteLine(i);   // output: 4
 ```
 
-```cs
+```cs live
 int i = 3;
 Console.WriteLine(i);   // output: 3
 Console.WriteLine(++i); // output: 4
