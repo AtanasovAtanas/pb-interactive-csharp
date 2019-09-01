@@ -2,12 +2,12 @@
 # Revision
 Let's revise what we learned in the last lesson:
 - Numbers can be **compared** by the `==`, `<`, `>`, `<=`, `>=` and `!=` operators:
-```cs
+```cs live
 Console.WriteLine(5 <= 10);  // True
 ```
 
 - Simple **if-conditions** check a condition and execute a code block if it is **true**:
-```cs
+```cs live
 int a = 10;
 if (a > 5)
 {
@@ -16,7 +16,7 @@ if (a > 5)
 ```
 
 - The **if-else construction** executes one of two blocks depending on whether a condition is **true** or **false**:
-```cs
+```cs live
 int a = 10;
 if (a > 5)
 {
@@ -29,7 +29,7 @@ else
 ```
 
 - If-else constructions can be chained as **if-else-if-else sequences**:
-```cs
+```cs live
 int a = 10;
 if (a > 100)
 {
