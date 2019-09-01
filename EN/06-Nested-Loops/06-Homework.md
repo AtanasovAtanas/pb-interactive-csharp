@@ -191,10 +191,10 @@ public class Program
 [/code-editor]
 [task-description]
 Write a program, which:
-
+* Reads an integer - **n**
 * Generates custom passwords, which meet the following conditions:
-* The **first** part is an **even** number
-* The **second** part is an **odd** number
+* The **first** part is an **even** number and should not be greater than **n**
+* The **second** part is an **odd** number and should not be greater than **n**
 * The **last part** is the **product** of the first two
 [/task-description]
 [tests]
@@ -286,6 +286,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
