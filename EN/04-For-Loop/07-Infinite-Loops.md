@@ -9,7 +9,7 @@ We call an **infinite loop** one that **repeats infinitely** the performance of 
 Infinite `for` occurs when there is **no condition to end the loop**.
 
 Here is what a `for` loop with no end condition looks like:
-```cs
+```cs live
 for ( ; ; ) 
 {
   Console.WriteLine("Hello World");
