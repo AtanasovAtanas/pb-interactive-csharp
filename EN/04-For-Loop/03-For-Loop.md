@@ -5,14 +5,17 @@ In programming it is often required to perform a block of commands multiple time
 In order to do that, the so-called **loop**s are used. 
 
 Let's examine an example of a `for` loop that passes sequentially through the numbers from 1 to 10 and prints them:
-```cs
+```cs live
 for (int i = 1; i <= 10; i += 1)
 {
   Console.WriteLine(i);
 }
 ```
+
 The block of code can be explained with this use case diagram:
+
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/04-for-loop-usecase.png"/]
+
 The loop starts with the `for` operator and passes through all values for a particular variable in a given range, for example the numbers from 1 to 10 (included), and for each value it performs a series of commands.
 
 # Syntax: For-Loop
