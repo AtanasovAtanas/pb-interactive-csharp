@@ -266,10 +266,8 @@ public class Program
 [/code-editor]
 [task-description]
 Write a program, which:
-
 * Reads a **number - n**, from the console
-* Finds all **3-digit numbers**:
-* Forming **n** as a product of the multiplication of their digits
+* Finds all **3-digit numbers** which product of the multiplication of their digits is equal to **n**
 [/task-description]
 [tests]
 [test]
