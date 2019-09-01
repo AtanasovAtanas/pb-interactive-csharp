@@ -18,7 +18,7 @@ while (condition)
 
 # Example
 
-```csharp
+```cs live
 int i = 0;
 while (i < 2)
 {
@@ -28,16 +28,10 @@ while (i < 2)
 
   while (j < 2)
   {
-    Console.WriteLine($"Value of j: {j}");
+    Console.WriteLine($"  Value of j: {j}");
     j++;
   }
 }
-
-// Output
-// Value of i: 0 
-// Value of j: 1 
-// Value of i: 1 
-// Value of j: 1 
 ```
 [/slide]
 
@@ -75,6 +69,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -134,6 +129,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
