@@ -1,6 +1,21 @@
 [slide]
 # Problem 03
-## Description
+[code-task title="Problem-03" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		// Write your code here
+	}
+}
+```
+[/code-editor]
+[task-description]
+# Description
 For the upcoming premiere of three popular productions a local cinema has hired you to write a software that calculates the price, which the clients have to pay, depending on the movie and the offer they have chosen.
 
 |   | John Wick | Star Wars | Jumanji |
@@ -13,50 +28,31 @@ Write a program that calculates the price that has to be paid. Keep in mind that
 - If the chosen movie is "Star Wars" and at least four tickets are bought, there is 30% family discount.
 - If the chosen movie is "Jumanji" and the tickets bought are exactly two, there is 15% discount for two.
 
-## Input
+# Input
 You receive 3 lines from the console:
 - First line - movie - string: "John Wick", "Star Wars" or "Jumanji"
 - Second line - offer - string:"Drink", "Popcorn" or "Menu"
 - Third line - count tickets – whole number in the range [1… 30]
 
-## Output
+# Output
 Print one line on the console: "Your bill is \{total price\}$"
  * The price must be formatted to two digits after the decimal point.
 
-[code-task title="Problem-03" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-	public static void Main()
-	{
-		// Write your code here
-	}
-}
-```
-[/code-editor]
-[task-description]
+# Example
 ## Input
-Movie - John Wick
-
-Offer - Drink
-
-Count tickets – 6
+- Movie - John Wick
+- Offer - Drink
+- Count tickets – 6
 
 ## Output
 Your bill is 72.00$
 
 ## Comments
-If the movie is Star Wars and popcorn is chosen. 
-
-The price for one ticket is 25$. 4 tickets each 25$ -> 100$. 
-
-For this movie there is 30% discount for 4 or more people. 
-
-30% of 100 -> 30$. 
-
-100$ – 30$ -> 70$ is the total price.
+- If the movie is Star Wars and popcorn is chosen. 
+- The price for one ticket is 25$. 4 tickets each 25$ -> 100$. 
+- For this movie there is 30% discount for 4 or more people. 
+- 30% of 100 -> 30$. 
+- 100$ – 30$ -> 70$ is the total price.
 [/task-description]
 [tests]
 [test]
@@ -150,5 +146,6 @@ Your bill is 42.00$
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 [/slide]
