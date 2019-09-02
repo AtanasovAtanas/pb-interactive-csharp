@@ -6,6 +6,12 @@
 But there are different situations when writing code that require either the first loop, or the other.
 
 When you know **exactly how many times** you want to loop through a block of code, use the `for` loop.
+```cs live
+for (int i = 0; i <= 5; i++)
+{
+    Console.WriteLine(i);
+}
+```
 
 It is usually appropriate for loops in which the initialization and increment are single statements and logically related. 
 
@@ -16,7 +22,26 @@ But, there could be many **complex** problems where number of iterations depend 
 That means we don't know in advance **how many times** to repeat a loop.
 
 In those situation it is better to use `while` loop.
+```cs live
+string command = Console.ReadLine();
+int number = int.Parse(Console.ReadLine());
+while (command != "End")
+{
+    switch (command)
+    {
+        case "Add":
+            number += 1;
+            break;
+        case "Subtract":
+            number -= 1;
+            break;
+    }
 
+    command = Console.ReadLine();
+}
+
+Console.WriteLine(number);
+```
 [/slide]
 
 [slide]
