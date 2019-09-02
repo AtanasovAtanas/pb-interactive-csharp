@@ -1,6 +1,7 @@
 [slide]
 # Nested Conditions
-Pretty often the program logic requires the use of `if` or `if-else` statements, which are contained one inside another.  They are called **nested** `if` or `if-else` statements. 
+Pretty often the program logic requires the use of `if` or `if-else` statements, which are contained one inside another.  
+They are called **nested** `if` or `if-else` statements. 
 
 As implied by the title **"nested"**, these are `if` or `if-else` statements that are placed inside other `if` or `else` statements.
 
