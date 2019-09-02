@@ -213,10 +213,17 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
+
 Write a program that applies bonus to given points
   * If points are between **0** and **3**, adds **5**
   * If points are between **4** and **6**, adds **15**
   * If points are between **7** and **9**, adds **20**
+
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|4|19|
 [/task-description]
 [tests]
 [test]
@@ -246,10 +253,6 @@ Write a program that applies bonus to given points
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|19|
 [/slide]
 
 [slide]
@@ -311,11 +314,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
   * Reads single line and print "***drink***", "***food***" or "***unknown***"
   * Foods: curry, noodles, sushi, spaghetti 
   * Drinks: tea, water, coffee
   * Everything else is unknown
+
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|curry|food|
+|water|drink|
+|flower|unknown|
 [/task-description]
 [tests]
 [test]
@@ -345,12 +356,6 @@ unknown
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|curry|food|
-|water|drink|
-|flower|unknown|
 [/slide]
 
 [slide]
@@ -383,11 +388,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
   * Reads single line and print "***drink***", "***food***" or "***unknown***"
   * Foods: curry, noodles, sushi, spaghetti 
   * Drinks: tea, water, coffee
   * Everything else is unknown
+  
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|curry|food|
+|water|drink|
+|flower|unknown|
 [/task-description]
 [tests]
 [test]
@@ -417,12 +430,6 @@ unknown
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|curry|food|
-|water|drink|
-|flower|unknown|
 [/slide]
 
 [slide]
