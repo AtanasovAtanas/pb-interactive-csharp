@@ -45,24 +45,22 @@ It works differently with **integers** and **floating point numbers**.
 Here are a few examples with the division operator:
 ```cs live
 var a = 25;
-var i = a / 4;      // we are applying an integer division:
-                    // the result of this operation will be 6 – the fractional part will be cut, 
-                    // because we are dividing integers
+var i = a / 4;
 Console.WriteLine(i);
-var f = a / 4.0;    // 6.25 – floating division. We have set the number 4 to be interpreted 
-                    // as a float by adding a decimal separator followed by zero 
+var f = a / 4.0;
 Console.WriteLine(f);
 ```
 
 ### Dividing Integers
 Let's examine a few examples for **integer division** (remember that when we **divide integers** in C# the result is an **integer**):
 ```cs live
-var a = 25;
+int a = 25;
 Console.WriteLine(a / 4);
 ```
 
 Dividing an integer by zero leads to an error.
 ``` cs live
+int a = 5;
 Console.WriteLine(a / 0);
 ```
 
@@ -73,12 +71,11 @@ When we divide floating point numbers, the result is always a **float number** a
 
 It also works correctly with the special values **+∞** and **-∞**:
 ```cs live
-var a = 15;
-Console.WriteLine(a / 2.0);   // Float result: 7.5
-Console.WriteLine(a / 0.0);   // Result: Infinity
-Console.WriteLine(-a / 0.0);  // Result: -Infinity
-Console.WriteLine(0.0 / 0.0); // Result: NaN (Not a Number), e.g. the result
-                              // from the operation is not a valid numeric value
+int a = 15;
+Console.WriteLine(a / 2.0);
+Console.WriteLine(a / 0.0);
+Console.WriteLine(-a / 0.0);
+Console.WriteLine(0.0 / 0.0);
 ```
 
 When printing the values ∞ and -∞, the console output may be `?`.
