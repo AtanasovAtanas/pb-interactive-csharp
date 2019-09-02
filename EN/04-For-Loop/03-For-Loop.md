@@ -66,8 +66,9 @@ public class Program
 Write a program, which:
 
 * Reads number n from the console
+* **Prints** all numbers from **1** to **n**
 * **Sums** all numbers from **1** to **n**
-* **Prints** the sum on the console
+* **Prints** the sum on the console at the end
 [/task-description]
 [tests]
 [test]
@@ -75,6 +76,11 @@ Write a program, which:
 5
 [/input]
 [output]
+1
+2
+3
+4
+5
 15
 [/output]
 [/test]
@@ -83,6 +89,12 @@ Write a program, which:
 6
 [/input]
 [output]
+1
+2
+3
+4
+5
+6
 21
 [/output]
 [/test]
@@ -92,8 +104,12 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|5|15|
-|6|21|
+|5|1|
+||2|
+||3|
+||4|
+||5|
+||15|
 [/slide]
 
 [slide]
@@ -111,6 +127,7 @@ public class Program
         int sum = 0;
         for (int i = 1; i <= n; i += 1)
         {
+            Console.WriteLine(i);
             sum += i;
         }
         Console.WriteLine(sum);
@@ -122,8 +139,9 @@ public class Program
 Write a program, which:
 
 * Reads number n from the console
+* **Prints** all numbers from **1** to **n**
 * **Sums** all numbers from **1** to **n**
-* **Prints** the sum on the console
+* **Prints** the sum on the console at the end
 [/task-description]
 [tests]
 [test]
@@ -131,6 +149,11 @@ Write a program, which:
 5
 [/input]
 [output]
+1
+2
+3
+4
+5
 15
 [/output]
 [/test]
@@ -139,6 +162,12 @@ Write a program, which:
 6
 [/input]
 [output]
+1
+2
+3
+4
+5
+6
 21
 [/output]
 [/test]
@@ -148,8 +177,12 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|5|15|
-|6|21|
+|5|1|
+||2|
+||3|
+||4|
+||5|
+||15|
 [/slide]
 
 [slide]
