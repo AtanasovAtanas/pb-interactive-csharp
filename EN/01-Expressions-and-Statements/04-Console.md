@@ -4,7 +4,7 @@ Generally, the **system console** represents a text terminal, which means that i
 
 It usually looks like a black colored window like this one:
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Console-example.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Console-example.png"/]
 
 In most operating systems, the **console** is available as a standalone application on which we write console commands. 
 
