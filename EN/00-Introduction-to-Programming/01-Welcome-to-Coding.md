@@ -7,13 +7,8 @@ When the commands are one after another, they are called **a computer program**.
 The text of computer programs is called **a program code** (or a **source code**, or even shorter – **code**).
 
 Example of command for the computer:
-```cs
+```cs live
 Console.WriteLine("Welcome to coding");
-```
-
-When executed, the above command prints the following text:
-```
-Welcome to coding
 ```
 [/slide]
 
