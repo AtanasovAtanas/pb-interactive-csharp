@@ -26,7 +26,7 @@ Each of the variables in C# has a name, a type and a value.
 
 Here is how we would declare a variable and assign it with a value at the same time:
 ```csharp
-String name = "Bob";
+string name = "Bob";
 bool employed = true;
 int age = 35;
 ```

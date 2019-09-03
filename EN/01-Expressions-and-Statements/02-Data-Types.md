@@ -10,7 +10,7 @@ In C# we can use data types to define variables as follows:
 Once a variable is defined, it can change its value many times, but it cannot change its data type later. 
 
 Variables may hold only data of their type. Here is how we can declare variables of different types:
-```csharp
+```cs 
 int a = 5;
 string text = "Some text";
 char letter = 'A';
@@ -36,7 +36,7 @@ There are other naming conventions which are used in different languages such as
 **Camel case** combines words by:
 * capitalizing all words following the first word
 * removing the space:
-```csharp
+```cs
 int userLoginCount;
 ```
 
@@ -52,7 +52,7 @@ int UserLoginCount;
 * no spaces
 * each element's initial letter usually lowercased within the compound
 * the first letter either upper or lowercase:
-```csharp
+```cs
 int users_count;
 string first_name;
 ```

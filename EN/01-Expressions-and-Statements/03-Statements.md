@@ -29,7 +29,7 @@ Common actions include:
   ```
 
 - **Printing** a value
-  ```cs
+  ```cs 
   Console.WriteLine(counter);
   ```
 
