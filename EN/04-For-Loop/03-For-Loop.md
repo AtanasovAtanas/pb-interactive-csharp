@@ -14,7 +14,7 @@ for (int i = 1; i <= 10; i += 1)
 
 The block of code can be explained with this use case diagram:
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/04-for-loop-usecase.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/04-for-loop-usecase.png"/]
 
 The loop starts with the `for` operator and passes through all values for a particular variable in a given range, for example the numbers from 1 to 10 (included), and for each value it performs a series of commands.
 
