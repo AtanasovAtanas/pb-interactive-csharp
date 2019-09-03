@@ -6,7 +6,7 @@ Built this way, **the conditional statement** is called `if-else` and its behavi
 * if the result of the condition is positive (`true`) – we perform some actions
 * when it is negative (`false`) – others. 
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/02-usecase-if-else-statement.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/02-usecase-if-else-statement.png"/]
 
 The format of the construction is:
 ```csharp
