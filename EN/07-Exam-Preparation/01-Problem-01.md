@@ -1,29 +1,10 @@
 [slide]
 # Problem 01
-## Description
-Write a program, which calculates how long it will take you to watch all episodes of a series in minutes. 
-
-You will receive count seasons, count episodes per season and duration of each episode. 
-
-In every episode there are advertisements, whose duration is 20% of the episode’s duration. 
-
-You also have to keep in mind that every season ends with a special episode, which lasts 10 minutes longer than usual. 
-
-## Input
-From the console you receive 4 lines:
-- Name of the series - String
-- Count seasons – int in the range [1… 10]
-- Count episodes  – int in the range [10… 80]
-- Duration of a usual episode without the advertisements – double in the range [40.0… 65.0]
-
-## Output
-You have to print on the console the time needed to watch all of the episodes, rounded down to the nearest whole number in the following format: 
-- "Total time needed to watch the \{name of the series\} series is \{time\} minutes."
-
 [code-task title="Problem-01" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
 	public static void Main()
@@ -34,6 +15,27 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
+Write a program, which calculates how long it will take you to watch all episodes of a series in minutes. 
+
+You will receive count seasons, count episodes per season and duration of each episode. 
+
+In every episode there are advertisements, whose duration is 20% of the episode’s duration. 
+
+You also have to keep in mind that every season ends with a special episode, which lasts 10 minutes longer than usual. 
+
+# Input
+From the console you receive 4 lines:
+- Name of the series - String
+- Count seasons – int in the range [1… 10]
+- Count episodes  – int in the range [10… 80]
+- Duration of a usual episode without the advertisements – double in the range [40.0… 65.0]
+
+# Output
+You have to print on the console the time needed to watch all of the episodes, rounded down to the nearest whole number in the following format: 
+- "Total time needed to watch the \{name of the series\} series is \{time\} minutes."
+
+# Example
 ## Input
 Name of the series - Lucifer
 
@@ -55,7 +57,6 @@ Additional time from the special episode: 3*10 = 30
 
 Total time to watch the episodes: 66 * 18 * 3 + 30 = 3594.0  
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -124,5 +125,6 @@ Total time needed to watch the Teen wolf series is 6650 minutes.
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 [/slide]

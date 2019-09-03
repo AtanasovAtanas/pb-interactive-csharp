@@ -1,44 +1,58 @@
 [slide]
 # Revision
 
-# While Loop
-Control flow **statement** that allows code to be executed repeatedly based on a given **Boolean** condition
+# While / Do-While Loops
+The while / do-while loops are repeated while a **condition is true**:
 
-```csharp
-while /*<-Keyword*/ (condition)
+```cs live
+int n = 10;
+int num = 1;
+while (num <= n)
 {
-   // Body of the loop
+   Console.WriteLine(num++);
 }
 ```
 
-# While Loop - Example
-Print numbers from **1 to 5**
-
-```csharp
-int i = 1;
-while (i <= 5)
+``` cs live
+int num = 1;
+int count = 0;
+do
 {
-   Console.WriteLine(i);
-   i++;
-}
-// 1
-// 2
-// 3
-// 4
-// 5
+    count++;
+    num = num * 2;
+} while (num <= 10);
+Console.WriteLine("2^{0} = {1}", count, num);
 ```
 
 # While or For
-***While*** and ***for*** loop help to **repeat** block of **code**
+**While** and **for** loops help to **repeat** block of **code**.
 
-Use ***for*** when you know the **number of repetitions**
+Use `for` when you know the **number of repetitions**.
 
-Use ***while*** when you don't know when the **end condition** will be met
+Use `while` when you don't know when the **end condition** will be met.
 
-# The Break Operator
-Used for **prematurely exiting** the loop
+# The break Statement.
+If we have to **interrupt** the loop execution, we do it with the operator `break`:
+``` cs
+while (true)
+{
+   int n = int.Parse(Console.ReadLine());
+   
+   if (n % 2 == 0)
+   {
+      break; // even number -> exit from the loop
+   }
 
-Can only be executed from the **body**, during an **iteration of the loop**
+   Console.WriteLine("The number is not even.");
+}
 
-When ***break*** is executed the code in the loop's body after it **is skipped**
+Console.WriteLine("Even number entered: {0}", n);
+```
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342526930" startTimeInSeconds="982" endTimeInSeconds="1520" /]
+
 [/slide]

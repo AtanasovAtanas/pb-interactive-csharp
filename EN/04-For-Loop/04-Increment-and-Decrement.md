@@ -1,31 +1,56 @@
 [slide]
-# Increment / Decrement Operators
+# Increment and Decrement Operators
+The unary increment operator `++` increments its operand by 1, while the unary decrement operator `--` decrements it by 1.
 
-Increment (++) operator increases the value by 1
+The increment and decrement operators are supported in two forms: 
 
-Decrement (--) operator decreases the value by 1
+* the postfix increment/decrement operator, `x++`/`x--` 
+* the prefix increment/decrement operator, `++x`/`--x`
 
-Can be used pre and post fix
+## Increment Operator
 
-* Prefix: **++i**, **--i**
-* Postfix: **i++**, **i--**
-
-Both operators can be used only with numeric variables
-
-# Example
-
-Pre-decrement
-
-```csharp
-int a = 1; 
-Console.WriteLine(--a); // 0: Decreases the value and then prints it
-Console.WriteLine(a);   // 0
+### Postfix Increment Operator
+The result of `x++` is the value of `x` before the operation, as the following example shows:
+```cs live
+int i = 3;
+Console.WriteLine(i);   // output: 3
+Console.WriteLine(i++); // output: 3
+Console.WriteLine(i);   // output: 4
 ```
-Post-decrement
 
-```csharp
-int a = 1; 
-Console.WriteLine(a--); // 1: First prints the value and then decreases it
-Console.WriteLine(a);   // 0
+### Prefix Increment Operator
+The result of `++x` is the value of `x` after the operation, as the following example shows:
+```cs live
+double a = 1.5;
+Console.WriteLine(a);   // output: 1.5
+Console.WriteLine(++a); // output: 2.5
+Console.WriteLine(a);   // output: 2.5
 ```
+
+## Decrement Operator
+
+### Postfix Decrement Operator
+The result of `x--` is the value of `x` before the operation, as the following example shows:
+```cs live
+int i = 3;
+Console.WriteLine(i);   // output: 3
+Console.WriteLine(i--); // output: 3
+Console.WriteLine(i);   // output: 2
+```
+
+### Prefix Decrement Operator
+The result of `--x` is the value of `x` after the operation, as the following example shows:
+```cs live
+double a = 1.5;
+Console.WriteLine(a);   // output: 1.5
+Console.WriteLine(--a); // output: 0.5
+Console.WriteLine(a);   // output: 0.5
+```
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="1693" endTimeInSeconds="1945" /]
+
 [/slide]

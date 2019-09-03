@@ -1,8 +1,14 @@
 [slide]
 # Homework
-Now, it's your turn to practice what you have learned in the training session.
+Welcome to the homework. 
 
-We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
+Now we are going to write a couple of console applications, by which we are going to make a few more steps into programming. 
+
+We have prepared some problems for you to solve.
+
+Let's solve a few problems to confirm what we have learned.
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/homeowrk.png"/]
 [/slide]
 
 [slide]
@@ -24,12 +30,11 @@ public class Program
 [task-description]
 
 Write a program to calculate the speed by time and distance:
-  * Read 2 floating-point numbers: distance and time
-  * Calculate the speed needed to travel a given distance for given time
+  * Read 2 floating-point numbers: **distance** and **time**
+  * Calculate the **speed** needed to travel a given distance for given time
   * Print the calculated result
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -37,7 +42,7 @@ Write a program to calculate the speed by time and distance:
 2.0
 [/input]
 [output]
-5.0
+5
 [/output]
 [/test]
 [test]
@@ -68,6 +73,7 @@ Write a program to calculate the speed by time and distance:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -103,7 +109,6 @@ Write a program to convert from USD to EUR:
   * Print the converted value in **euro**
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -138,6 +143,7 @@ Write a program to convert from USD to EUR:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -173,7 +179,6 @@ Write a program to calculate a triangle area:
   * Print the **area**, formatted to the **2nd digit** after decimal point
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -212,6 +217,7 @@ Write a program to calculate a triangle area:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -242,11 +248,15 @@ public class Program
 
 Write a program, which:
   * **Reads** 2 real numbers from the **console**
-  * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: **+, -, *, /**
+  * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: `+`, `-`, `*`, `/`
   * **Formats** and **prints** the results like this example:
-
+  ```
+  5.00 + 10.00 = 15.00
+  5.00 - 10.00 = -5.00
+  5.00 * 10.00 = 50.00
+  5.00 / 10.00 = 0.50
+  ```
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -297,18 +307,9 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|5|5.00 + 10.00 = 15.00| 
-|10|5.00 - 10.00 = -5.00|
-||5.00 * 10.00 = 50.00|
-||5.00 / 10.00 = 0.50|
 [/slide]
-
 
 [slide]
 # Problem: Days to Minutes
@@ -334,7 +335,6 @@ Write a program to convert from days to minutes:
   * Print the **minutes**
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -369,6 +369,7 @@ Write a program to convert from days to minutes:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -397,13 +398,12 @@ public class Program
 [/code-editor]
 [task-description]
 
-Write a program to calculate a circle area and perimeter:
-  * Read a floating-point number: the radius of a circle
-  * Calculate the area and perimeter of a circle
+Write a program to calculate a **circle** area and perimeter:
+  * Read a floating-point number: the **radius** of a circle
+  * Calculate the **area** and **perimeter** of a circle
   * Print the calculated values
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -442,6 +442,7 @@ Perimeter = 59.061942
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -472,11 +473,10 @@ public class Program
 [task-description]
 
 Write a program, which:
-  * Reads 4 lines of **strings**: first name, last name, country and town 
-  * Prints information about a person in the following format: "**{firstName} {lastName} from {country} - {town}!**"
+  * Reads 4 lines of **strings**: **first name**, **last name**, **country** and **town** 
+  * Prints information about a person in the following format: `"{firstName} {lastName} from {country} - {town}!"`
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -523,6 +523,7 @@ A B from C - D!
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -555,10 +556,9 @@ public class Program
 
 Write a program, which:
   * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
-  * Prints information about a town in the following format: "**Town {name} has population of {population} and area {area} square km.**"
+  * Prints information about a town in the following format: `"Town {name} has population of {population} and area {area} square km."`
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -601,6 +601,7 @@ Town A has population of 123456 and area 789 square km.
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -610,4 +611,11 @@ Town A has population of 123456 and area 789 square km.
 |Berlin|Town Berlin has population of 3675000 and area 984 square km.|
 |3675000||
 |984||
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="8642" endTimeInSeconds="10930" /]
+
 [/slide]

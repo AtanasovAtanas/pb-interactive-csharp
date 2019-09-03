@@ -1,8 +1,25 @@
 [slide]
-# Real-Life Example: Box of Books
-Unpack a box of books
+# Real-Life Example: Fill a Bucket
+The next type of loops that we will get familiar with are called `while` loops. 
 
-Remove the first book from the box
+The specific thing about them is that they repeat a block of commands while a condition is `true`. 
 
-Keep removing books until the box is emptied
+As a structure, they differ from `for` loops, and even have a simple syntax.
+
+Before we jump to the lesson, let's cover an example which is from the real life.
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/05-bucket-example.png"/]
+You have to fill a bucket with water using a mug.
+
+You never know how many mugs of water you will use.
+
+You will stop when the bucket is full.
+
+In this exmaple, you work until satisfying a given condition.
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="1197" endTimeInSeconds="1300" /]
+
 [/slide]

@@ -1,15 +1,6 @@
 [slide]
 # Summary
-What is Coding?
 
-* Commands and Programs
-
-The C# Language
-
-The Visual Studio IDE
-
-* Installing VS
-
-* Writing C# Console Apps
+[vimeo-video videoId="342590118" startTimeInSeconds="6548" endTimeInSeconds="6770" /]
 
 [/slide]

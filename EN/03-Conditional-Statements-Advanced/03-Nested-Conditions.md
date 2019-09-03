@@ -1,37 +1,92 @@
 [slide]
 # Nested Conditions
-An ***if-else*** statement can be nested within another ***if-else*** statement
+Pretty often the program logic requires the use of `if` or `if-else` statements, which are contained one inside another.  
+They are called **nested** `if` or `if-else` statements. 
+
+As implied by the title **"nested"**, these are `if` or `if-else` statements that are placed inside other `if` or `else` statements.
 
 ```csharp
-if (expression)
+if (condition1)
 {
-  if (nested expression)
-    // Some code
-  else
-    // Some code
-} 
-```
-Only if the first condition is true the nested one is checked
-
-```csharp
-if (expression)
-{
-  if (nested expression)
-    // Some code
-  else
-    // Some code
-    // Executes when the nested expression is false
+    if (condition2)
+    {
+        // body; 
+    }
+    else
+    {
+        // body;
+    }
 }
 ```
-Deep nesting is not recommended
 
-* Use up to 3 nested levels
+# Example: Personal Titles
+Depending on **age** (decimal number and **gender** (**m** / **f**), print a personal title:
+-  "Mr." – a man (gender "m") – 16 or more years old.
+-  "Master" – a boy (gender "m") under 16 years.
+-  "Ms." – a woman (gender "f") – 16 or more years old.
+-  "Miss" – a girl (gender "f") under 16 years.
 
+# Solution: Person Titles
+We should notice that the **output** of the program **depends on a few things**. 
+
+**First**, we have to check what is the entered **gender** and **then** check the **age**. 
+
+Respectively, we are going to use **a few** `if-else` blocks. 
+
+These blocks will be **nested**, meaning from **the result** of the first, we are going to **define** which one of the **others** to execute.
+
+The diagram below illustrates the process in detail:
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/01.Personal-titles-01.jpg"/]
+
+After reading the input data from the console, the following program logic should be executed:
+```cs
+int age = int.Parse(Console.ReadLine());
+string char = Console.ReadLine();
+
+if (age < 16)
+{
+    if (gender == "m")
+    {
+        Console.WriteLine("Master");
+    }
+    else if (gender == "f")
+    {
+        Console.WriteLine("Miss");
+    }
+}
+else
+{
+    if (gender == "m")
+    {
+        Console.WriteLine("Mr.");
+    }
+    else if (gender == "f")
+    {
+        Console.WriteLine("Ms.");
+    }
+}
+```
+
+# Deep nesting
+Nesting of **more than three conditional statements** inside each other is not considered a good practice.
+
+It **has to be avoided**, mostly through optimization of the structure/the algorithm of the code and/or by using another type of conditional statement.
 [/slide]
 
 [slide]
 # Problem: Marketplace
-[code-task title="Marketplace" executionStrategy="csharp-dot-net-core-code" requiresInput]
+Write a program which:
+  * Reads a **product** and **day** from the console
+  * Prints the **price**, formatted to 2nd digit, based on the price table below
+
+|Product|Weekday|Weekend| 
+|-------|-------|-------|
+|Banana|2.50|2.70|
+|Apple|1.30|1.60|
+|Kiwi|2.20|3.00|
+
+[code-task title="Marketplace" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -46,32 +101,49 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program which:
-
-  * Reads a **product** and **day** from the console
-  * Prints the **price**, formatted to 2nd digit, based on the price table below
-[/task-description]
-[code-io /]
-[/code-task]
-
-|Product|Weekday|Weekend| 
-|-------|-------|-------|
-|Banana|2.50|2.70|
-|Apple|1.30|1.60|
-|Kiwi|2.20|3.00|
-
 # Sample Input and Output
-
 |Input|Output|
 |-----|------|
 |Banana|2.50|
 |Weekday||
-
+[/task-description]
+[tests]
+[test]
+[input]
+Banana
+Weekday
+[/input]
+[output]
+2.50
+[/output]
+[/test]
+[test]
+[input]
+Apple
+Weekend
+[/input]
+[output]
+1.60
+[/output]
+[/test]
+[/tests]
+[code-io/]
+[/code-task]
 [/slide]
 
 [slide]
 # Solution: Marketplace
-[code-task title="Marketplace" executionStrategy="csharp-dot-net-core-code" requiresInput]
+Write a program which:
+  * Reads a **product** and **day** from the console
+  * Prints the **price**, formatted to 2nd digit, based on the price table below
+
+|Product|Weekday|Weekend| 
+|-------|-------|-------|
+|Banana|2.50|2.70|
+|Apple|1.30|1.60|
+|Kiwi|2.20|3.00|
+
+[code-task title="Marketplace" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -80,69 +152,83 @@ public class Program
 {
     public static void Main()
     {
-        string product = Console.ReadLine();
-        string dayOfWeek = Console.ReadLine();
+        String product = Console.ReadLine();
+        String day = Console.ReadLine();
+
+        double price = 0;
 
         if (product == "Banana")
         {
-            if (dayOfWeek == "Weekday")
-                Console.WriteLine("2.50");
-            else
-                Console.WriteLine("2.70");
-        }
-        else if (product == "Apple")
-        {
-            if (dayOfWeek == "Weekday")
+            if (day == "Weekday")
             {
-                Console.WriteLine("1.30");
+                price = 2.50;
             }
             else
             {
-                Console.WriteLine("1.60");
+                price = 2.70;
+            }
+        }
+        else if (product == "Apple")
+        {
+            if (day == "Weekday")
+            {
+                price = 1.30;
+            }
+            else
+            {
+                price = 1.60;
             }
         }
         else if (product == "Kiwi")
         {
-            if (dayOfWeek == "Weekday")
+            if (day == "Weekday")
             {
-                Console.WriteLine("2.20");
+                price = 2.20;
             }
             else
             {
-                Console.WriteLine("3.00");
+                price = 3.00;
             }
         }
+        Console.WriteLine("{0:F2}", price);
     }
 }
 ```
 [/code-editor]
 [task-description]
-Write a program which:
-
-  * Reads a **product** and **day** from the console
-  * Prints the **price**, formatted to 2nd digit, based on the price table below
-[/task-description]
-[code-io /]
-[/code-task]
-
-|Product|Weekday|Weekend| 
-|-------|-------|-------|
-|Banana|2.50|2.70|
-|Apple|1.30|1.60|
-|Kiwi|2.20|3.00|
-
 # Sample Input and Output
-
 |Input|Output|
 |-----|------|
 |Banana|2.50|
 |Weekday||
-
+[/task-description]
+[tests]
+[test]
+[input]
+Banana
+Weekday
+[/input]
+[output]
+2.50
+[/output]
+[/test]
+[test]
+[input]
+Apple
+Weekend
+[/input]
+[output]
+1.60
+[/output]
+[/test]
+[/tests]
+[code-io/]
+[/code-task]
 [/slide]
 
 [slide]
 # Problem: Biggest Number of Three
-[code-task title="Biggest Number of Three" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Biggest Number of Three" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -162,26 +248,52 @@ Write a program, which:
   * Reads **3 numbers** from the console
   * Prints **the biggest** number
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+1
+2
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+-1
+-5
+-9
+[/input]
+[output]
+-1
+[/output]
+[/test]
+[test]
+[input]
+1
+5
+3
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
-
-|Input|Output|
-|-----|------|
-|1|3|
-|2||
-|3||
-|-1|-1|
-|-5||
-|-9||
-|1|5|
-|5||
-|3||
+|Input|Output|Input|Output|Input|Output|
+|-----|------|-----|------|-----|------|
+|1|3|-1|-1|1|5|
+|2||-5||5||
+|3||-9||3||
 [/slide]
+
 
 [slide]
 # Solution: Biggest Number of Three
-[code-task title="Biggest Number of Three" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Biggest Number of Three" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -190,30 +302,30 @@ public class Program
 {
     public static void Main()
     {
-        int first = int.Parse(Console.ReadLine());
-        int second = int.Parse(Console.ReadLine());
-        int third = int.Parse(Console.ReadLine());
+        int num1 = int.Parse(Console.ReadLine());
+        int num2 = int.Parse(Console.ReadLine());
+        int num3 = int.Parse(Console.ReadLine());
 
-        if (first > second)
+        if (num1 > num2) 
         {
-            if (first > third)
+            if (num1 > num3) 
             {
-                Console.WriteLine(first);
+                Console.WriteLine(num1);
             }
-            else
+            else 
             {
-                Console.WriteLine(third);
+                Console.WriteLine(num3);
             }
         }
-        else
+        else if (num2 > num1)
         {
-            if (second > third)
+            if (num2 > num3)
             {
-                Console.WriteLine(second);
+                Console.WriteLine(num2);
             }
-            else
+            else 
             {
-                Console.WriteLine(third);
+                Console.WriteLine(num3);
             }
         }
     }
@@ -226,20 +338,52 @@ Write a program, which:
   * Reads **3 numbers** from the console
   * Prints **the biggest** number
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+1
+2
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+-1
+-5
+-9
+[/input]
+[output]
+-1
+[/output]
+[/test]
+[test]
+[input]
+1
+5
+3
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
 # Sample Input and Output
+|Input|Output|Input|Output|Input|Output|
+|-----|------|-----|------|-----|------|
+|1|3|-1|-1|1|5|
+|2||-5||5||
+|3||-9||3||
+[/slide]
 
-|Input|Output|
-|-----|------|
-|1|3|
-|2||
-|3||
-|-1|-1|
-|-5||
-|-9||
-|1|5|
-|5||
-|3||
+
+[slide]
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="1425" endTimeInSeconds="2839" /]
 
 [/slide]

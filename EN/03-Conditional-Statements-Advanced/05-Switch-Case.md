@@ -1,10 +1,44 @@
 [slide]
 # The Switch-Case Statement
-Used for choosing among a list of possibilities
+The switch-case condition works as a sequence of **if-else** blocks. 
 
-Alternative to an ***if-else*** statement if a single expression is tested against three or more conditions
+Whenever the work of our program depends on the value of one variable, instead of making consecutive conditions with `if-else` blocks, we can **use** the conditional `switch` statement. 
 
-```csharp
+It is being used for **choosing between a list of possibilities**. 
+
+The statement compares a given value with defined constants and depending on the result, it takes an action.
+
+- We put **the variable** that we want to **compare**, inside the **brackets after the operator** `switch` and it is called a **"selector"**. 
+- Here **the type must be comparable** (numbers, strings). 
+- **Consecutively**, the program starts **comparing** each **value** that is **found** after the `case` **labels**. 
+- Upon a match, the execution of the code from the respective place begins and continues until it reaches the operator `break`. 
+
+In some programming languages (like C and C++) `break` might be skipped, in order to execute a code from other `case` construction, until it reaches another operator. 
+
+In C# though, the presence of `break` is **mandatory** for **every** `case` that contains a program logic. 
+
+When **no matches** are **found**, the `default` construction is being executed, **if** such **exists**.
+
+```cs
+switch (selector)
+{
+  case value1:
+    statements;
+    break;
+  case value2:
+    statements;
+    break;
+}
+```
+
+# The default case
+The default case specifies the `switch` section to execute **if the match expression doesn't match any other case label**.
+
+If a default case is not present and the match expression doesn't match any other case label, program flow **falls** through the switch statement.
+
+The default case can appear in any order in the switch statement, but regardless of its order in the source code it's always evaluated **last**, after all case labels have been evaluated.
+
+```cs
 switch (selector)
 {
   case value1:
@@ -18,53 +52,74 @@ switch (selector)
     break;
 }
 ```
-[/slide]
 
-[slide]
-# The default case
-The default case specifies the switch section to execute if the match expression doesn't match any other case label
+# Example: Day of the Week
+Let's write a program that prints **the day of the week** (in English) depending on the **given number** (1 … 7) or **"Error!"** if an invalid input is given.
 
-If a default case is not present and the match expression doesn't match any other case label, program flow falls through the switch statement
-
-The default case can appear in any order in the switch statement, but regardless of its order in the source code, it's always evaluated last, after all case labels have been evaluated
-
-# Example
-```csharp
-string choice = Console.ReadLine();
-switch (choice)
+```cs
+int day = int.Parse(Console.ReadLine());
+switch (day)
 {
-  case "Y":
-    Console.WriteLine("Yes");
-    break;
-  case "N":
-    Console.WriteLine("No");
-    break;
-  default:
-    Console.WriteLine("Invalid response");
-    break;
+    case 1:
+      Console.WriteLine("Monday");
+      break;
+    case 2:
+      Console.WriteLine("Tuesday");
+      break;
+    case 3:
+      Console.WriteLine("Wednesday");
+      break;
+    case 4:
+      Console.WriteLine("Thursday");
+      break;
+    case 5:
+      Console.WriteLine("Friday");
+      break;
+    case 6:
+      Console.WriteLine("Saturday");
+      break;
+    case 7:
+      Console.WriteLine("Sunday");
+      break;
+    default:
+      Console.WriteLine("Error!");
+      break;
 }
 ```
 [/slide]
 
 [slide]
 # Multiple Labels
-In C# we can use multiple case labels, when we need to execute identical logic for different cases. 
+In **C#** we have the possibility to use **multiple** `case` labels in the `switch-case` coonstruction, when they have to execute **the same code**. 
 
-```csharp
+This way, when our **program** finds a **match**, it will execute the **next** code, because **after** the respective `case` label **there is no code** for execution and a `break` operator. 
+
+```cs
 switch (selector)
 {
     case value1:
     case value2:
-      statements;
-      break;
+    case value3:
+        construction;
+        break;
+    case value4:
+    case value5:
+        construction;
+        break;
     default:
-      statements; 
-      break;
+        construction;
+        break;
 }
 ```
 
-# Example
-```csharp
+# Example: Animal Type
+Write a program that prints the type of the animal depending on its name:
+-  dog -> **mammal**
+-  crocodile, tortoise, snake -> **reptile**
+-  others -> **unknown**
+
+We can solve the task with `switch-case` conditions with multiple labels in the following way:
+```cs
 string animal = Console.ReadLine();
 switch (animal)
 {
@@ -72,9 +127,21 @@ switch (animal)
     case "cat":
       Console.WriteLine("mammal");
       break;
+    case "crocodile":
+    case "tortoise":
+    case "snake":
+      Console.WriteLine("reptile");
+      break;
     default:
-      Console.WriteLine("unknown"); 
+      Console.WriteLine("unknown");
       break;
 }
 ```
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="5248" endTimeInSeconds="6535" /]
+
 [/slide]

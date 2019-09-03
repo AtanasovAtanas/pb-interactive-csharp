@@ -1,6 +1,21 @@
 [slide]
 # Problem 04
-## Description
+[code-task title="Problem-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		// Write your code here
+	}
+}
+```
+[/code-editor]
+[task-description]
+# Description
 You have been hired by a cinema to write a program that calculates whether a movie showing will be enough so that the cinema hall is filled and how much money will the profit be. 
 
 You are going to receive the count of seats in the hall and on the next lines until the command "Movie time!", how many people enter the hall. 
@@ -19,35 +34,23 @@ Read from the console:
 On each of the next lines until the command "Movie time!":
 - Count of people entering the cinema - whole number in the range [1… 15]
 
-## Output
+# Output
 First, print on the console one line:
 - If you have received the command "Movie time!": "There are \{seats left\} seats left in the cinema."
 - If there are no more free seats in the hall: "The cinema is full."
 - Afterwards, print: "Cinema income - \{income\}$"
-[code-task title="Problem-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-	public static void Main()
-	{
-		// Write your code here
-	}
-}
-```
-[/code-editor]
-[task-description]
+
+# Example
 ## Input
-Capacity - 60
+- Capacity - 60
 
 People entering the cinema:
-10
-6
-3
-20
-15
-Movie time!
+- 10
+- 6
+- 3
+- 20
+- 15
+- Movie time!
 
 ## Output
 There are 6 seats left in the cinema.
@@ -55,17 +58,12 @@ There are 6 seats left in the cinema.
 Cinema income - 255$
 
 ## Comments
-If we receive the hall's capacity – 60 seats. 
-
-On the next line we receive the people that have entered the hall – 10. 
-
-The price that they will pay is 10 * 5 = 50. 
-
-After that we receive that 6 people enter the hall and 6 can be divided by 3, so they pay 5$ less. 
-
-We continue until we receive the command "Movie time!" and then we print a suitable output.
+- If we receive the hall's capacity – 60 seats. 
+- On the next line we receive the people that have entered the hall – 10. 
+- The price that they will pay is 10 * 5 = 50. 
+- After that we receive that 6 people enter the hall and 6 can be divided by 3, so they pay 5$ less. 
+- We continue until we receive the command "Movie time!" and then we print a suitable output.
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -219,5 +217,6 @@ Cinema income - 320$
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 [/slide]
