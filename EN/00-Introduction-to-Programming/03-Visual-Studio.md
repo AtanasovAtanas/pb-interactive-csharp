@@ -23,7 +23,7 @@ In this course, we are going to use the development environment **Visual Studio*
 
 This an example how a development IDE may look (the Visual Studio IDE for C#):
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/01.Hello-csharp-04.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/01.Hello-csharp-04.png"/]
 [/slide]
 
 [slide]

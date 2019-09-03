@@ -61,7 +61,7 @@ With the risk of going too deep into details, we have to explain that the langua
 
 **The .NET environment** is available as a free software with open source code for every modern operating system (like Windows, Linux and Mac OS X). It has two variations, **.NET Framework** (the older one) and **.NET Core** (the newer one), but none of that is essential when it comes to getting into programming. Let us focus on writing programs with the C# language.
 
-[image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-2.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/intro-to-programming-2.png"/]
 
 [/slide]
 

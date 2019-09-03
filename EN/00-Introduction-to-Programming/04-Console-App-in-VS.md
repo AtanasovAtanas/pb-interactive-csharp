@@ -4,11 +4,11 @@ We already have Visual Studio and we can start it.
 
 Then, we create a new console project: `[File]` → `[New]` → `[Project]` → `[Visual C#]` → `[Windows]` → `[Console Application]`.
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/01.Hello-csharp-01.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/01.Hello-csharp-01.png"/]
 
 We set **a meaningful name** to our program, for example `HelloCSharp`:
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/01.Hello-csharp-02.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/01.Hello-csharp-02.png"/]
 
 Visual Studio is going to create for us **an empty C# program**, which we have to finish writing (VS Solution with VS Project in it, with C# source file in it, with one C# class in it, with `Main()` method in it).
 [/slide]
@@ -29,7 +29,7 @@ Press `[Enter]` after **the opening parentheses** `{` and **start writing**.
 
 The code of the program is written **inwards**, as this is a part of shaping up the text for convenience during a review and/or debugging.
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/01.Hello-csharp-03.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/01.Hello-csharp-03.png"/]
 
 Write the following command:
 ```cs
@@ -38,7 +38,7 @@ Console.WriteLine("Hello C#");
 
 Here is how our program should look like in Visual Studio:
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/01.Hello-csharp-04.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/01.Hello-csharp-04.png"/]
 
 The command `Console.WriteLine("Hello C#")` in the C# language means to execute printing (`WriteLine(…)`) on the console (`Console`) and to print the text message `Hello C#`, which we should surround by quotation marks, in order to clarify that this is a text. In the end of each command in the C# language the symbol `;` is being put and it says that the command ends in that place (it doesn't continue on the next line).
 
