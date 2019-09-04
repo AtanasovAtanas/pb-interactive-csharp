@@ -40,9 +40,9 @@ Print one line on the console: "Your bill is \{total price\}$"
 
 # Example
 ## Input
-- Movie - John Wick
-- Offer - Drink
-- Count tickets – 6
+- John Wick
+- Drink
+- 6
 
 ## Output
 Your bill is 72.00$

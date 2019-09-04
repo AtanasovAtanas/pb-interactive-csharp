@@ -37,13 +37,10 @@ You have to print on the console the time needed to watch all of the episodes, r
 
 # Example
 ## Input
-Name of the series - Lucifer
-
-Count seasons – 3
-
-Count episodes  – 18
-
-Duration of an episode – 55
+- Lucifer
+- 3
+- 18
+- 55
 
 ## Output
 Total time needed to watch the Lucifer series is 3594 minutes.

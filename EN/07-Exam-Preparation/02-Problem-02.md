@@ -38,9 +38,9 @@ Round the time up to the nearest whole number.
 
 # Example
 ## Input
-- Name of the series - Game of Thrones
-- Duration of an episode - 60
-- Duration of the break - 96
+- Game of Thrones
+- 60
+- 96
 
 ## Output
 You have enough time to watch Game of Thrones and left with 0 minutes free time.

@@ -42,14 +42,14 @@ The result must be formatted to two digits after the decimal point.
 
 # Example
 ## Input
-- Budget - 10
-- Count series - 3
-- Name of the first series - Thrones
-- Price for the first series - 5
-- Name of the second series - Riverdale
-- Price for the second series - 5
-- Name of the third series - Gotham
-- Price for the third series - 2
+- 10
+- 3
+- Thrones
+- 5
+- Riverdale
+- 5
+- Gotham
+- 2
 
 ## Output
 You bought all the series and left with 0.50$

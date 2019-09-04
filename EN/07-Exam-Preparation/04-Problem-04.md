@@ -42,9 +42,7 @@ First, print on the console one line:
 
 # Example
 ## Input
-- Capacity - 60
-
-People entering the cinema:
+- 60
 - 10
 - 6
 - 3
