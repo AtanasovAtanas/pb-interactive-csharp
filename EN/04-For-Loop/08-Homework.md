@@ -674,6 +674,7 @@ Write a program, which:
 * Reads **n** 
 * Prints **n's multiples** in the format "\{n\} x \{i\} = \{result\}"
 * Where i are the numbers from **1 to 10** (**inclusive**)
+
 # Example
 ## Input
 - 2
