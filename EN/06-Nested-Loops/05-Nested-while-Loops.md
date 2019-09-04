@@ -61,11 +61,11 @@ Write a program, which:
 ## Input
 - 5
 ## Output
-- *
-- **
-- ***
-- ****
-- *****
+- \*
+- \*\*
+- \*\*\*
+- \*\*\*\*
+- \*\*\*\*\*
 [/task-description]
 [tests]
 [test]
@@ -124,11 +124,11 @@ Write a program, which:
 ## Input
 - 5
 ## Output
-- *
-- **
-- ***
-- ****
-- *****
+- \*
+- \*\*
+- \*\*\*
+- \*\*\*\*
+- \*\*\*\*\*
 [/task-description]
 [tests]
 [test]
