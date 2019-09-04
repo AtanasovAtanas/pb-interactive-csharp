@@ -52,7 +52,7 @@ The result must be formatted to two digits after the decimal point.
 - 2
 
 ## Output
-You bought all the series and left with 0.50$
+- You bought all the series and left with 0.50$
 
 ## Comments
 - You receive budget – 10$ and count of series - 3. 

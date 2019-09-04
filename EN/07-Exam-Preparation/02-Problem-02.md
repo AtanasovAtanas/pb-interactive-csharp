@@ -43,7 +43,7 @@ Round the time up to the nearest whole number.
 - 96
 
 ## Output
-You have enough time to watch Game of Thrones and left with 0 minutes free time.
+- You have enough time to watch Game of Thrones and left with 0 minutes free time.
 
 ## Comments
 - Time for lunch: 96 * 1/8 = 12.0

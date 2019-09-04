@@ -46,7 +46,7 @@ Print on the console:
 - STOP
 
 ## Output
-The best movie for you is Breaking bad with 878 ASCII sum.
+- The best movie for you is Breaking bad with 878 ASCII sum.
 
 ## Comments
 - First we get Matrix, the first letter is M with a value of 77, but it is a capital letter and we subtract from it the length of the title  77 - 6  = 71, the second letter is a with a value of 97 and we subtract twice the movie title 97 - 12 = 85.

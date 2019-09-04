@@ -45,7 +45,7 @@ Print one line on the console: "Your bill is \{total price\}$"
 - 6
 
 ## Output
-Your bill is 72.00$
+- Your bill is 72.00$
 
 ## Comments
 - If the movie is Star Wars and popcorn is chosen. 

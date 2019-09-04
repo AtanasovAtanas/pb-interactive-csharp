@@ -51,9 +51,8 @@ First, print on the console one line:
 - Movie time!
 
 ## Output
-There are 6 seats left in the cinema.
-
-Cinema income - 255$
+- There are 6 seats left in the cinema.
+- Cinema income - 255$
 
 ## Comments
 - If we receive the hall's capacity – 60 seats. 

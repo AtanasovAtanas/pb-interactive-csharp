@@ -43,7 +43,7 @@ You have to print on the console the time needed to watch all of the episodes, r
 - 55
 
 ## Output
-Total time needed to watch the Lucifer series is 3594 minutes.
+- Total time needed to watch the Lucifer series is 3594 minutes.
 
 ## Comments 
 Duration of advertisements per episode: 20% от 55 = 11.0
