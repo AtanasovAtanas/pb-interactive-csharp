@@ -145,11 +145,11 @@ Write a program that applies bonus to given points
   * If points are between **0** and **3**, adds **5**
   * If points are between **4** and **6**, adds **15**
   * If points are between **7** and **9**, adds **20**
-
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|19|
+# Example
+## Input
+- 4
+## Output
+- 19
 [/task-description]
 [tests]
 [test]
@@ -219,11 +219,11 @@ Write a program that applies bonus to given points
   * If points are between **0** and **3**, adds **5**
   * If points are between **4** and **6**, adds **15**
   * If points are between **7** and **9**, adds **20**
-
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|19|
+# Example
+## Input
+- 4
+## Output
+- 19
 [/task-description]
 [tests]
 [test]
@@ -320,13 +320,15 @@ Write a program, which:
   * Foods: curry, noodles, sushi, spaghetti 
   * Drinks: tea, water, coffee
   * Everything else is unknown
-
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|curry|food|
-|water|drink|
-|flower|unknown|
+# Example
+## Input
+- curry
+## Output
+- food
+## Input
+- flower
+## Output
+- unknown
 [/task-description]
 [tests]
 [test]
@@ -394,13 +396,15 @@ Write a program, which:
   * Foods: curry, noodles, sushi, spaghetti 
   * Drinks: tea, water, coffee
   * Everything else is unknown
-  
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|curry|food|
-|water|drink|
-|flower|unknown|
+# Example
+## Input
+- curry
+## Output
+- food
+## Input
+- flower
+## Output
+- unknown
 [/task-description]
 [tests]
 [test]

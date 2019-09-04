@@ -76,16 +76,6 @@ It **has to be avoided**, mostly through optimization of the structure/the algor
 
 [slide]
 # Problem: Marketplace
-Write a program which:
-  * Reads a **product** and **day** from the console
-  * Prints the **price**, formatted to 2nd digit, based on the price table below
-
-|Product|Weekday|Weekend| 
-|-------|-------|-------|
-|Banana|2.50|2.70|
-|Apple|1.30|1.60|
-|Kiwi|2.20|3.00|
-
 [code-task title="Marketplace" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
@@ -101,11 +91,23 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Banana|2.50|
-|Weekday||
+# Description
+Write a program which:
+  * Reads a **product** and **day** from the console
+  * Prints the **price**, formatted to 2nd digit, based on the price table below
+
+|Product|Weekday|Weekend| 
+|-------|-------|-------|
+|Banana|2.50|2.70|
+|Apple|1.30|1.60|
+|Kiwi|2.20|3.00|
+# Example
+## Input
+- Banana
+- Weekday
+## Output
+- 2.50
+
 [/task-description]
 [tests]
 [test]
@@ -133,16 +135,6 @@ Weekend
 
 [slide]
 # Solution: Marketplace
-Write a program which:
-  * Reads a **product** and **day** from the console
-  * Prints the **price**, formatted to 2nd digit, based on the price table below
-
-|Product|Weekday|Weekend| 
-|-------|-------|-------|
-|Banana|2.50|2.70|
-|Apple|1.30|1.60|
-|Kiwi|2.20|3.00|
-
 [code-task title="Marketplace" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
@@ -196,11 +188,22 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Banana|2.50|
-|Weekday||
+# Description
+Write a program which:
+  * Reads a **product** and **day** from the console
+  * Prints the **price**, formatted to 2nd digit, based on the price table below
+
+|Product|Weekday|Weekend| 
+|-------|-------|-------|
+|Banana|2.50|2.70|
+|Apple|1.30|1.60|
+|Kiwi|2.20|3.00|
+# Example
+## Input
+- Banana
+- Weekday
+## Output
+- 2.50
 [/task-description]
 [tests]
 [test]
@@ -243,10 +246,18 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
   * Reads **3 numbers** from the console
   * Prints **the biggest** number
+# Example
+## Input
+- 1
+- 2
+- 3
+## Output
+- 3
 [/task-description]
 [tests]
 [test]
@@ -282,12 +293,6 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|Input|Output|Input|Output|
-|-----|------|-----|------|-----|------|
-|1|3|-1|-1|1|5|
-|2||-5||5||
-|3||-9||3||
 [/slide]
 
 
@@ -333,10 +338,18 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
   * Reads **3 numbers** from the console
   * Prints **the biggest** number
+# Example
+## Input
+- 1
+- 2
+- 3
+## Output
+- 3
 [/task-description]
 [tests]
 [test]
@@ -372,12 +385,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|Input|Output|Input|Output|
-|-----|------|-----|------|-----|------|
-|1|3|-1|-1|1|5|
-|2||-5||5||
-|3||-9||3||
+
 [/slide]
 
 

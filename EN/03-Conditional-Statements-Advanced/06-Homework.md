@@ -28,12 +28,22 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to check for fruit or vegetable:
 
 * Read a single input line: an item from the greengrocery
 * Fruits: banana, apple, kiwi, cherry, lemon, grapes
 * Vegetables: cucumber, pepper, carrot, onion
 * Print: **"vegetable"**, **"fruit"** or **"unknown"**
+# Example
+## Input
+- lemon
+## Output
+- fruit
+## Input
+- carrot
+## Output
+- vegetable
 [/task-description]
 [tests]
 [test]
@@ -55,11 +65,6 @@ vegetable
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|lemon|fruit|
-|carrot|vegetable|
 [/slide]
 
 [slide]
@@ -79,11 +84,21 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to print the day of week as words:
 
 * Read and integer **n**: the **day of the week** in range [1..7]
 * Print the **name of the day** (as words, in English)
 * Print **"Error"** if the number is not in the given range
+# Example
+## Input
+- 1
+## Output
+- Monday
+## Input
+- 8
+## Output
+- Error
 [/task-description]
 [tests]
 [test]
@@ -113,12 +128,7 @@ Sunday
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|Monday|
-|8|Error|
-|7|Sunday|
+
 [/slide]
 
 [slide]
@@ -138,10 +148,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to check a letter for vowel or consonant:
 
 * Read a **letter** from the English alphabet
 * Print either **"Vowel"** or **"Consonant"**
+# Example
+## Input
+- a
+## Output
+- Vowel
+## Input
+- B
+## Output
+- Consonant
 [/task-description]
 [tests]
 [test]
@@ -171,12 +191,7 @@ Consonant
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|a|Vowel|
-|E|Vowel|
-|b|Consonant|
+
 [/slide]
 
 [slide]
@@ -196,13 +211,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Calculate the sign of the product of 3 numbers:
 
 * Read **3 floating-point** numbers
 * Print the **sign** of the product of the entered 3 numbers: **positive**, **negative** or **zero**
 
 Try to do this **without multiplying** the 3 numbers
-
+# Example
+## Input
+- 2
+- 3
+- -1
+## Output
+- negative
 [/task-description]
 [tests]
 [test]
@@ -238,15 +260,7 @@ zero
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|negative|
-|3||
-|-1||
-|-3|positive|
-|-4||
-|5||
+
 [/slide]
 
 [slide]
@@ -266,13 +280,26 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which checks for **sorted 3 numbers**:
 
 * Read 3 real numbers
 * Print **"Ascending"** if the numbers are in ascending order
 * Print **"Descending"** if the numbers are in descending order
 * Print **"Not sorted"** in any other case
-
+# Example
+## Input
+- 1
+- 2
+- 3
+## Output
+- Ascending
+## Input
+- 3
+- 5
+- 2
+## Output
+- Not sorted
 [/task-description]
 [tests]
 [test]
@@ -308,15 +335,7 @@ Descending
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|Ascending|
-|2||
-|3||
-|3|Not sorted|
-|1||
-|2||
+
 [/slide]
 
 [slide]
@@ -336,11 +355,25 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which calculates vacation expenses:
 
 * Read season, accommodation type and count of the days
 * Print the total expenses, based on the price table bellow,formatted to the 2nd * digit after the decimal point
 
+|Season|Hotel|Camping|Discount|
+|-----|------|-------|--------|
+|Spring|30|10|20%|
+|Summer|50|30|0%|
+|Autumn|20|15|30%|
+|Winter|40|10|10%|
+# Example
+## Input
+- Winter
+- Hotel
+- 5
+## Output
+- 180.00
 [/task-description]
 [tests]
 [test]
@@ -356,18 +389,7 @@ Hotel
 [/tests]
 [code-io/]
 [/code-task]
-|Season|Hotel|Camping|Discount|
-|-----|------|-------|--------|
-|Spring|30|10|20%|
-|Summer|50|30|0%|
-|Autumn|20|15|30%|
-|Winter|40|10|10%|
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Winter|180.00|
-|Hotel||
-|5||
+
 [/slide]
 
 [slide]
@@ -387,11 +409,25 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Calculate the **price** for all the tickets for a cinema movie:
 
 * Reads the **type of the movie**, the **rows** and the **seats per row** in the cinema
 * Prints the **total price** for all seats **formatted** to the 2nd digit after the decimal point
 
+|Type|Price|
+|-----|----|
+|Premiere|12.00|
+|Normal|7.50|
+|Discount|5.00|
+
+# Example
+## Input
+- Normal
+- 12
+- 9
+## Output
+- 810.00
 [/task-description]
 [tests]
 [test]
@@ -407,17 +443,7 @@ Normal
 [/tests]
 [code-io/]
 [/code-task]
-|Type|Price|
-|-----|----|
-|Premiere|12.00|
-|Normal|7.50|
-|Discount|5.00|
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Normal|810.00|
-|12||
-|9||
+
 [/slide]
 
 [slide]
@@ -437,12 +463,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to apply an operator for given two numbers:
 
 * Read **two integers** and **math operator** from the console
 * The math operator could be: "+", "-", "/", "%" and "*"
 * The output should be in the following **format**: "\{N1\} \{operator\} \{N2\} = \{result\}"
-
+# Example
+## Input
+- 12
+- 10
+- +
+## Output
+- 12 + 10 = 22
 [/task-description]
 [tests]
 [test]
@@ -498,12 +531,7 @@ Write a program to apply an operator for given two numbers:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|10|10 + 12 = 22|
-|12||
-|+||
+
 [/slide]
 
 [slide]
@@ -523,6 +551,7 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to simulate an ATM withdrawal:
 
 * Read: **balance**, **withdraw** and **limit**
@@ -530,6 +559,20 @@ Write a program to simulate an ATM withdrawal:
 * Print **"The daily limit was exceeded."** if the limit is exceeded
 * Print **"Insufficient availability."** if the balance isn't enough
 
+# Example
+## Input
+- 420
+- 20
+- 25
+## Output
+- The withdraw was successful.
+## Input
+- 10
+- 50
+- 20
+## Output
+- The daily limit was exceeded.
+- Insufficient availability.
 [/task-description]
 [tests]
 [test]
@@ -545,15 +588,7 @@ The withdraw was successful.
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|420|The withdraw was successful.|
-|20||
-|25||
-|10|The daily limit was exceeded.|
-|50|Insufficient availability.|
-|20||
+
 [/slide]
 
 [slide]
@@ -573,9 +608,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to find the biggest among 5 numbers
 * Read **5 integers**
 * Print the **biggest** number
+# Example
+## Input
+- -1
+- -2
+- -3
+- -4
+- -5
+## Output
+- -1
 [/task-description]
 [tests]
 [test]
@@ -593,19 +638,7 @@ Write a program to find the biggest among 5 numbers
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|5|
-|2||
-|3||
-|4||
-|5||
-|-1|-1|
-|-2||
-|-3||
-|-4||
-|-5||
+
 [/slide]
 
 [slide]
