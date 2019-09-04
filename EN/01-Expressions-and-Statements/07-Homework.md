@@ -28,12 +28,17 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-
+# Description
 Write a program to calculate the speed by time and distance:
   * Read 2 floating-point numbers: **distance** and **time**
   * Calculate the **speed** needed to travel a given distance for given time
   * Print the calculated result
-
+# Example
+## Input
+- 15
+- 2
+## Output
+- 7.5
 [/task-description]
 [tests]
 [test]
@@ -74,14 +79,7 @@ Write a program to calculate the speed by time and distance:
 [/test]
 [/tests]
 [code-io/]
-[/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|15|7.5| 
-|2|| 
+[/code-task] 
 [/slide]
 
 [slide]
@@ -102,12 +100,21 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-
+# Description
 Write a program to convert from USD to EUR:
   * Read a **floating-point number**: the **dollars** to be converted 
   * Convert dollars to euro (use fixed rate of dollars to euro: **0.88**)
   * Print the converted value in **euro**
 
+# Example
+## Input
+- 17
+## Output
+- 14.96
+## Input
+- 87
+## Output
+- 76.56
 [/task-description]
 [tests]
 [test]
@@ -146,12 +153,6 @@ Write a program to convert from USD to EUR:
 [code-io/]
 [/code-task]
 
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|17|14.96| 
-|87|76.56|
 [/slide]
 
 [slide]
@@ -171,13 +172,18 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-
+# Description
 Write a program to calculate a triangle area:
 
   * Read from input a side **a** and height for that side **ha**
   * Calculate the area of a triangle by the side and height
   * Print the **area**, formatted to the **2nd digit** after decimal point
-
+# Example
+## Input
+- 5
+- 10
+## Output
+- 25.00
 [/task-description]
 [tests]
 [test]
@@ -220,12 +226,6 @@ Write a program to calculate a triangle area:
 [code-io/]
 [/code-task]
 
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|5|25.00 | 
-|10| | 
 [/slide]
 
 [slide]
@@ -245,17 +245,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-
+# Description
 Write a program, which:
   * **Reads** 2 real numbers from the **console**
   * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: `+`, `-`, `*`, `/`
   * **Formats** and **prints** the results like this example:
-  ```
-  5.00 + 10.00 = 15.00
-  5.00 - 10.00 = -5.00
-  5.00 * 10.00 = 50.00
-  5.00 / 10.00 = 0.50
-  ```
+# Example
+## Input
+- 5.00
+- 10.00
+## Output
+- 5.00 + 10.00 = 15.00
+- 5.00 - 10.00 = -5.00
+- 5.00 * 10.00 = 50.00
+- 5.00 / 10.00 = 0.50
 [/task-description]
 [tests]
 [test]
@@ -328,12 +331,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-
+# Description
 Write a program to convert from days to minutes:
   * Read a single **integer** (the **days** to be converted)
   * Convert the days to minutes (use calculations)
   * Print the **minutes**
-
+# Example
+## Input
+- 2
+## Output
+- 2880
+## Input
+- 5
+## Output
+- 7200
 [/task-description]
 [tests]
 [test]
@@ -372,12 +383,6 @@ Write a program to convert from days to minutes:
 [code-io/]
 [/code-task]
 
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|2|2880|
-|5|7200|
 [/slide]
 
 [slide]
@@ -397,12 +402,17 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-
+# Description
 Write a program to calculate a **circle** area and perimeter:
   * Read a floating-point number: the **radius** of a circle
   * Calculate the **area** and **perimeter** of a circle
   * Print the calculated values
-
+# Example
+## Input
+- 7
+## Output
+- Area = 153.938040
+- Perimeter = 43.982297
 [/task-description]
 [tests]
 [test]
@@ -445,13 +455,6 @@ Perimeter = 59.061942
 [code-io/]
 [/code-task]
 
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|7|Area = 153.938040|
-||Perimeter = 43.982297|
-
 [/slide]
 
 [slide]
@@ -471,11 +474,18 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-
+# Description
 Write a program, which:
   * Reads 4 lines of **strings**: **first name**, **last name**, **country** and **town** 
   * Prints information about a person in the following format: `"{firstName} {lastName} from {country} - {town}!"`
-
+# Example
+## Input
+- Kelly
+- Smith
+- Ireland
+- Cork
+## Output
+- Kelly Smith from Ireland - Cork!
 [/task-description]
 [tests]
 [test]
@@ -526,14 +536,6 @@ A B from C - D!
 [code-io/]
 [/code-task]
 
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|Kelly|Kelly Smith from Ireland - Cork!|
-|Smith||
-|Ireland||
-|Cork||
 [/slide]
 
 [slide]
@@ -553,11 +555,17 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-
+# Description
 Write a program, which:
   * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
   * Prints information about a town in the following format: `"Town {name} has population of {population} and area {area} square km."`
-
+# Example
+## Input
+- Berlin
+- 3675000
+- 984
+## Output
+- Town Berlin has population of 3675000 and area 984 square km.
 [/task-description]
 [tests]
 [test]
@@ -604,13 +612,6 @@ Town A has population of 123456 and area 789 square km.
 [code-io/]
 [/code-task]
 
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|Berlin|Town Berlin has population of 3675000 and area 984 square km.|
-|3675000||
-|984||
 [/slide]
 
 [slide]

@@ -173,10 +173,16 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a **program**, which:
 
   * Reads a user input: **name**, from the console
   * Prints "Hello, \{name\}", where {**name**} is the **user input**
+# Example
+## Input
+Peter
+## Output
+Hello, Peter
 [/task-description]
 [tests]
 [test]
@@ -235,10 +241,16 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a **program**, which:
 
   * Reads a user input: **name**, from the console
   * Prints "Hello, \{name\}", where {**name**} is the **user input**
+# Example
+## Input
+Peter
+## Output
+Hello, Peter
 [/task-description]
 [tests]
 [test]
