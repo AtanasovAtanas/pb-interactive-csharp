@@ -105,10 +105,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which checks if a number is **even** or **odd**
 
   * If it's even, print "**even**"
   * If it's odd, print "**odd**"
+# Example
+## Input
+- 4
+## Output
+- even
+## Input
+- 7
+## Output
+- odd
 [/task-description]
 [tests]
 [test]
@@ -139,12 +149,6 @@ even
 [code-io/]
 [/code-task]
 
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|even|
-|7|odd|
-|0|even|
 [/slide]
 
 [slide]
@@ -173,10 +177,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which checks if a number is **even** or **odd**
 
   * If it's even, print "**even**"
   * If it's odd, print "**odd**"
+# Example
+## Input
+- 4
+## Output
+- even
+## Input
+- 7
+## Output
+- odd
 [/task-description]
 [tests]
 [test]
@@ -207,12 +221,6 @@ even
 [code-io/]
 [/code-task]
 
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|even|
-|7|odd|
-|0|even|
 [/slide]
 
 [slide]
@@ -232,11 +240,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which finds the greater of two numbers:
 
   * Read two **integers**
   * Find the greater number
   * Print `"Greater number: "` + the **greater** number
+# Example
+## Input
+- 4
+- 8
+## Output
+- Greater number: 8
+
 [/task-description]
 [tests]
 [test]
@@ -270,11 +286,6 @@ Greater number: 2
 [code-io/]
 [/code-task]
 
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|Greater number: 8|
-|8||
 [/slide]
 
 
@@ -305,11 +316,18 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which finds the greater of two numbers:
 
   * Read two **integers**
   * Find the greater number
   * Print `"Greater number: "` + the **greater** number
+# Example
+## Input
+- 4
+- 8
+## Output
+- Greater number: 8
 [/task-description]
 [tests]
 [test]
@@ -343,11 +361,6 @@ Greater number: 2
 [code-io/]
 [/code-task]
 
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|Greater number: 8|
-|8||
 [/slide]
 
 [slide]
