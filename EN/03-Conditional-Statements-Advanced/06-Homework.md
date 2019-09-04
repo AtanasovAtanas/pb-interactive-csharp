@@ -473,7 +473,7 @@ Write a program to apply an operator for given two numbers:
 ## Input
 - 12
 - 10
-- +
+- \+
 ## Output
 - 12 + 10 = 22
 [/task-description]
