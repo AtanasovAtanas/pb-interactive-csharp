@@ -69,10 +69,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
+# Example
+## Input
+- 5
+## Output
+- *
+- **
+- ***
+- ****
+- *****
 [/task-description]
 [tests]
 [test]
@@ -89,14 +99,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|*|
-||**|
-||***|
-||****|
-||*****|
+
 [/slide]
 
 [slide]
@@ -123,10 +126,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
+# Example
+## Input
+- 5
+## Output
+- *
+- **
+- ***
+- ****
+- *****
 [/task-description]
 [tests]
 [test]
@@ -143,14 +156,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|*|
-||**|
-||***|
-||****|
-||*****|
+
 [/slide]
 
 [slide]
