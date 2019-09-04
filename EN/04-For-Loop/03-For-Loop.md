@@ -63,12 +63,23 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads number n from the console
 * **Prints** all numbers from **1** to **n**
 * **Sums** all numbers from **1** to **n**
 * **Prints** the sum on the console at the end
+# Example
+## Input
+- 5
+## Output
+- 1
+- 2
+- 3
+- 4
+- 5
+- 15
 [/task-description]
 [tests]
 [test]
@@ -101,15 +112,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|1|
-||2|
-||3|
-||4|
-||5|
-||15|
+
 [/slide]
 
 [slide]
@@ -136,12 +139,23 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads number n from the console
 * **Prints** all numbers from **1** to **n**
 * **Sums** all numbers from **1** to **n**
 * **Prints** the sum on the console at the end
+# Example
+## Input
+- 5
+## Output
+- 1
+- 2
+- 3
+- 4
+- 5
+- 15
 [/task-description]
 [tests]
 [test]
@@ -174,15 +188,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|1|
-||2|
-||3|
-||4|
-||5|
-||15|
+
 [/slide]
 
 [slide]
@@ -202,11 +208,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads working days in the current month and salary per day - integers
 * **Calculates** the salary for the month
 * **Prints** the result on the console
+# Example
+## Input
+- 2
+- 100
+- 200
+## Output
+- 300
 [/task-description]
 [tests]
 [test]
@@ -222,12 +236,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|300|
-|100||
-|200||
+
 [/slide]
 
 [slide]
@@ -254,11 +263,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads working days in the current month and salary per day - integers
 * **Calculates** the salary for the month
 * **Prints** the result on the console
+# Example
+## Input
+- 2
+- 100
+- 200
+## Output
+- 300
 [/task-description]
 [tests]
 [test]
@@ -274,12 +291,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|300|
-|100||
-|200||
+
 [/slide]
 
 [slide]

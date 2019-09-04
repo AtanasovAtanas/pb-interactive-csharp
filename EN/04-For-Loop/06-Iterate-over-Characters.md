@@ -45,10 +45,17 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads **2 letters**
 * Prints **all letters** in the given range **inclusive**
+# Example
+## Input
+- a
+- c
+## Output
+- a b c
 [/task-description]
 [tests]
 [test]
@@ -72,13 +79,7 @@ f g h i j k l
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|a|a b c|
-|c||
-|f|f g h i g k l|
-|l||
+
 [/slide]
 
 [slide]
@@ -103,10 +104,17 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads **2 letters**
 * Prints **all letters** in the given range **inclusive**
+# Example
+## Input
+- a
+- c
+## Output
+- a b c
 [/task-description]
 [tests]
 [test]
@@ -130,13 +138,7 @@ f g h i j k l
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|a|a b c|
-|c||
-|f|f g h i g k l|
-|l||
+
 [/slide]
 
 [slide]

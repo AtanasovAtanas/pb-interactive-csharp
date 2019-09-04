@@ -28,11 +28,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads **n** - number representing amount of input numbers
 * Reads n numbers
 * Finds and prints the **biggest number**
+# Example
+## Input
+- 3
+- 40
+- 90
+- 50
+## Output
+- 90
 [/task-description]
 [tests]
 [test]
@@ -60,17 +69,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|90|
-|40||
-|90||
-|50||
-|3|-40|
-|-40||
-|-90||
-|-50||
+
 [/slide]
 
 [slide]
@@ -90,11 +89,23 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads **n** representing the count of numbers to read next
 * Finds the **max** and the **min numbers**
 * Prints them on the console
+# Example
+## Input
+- 5
+- 10
+- 304
+- 0
+- 0
+- 50
+## Output
+- Max number: 304
+- Min number: 0
 [/task-description]
 [tests]
 [test]
@@ -135,15 +146,7 @@ Min number: -2
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|Max number: 304|
-|10|Min number: 0|
-|304||
-|0||
-|0||
-|50||
+
 [/slide]
 
 [slide]
@@ -163,11 +166,18 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads **p – the power** and **n – the number**
 * Prints the result of n powered by p
 * Don't use Math.Pow()
+# Example
+## Input
+- 5
+- 2
+## Output
+- 32
 [/task-description]
 [tests]
 [test]
@@ -182,13 +192,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|32|
-|2||
-|4|81|
-|3||
+
 [/slide]
 
 [slide]
@@ -208,12 +212,22 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads number **n** and **n pairs** of numbers
 * Prints "Yes, value=\{sum\}", if the **sum of all** pairs is the **same**
 * **Otherwise**, prints "No, maxdiff=\{diff\}"
 * diff is the **max difference** in the sum between two pairs
+# Example
+## Input
+- 2
+- -1
+- 0
+- 0
+- -1
+## Output
+- Yes, value=-1
 [/task-description]
 [tests]
 [test]
@@ -319,14 +333,7 @@ Yes, value=10
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|Yes, value=-1|
-|-1||
-|0||
-|0||
-|-1||
+
 [/slide]
 
 [slide]
@@ -346,6 +353,7 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads **n** - number representing amount of input numbers
@@ -353,6 +361,13 @@ Write a program, which:
 * For every **even** line **adds** the number to the result
 * For every **odd** line **subtracts** the number from the result
 * **Prints** the result
+# Example
+## Input
+- 2
+- 10
+- 20
+## Output
+- 10
 [/task-description]
 [tests]
 [test]
@@ -380,12 +395,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|10|
-|10||
-|20||
+
 [/slide]
 
 [slide]
@@ -405,11 +415,22 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads **n** and **n numbers**
 * Finds in **percentage** how many of them can **divide without remainder** at **2**, **3** and **4**
 * Prints percentages p1, p2 and p3, **formatted** to the second digit
+# Example
+## Input
+- 3
+- 3
+- 6
+- 9
+## Output
+- 33.33%
+- 100.00%
+- 0.00%
 [/task-description]
 [tests]
 [test]
@@ -454,6 +475,7 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads **n** - the count of characters:
@@ -464,6 +486,13 @@ Write a program, which:
     |value|1|2|3|4|5|
 
 * Prints the result
+# Example
+## Input
+- 2
+- a
+- g
+## Output
+- 1
 [/task-description]
 [tests]
 [test]
@@ -517,15 +546,7 @@ s
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|1|
-|a||
-|g||
-|2|8|
-|i||
-|u||
+
 [/slide]
 
 [slide]
@@ -545,11 +566,21 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads rollercoaster **places**, **minimum age**, **count of people** on the queue and **age** for each person
 * If all places are taken, prints - **"The rollercoaster departures"**
 * In other case, prints **"Waiting..."**
+# Example
+## Input
+- 2
+- 10
+- 2
+- 15
+- 24
+## Output
+- The rollercoaster departures
 [/task-description]
 [tests]
 [test]
@@ -617,25 +648,7 @@ The rollercoaster departures
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|The rollercoaster departures|
-|10||
-|2||
-|15||
-|24||
 
-|Input|Output|
-|-----|------|
-|2|Waiting...|
-|25||
-|5||
-|10||
-|15||
-|18||
-|5||
-|30||
 [/slide]
 
 [slide]
@@ -655,11 +668,26 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which: 
 
 * Reads **n** 
 * Prints **n's multiples** in the format "\{n\} x \{i\} = \{result\}"
 * Where i are the numbers from **1 to 10** (**inclusive**)
+# Example
+## Input
+- 2
+## Output
+- 2 x 1 = 2
+- 2 x 2 = 4
+- 2 x 3 = 6
+- 2 x 4 = 8
+- 2 x 5 = 10
+- 2 x 6 = 12
+- 2 x 7 = 14
+- 2 x 8 = 16
+- 2 x 9 = 18
+- 2 x 10 = 20
 [/task-description]
 [tests]
 [test]
@@ -682,19 +710,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|2 x 1 = 2|
-||2 x 2 = 4|
-||2 x 3 = 6|
-||2 x 4 = 8|
-||2 x 5 = 10|
-||2 x 6 = 12|
-||2 x 7 = 14|
-||2 x 8 = 16|
-||2 x 9 = 18|
-||2 x 10 = 20|
+
 [/slide]
 
 [slide]
