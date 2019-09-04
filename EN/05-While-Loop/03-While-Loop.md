@@ -146,13 +146,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|4|
-||3|
-||2|
-||1|
+
 [/slide]
 
 [slide]
@@ -255,12 +249,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|-10|50|
-|101||
-|50||
+
 [/slide]
 
 [slide]
