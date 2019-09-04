@@ -180,9 +180,9 @@ Write a **program**, which:
   * Prints "Hello, \{name\}", where {**name**} is the **user input**
 # Example
 ## Input
-Peter
+- Peter
 ## Output
-Hello, Peter
+- Hello, Peter
 [/task-description]
 [tests]
 [test]
@@ -248,9 +248,9 @@ Write a **program**, which:
   * Prints "Hello, \{name\}", where {**name**} is the **user input**
 # Example
 ## Input
-Peter
+- Peter
 ## Output
-Hello, Peter
+- Hello, Peter
 [/task-description]
 [tests]
 [test]
