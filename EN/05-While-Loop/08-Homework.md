@@ -28,11 +28,17 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads a number from the console
 * **Sums** the **digits** of a number
 * Prints the sum
+# Example
+## Input
+- 5634
+## Output
+- 18
 [/task-description]
 [tests]
 [test]
@@ -86,10 +92,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5634|18|
+
 [/slide]
 
 [slide]
@@ -109,11 +112,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which: 
 
 * Reads a **book's name** from the console
 * Receives names until it gets **book with the same name as the first one**
 * Prints "Book found! Attempts: \{attemptsCount\}" and stops afterwards
+# Example
+## Input
+- Alice in Wonderland
+- Winnie the Pooh
+- Peter Pan
+- Alice in Wonderland
+## Output
+- Book Found! Attempts: 3
 [/task-description]
 [tests]
 [test]
@@ -131,13 +143,7 @@ Book found! Attempts: 4
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Alice in Wonderland|Book Found! Attempts: 3|
-|Winnie the Pooh||
-|Peter Pan||
-|Alice in Wonderland||
+
 [/slide]
 
 [slide]
@@ -157,10 +163,21 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which: 
 
 * Receives integers until **"END"**
 * Prints the **biggest** and the **smallest** integer
+# Example
+## Input
+- 10
+- 20
+- 304
+- 0
+- 50
+## Output
+- Max number: 304
+- Min number: 0
 [/task-description]
 [tests]
 [test]
@@ -223,15 +240,7 @@ Min number: 0
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|10|Max number: 304|
-|20|Min number: 0|
-|304||
-|0||
-|50||
-|END||
+
 [/slide]
 
 [slide]
@@ -251,12 +260,18 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Special number is number **divisible by all of its digits** without remainder. 
 
 Write a program, which: 
 * Receives integer
 * **Prints** "\{num\} is special", if the number is special
 * Otherwise, prints "\{num\} is not special"
+# Example
+## Input
+- 23
+## Output
+- 23 is not special
 [/task-description]
 [tests]
 [test]
@@ -278,11 +293,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|23|23 is not special|
-|44|44 is special|
+
 [/slide]
 
 [slide]
@@ -302,11 +313,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which: 
 
 * Reads an **integer** number from the console
 * Keeps reading integers until it finds the **same one as the first one**
 * When it finds it, it increases the value of the **previous** number **before it** with 100% and prints it
+# Example
+## Input
+- 25
+- 20
+- 30
+- 25
+## Output
+- 60
 [/task-description]
 [tests]
 [test]
@@ -332,13 +352,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|25|60|
-|20||
-|30||
-|25||
+
 [/slide]
 
 [slide]
@@ -358,11 +372,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which: 
 
 * Reads a number **n** from the console
 * Prints a **sequence** of numbers, which are **<= n** and satisfy the following condition:
 * Each number is equal to the previous one multiplied by **2** plus **1**
+# Example
+## Input
+- 8
+## Output
+- 1
+- 3
+- 7
 [/task-description]
 [tests]
 [test]
@@ -435,12 +457,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|8|1|
-||3|
-||7|
+
 [/slide]
 
 [slide]
@@ -460,11 +477,23 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which: 
 
 * Receives the **amount of money** for each transaction untill **"END"**
 * **Adds** the money to the **balance** and **prints**: "Increase: \{money\}", format `money` to the **2nd digit** after the decimal point
 * After **"END"** calculates and **prints** the total balance: "Total: \{balance\}", format `balance` to the **2nd digit** after the decimal point
+# Example
+## Input
+- 5.51
+- 69.42
+- 100
+- END
+## Output
+- Increase: 5.51
+- Increase: 69.42
+- Increase: 100.00
+- Total: 174.93
 [/task-description]
 [tests]
 [test]
@@ -484,13 +513,7 @@ Total: ‭165.73‬
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5.51|Increase: 5.51|
-|69.42|Increase: 69.42|
-|100|Increase: 100.00|
-|END|Total: 174.93|
+
 [/slide]
 
 [slide]

@@ -61,10 +61,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads a number from the console
 * Prints the numbers starting from the number to 1 (**inclusive**)
+# Example
+## Input
+- 4
+## Output
+- 4
+- 3
+- 2
+- 1
 [/task-description]
 [tests]
 [test]
@@ -82,13 +91,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|4|
-||3|
-||2|
-||1|
+
 [/slide]
 
 [slide]
@@ -113,10 +116,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads a number from the console
 * Prints the numbers starting from the number to 1 (**inclusive**)
+# Example
+## Input
+- 4
+## Output
+- 4
+- 3
+- 2
+- 1
 [/task-description]
 [tests]
 [test]
@@ -160,12 +172,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads a **number** from the console
 * Checks if the number is in the range between **1 and 100**
 * If it isn't - it reads a **new one**
 * If it is - **prints the number** and the program stops
+# Example
+## Input
+- -10
+- 101
+- 50
+## Output
+- 50
 [/task-description]
 [tests]
 [test]
@@ -181,12 +201,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|-10|50|
-|101||
-|50||
+
 [/slide]
 
 [slide]
@@ -211,12 +226,20 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads a **number** from the console
 * Checks if the number is in the range between **1 and 100**
 * If it isn't - it reads a **new one**
 * If it is - **prints the number** and the program stops
+# Example
+## Input
+- -10
+- 101
+- 50
+## Output
+- 50
 [/task-description]
 [tests]
 [test]

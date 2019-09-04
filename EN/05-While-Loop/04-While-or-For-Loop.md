@@ -61,10 +61,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads numbers from the console until it gets an **odd number**
 * Prints the **odd** number
+# Example
+## Input
+- 2
+- 4
+- 8
+- 3
+## Output
+- 3
 [/task-description]
 [tests]
 [test]
@@ -81,13 +90,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|3|
-|4||
-|8||
-|3||
+
 [/slide]
 
 [slide]
@@ -114,10 +117,19 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads numbers from the console until it gets an **odd number**
 * Prints the **odd** number
+# Example
+## Input
+- 2
+- 4
+- 8
+- 3
+## Output
+- 3
 [/task-description]
 [tests]
 [test]
@@ -134,13 +146,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|3|
-|4||
-|8||
-|3||
+
 [/slide]
 
 [slide]
@@ -160,6 +166,7 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads a number from the console
@@ -167,6 +174,13 @@ Write a program, which:
 * **Add** - Аdds 1 to the number
 * **Subtract** - Subtracts 1 from the number
 * **END** -  Prints the number and stops the program
+# Example
+## Input
+- 5
+- Add
+- END
+## Output
+- 6
 [/task-description]
 [tests]
 [test]
@@ -204,12 +218,7 @@ END
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|6|
-|Add||
-|END||
+
 [/slide]
 
 [slide]
@@ -247,6 +256,7 @@ public class Program
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads a number from the console
@@ -254,6 +264,13 @@ Write a program, which:
 * **Add** - Аdds 1 to the number
 * **Subtract** - Subtracts 1 from the number
 * **END** -  Prints the number and stops the program
+# Example
+## Input
+- 5
+- Add
+- END
+## Output
+- 6
 [/task-description]
 [tests]
 [test]
@@ -291,12 +308,7 @@ END
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|6|
-|Add||
-|End||
+
 [/slide]
 
 [slide]
