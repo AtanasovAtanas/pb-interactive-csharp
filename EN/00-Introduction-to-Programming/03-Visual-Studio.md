@@ -79,7 +79,7 @@ Before we start working with Visual Studio, it is necessary to get familiar with
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/VS-solutions-and-projects.png"/]
 
-**Visual Studio Project** represents "the **project**" we are working on. In the beginning, these will be our console applications, which we are going to learn writing with the help of the current book, the resources in it and the course Programming Basics in SoftUni. 
+**Visual Studio Project** represents "the **project**" we are working on. In the beginning, these will be our console applications, which we are going to learn writing with the help of the course and the training sessions.
 
 With deeper learning, time and practice, these projects will move into the direction of desktop applications, web applications and other developments. 
 

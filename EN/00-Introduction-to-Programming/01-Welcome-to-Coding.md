@@ -48,7 +48,7 @@ Now, assume that the C# language requires all the above code in order to execute
 
 In order to write commands, we should know **the syntax and the semantics of the language** which we are working with, in our case – **C#**. 
 
-Therefore, we are going to get familiar with the syntax and the semantics of the language C#, and with programming generally, in the current book, by learning step by step code writing from the simpler to the more complex programming constructions.
+Therefore, we are going to get familiar with the syntax and the semantics of the language C#, and with programming generally, by learning step by step code writing from the simpler to the more complex programming constructions.
 [/slide]
 
 [slide]
@@ -57,7 +57,11 @@ Computer programs usually execute some algorithm.
 
 **Algorithms** are a **sequence of steps**, necessary for the completion of a certain task and for gaining some expected result, something like a "recipe".
 
-For example, if we fry eggs, we follow some recipe (an algorithm): we warm up the oil in a pan, break the eggs inside it, wait for them to fry and move them away from the stove.
+For example, if we fry eggs, we follow some recipe (an algorithm): 
+- warm up the oil in a pan
+- break the eggs inside it
+- wait for them to fry
+- move them away from the stove
 
 Similarly, in programming **the computer programs execute algorithms**: a sequence of commands, necessary for the completion of a certain task. 
 

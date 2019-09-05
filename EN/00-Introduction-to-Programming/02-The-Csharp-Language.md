@@ -1,26 +1,24 @@
 [slide]
 # Programming Languages
-A programming language is an artificial language (syntax for expression), meant for giving commands that we want the computer to read, process and execute.
+A programming language is an artificial language (syntax for expression), meant for giving commands that we want the computer to **read**, **process** and **execute**.
 
-Using programming languages, we write sequences of commands (programs), which define 
-what the computer should do. 
+Using programming languages, we write **sequences of commands** (programs), which define what the computer should do. 
 
 Examples of programming languages are C#, Java, JavaScript, Python, C, C++, PHP, Swift, Go and many others. 
 
 These languages differ in their philosophy, syntax, purpose, programming constructions and execution environment. 
 
-The execution of computer programs can be done with a compiler or with an interpreter.
+The execution of computer programs can be done with a **compiler** or with an **interpreter**.
 
 # Compilers
-The compiler translates the code from programming language to machine code, as for each of the constructions (commands) in the code it chooses a proper, previously prepared fragment of machine code and in the meantime it checks the text of the program for errors. 
+The **compiler** translates the code from programming language to **machine code**, as for each of the constructions (commands) in the code it chooses a proper, previously prepared fragment of machine code and in the meantime it **checks** the text of the program for **errors**. 
 
-Together, the compiled fragments comprise the program into a machine code, as the microprocessor of the 
-computer expects it.
+Together, the compiled fragments comprise the program into a machine code, as the microprocessor of the computer expects it.
 
 # Interpreters
-The interpreter is "a program for executing programs", written in some programming language. 
+The **interpreter** is "a **program for executing programs**", written in some programming language. 
 
-It executes the commands in the program one after another, as it understands not only a single command and sequences of commands, but also other language constructions.
+It executes the commands in the program **one after another**, as it understands not only a single command and sequences of commands, but also other language constructions.
 
 [/slide]
 
@@ -37,7 +35,6 @@ Right now C# is one of the most suitable programming languages for **beginners**
 
 Combines **procedural**, **object-oriented** and **functional programming** with a **clear and concise syntax**. 
 
-C# and .NET Core are used by about 2,000,000 programmers around the world (according to Microsoft). 
 [/slide]
 
 [slide]
