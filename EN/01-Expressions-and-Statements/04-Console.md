@@ -10,7 +10,7 @@ In most operating systems, the **console** is available as a standalone applicat
 
 It is called a **Command Prompt** in Windows, and a **Terminal** in Linux and Mac. 
 
-The console runs console applications. They read text from the command line and print text on the console. In this book we are going to learn programming mostly through creating **console applications**.
+The console runs console applications. They read text from the command line and print text on the console. We are going to learn programming mostly through creating **console applications**.
 
 In the next examples we will **read data** (like integers, floating-point numbers and strings) from the console and will **print data** on the console (text and numbers).
 [/slide]
