@@ -13,7 +13,7 @@ do
 {
     Console.WriteLine(n);
     n++;
-} while (n > 5);
+} while (n < 5);
 ```
 It is that the `do-while` loop will execute its body at least once. Why is this happening? 
 
