@@ -12,8 +12,8 @@ Let's solve a few problems to confirm what we have learned.
 [/slide]
 
 [slide]
-# Problem: Bigger Number
-[code-task title="Bigger Number" taskId="p-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+# Problem: Biggest Number
+[code-task title="Biggest Number" taskId="p-01" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -74,7 +74,7 @@ Write a program, which:
 
 [slide]
 # Problem: Number Sequence
-[code-task title="Number Sequence" taskId="p-01" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Number Sequence" taskId="p-02" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -151,7 +151,7 @@ Min number: -2
 
 [slide]
 # Problem: Power Of Numbers
-[code-task title="Power Of Numbers" taskId="p-02" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Power Of Numbers" taskId="p-03" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -197,7 +197,7 @@ Write a program, which:
 
 [slide]
 # Problem: Equal Pairs
-[code-task title="Equal Pairs" taskId="p-03" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Equal Pairs" taskId="p-04" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
@@ -449,13 +449,7 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|3|33.33%|
-|3|100.00%|
-|6|0.00%|
-|9||
+
 [/slide]
 
 [slide]
