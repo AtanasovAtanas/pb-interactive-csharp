@@ -455,7 +455,7 @@ For example, `75` and `220` are **invalid**, but `150` is **valid**.
 int num = 75;
 
 bool inRange = (num >= 100 && num <= 200) || num == 0;
-if (inRange)
+if (!inRange)
 {
     Console.WriteLine("invalid");
 }
