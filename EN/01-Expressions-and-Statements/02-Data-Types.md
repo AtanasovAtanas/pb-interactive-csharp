@@ -29,7 +29,7 @@ The are characterized by:
 # Naming Conventions
 In computer programming, a naming convention is a set of **rules** for choosing the name to be used for variables.
 
-In C# the convention for naming variables are used ***"camel-case"***. 
+In C# the convention for naming variables is ***"camel-case"***. 
 
 There are other naming conventions which are used in different languages such as pascal case, snake case. 
 
