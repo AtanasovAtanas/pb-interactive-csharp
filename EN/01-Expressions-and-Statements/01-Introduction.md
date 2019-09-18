@@ -44,7 +44,7 @@ To start the program, press \[Ctrl + F5\]
 
 The result will appear in the \[Debug Console\] tab
 
-[image srcset="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-6.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-6.png"/]
 
 As you can see the output from the program is the following text message:
 ```
