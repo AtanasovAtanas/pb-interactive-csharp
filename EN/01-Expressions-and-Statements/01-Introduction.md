@@ -8,6 +8,10 @@ Create a folder for your project and open it from VS Code:
 
 [image src="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-4.png"/]
 
+[image srcset="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-4.png"/]
+
+[image srcset="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-4.png 1.5x"/]
+
 Create a file hello.js to hold your program's source code:
 
 [image src="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-5.png"/]
