@@ -8,7 +8,7 @@ Create a folder for your project and open it from VS Code:
 
 [image src="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-4.png"/]
 
-[image srcset="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-4.png 1.5x" src="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-4.png"/]
+[image srcset="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-4.png 3x" src="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-4.png"/]
 
 [image srcset="https://github.com/AlenPaunov/pb-interactive-js/blob/master/assets/intro-to-programming-4.png 1.5x"/]
 
