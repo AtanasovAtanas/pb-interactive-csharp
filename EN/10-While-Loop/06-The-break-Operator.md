@@ -1,3 +1,12 @@
+# The break Statement
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="2820" endTimeInSeconds="3036" /]
+
+[/slide]
+
 [slide]
 # The break Statement
 The `break` statement stops the execution of a loop at the time it is called and continues from the first line after the end of the loop.
@@ -19,11 +28,4 @@ while (true)
 }
 ```
 When it comes to using infinite loops intentionally, `break` will terminate the loop when a given condition is met.
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="343930298" startTimeInSeconds="2820" endTimeInSeconds="3036" /]
-
 [/slide]

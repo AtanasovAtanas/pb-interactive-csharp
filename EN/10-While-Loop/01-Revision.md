@@ -1,3 +1,12 @@
+# Revision
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="975" endTimeInSeconds="1195" /]
+
+[/slide]
+
 [slide]
 # Revision
 
@@ -47,11 +56,4 @@ Console.WriteLine(i);   // output: 3
 Console.WriteLine(++i); // output: 4
 Console.WriteLine(i);   // output: 4
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="343930298" startTimeInSeconds="975" endTimeInSeconds="1195" /]
-
 [/slide]
