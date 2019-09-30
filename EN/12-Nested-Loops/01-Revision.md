@@ -1,3 +1,12 @@
+# Revision
+
+[slide]
+# Video
+
+[vimeo-video videoId="342526930" startTimeInSeconds="982" endTimeInSeconds="1520" /]
+
+[/slide]
+
 [slide]
 # Revision
 
@@ -48,11 +57,4 @@ while (true)
 
 Console.WriteLine("Even number entered: {0}", n);
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342526930" startTimeInSeconds="982" endTimeInSeconds="1520" /]
-
 [/slide]

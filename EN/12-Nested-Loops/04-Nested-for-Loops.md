@@ -1,3 +1,12 @@
+# Nested for Loops
+
+[slide]
+# Video
+
+[vimeo-video videoId="342526930" startTimeInSeconds="3765" endTimeInSeconds="4420" /]
+
+[/slide]
+
 [slide]
 # Nested for Loops
 Statements that consist of several **for loops** located **inside each other**
@@ -156,12 +165,5 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342526930" startTimeInSeconds="3765" endTimeInSeconds="4420" /]
 
 [/slide]

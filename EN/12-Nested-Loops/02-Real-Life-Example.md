@@ -1,3 +1,12 @@
+# Real-Life Example
+
+[slide]
+# Video
+
+[vimeo-video videoId="342526930" startTimeInSeconds="1524" endTimeInSeconds="1772" /]
+
+[/slide]
+
 [slide]
 # Real-Life Example: Clock
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/06-nested-loops-clock-1159.png"/] 
@@ -22,11 +31,4 @@ for h which is in range from 0 to 23
     for m which is in range from 0 to 59
         print h and m in format similar to the clock
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342526930" startTimeInSeconds="1524" endTimeInSeconds="1772" /]
-
 [/slide]
