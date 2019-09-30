@@ -1,4 +1,4 @@
-# Typical Mistakes in C\# Programs
+# Typical Mistakes
 
 [slide]
 # Video
