@@ -1,5 +1,14 @@
+# Real Life Example
+
 [slide]
-# Real Life Example: Marketplace
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="1286" endTimeInSeconds="1424" /]
+
+[/slide]
+
+[slide]
+# Marketplace
 A market offers different prices for certain products based on the day of the week
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/03-conditional-statements-advanced-example.png"/]
@@ -26,11 +35,4 @@ If product is kiwi
   If its a weekday the price is 2.20
   Otherwise the price is 3.00
 ``` 
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341560361" startTimeInSeconds="1286" endTimeInSeconds="1424" /]
-
 [/slide]

@@ -1,5 +1,14 @@
+# Switch-Case Conditional Statement
+
 [slide]
-# The Switch-Case Statement
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="5248" endTimeInSeconds="6535" /]
+
+[/slide]
+
+[slide]
+# Switch-Case Conditional Statement
 The switch-case condition works as a sequence of **if-else** blocks. 
 
 Whenever the work of our program depends on the value of one variable, instead of making consecutive conditions with `if-else` blocks, we can **use** the conditional `switch` statement. 
@@ -137,11 +146,4 @@ switch (animal)
       break;
 }
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341560361" startTimeInSeconds="5248" endTimeInSeconds="6535" /]
-
 [/slide]
