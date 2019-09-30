@@ -1,3 +1,12 @@
+# Data Types
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="1721" endTimeInSeconds="3056" /]
+
+[/slide]
+
 [slide]
 # Data Types
 In C# we can use data types to define variables as follows:
@@ -23,44 +32,4 @@ The are characterized by:
   * **Name** - E.g. bool, int, string, DateTime
   * **Size** (memory usage) - Example: 4 bytes
   * **Default value** - Example: 0
-[/slide]
-
-[slide]
-# Naming Conventions
-In computer programming, a naming convention is a set of **rules** for choosing the name to be used for variables.
-
-In C# the convention for naming variables is ***"camel-case"***. 
-
-There are other naming conventions which are used in different languages such as pascal case, snake case. 
-
-**Camel case** combines words by:
-* capitalizing all words following the first word
-* removing the space:
-```cs
-int userLoginCount;
-```
-
-**Pascal case** combines words by:
-* capitalizing each word along with the first one
-* removing the space:
-```csharp
-int UserLoginCount;
-```
-
-**Snake-case** is another naming convention, which separates words with:
-* one underscore character (_)
-* no spaces
-* each element's initial letter usually lowercased within the compound
-* the first letter either upper or lowercase:
-```cs
-int users_count;
-string first_name;
-```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="1721" endTimeInSeconds="3056" /]
-
 [/slide]

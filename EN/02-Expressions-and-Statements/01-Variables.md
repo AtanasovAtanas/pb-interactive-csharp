@@ -1,3 +1,12 @@
+# Variables
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
+
+[/slide]
+
 [slide]
 # Variables
 In programming, each **variable** stores a certain value of a particular type. 
@@ -25,7 +34,7 @@ They are characterized by:
 Each of the variables in C# has a name, a type and a value. 
 
 Here is how we would declare a variable and assign it with a value at the same time:
-```csharp
+```cs
 string name = "Bob";
 bool employed = true;
 int age = 35;
@@ -39,8 +48,34 @@ Variables can be stored in the program's:
 [/slide]
 
 [slide]
-# Video
+# Naming Conventions
+In computer programming, a naming convention is a set of **rules** for choosing the name to be used for variables.
 
-[vimeo-video videoId="341512905" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
+In C# the convention for naming variables is ***"camel-case"***. 
 
+There are other naming conventions which are used in different languages such as pascal case, snake case. 
+
+**Camel case** combines words by:
+* capitalizing all words following the first word
+* removing the space:
+```cs
+int userLoginCount;
+```
+
+**Pascal case** combines words by:
+* capitalizing each word along with the first one
+* removing the space:
+```csharp
+int UserLoginCount;
+```
+
+**Snake-case** is another naming convention, which separates words with:
+* one underscore character (_)
+* no spaces
+* each element's initial letter usually lowercased within the compound
+* the first letter either upper or lowercase:
+```cs
+int users_count;
+string first_name;
+```
 [/slide]

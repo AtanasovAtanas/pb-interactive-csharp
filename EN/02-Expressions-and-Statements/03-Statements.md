@@ -1,3 +1,12 @@
+# Statements
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="3678" endTimeInSeconds="3815" /]
+
+[/slide]
+
 [slide]
 # Statements
 The **actions** that a program takes, are expressed as **statements**. 
@@ -43,11 +52,4 @@ Common actions include:
   ```cs
   sum = a + b;
   ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="3678" endTimeInSeconds="3815" /]
-
 [/slide]
