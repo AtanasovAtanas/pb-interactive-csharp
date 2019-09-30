@@ -1,3 +1,12 @@
+# What is Coding?
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="1770" endTimeInSeconds="2920" /]
+
+[/slide]
+
 [slide]
 # What is Coding?
 **To program** means to **give commands** to the computer, for example *"to play a sound"*, *"to print something on the screen"* or *"to multiply two numbers"*. 
@@ -89,11 +98,4 @@ class DollarsToEuroConverter
     }
 }
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="1770" endTimeInSeconds="2920" /]
-
 [/slide]
