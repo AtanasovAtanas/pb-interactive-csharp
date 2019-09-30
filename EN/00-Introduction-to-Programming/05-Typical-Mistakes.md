@@ -8,6 +8,8 @@
 [/slide]
 
 [slide]
+# Typical Mistakes
+
 # Writing Outside of the Main Method
 One of the common mistakes with beginners is writing outside the body of the `Main()` **method**, because the integrated environment or the compiler can't read the given commands in the program correctly. 
 
