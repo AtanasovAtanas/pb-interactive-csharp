@@ -1,3 +1,12 @@
+# Sequence of If-Else Conditions
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="4534" endTimeInSeconds="5115" /]
+
+[/slide]
+
 [slide]
 # Sequence of If-Else Conditions
 Sometimes we need to do a sequence of conditions before we decide what actions our program will execute. 
@@ -79,11 +88,4 @@ else
 The program logic from the above example **sequentially compares** the input number from the console with the digits from 1 to 9, when **each following comparison is being performed only in case the previous comparison is not true**. 
 
 Eventually, if none of the `if` statements are true, the last `else` **clause** is performed.
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="4534" endTimeInSeconds="5115" /]
-
 [/slide]

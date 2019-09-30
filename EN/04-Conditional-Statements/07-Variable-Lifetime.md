@@ -1,3 +1,12 @@
+# Variable Scope
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="5119" endTimeInSeconds="5370" /]
+
+[/slide]
+
 [slide]
 # Variable Scope
 Each variable has a range in which it exists, called **variable scope**. 
@@ -24,11 +33,4 @@ Console.WriteLine(salary); //Error
 ```
 
 The above code **will not compile**, because we are trying to access a variable **out of its scope**.
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="5119" endTimeInSeconds="5370" /]
-
 [/slide]
