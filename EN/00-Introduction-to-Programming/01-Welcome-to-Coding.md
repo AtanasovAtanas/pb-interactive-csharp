@@ -98,4 +98,6 @@ class DollarsToEuroConverter
     }
 }
 ```
+
+Now let's get to the more interesting part: how we can write our own programs in C# and how we can compile them and run them.
 [/slide]
