@@ -1,6 +1,13 @@
-[slide]
 # Revision 
 
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="1046" endTimeInSeconds="1423" /]
+
+[/slide]
+
+[slide]
 # Variables
 In programming **data** is stored in **variables**
 
@@ -46,11 +53,4 @@ a = b * 2;
 // Multiply that value by 2
 // Store the result back into another variable we call a
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="1046" endTimeInSeconds="1423" /]
-
 [/slide]
