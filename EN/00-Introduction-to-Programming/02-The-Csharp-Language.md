@@ -1,3 +1,12 @@
+# Programming Languages
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="2925" endTimeInSeconds="3570" /]
+
+[/slide]
+
 [slide]
 # Programming Languages
 A programming language is an artificial language (syntax for expression), meant for giving commands that we want the computer to **read**, **process** and **execute**.
@@ -59,12 +68,4 @@ With the risk of going too deep into details, we have to explain that the langua
 **The .NET environment** is available as a free software with open source code for every modern operating system (like Windows, Linux and Mac OS X). It has two variations, **.NET Framework** (the older one) and **.NET Core** (the newer one), but none of that is essential when it comes to getting into programming. Let us focus on writing programs with the C# language.
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/intro-to-programming-2.png"/]
-
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="2925" endTimeInSeconds="3570" /]
-
 [/slide]

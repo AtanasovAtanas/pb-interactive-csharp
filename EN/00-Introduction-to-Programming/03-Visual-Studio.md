@@ -1,3 +1,12 @@
+# Development Environments (IDE)
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="3573" endTimeInSeconds="4405" /]
+
+[/slide]
+
 [slide]
 # Development Environments (IDE)
 In order to program we need an **Integrated Development Environment** (IDE). 
@@ -28,9 +37,7 @@ This an example how a development IDE may look (the Visual Studio IDE for C#):
 
 [slide]
 # Installing Visual Studio
-We begin with the installation of the integrated environment **Microsoft Visual Studio** (Community, version 2017, latest as of June 2017). 
-
-Installing later versions of Visual Studio (like Visual Studio 2019 and Visual Studio 2021) should be very similar.
+We begin with the installation of the integrated environment **Microsoft Visual Studio** (Community, version 2019). 
 
 The **Community** version of Visual Studio (VS) is distributed freely by Microsoft and can be downloaded from: https://www.visualstudio.com/vs/community. 
 
@@ -115,11 +122,4 @@ Alternative IDE (online)
 * JavaScript: directly use the browser console (press \[F12\] key)
 
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="3573" endTimeInSeconds="4405" /]
-
 [/slide]
