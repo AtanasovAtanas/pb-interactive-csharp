@@ -40,7 +40,7 @@ else
 Print the digits in the range of 1 to 9 (digits are read from the console) in English. 
 
 We can read the digit and then, through a **sequence of conditions** we print the relevant English word:
-```csharp
+```cs live
 int num = int.Parse(Console.ReadLine());
 
 if (num == 1)
