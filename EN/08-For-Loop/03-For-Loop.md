@@ -1,9 +1,19 @@
-[slide]
 # For Loop
-In programming it is often required to perform a block of commands multiple times. 
 
-In order to do that, the so-called **loops** are used. 
+[slide]
+# Video
 
+[vimeo-video videoId="341948488" startTimeInSeconds="2005" endTimeInSeconds="2990" /]
+
+[/slide]
+
+[slide]
+# Loops
+In the present section we will get familiar how to repeat blocks of commands, also known in software development as **"loops"**.
+
+We will write a number of simple loops using the for operator in its simplest form (`for i = 1 … n`). 
+
+# For Loop
 Let's examine an example of a `for` loop that passes sequentially through the numbers from 1 to 10 and prints them:
 ```cs live
 for (int i = 1; i <= 10; i += 1)
@@ -291,12 +301,4 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="2005" endTimeInSeconds="2990" /]
-
 [/slide]

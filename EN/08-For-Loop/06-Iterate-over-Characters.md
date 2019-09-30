@@ -1,17 +1,13 @@
-[slide]
 # Iterating over Characters
-It is good to know that the **for loops** don't only work with numbers. 
 
-We can also use **for loops** to iterate over **characters**.
+[slide]
+# Video
 
-Here is an example of how a loop can pass sequentially through some **letters** in the English alphabet:
-```cs live
-for (char ch = 'a'; ch <= 'd'; ch++)
-{
-  Console.Write(ch + " ");
-}
-```
+[vimeo-video videoId="341948488" startTimeInSeconds="3810" endTimeInSeconds="4528" /]
 
+[/slide]
+
+[slide]
 # ASCII Table
 **ASCII** stands for American Standard Code for Information Interchange. 
  
@@ -26,6 +22,19 @@ And here you can check the whole **ASCII Table**: **http://www.asciitable.com**
 The columns that you would most probably use for the purposes of this course are the **decimal** and **character** ones.
 
 For example, the decimal value of the character **'a'** is **97** and the one corresponding to **'@'** is **64**.
+
+# Iterating over Characters
+It is good to know that the **for loops** don't only work with numbers. 
+
+We can also use **for loops** to iterate over **characters**.
+
+Here is an example of how a loop can pass sequentially through some **letters** in the English alphabet:
+```cs live
+for (char ch = 'a'; ch <= 'd'; ch++)
+{
+  Console.Write(ch + " ");
+}
+```
 [/slide]
 
 [slide]
@@ -138,12 +147,5 @@ f g h i j k l
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="3810" endTimeInSeconds="4528" /]
 
 [/slide]

@@ -1,3 +1,12 @@
+# Increment and Decrement Operators
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="1693" endTimeInSeconds="1945" /]
+
+[/slide]
+
 [slide]
 # Increment and Decrement Operators
 The unary increment operator `++` increments its operand by 1, while the unary decrement operator `--` decrements it by 1.
@@ -46,11 +55,4 @@ Console.WriteLine(a);   // output: 1.5
 Console.WriteLine(--a); // output: 0.5
 Console.WriteLine(a);   // output: 0.5
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="1693" endTimeInSeconds="1945" /]
-
 [/slide]

@@ -1,3 +1,12 @@
+# Revision 
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="1007" endTimeInSeconds="1681" /]
+
+[/slide]
+
 [slide]
 # Revision 
 Before proceeding ahead, let's remind ourselves about the program concepts and techniques that we have learned in the last session.
@@ -38,11 +47,4 @@ switch (selector)
         break;
 }
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="1007" endTimeInSeconds="1681" /]
-
 [/slide]
