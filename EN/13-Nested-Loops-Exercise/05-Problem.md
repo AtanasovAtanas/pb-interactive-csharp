@@ -21,7 +21,7 @@ Write a program that reads **an integer** from the console. The console should p
 
 Each line you must print **symbol**, which satisfies the following conditions:
 
-- The symbol, which must be printed on a line, is located on the \[ASCII\](http://www.asciitable.com/) table. Its **decimal ASCII code** is calculated as adding **33** to the digit of the input number that corresponds to a given row
+- The symbol, which must be printed on a line, is located on the **ASCII table**. Its **decimal ASCII code** is calculated as adding **33** to the digit of the input number that corresponds to a given row
 - The symbol shall be printed **as many times as the digit** corresponding to this line
 - If for a given row **matches a digit 0**, on this line is printed "**ZERO**" once
 
