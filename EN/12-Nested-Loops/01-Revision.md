@@ -31,16 +31,16 @@ Use `for` when you know the **number of repetitions**.
 
 Use `while` when you don't know when the **end condition** will be met.
 
-# The break Statement.
+# The break Statement
 If we have to **interrupt** the loop execution, we do it with the operator `break`:
-``` cs
+``` cs live
 while (true)
 {
    int n = int.Parse(Console.ReadLine());
    
    if (n % 2 == 0)
    {
-      break; // even number -> exit from the loop
+      break;
    }
 
    Console.WriteLine("The number is not even.");
