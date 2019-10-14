@@ -1,12 +1,3 @@
-# Iterating over Characters
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="3810" endTimeInSeconds="4528" /]
-
-[/slide]
-
 [slide]
 # ASCII Table
 **ASCII** stands for American Standard Code for Information Interchange. 
@@ -147,5 +138,12 @@ f g h i j k l
 [/tests]
 [code-io/]
 [/code-task]
+
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="3810" endTimeInSeconds="4528" /]
 
 [/slide]

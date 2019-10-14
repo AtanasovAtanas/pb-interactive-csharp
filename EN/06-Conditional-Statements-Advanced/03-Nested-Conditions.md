@@ -1,12 +1,3 @@
-# Nested Conditions
-
-[slide]
-# Video
-
-[vimeo-video videoId="341560361" startTimeInSeconds="1425" endTimeInSeconds="2839" /]
-
-[/slide]
-
 [slide]
 # Nested Conditions
 Pretty often the program logic requires the use of `if` or `if-else` statements, which are contained one inside another.  
@@ -394,5 +385,12 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
+
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="1425" endTimeInSeconds="2839" /]
 
 [/slide]

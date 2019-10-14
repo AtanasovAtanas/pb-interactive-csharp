@@ -1,12 +1,3 @@
-# Development Environments (IDE)
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="3573" endTimeInSeconds="4405" /]
-
-[/slide]
-
 [slide]
 # Development Environments (IDE)
 In order to program we need an **Integrated Development Environment** (IDE). 
@@ -118,4 +109,11 @@ Alternative IDE (online)
 * JavaScript: directly use the browser console (press \[F12\] key)
 
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="3573" endTimeInSeconds="4405" /]
+
 [/slide]

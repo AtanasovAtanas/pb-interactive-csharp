@@ -1,12 +1,3 @@
-# Console App in Visual Studio
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="4407" endTimeInSeconds="6546" /]
-
-[/slide]
-
 [slide]
 # Console App in Visual Studio
 We already have Visual Studio and we can start it. 
@@ -74,4 +65,11 @@ Hello C#
 ```
 
 The message **"Press any key to continue . . ."** is displayed additionally on the last line on the console after the program ends, in order to push us to see the result from the execution and to press a key to close the console.
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="4407" endTimeInSeconds="6546" /]
+
 [/slide]

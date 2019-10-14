@@ -1,12 +1,3 @@
-# Data Types
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="1721" endTimeInSeconds="3056" /]
-
-[/slide]
-
 [slide]
 # Data Types
 In C# we can use data types to define variables as follows:
@@ -32,4 +23,11 @@ The are characterized by:
   * **Name** - E.g. bool, int, string, DateTime
   * **Size** (memory usage) - Example: 4 bytes
   * **Default value** - Example: 0
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="1721" endTimeInSeconds="3056" /]
+
 [/slide]

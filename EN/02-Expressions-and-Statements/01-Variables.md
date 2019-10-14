@@ -1,12 +1,3 @@
-# Variables
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
-
-[/slide]
-
 [slide]
 # Variables
 In programming, each **variable** stores a certain value of a particular type. 
@@ -78,4 +69,11 @@ int UserLoginCount;
 int users_count;
 string first_name;
 ```
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
+
 [/slide]

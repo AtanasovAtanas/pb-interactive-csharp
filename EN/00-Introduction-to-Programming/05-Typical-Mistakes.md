@@ -1,12 +1,3 @@
-# Typical Mistakes
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="5053" endTimeInSeconds="5538" /]
-
-[/slide]
-
 [slide]
 # Typical Mistakes
 
@@ -71,4 +62,11 @@ class Example
         Console.WriteLine("Hello C#);
 }
 ```
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="5053" endTimeInSeconds="5538" /]
+
 [/slide]

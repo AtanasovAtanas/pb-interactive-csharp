@@ -1,12 +1,3 @@
-# Infinite While Loop
-
-[slide]
-# Video
-
-[vimeo-video videoId="343930298" startTimeInSeconds="3040" endTimeInSeconds="3180" /]
-
-[/slide]
-
 [slide]
 # Infinite While Loop
 We call an infinite loop one that repeats infinitely the performance of its body. 
@@ -43,4 +34,11 @@ while (command != "End")
 ```
 
 Here, the value of the variable `command` is changed at each iteration and the **infinite loop** is avoided. 
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="3040" endTimeInSeconds="3180" /]
+
 [/slide]

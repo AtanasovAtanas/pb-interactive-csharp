@@ -1,12 +1,3 @@
-# Boolean Expressions
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="1489" endTimeInSeconds="2018" /]
-
-[/slide]
-
 [slide]
 # Comparison Operators
 In programming, we can compare values using the following operators:
@@ -71,4 +62,11 @@ Console.WriteLine(a == b); // true
 Console.WriteLine(a < b); // error
 ```
 A string is an object and every object has an instance, but this is a knowledge we will acquire later on throughout the course.
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="1489" endTimeInSeconds="2018" /]
+
 [/slide]
