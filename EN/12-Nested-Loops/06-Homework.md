@@ -325,7 +325,9 @@ Write a program, which:
 
 * Reads a **destination** and **needed budget** for destination
 * Continues reading numbers - amounts of money, until they are **enough** for the destination
-* If it receives the command **"End"** the program ends
+* When it manages to collect enough for the trip, you should print:
+  -  "Going to \{destination\}!" 
+* When all destinations have been visited, you will get **"End"** instead of destination and the program should end.
 # Example
 ## Input
 - Philippines
@@ -578,6 +580,7 @@ Going to Albania!
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -592,7 +595,7 @@ public class Program
 Write a program, which:
 
 * Reads **two numbers** from the console
-* Prints the **prime** number in that **range**
+* Prints **all prime numbers** in that **range**
 # Example
 ## Input
 - 1
@@ -812,8 +815,8 @@ Write a program, which:
 
 * Reads a number n
 * Prints **all 4 digit numbers**, which meet the following conditions:
-* When you **split** them in two pairs and **add** the first digit to the second - the result **equals** n
-* When you add the first two digits to each other, the result must be **divisible** by n **without a remainder**
+  * When you **split** them in two pairs and **add** the first digit to the second - the result **equals** n
+  * When you add the first two digits to each other, the result must be **divisible** by n **without a remainder**
 # Example
 ## Input
 - 3

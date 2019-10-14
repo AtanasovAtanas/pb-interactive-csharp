@@ -9,12 +9,12 @@ Statements that consist of several **for loops** located **inside each other**
 
 The syntax for a **nested for loop in C#** is as follows:
 ```csharp
+  // Outer Loop 
 for (variable initialization; condition; increment) 
 {
-  // Outer Loop 
+    // Inner Loop
   for (variable initialization; condition; increment) 
   { 
-    // Inner Loop
 
     // Statements
   }
@@ -41,13 +41,13 @@ Here is an example C# program:
 int a = 3;
 int b = 3;
 
-for (int i = 0; i < a; i++) 
+for (int row = 0; row < a; row++) 
 {
-    Console.WriteLine("i = " + i);
+    Console.WriteLine("row = " + row);
 
-    for (int j = 0; j < b; j++)
+    for (int col = 0; col < b; col++)
     {
-        Console.WriteLine($"  j = " + j);
+        Console.WriteLine($"  col = " + col);
     }
 }
 ```
@@ -59,6 +59,7 @@ for (int i = 0; i < a; i++)
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -78,11 +79,13 @@ Write a program, which:
 ## Input
 - 5
 ## Output
-- \*
-- \*\*
-- \*\*\*
-- \*\*\*\*
-- \*\*\*\*\*
+```
+*
+**
+***
+****
+*****
+```
 [/task-description]
 [tests]
 [test]
@@ -108,17 +111,19 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
   {
       int height = int.Parse(Console.ReadLine());
-      for (int i = 1; i <= height;  i++)
+      for (int row = 1; row <= height; row++)
       {
-          for (int j = 1; j <= i; j++)
+          for (int col = 1; col <= i; col++)
           {
               Console.Write("*");
           }
+
           Console.WriteLine();
       }
   }
@@ -135,11 +140,13 @@ Write a program, which:
 ## Input
 - 5
 ## Output
-- \*
-- \*\*
-- \*\*\*
-- \*\*\*\*
-- \*\*\*\*\*
+```
+*
+**
+***
+****
+*****
+```
 [/task-description]
 [tests]
 [test]

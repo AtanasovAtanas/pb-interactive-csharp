@@ -1,16 +1,13 @@
 [slide]
 # Nested while Loops
-The use of nested `while` loops is very similar to the one of the `for`.
-
-Here is the syntax in C#:
+The use of nested `while` loops is very similar to the one of the `for`. Here is the syntax in C#:
 ```csharp
+// Outer Loop 
 while (condition) 
 {
-  // Outer Loop 
+    // Inner Loop
   while (condition) 
   {
-    // Inner Loop
-    
     // Statements
   }
 }
@@ -19,18 +16,18 @@ while (condition)
 # Example
 
 ```cs live
-int i = 0;
+int row = 0;
 int n = 5;
-while (i < n)
+while (row < n)
 {
-  Console.WriteLine($"Value of i: {i}");
-  int j = 1;
-  i++;
+  Console.WriteLine($"Row: {row}");
+  int col = 1;
+  row++;
 
-  while (j < n)
+  while (col < n)
   {
-    Console.WriteLine($"  Value of j: {j}");
-    j++;
+    Console.WriteLine($"  Col: {col}");
+    col++;
   }
 }
 ```
@@ -42,6 +39,7 @@ while (i < n)
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
@@ -61,11 +59,13 @@ Write a program, which:
 ## Input
 - 5
 ## Output
-- \*
-- \*\*
-- \*\*\*
-- \*\*\*\*
-- \*\*\*\*\*
+```
+*
+**
+***
+****
+*****
+```
 [/task-description]
 [tests]
 [test]
@@ -91,24 +91,25 @@ Write a program, which:
 [code-editor language=csharp]
 ```
 using System;
+
 public class Program
 {
   public static void Main()
   {
       int height = int.Parse(Console.ReadLine());
-      int i = 1;
+      int row = 1;
 
-      while (i <= height)
+      while (row <= height)
       {
-          int j = 1;
-          while (j <= i)
+          int col = 1;
+          while (col <= row)
           {
               Console.Write("*");
-              j++;
+              col++;
           }
 
           Console.WriteLine();
-          i++;
+          row++;
       }
   }
 }
@@ -124,11 +125,13 @@ Write a program, which:
 ## Input
 - 5
 ## Output
-- \*
-- \*\*
-- \*\*\*
-- \*\*\*\*
-- \*\*\*\*\*
+```
+*
+**
+***
+****
+*****
+```
 [/task-description]
 [tests]
 [test]
