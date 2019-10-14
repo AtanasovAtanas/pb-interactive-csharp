@@ -35,34 +35,34 @@ The **Community** version of Visual Studio (VS) is distributed freely by Microso
 The next lines describe in detail the steps for the installation of Visual Studio. 
 
 After we download the installation file and start it, the following screen appears:
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.visual-studio-1.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.visual-studio-1.png"/]
 
 Press the `[Continue]` button and you will see the screen bellow:
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.visual-studio-2.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.visual-studio-2.png"/]
 
 A screen with the installation panel of Visual Studio is being loaded.
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.visual-studio-3.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.visual-studio-3.png"/]
 
 Put a check mark on `[Universal Windows Platform development]`, `[.NET desktop development]` and `[ASP.NET and web development]`, then press the `[Install]` button. Basically, this is everything.
 
 Installation of Visual Studio begins, and a screen like the one bellow will appear:
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.visual-studio-5.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.visual-studio-5.png"/]
 
 After Visual Studio is installed, an informative screen will appear. Press the `[Launch]` button to start it.
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.visual-studio-6.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.visual-studio-6.png"/]
 
 Upon **starting VS** a screen appears like the one bellow. 
 
 On it you can choose whether you will enter Visual Studio using a Microsoft account. 
 
 For now, we choose to continue without being logged into our Microsoft account, and therefore we choose the option `[Not now, maybe later.]`. 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.visual-studio-7.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.visual-studio-7.png"/]
 
 The next step is to choose **the color theme**, in which Visual Studio is visualized. The choice here lays completely on the preferences of the user and it doesn't matter which option will be chosen.
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.visual-studio-8.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.visual-studio-8.png"/]
 
 Press the `[Start Visual Studio]` button and the main view of Visual Studio Community will be displayed:
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.visual-studio-9.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.visual-studio-9.png"/]
 
 That's all. You are ready to work with Visual Studio.
 [/slide]
@@ -71,7 +71,7 @@ That's all. You are ready to work with Visual Studio.
 # Project Solutions and Projects in Visual Studio
 Before we start working with Visual Studio, it is necessary to get familiar with the concepts of a **Visual Studio Solution** and a **Visual Studio Project**, which are an inevitable part of it.
 
-[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/VS-solutions-and-projects.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/VS-solutions-and-projects.png"/]
 
 **Visual Studio Project** represents "the **project**" we are working on. In the beginning, these will be our console applications, which we are going to learn writing with the help of the course and the training sessions.
 
