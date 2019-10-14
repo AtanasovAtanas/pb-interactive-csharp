@@ -32,13 +32,10 @@ Write a program that **calculates the ASCII value of a few words**, as the word 
 
 ## Comments
 
-The first letter is \'H\' and it\'s ASCII value is 72,
+The first letter is **\'H\'** and it\'s ASCII value is **72**, **\'o\'** has value **111**, **\'u\'** has value **117**, **\'s\'** has value **115**, **\'e\'** has value **101**.
 
-\'o\' has value 111, \'u\' has value 117, \'s\' has value 115, \'e\' has value 101.
+Their sum is 516. Keep doing the same calculations for the other words and get that Destination has the highest value - 1154.
 
-Their sum is 516. Keep doing the same calculations for the other words
-
-and get that Destination has the highest value - 1154.
 [/task-description]
 [tests]
 [test]
