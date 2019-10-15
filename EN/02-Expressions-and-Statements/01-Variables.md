@@ -1,3 +1,12 @@
+# Variables
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
+
+[/slide]
+
 [slide]
 # Variables
 In programming, each **variable** stores a certain value of a particular type. 
@@ -22,7 +31,7 @@ They are characterized by:
   * type (of the information preserved)
   * value (stored information)
 
-Each of the variables in C# has a name, a type and a value. 
+Each of the variables in C# has a name, a **type** and a **value**. 
 
 Here is how we would declare a variable and assign it with a value at the same time:
 ```cs
@@ -30,7 +39,9 @@ string name = "Bob";
 bool employed = true;
 int age = 35;
 ```
+
 If you think of the variables as boxes that hold information, this is how they would look like:
+
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/expressions-and-statements-boxes.png"/]
 
 Variables can be stored in the program's:
@@ -69,11 +80,4 @@ int UserLoginCount;
 int users_count;
 string first_name;
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="1025" endTimeInSeconds="1719" /]
-
 [/slide]

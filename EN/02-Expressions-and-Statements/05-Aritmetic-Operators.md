@@ -1,3 +1,12 @@
+# Arithmetic Operations
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="5968" endTimeInSeconds="6610" /]
+
+[/slide]
+
 [slide]
 # Arithmetic Operations
 Let's examine the basic **arithmetic operations** in programming. 
@@ -99,11 +108,4 @@ See the following example:
 Console.WriteLine(3 % 2);
 Console.WriteLine(4 % 2);
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="5968" endTimeInSeconds="6610" /]
-
 [/slide]

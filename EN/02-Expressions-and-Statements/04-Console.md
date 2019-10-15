@@ -1,3 +1,12 @@
+# Console (Terminal)
+
+[slide]
+# Video
+
+[vimeo-video videoId="341512905" startTimeInSeconds="3817" endTimeInSeconds="5967" /]
+
+[/slide]
+
 [slide]
 # Console (Terminal)
 Generally, the **system console** represents a text terminal, which means that it accepts and visualizes just **text** without any graphical elements like buttons, menus, etc. 
@@ -326,11 +335,4 @@ double b = 2.5;
 string sum = "The sum is: " + (a + b);
 Console.WriteLine(sum);  // The sum is: 4
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341512905" startTimeInSeconds="3817" endTimeInSeconds="5967" /]
-
 [/slide]
