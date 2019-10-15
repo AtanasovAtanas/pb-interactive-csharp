@@ -1,3 +1,12 @@
+# Iterating over Characters
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="3810" endTimeInSeconds="4528" /]
+
+[/slide]
+
 [slide]
 # ASCII Table
 **ASCII** stands for American Standard Code for Information Interchange. 
@@ -15,9 +24,7 @@ The columns that you would most probably use for the purposes of this course are
 For example, the decimal value of the character **'a'** is **97** and the one corresponding to **'@'** is **64**.
 
 # Iterating over Characters
-It is good to know that the **for loops** don't only work with numbers. 
-
-We can also use **for loops** to iterate over **characters**.
+One of the advantages of C# is that we have the opportunity to use a **different data type** for a loop variable:
 
 Here is an example of how a loop can pass sequentially through some **letters** in the English alphabet:
 ```cs live
@@ -26,6 +33,8 @@ for (char ch = 'a'; ch <= 'd'; ch++)
   Console.Write(ch + " ");
 }
 ```
+
+The result of running the code is all letters from `a` to `d` included, printed on a single line and separated by spaces. 
 [/slide]
 
 [slide]
@@ -138,12 +147,5 @@ f g h i j k l
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="3810" endTimeInSeconds="4528" /]
 
 [/slide]

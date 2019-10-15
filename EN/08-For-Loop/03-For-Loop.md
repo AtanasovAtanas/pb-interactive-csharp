@@ -1,3 +1,12 @@
+# For Loop
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="2005" endTimeInSeconds="2990" /]
+
+[/slide]
+
 [slide]
 # Loops
 In the present section we will get familiar how to repeat blocks of commands, also known in software development as **"loops"**.
@@ -292,11 +301,4 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341948488" startTimeInSeconds="2005" endTimeInSeconds="2990" /]
-
 [/slide]

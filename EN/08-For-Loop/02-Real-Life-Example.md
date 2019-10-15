@@ -1,3 +1,12 @@
+# Real-Life Example
+
+[slide]
+# Video
+
+[vimeo-video videoId="341948488" startTimeInSeconds="1947" endTimeInSeconds="2004" /]
+
+[/slide]
+
 [slide]
 # Moving Dishes
 Let's imagine you have to load the dishwasher with all of the dishes from the sink.
