@@ -1,3 +1,12 @@
+# While or For Loop?
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="2153" endTimeInSeconds="2819" /]
+
+[/slide]
+
 [slide]
 # While or For Loop?
 
@@ -308,12 +317,5 @@ END
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="343930298" startTimeInSeconds="2153" endTimeInSeconds="2819" /]
 
 [/slide]

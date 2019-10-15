@@ -1,3 +1,12 @@
+# While Loop
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="1304" endTimeInSeconds="2152" /]
+
+[/slide]
+
 [slide]
 # While Loop
 In programming the `while` **loop** is used when we want to **repeat** the execution of a certain logic while a condition is in effect. 
@@ -33,7 +42,7 @@ Here is how we can solve the problem:
 - In **the body of the loop**: we print the value of the current number and increase the current number by using the formula from the problem's description.
 
 Here is a sample implementation of this idea:
-```cs
+```cs live
 int n = int.Parse(Console.ReadLine());
 int num = 1;
 while (num <= n)
@@ -249,12 +258,5 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="343930298" startTimeInSeconds="1304" endTimeInSeconds="2152" /]
 
 [/slide]

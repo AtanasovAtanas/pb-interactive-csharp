@@ -1,3 +1,12 @@
+# Revision
+
+[slide]
+# Video
+
+[vimeo-video videoId="343930298" startTimeInSeconds="975" endTimeInSeconds="1195" /]
+
+[/slide]
+
 [slide]
 # Revision
 
@@ -11,12 +20,17 @@ for (int i = 1; i <= 10; i += 1)
 ```
 
 We can read a sequence of `n` numbers from the console this way:
-```cs
+```cs live
 int n = int.Parse(Console.ReadLine());
+int sum = 0;
+
 for (int i = 1; i <= n; i += 1)
 {
    int num = int.Parse(Console.ReadLine());
+   sum += num;
 }
+
+Console.WriteLine(sum);
 ```
 
 We can iterate over characters:
@@ -47,11 +61,4 @@ Console.WriteLine(i);   // output: 3
 Console.WriteLine(++i); // output: 4
 Console.WriteLine(i);   // output: 4
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="343930298" startTimeInSeconds="975" endTimeInSeconds="1195" /]
-
 [/slide]
