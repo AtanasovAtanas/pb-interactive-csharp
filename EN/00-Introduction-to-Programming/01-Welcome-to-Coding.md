@@ -1,3 +1,11 @@
+# What is Coding?
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="1770" endTimeInSeconds="2920" /]
+
+[/slide]
 
 [slide]
 # What is Coding?
@@ -92,11 +100,4 @@ class DollarsToEuroConverter
 ```
 
 Now let's get to the more interesting part: how we can write our own programs in C# and how we can compile them and run them.
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="1770" endTimeInSeconds="2920" /]
-
 [/slide]

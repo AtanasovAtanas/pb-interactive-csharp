@@ -1,3 +1,12 @@
+# Development Environments (IDE)
+
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="3573" endTimeInSeconds="4405" /]
+
+[/slide]
+
 [slide]
 # Development Environments (IDE)
 In order to program we need an **Integrated Development Environment** (IDE). 
@@ -12,7 +21,7 @@ If we don't use an environment for development, we will have to write the code i
 
 For programming with **the C# language** the most commonly used IDE is **Visual Studio**, which is developed and distributed freely by Microsoft and can be downloaded from: https://www.visualstudio.com/downloads/.
 
-Alternatives of Visual Studio are:
+Alternatives of **Visual Studio** are:
 - Rider – https://www.jetbrains.com/rider
 - MonoDevelop / Xamarin Studio – https://www.monodevelop.com
 - SharpDevelop – http://www.icsharpcode.net/OpenSource/SD
@@ -109,11 +118,4 @@ Alternative IDE (online)
 * JavaScript: directly use the browser console (press \[F12\] key)
 
 [image src="https://github.com/AlenPaunov/pb-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="3573" endTimeInSeconds="4405" /]
-
 [/slide]

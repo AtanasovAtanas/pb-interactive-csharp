@@ -1,6 +1,13 @@
-[slide]
 # Typical Mistakes
 
+[slide]
+# Video
+
+[vimeo-video videoId="342590118" startTimeInSeconds="5053" endTimeInSeconds="5538" /]
+
+[/slide]
+
+[slide]
 # Writing Outside of the Main Method
 One of the common mistakes with beginners is writing outside the body of the `Main()` **method**, because the integrated environment or the compiler can't read the given commands in the program correctly. 
 
@@ -62,11 +69,4 @@ class Example
         Console.WriteLine("Hello C#);
 }
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342590118" startTimeInSeconds="5053" endTimeInSeconds="5538" /]
-
 [/slide]
