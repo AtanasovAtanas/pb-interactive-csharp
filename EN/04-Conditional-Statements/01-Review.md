@@ -1,4 +1,14 @@
+# Revision
+
 [slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="1046" endTimeInSeconds="1423" /]
+
+[/slide]
+
+[slide]
+
 # Variables
 In programming **data** is stored in **variables**
 
@@ -12,6 +22,7 @@ int age = 5;
 age = age + 1;
 Console.WriteLine(age);
 ```
+
 # Data Types in C#
 * Integer number – **int** (e.g. 5, 0, 120, -250)
 
@@ -26,9 +37,8 @@ Console.WriteLine(age);
 * Date and time – **DateTime** (e.g. 6-Jun-2020 9:18:34)
 
 # Expressions and Statements
-**Expressions** == **variables** and **values**, combined with **operators**
-
-```csharp
+**Expressions** are **variables** and **values**, combined with **operators**.
+```cs
 a = b * 2;
 // 2 is a literal value expression
 // a = b * 2 is an assignment expression
@@ -36,19 +46,12 @@ a = b * 2;
 // b * 2 is an arithmetic expression
 ```
 
-Statements - Commands / actions to be executed
+Statements are commands (actions) to be executed.
 
-```csharp
+```cs
 a = b * 2;
 // Get the current value stored in b
 // Multiply that value by 2
 // Store the result back into another variable we call a
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="1046" endTimeInSeconds="1423" /]
-
 [/slide]

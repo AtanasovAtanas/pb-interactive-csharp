@@ -1,3 +1,12 @@
+# Logical Expressions
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="1489" endTimeInSeconds="2018" /]
+
+[/slide]
+
 [slide]
 # Comparison Operators
 In programming, we can compare values using the following operators:
@@ -20,11 +29,11 @@ Examples of such an expression are as follows:
 ```cs live
 int a = 5;
 int b = 10;
-Console.WriteLine(a < b);      // true
-Console.WriteLine(a > 100);    // false
-Console.WriteLine(a <= 5);     // true
-Console.WriteLine(b == 2 * a); // true
-Console.WriteLine(a != b);     // true
+Console.WriteLine(a < b);
+Console.WriteLine(a > 100);
+Console.WriteLine(a <= 5);
+Console.WriteLine(b == 2 * a);
+Console.WriteLine(a != b);
 ```
 
 **Note** that when printing the `true` and `false` values in C# language, they are printed with a capital letter, respectively `True` and `False`.
@@ -52,21 +61,15 @@ Two string operands are equal when both of them are `null` or both string instan
 ```cs live
 string a = "Examplе";
 string b = a;
-Console.WriteLine(a == b); // true
+Console.WriteLine(a == b);
 ```
 
-```cs
+```cs live
 string a = "hello";
 string b = "hello";
-Console.WriteLine(a == b); // true
-Console.WriteLine(a < b); // error
+Console.WriteLine(a == b);
+Console.WriteLine(a < b);
 ```
+
 A string is an object and every object has an instance, but this is a knowledge we will acquire later on throughout the course.
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="1489" endTimeInSeconds="2018" /]
-
 [/slide]

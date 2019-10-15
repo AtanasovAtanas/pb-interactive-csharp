@@ -1,3 +1,12 @@
+# Real-Life Example
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="1424" endTimeInSeconds="1482" /]
+
+[/slide]
+
 [slide]
 # Watering Plants
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/02-coditional-statements-1.png"/]
@@ -28,11 +37,4 @@ if humidity is greater than 90%
 else
   Water the plants
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="1424" endTimeInSeconds="1482" /]
-
 [/slide]

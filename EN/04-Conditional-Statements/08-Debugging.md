@@ -1,3 +1,12 @@
+# Debugging
+
+[slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="5372" endTimeInSeconds="5843" /]
+
+[/slide]
+
 [slide]
 # Debugging
 So far, we wrote a lot of code, and there were some mistakes in it, right? Now we will show a tool that can help us find mistakes more easily: **the debugger**.
@@ -15,11 +24,4 @@ By pressing the `[F10]` button, we run the program in **debug mode**. We move to
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/00.Debugging-02.png"/]
 
 With `[F9]` we create the so-called breakpoints, that we can reach directly using `[F5]` when we start the program.
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="5372" endTimeInSeconds="5843" /]
-
 [/slide]
