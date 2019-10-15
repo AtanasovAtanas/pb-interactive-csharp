@@ -1,3 +1,12 @@
+# Revision
+
+[slide]
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="1002" endTimeInSeconds="1285" /]
+
+[/slide]
+
 [slide]
 # Revision
 Let's revise what we learned in the last lesson:
@@ -44,11 +53,4 @@ else
     Console.WriteLine("The number `a` is smaller or equal than 20");
 }
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341560361" startTimeInSeconds="1002" endTimeInSeconds="1285" /]
-
 [/slide]

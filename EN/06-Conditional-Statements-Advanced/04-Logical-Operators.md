@@ -1,3 +1,12 @@
+# More Comp
+
+[slide]
+# Video
+
+[vimeo-video videoId="341560361" startTimeInSeconds="2840" endTimeInSeconds="4620" /]
+
+[/slide]
+
 [slide]
 # More Complex Conditions
 Let's take a look at how we can create more **complex logical conditions** in programming. 
@@ -477,11 +486,4 @@ if (x < 0) || ((x >= 5) && (x <= 10)) || (x > 20)
     // Commands
 }
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341560361" startTimeInSeconds="2840" endTimeInSeconds="4620" /]
-
 [/slide]
