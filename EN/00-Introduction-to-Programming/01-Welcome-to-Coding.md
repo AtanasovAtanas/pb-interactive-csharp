@@ -45,12 +45,6 @@ The above program defines a **class** `SquareArea`, holding a **method** `Main()
 - Calculating and **printing** an **expression**: `Console.WriteLine("Size = " + size);`
 - Calculating and **printing** an **expression**: `Console.WriteLine("Area = " + size * size);`
 
-The result (output) from the above program is as follows:
-```
-Size = 5
-Area = 25
-```
-
 We **shall explain in detail how to write programs in C#**, why we need to define a **class** and why we need to define a **method** `Main()` a bit later. 
 
 Now, assume that the C# language requires all the above code in order to execute a sequence of command.
@@ -85,7 +79,7 @@ Let's look at a simple program that reads from the user some amount of money in 
 
 This is a program of 3 consecutive commands:
 
-```csharp
+```cs live no-template
 using System;
 
 class DollarsToEuroConverter 
