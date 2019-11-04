@@ -26,7 +26,7 @@ Console.WriteLine("Welcome to coding");
 Computer programs represent **a sequence of commands** that are written in certain **programming language**, like C#, Java, JavaScript, Python, C++, PHP, C, Ruby, Swift, Go or another.
 
 Example of **computer program** in C#:
-```cs
+```cs live no-template
 using System;
 
 class SquareArea
