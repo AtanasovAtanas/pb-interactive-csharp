@@ -12,6 +12,13 @@ Let's solve a few problems to confirm what we have learned.
 [/slide]
 
 [slide]
+# Video
+
+[vimeo-video videoId="341532970" startTimeInSeconds="8357" endTimeInSeconds="10980" /]
+
+[/slide]
+
+[slide]
 # Problem: Guess the Password
 [code-task title="Guess the Password" taskId="p-01" executionType="tests-execution" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
@@ -459,12 +466,5 @@ Invalid Triangle
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341532970" startTimeInSeconds="5372" endTimeInSeconds="5843" /]
 
 [/slide]
