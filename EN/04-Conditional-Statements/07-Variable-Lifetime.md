@@ -20,7 +20,7 @@ Thus, it is important to know that **any variable defined inside the body of cer
 # Variable Scope – Example
 In the example below, on the last line we are trying to print the variable `salary` that is defined in the `if` statement, we will get an **error** because we don't have access to it.
 
-```csharp
+```cs live
 var myMoney = 500;
 var payDayDate = 10;
 if (todayDate >= payDayDate)
