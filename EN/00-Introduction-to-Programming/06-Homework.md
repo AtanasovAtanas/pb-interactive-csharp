@@ -12,7 +12,7 @@ Let's solve a few problems to confirm what we have learned.
 
 [html]
 <script>
-() => {
+(() => {
     let table = document.createElement('table');
 table.innerHTML = `<tr>
 <th>Problem Name</th>
@@ -67,7 +67,7 @@ table.querySelector('tbody').appendChild(tr)
 
 homeArticle.appendChild(table);
 });
-}()
+})()
 </script>
 [/html]
 
