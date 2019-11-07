@@ -9,68 +9,6 @@ We have prepared some problems for you to solve.
 Let's solve a few problems to confirm what we have learned.
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/homeowrk.png"/]
-
-[html]
-<script>
-(() => {
-    let table = document.createElement('table');
-table.innerHTML = `<tr>
-<th>Problem Name</th>
-<th>Results</th>
-<th>Fail/Pass</th>
-</tr>
-</thead>
-<tbody>
-</tbody>`;
-
-table.style.border = "1px solid white";
-table.style.margin = "0";
-table.style.padding = "0";
-table.style.borderSpacing = "12px 4px";
-
-let problems = Array.from(Array.from(document.querySelectorAll('.collapsible-lesson-navigation-section')).filter((el) => el.textContent.includes('Homework') && el.textContent.includes('Problem:'))[0].querySelector('section.lesson-navigation-section').querySelectorAll('a.content-link')).map((el, i) => { return {el, i} }).filter((a) =>
-a.el.querySelector('h4').textContent.includes('Problem:')).reduce((acc, curr, i) => {
-acc.push({problemName: curr.el.textContent, href: curr.el.href, index: curr.i});
-return acc;
-},[]);
-
-const homeworkElement = Array.from(document.querySelectorAll('a.content-link')).filter((a) => a.children[0].textContent === 'Homework')[0];
-
-homeworkElement.addEventListener('click', () => {
-
-let spanResults = document.querySelectorAll('span.tests-top-result-text');
-
-console.log(spanResults);
-
-let homeArticle = Array.from(document.querySelectorAll('article')).filter((article) => article.querySelector('h4.slide-title').textContent === 'Homework').slice(-1)[0];
-
-problems.forEach((problem) => {
-
-let tr = document.createElement('tr');
-
-let tdName = document.createElement('td');
-tdName.textContent = problem.problemName.split(':')[1];
-
-let tdResult = document.createElement('td');
-let result = spanResults[problem.index - 1].textContent.split('/')[0];
-tdResult.textContent = result;
-
-let tdPassOrFail = document.createElement('td');
-tdPassOrFail.textContent =  (+result) < 100 ? 'Failed' : 'Pased';
-
-tr.appendChild(tdName);
-tr.appendChild(tdResult);
-tr.appendChild(tdPassOrFail);
-
-table.querySelector('tbody').appendChild(tr)
-})
-
-homeArticle.appendChild(table);
-});
-})()
-</script>
-[/html]
-
 [/slide]
 
 [slide]
@@ -262,11 +200,6 @@ Prints a square of 7 * 7 stars like this:
 [/test]
 [/tests]
 [/code-task]
-[/slide]
-
-[slide]
-# My Results
-
 [/slide]
 
 [slide]
