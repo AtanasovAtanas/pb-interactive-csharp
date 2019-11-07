@@ -11,7 +11,9 @@ Let's solve a few problems to confirm what we have learned.
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/homeowrk.png"/]
 
 [html]
-let table = document.createElement('table');
+<script>
+() => {
+    let table = document.createElement('table');
 table.innerHTML = `<tr>
 <th>Problem Name</th>
 <th>Results</th>
@@ -65,6 +67,8 @@ table.querySelector('tbody').appendChild(tr)
 
 homeArticle.appendChild(table);
 });
+}()
+</script>
 [/html]
 
 [/slide]
