@@ -116,7 +116,7 @@ int num = int.Parse(Console.ReadLine());
 
 The above line of C# code **reads an integer** from the first line on the console.
 
-Try to write a wrong number, for example **"hello"**. 
+Try to write something that isn't a number, for example **"hello"**. 
 
 You will get an error message during runtime (exception). This is normal. 
 
@@ -160,7 +160,7 @@ Let's start the program and make sure that when a value in inches is entered, we
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/august/assets/00.Inches-to-centimeters-01.jpg"/]
 
-Note that if you enter and **invalid number**, e.g. **"asfd"**, the program will crash with an error message (exception). 
+Note that if you enter an **invalid number**, e.g. **"asfd"**, the program will crash with an error message (exception). 
 
 We will learn how to handle exceptions in later courses.
 [/slide]

@@ -68,6 +68,10 @@ Notice that we start it with `[Ctrl+F5]`, and not only `[F5]` or with the start 
 
 If we use `[F5]`, the program will run shortly and right afterwards the black window will disappear, and we are not going to see the result.
 
+Another way to start the program is the following:
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/start-without-debugging.png"/]
+
 Actually, the output from the program is the following text message:
 ```
 Hello C#
